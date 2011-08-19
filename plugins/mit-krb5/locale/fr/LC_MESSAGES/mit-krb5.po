@@ -1,0 +1,399 @@
+# translation of messages.po to
+# Benoit Mortier <benoit.mortier@opensides.be>, 2005, 2006, 2007, 2008, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: messages\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:31+0200\n"
+"PO-Revision-Date: 2010-11-26 23:42+0100\n"
+"Last-Translator: Benoit Mortier <benoit.mortier@opensides.be>\n"
+"Language-Team:  <fr@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n > 1);\n"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:4
+#: src/kerberosService/pwd_kerberos_mit.tpl:20
+msgid "Kerberos options"
+msgstr "Options Kerberos"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:9
+msgid "Retry"
+msgstr "Réessayer"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:12
+#: src/kerberosService/pwd_kerberos_mit.tpl:245
+msgid "Cancel"
+msgstr "Annuler"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:17
+#: src/kerberosService/pwd_kerberos_mit.tpl:22
+#: src/kerberosService/krb5_policy.tpl:1
+msgid "Policy settings"
+msgstr "Paramètres de polices de sécurité"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:24
+#: src/kerberosService/class_krb_host_keys.inc:90
+#: src/kerberosService/class_goKrbServer.inc:186
+#: src/kerberosService/class_goKrbServer.inc:399
+msgid "Realm"
+msgstr "Domaine"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:41
+#: src/kerberosService/class_goKrbServer.inc:274
+msgid "Policy"
+msgstr "Polices de sécurité"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:58
+#: src/kerberosService/class_password-methods-MIT.inc:608
+msgid "Ticket max life"
+msgstr "Durée de vie maximum du ticket"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:64
+#: src/kerberosService/pwd_kerberos_mit.tpl:71
+#: src/kerberosService/class_password-methods-MIT.inc:611
+msgid "Ticket max renew"
+msgstr "Durée de renouvellement maximum du ticket"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:74
+msgid "infinite"
+msgstr "Infini"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:75
+msgid "Hour"
+msgstr "Heure"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:76
+msgid "Minute"
+msgstr "Minute"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:77
+msgid "Day"
+msgstr "Jour"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:78
+msgid "Month"
+msgstr "Mois"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:79
+msgid "Year"
+msgstr "Année"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:82
+msgid "Valid ticket end time"
+msgstr "Date de validité de fin pour le ticket"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:120
+msgid "Password expires"
+msgstr "Expiration du mot de passe"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:160
+#: src/kerberosService/class_krb_host_keys.inc:90
+msgid "Status"
+msgstr "Statut"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:162
+msgid "Generic"
+msgstr "Informations"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:164
+msgid "Failed logins"
+msgstr "Connections échouées"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:165
+#: src/kerberosService/pwd_kerberos_mit.tpl:173
+#: src/kerberosService/pwd_kerberos_mit.tpl:177
+#: src/kerberosService/pwd_kerberos_mit.tpl:181
+#: src/kerberosService/pwd_kerberos_mit.tpl:185
+#: src/kerberosService/class_password-methods-MIT.inc:324
+msgid "none"
+msgstr "aucun"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:168
+msgid "Key version number"
+msgstr "Numéro de version de la clef"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:172
+msgid "Last failed login"
+msgstr "Dernière connexion échouée"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:176
+msgid "Last password change"
+msgstr "Dernier changement de mot de passe"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:180
+msgid "Last successful login"
+msgstr "Dernière connexion réussie"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:184
+msgid "Last modification date"
+msgstr "Dernière date de modification"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:191
+#: src/kerberosService/pwd_kerberos_mit.tpl:193
+msgid "Flags"
+msgstr ""
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:197
+msgid "Prohibit issuance of service tickets"
+msgstr "Interdire l'emission de tickets de services"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:200
+msgid "Prohibit forward able tickets"
+msgstr "Interdire les tickets transférables"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:203
+msgid "Disallow proxable tickets"
+msgstr "Interdire les tickets proxiables"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:206
+msgid "Prohibit renewable tickets"
+msgstr "Interdire les tickets renouvelables"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:209
+#, fuzzy
+msgid "Prohibit postdated tickets"
+msgstr "Interdire les tickets ayant une date dans le futur"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:212
+msgid "Disallow Ticket-Granting Service"
+msgstr "Service D'interdiction d'émission de ticket"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:215
+msgid "Password change service"
+msgstr "Service de changement de mot de passe"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:218
+msgid "Pre-authentication required"
+msgstr "Pré authentification requise"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:221
+msgid "Force a password change"
+msgstr "Forcer un changement de mot de passe"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:224
+msgid "Hardware pre-authentication"
+msgstr "Pré authentification hardware"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:227
+msgid "Disallow user to user authentication"
+msgstr "Interdire l'authentification utilisateur à utilisateur"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:230
+msgid "Forbid ticket issuance"
+msgstr "Interdire l'emission de tickets"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:244
+msgid "Save"
+msgstr "Enregistrer"
+
+#: src/kerberosService/krb_host_keys.tpl:3
+msgid "Kerberos keys"
+msgstr "Clés Kerberos"
+
+#: src/kerberosService/krb5_policy.tpl:3 src/kerberosService/krb5_policy.tpl:7
+#: src/kerberosService/krb5_policy.tpl:29
+msgid "Kerberos policy"
+msgstr "Politique Kerberos"
+
+#: src/kerberosService/krb5_policy.tpl:9
+#: src/kerberosService/class_krb5_policy.inc:109
+#: src/kerberosService/class_krb5_policy.inc:112
+#: src/kerberosService/class_krb5_policy.inc:116
+msgid "Policy name"
+msgstr "Nom de la police de sécurité"
+
+#: src/kerberosService/krb5_policy.tpl:13
+#: src/kerberosService/class_krb5_policy.inc:128
+#: src/kerberosService/class_krb5_policy.inc:130
+#: src/kerberosService/class_krb5_policy.inc:140
+msgid "Minimum password length"
+msgstr "Taille minimum du mot de passe"
+
+#: src/kerberosService/krb5_policy.tpl:17
+#: src/kerberosService/class_krb5_policy.inc:135
+#: src/kerberosService/class_krb5_policy.inc:137
+#: src/kerberosService/class_krb5_policy.inc:140
+msgid "Required different characters"
+msgstr "Necéssite des caractères différents"
+
+#: src/kerberosService/krb5_policy.tpl:21
+#: src/kerberosService/class_krb5_policy.inc:121
+#: src/kerberosService/class_krb5_policy.inc:123
+msgid "Password history size"
+msgstr "Historique des tailles de mot de passe"
+
+#: src/kerberosService/krb5_policy.tpl:32
+#: src/kerberosService/class_krb5_policy.inc:145
+#: src/kerberosService/class_krb5_policy.inc:147
+#: src/kerberosService/class_krb5_policy.inc:157
+msgid "Minimum password lifetime"
+msgstr "Dureé de vie minimum du mot de passe"
+
+#: src/kerberosService/krb5_policy.tpl:33
+#: src/kerberosService/krb5_policy.tpl:37
+msgid "seconds"
+msgstr "secondes"
+
+#: src/kerberosService/krb5_policy.tpl:36
+#: src/kerberosService/class_krb5_policy.inc:152
+#: src/kerberosService/class_krb5_policy.inc:154
+#: src/kerberosService/class_krb5_policy.inc:157
+msgid "Password lifetime"
+msgstr "Durée de vie du mot de passe"
+
+#: src/kerberosService/class_password-methods-MIT.inc:235
+#, php-format
+msgid "Cannot load principal '%s', from server '%s'!"
+msgstr "Impossible de charger le principal '%s', depuis le serveur '%s' !"
+
+#: src/kerberosService/class_password-methods-MIT.inc:236
+#: src/kerberosService/class_password-methods-MIT.inc:292
+#: src/kerberosService/class_password-methods-MIT.inc:320
+#: src/kerberosService/class_password-methods-MIT.inc:395
+#: src/kerberosService/class_password-methods-MIT.inc:410
+#: src/kerberosService/class_password-methods-MIT.inc:690
+#: src/kerberosService/class_krb_host_keys.inc:361
+#: src/kerberosService/class_krb_host_keys.inc:394
+#: src/kerberosService/class_goKrbServer.inc:74
+#: src/kerberosService/class_goKrbServer.inc:356
+#: src/kerberosService/class_goKrbServer.inc:365
+#: src/kerberosService/class_goKrbServer.inc:369
+msgid "Service infrastructure"
+msgstr "Service d'infrastructure"
+
+#: src/kerberosService/class_password-methods-MIT.inc:291
+#, php-format
+msgid "Cannot load principals from server '%s'!"
+msgstr "Impossible de charger le principal depuis '%s' !"
+
+#: src/kerberosService/class_password-methods-MIT.inc:319
+#, php-format
+msgid "Cannot load policies from server '%s'!"
+msgstr "Impossible de charger les polices de sécurité depuis '%s' !"
+
+#: src/kerberosService/class_password-methods-MIT.inc:449
+msgid "Daemon based"
+msgstr "Basé sur un service"
+
+#: src/kerberosService/class_password-methods-MIT.inc:494
+#: src/kerberosService/class_krb_host_keys.inc:253
+#: src/kerberosService/class_goKrbServer.inc:382
+msgid "Kerberos"
+msgstr ""
+
+#: src/kerberosService/class_krb5_policy.inc:79
+#, php-format
+msgid "This policy is referenced %d times."
+msgstr "Cette politique de sécurité est référencée %d fois."
+
+#: src/kerberosService/class_krb5_policy.inc:139
+#: src/kerberosService/class_krb5_policy.inc:156
+#, php-format
+msgid ""
+"The value specified for '%s' must be smaller than the value specified for "
+"'%s'!"
+msgstr ""
+"La valeur spécifiée pour '%s' doit être plus petite que la valeur spécifiée "
+"pour '%s' !"
+
+#: src/kerberosService/class_krb_host_keys.inc:90
+msgid "Principle"
+msgstr ""
+
+#: src/kerberosService/class_krb_host_keys.inc:244
+msgid "updated to"
+msgstr "mise à jour pour"
+
+#: src/kerberosService/class_krb_host_keys.inc:253
+#, php-format
+msgid ""
+"The principal name of this system has changed. Do you want to update your "
+"principals? The affected principals are listed below: %s"
+msgstr ""
+"Le nom du principal à changé pour ce système. Voulez vous mettre à jour vos "
+"principaux ? Les principaux affectés sont : %s"
+
+#: src/kerberosService/class_krb_host_keys.inc:266
+msgid "Create key"
+msgstr "Créer un clefs"
+
+#: src/kerberosService/class_krb_host_keys.inc:268
+msgid "Recreate key"
+msgstr "Récréer une clefs"
+
+#: src/kerberosService/class_krb_host_keys.inc:269
+msgid "Remove key"
+msgstr "Enlever un clefs"
+
+#: src/kerberosService/class_krb_host_keys.inc:308
+#: src/kerberosService/class_krb_host_keys.inc:334
+msgid "installed"
+msgstr "installé"
+
+#: src/kerberosService/class_krb_host_keys.inc:475
+msgid "Kerberos key"
+msgstr "Clé Kerberos"
+
+#: src/kerberosService/class_krb_host_keys.inc:476
+msgid "Kerberos host key"
+msgstr "Clé Kerberos de l'hôte"
+
+#: src/kerberosService/class_goKrbServer.inc:58
+msgid "Kerberos service"
+msgstr "Service Kerberos"
+
+#: src/kerberosService/class_goKrbServer.inc:90
+msgid "Name"
+msgstr "Nom"
+
+#: src/kerberosService/class_goKrbServer.inc:173
+msgid "Kerberos service (kadmin access informations)"
+msgstr "Service Kerberos ( accès information kadmin )"
+
+#: src/kerberosService/class_goKrbServer.inc:189
+msgid ""
+"Cannot apply policy changes! The defined Kerberos server has no MAC address."
+msgstr ""
+"Impossible d'appliquer les changement de polices de sécurité ! Le serveur "
+"Kerberos défini n'a pas d'adresse MAC."
+
+#: src/kerberosService/class_goKrbServer.inc:274
+msgid "Remove"
+msgstr "Enlever"
+
+#: src/kerberosService/class_goKrbServer.inc:383
+msgid "Kerberos access information"
+msgstr "Information d'accès Kerberos"
+
+#: src/kerberosService/class_goKrbServer.inc:383
+msgid "Services"
+msgstr "Service"
+
+#: src/kerberosService/class_goKrbServer.inc:395
+msgid "Start"
+msgstr "Démarrage"
+
+#: src/kerberosService/class_goKrbServer.inc:396
+msgid "Stop"
+msgstr "Arrêt"
+
+#: src/kerberosService/class_goKrbServer.inc:397
+msgid "Restart"
+msgstr "Redémarrage"
+
+#: src/kerberosService/class_goKrbServer.inc:398
+#: src/kerberosService/goKrbServer.tpl:9
+msgid "Policies"
+msgstr "polices de sécurité"
+
+#: src/kerberosService/goKrbServer.tpl:1
+msgid "Kerberos kadmin access"
+msgstr "Accès kadmin Kerberos"
+
+#: src/kerberosService/goKrbServer.tpl:3
+msgid "Kerberos Realm"
+msgstr "Realm Kerberos"

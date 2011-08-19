@@ -1,0 +1,145 @@
+# translation of messages.po to Chinese Simplified
+# Copyright (C) 2003 GONICUS GmbH, Germany
+# This file is distributed under the same license as the GOsa2 package.
+#
+# Jiang Xin <worldhello.net@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: messages\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:32+0200\n"
+"PO-Revision-Date: 2007-06-03 12:27+0800\n"
+"Last-Translator: Jiang Xin <worldhello.net@gmail.com>\n"
+"Language-Team: Chinese Simplified <zh@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: src/squidExtension/proxy.tpl:37
+#: src/squidExtension/class_proxyAccount.inc:331
+msgid "Proxy account"
+msgstr "代理账号"
+
+#: src/squidExtension/proxy.tpl:39
+#, fuzzy
+msgid "Proxy configuration"
+msgstr "PHP 安装检查"
+
+#: src/squidExtension/proxy.tpl:45
+msgid "Filter unwanted content (i.e. pornographic or violence related)"
+msgstr "过滤不想要的内容（如：色情或暴力相关）"
+
+#: src/squidExtension/proxy.tpl:56
+msgid "Limit proxy access to working time"
+msgstr "限制代理访问仅在工作时间"
+
+#: src/squidExtension/proxy.tpl:58
+#, fuzzy
+msgid "Worktime restrictions"
+msgstr "口令过期截止日"
+
+#: src/squidExtension/proxy.tpl:97
+#: src/squidExtension/class_proxyAccount.inc:347
+msgid "Restrict proxy usage by quota"
+msgstr "通过 quota 限制代理使用"
+
+#: src/squidExtension/proxy.tpl:99
+#, fuzzy
+msgid "Quota configuration"
+msgstr "下载配置"
+
+#: src/squidExtension/proxy.tpl:112
+msgid "per"
+msgstr "每"
+
+#: src/squidExtension/class_proxyAccount.inc:5
+#: src/squidExtension/class_proxyAccount.inc:330
+msgid "Proxy"
+msgstr "代理"
+
+#: src/squidExtension/class_proxyAccount.inc:6
+#, fuzzy
+msgid "Manage Proxy user settings"
+msgstr "通用队列设置"
+
+#: src/squidExtension/class_proxyAccount.inc:92
+msgid "KB"
+msgstr "KB"
+
+#: src/squidExtension/class_proxyAccount.inc:92
+msgid "MB"
+msgstr "MB"
+
+#: src/squidExtension/class_proxyAccount.inc:92
+msgid "GB"
+msgstr "GB"
+
+#: src/squidExtension/class_proxyAccount.inc:93
+msgid "hour"
+msgstr "小时"
+
+#: src/squidExtension/class_proxyAccount.inc:93
+msgid "day"
+msgstr "天"
+
+#: src/squidExtension/class_proxyAccount.inc:93
+msgid "week"
+msgstr "周"
+
+#: src/squidExtension/class_proxyAccount.inc:93
+msgid "month"
+msgstr "月"
+
+#: src/squidExtension/class_proxyAccount.inc:183
+#: src/squidExtension/class_proxyAccount.inc:309
+#, fuzzy
+msgid "LDAP error"
+msgstr "LDAP 错误:"
+
+#: src/squidExtension/class_proxyAccount.inc:204
+#: src/squidExtension/class_proxyAccount.inc:206
+#, fuzzy
+msgid "Quota Setting"
+msgstr "邮件选项"
+
+#: src/squidExtension/class_proxyAccount.inc:331
+#, fuzzy
+msgid "Connectivity add-on"
+msgstr "互联"
+
+#: src/squidExtension/class_proxyAccount.inc:335
+msgid "My account"
+msgstr "我的账号"
+
+#: src/squidExtension/class_proxyAccount.inc:344
+msgid "Quota"
+msgstr ""
+
+#: src/squidExtension/class_proxyAccount.inc:345
+msgid "Filter unwanted content"
+msgstr ""
+
+#: src/squidExtension/class_proxyAccount.inc:346
+#, fuzzy
+msgid "Limit proxy access"
+msgstr "限制代理访问仅在工作时间"
+
+#, fuzzy
+#~ msgid "This does something"
+#~ msgstr "******"
+
+#, fuzzy
+#~ msgid "Removing of user/proxy account with dn '%s' failed."
+#~ msgstr "删除 dn 为 '%s' 的 user/kolab 账号失败。"
+
+#, fuzzy
+#~ msgid "Saving of user/proxy account with dn '%s' failed."
+#~ msgstr "保存 dn 为 '%s' 的 user/kolab 账号为空。"
+
+#~ msgid "Numerical value for Quota Setting is empty."
+#~ msgstr "Quota 设置的数值为空。"
+
+#~ msgid "Numerical value for Quota Setting is not valid."
+#~ msgstr "Quota 设置的数值无效。"

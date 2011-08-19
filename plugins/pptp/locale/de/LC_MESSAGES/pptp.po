@@ -1,0 +1,52 @@
+# translation of messages.po to Deutsch
+# GOsa2 Translations
+# Copyright (C) 2003 GONICUS GmbH, Germany
+# This file is distributed under the same license as the GOsa2 package.
+#
+#
+# Alfred Schroeder <schroeder@GONICUS.de>, 2004.
+# Cajus Pollmeier <pollmeier@gonicus.de>, 2004, 2005, 2006.
+# Jan Wenzel <jan.wenzel@gonicus.de>, 2004,2005, 2008.
+# Stefan Koehler <stefan.koehler@GONICUS.de>, 2005.
+msgid ""
+msgstr ""
+"Project-Id-Version: messages\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:31+0200\n"
+"PO-Revision-Date: 2010-09-17 10:35+0100\n"
+"Last-Translator: Fabian Hickert <Fabian.Hickert@GONICUS.DE>\n"
+"Language-Team: Deutsch <de@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: src/pptpExtension/pptp.tpl:3 src/pptpExtension/class_pptpAccount.inc:176
+msgid "PPTP account"
+msgstr "PPTP-Konto"
+
+#: src/pptpExtension/class_pptpAccount.inc:26
+#: src/pptpExtension/class_pptpAccount.inc:175
+msgid "PPTP"
+msgstr "PPTP"
+
+#: src/pptpExtension/class_pptpAccount.inc:27
+msgid "Manage PPTP user settings"
+msgstr "Persönliche PPTP-Einstellungen verwalten"
+
+#: src/pptpExtension/class_pptpAccount.inc:102
+#: src/pptpExtension/class_pptpAccount.inc:157
+msgid "LDAP error"
+msgstr "LDAP-Fehler"
+
+#: src/pptpExtension/class_pptpAccount.inc:176
+msgid "Connectivity add-on"
+msgstr "Konnektivitäts-Erweiterung"
+
+#: src/pptpExtension/class_pptpAccount.inc:180
+msgid "My account"
+msgstr "Mein Konto"
+
+#~ msgid "This does something"
+#~ msgstr "Dies tut etwas"

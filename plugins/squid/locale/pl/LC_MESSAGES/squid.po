@@ -1,0 +1,141 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: polski\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:32+0200\n"
+"PO-Revision-Date: 2007-07-14 21:45+0100\n"
+"Last-Translator: Piotr Rybicki <meritus@innervision.pl>\n"
+"Language-Team: Piotr Rybicki <meritus@innervision.pl>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: POLAND\n"
+"X-Poedit-SourceCharset: iso-8859-2\n"
+"X-Poedit-Basepath: tedst\n"
+
+#: src/squidExtension/proxy.tpl:37
+#: src/squidExtension/class_proxyAccount.inc:331
+msgid "Proxy account"
+msgstr "Konto Proxy"
+
+#: src/squidExtension/proxy.tpl:39
+#, fuzzy
+msgid "Proxy configuration"
+msgstr "Konfiguracja PHP"
+
+#: src/squidExtension/proxy.tpl:45
+msgid "Filter unwanted content (i.e. pornographic or violence related)"
+msgstr "Filtruj niechcianą zawartość (n.p. pornografia, przemoc)"
+
+#: src/squidExtension/proxy.tpl:56
+msgid "Limit proxy access to working time"
+msgstr "Ogranicz dostęp do proxy do czasu pracu"
+
+#: src/squidExtension/proxy.tpl:58
+#, fuzzy
+msgid "Worktime restrictions"
+msgstr "Hasło wygasa"
+
+#: src/squidExtension/proxy.tpl:97
+#: src/squidExtension/class_proxyAccount.inc:347
+msgid "Restrict proxy usage by quota"
+msgstr "Ogranicz użycie proxy mechanizmami quota"
+
+#: src/squidExtension/proxy.tpl:99
+#, fuzzy
+msgid "Quota configuration"
+msgstr "Konfiguracja pobierania"
+
+#: src/squidExtension/proxy.tpl:112
+msgid "per"
+msgstr "na"
+
+#: src/squidExtension/class_proxyAccount.inc:5
+#: src/squidExtension/class_proxyAccount.inc:330
+msgid "Proxy"
+msgstr "Proxy"
+
+#: src/squidExtension/class_proxyAccount.inc:6
+#, fuzzy
+msgid "Manage Proxy user settings"
+msgstr "Ogólne ustawienia użytkownika"
+
+#: src/squidExtension/class_proxyAccount.inc:92
+msgid "KB"
+msgstr "KB"
+
+#: src/squidExtension/class_proxyAccount.inc:92
+msgid "MB"
+msgstr "MB"
+
+#: src/squidExtension/class_proxyAccount.inc:92
+msgid "GB"
+msgstr "GB"
+
+#: src/squidExtension/class_proxyAccount.inc:93
+msgid "hour"
+msgstr "godzina"
+
+#: src/squidExtension/class_proxyAccount.inc:93
+msgid "day"
+msgstr "dzień"
+
+#: src/squidExtension/class_proxyAccount.inc:93
+msgid "week"
+msgstr "tydzień"
+
+#: src/squidExtension/class_proxyAccount.inc:93
+msgid "month"
+msgstr "miesiąc"
+
+#: src/squidExtension/class_proxyAccount.inc:183
+#: src/squidExtension/class_proxyAccount.inc:309
+#, fuzzy
+msgid "LDAP error"
+msgstr "błąd LDAP:"
+
+#: src/squidExtension/class_proxyAccount.inc:204
+#: src/squidExtension/class_proxyAccount.inc:206
+#, fuzzy
+msgid "Quota Setting"
+msgstr "Ustawienia pocztowe"
+
+#: src/squidExtension/class_proxyAccount.inc:331
+#, fuzzy
+msgid "Connectivity add-on"
+msgstr "Konto połączeń"
+
+#: src/squidExtension/class_proxyAccount.inc:335
+msgid "My account"
+msgstr "Moje konto "
+
+#: src/squidExtension/class_proxyAccount.inc:344
+msgid "Quota"
+msgstr ""
+
+#: src/squidExtension/class_proxyAccount.inc:345
+msgid "Filter unwanted content"
+msgstr "Filtruj niechcianą zawartość"
+
+#: src/squidExtension/class_proxyAccount.inc:346
+msgid "Limit proxy access"
+msgstr "Ogranicz dostęp do proxy"
+
+#~ msgid "This does something"
+#~ msgstr "To robi coś"
+
+#, fuzzy
+#~ msgid "Removing of user/proxy account with dn '%s' failed."
+#~ msgstr "Usuwanie konta proxy nieudane"
+
+#, fuzzy
+#~ msgid "Saving of user/proxy account with dn '%s' failed."
+#~ msgstr "Zapisywanie konta proxy nieudane"
+
+#~ msgid "Numerical value for Quota Setting is empty."
+#~ msgstr "Wartość numeryczna dla ustawień Quoty jest pusta."
+
+#~ msgid "Numerical value for Quota Setting is not valid."
+#~ msgstr "Wartość numeryczna dla ustawień Quoty jest nieprawidłowa."

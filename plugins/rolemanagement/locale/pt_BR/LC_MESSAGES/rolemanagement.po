@@ -1,0 +1,230 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GOsa plugins - rolemanagement\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:32+0200\n"
+"PO-Revision-Date: 2010-03-11 21:01-0300\n"
+"Last-Translator: Marcos Amorim <marcosmamorim@gmail.com>\n"
+"Language-Team: Marcos Amorim <marcosmamorim@gmail.com> Clever de Oliveira "
+"<clever@dri.cefetmg.br>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+
+#: src/rolePlugin/class_roleManagement.inc:25
+#: src/rolePlugin/class_roleGeneric.inc:453
+#, fuzzy
+msgid "Roles"
+msgstr "Papéis"
+
+#: src/rolePlugin/class_roleManagement.inc:26
+msgid "Assign and manage organizational roles"
+msgstr ""
+
+#: src/rolePlugin/class_roleGeneric.inc:97
+#, fuzzy
+msgid "Given name"
+msgstr "Primeiro Nome"
+
+#: src/rolePlugin/class_roleGeneric.inc:97
+msgid "Surname"
+msgstr "Sobrenome"
+
+#: src/rolePlugin/class_roleGeneric.inc:97
+msgid "UID"
+msgstr "UID"
+
+#: src/rolePlugin/class_roleGeneric.inc:223
+#, fuzzy
+msgid "Unknown"
+msgstr "Desconhecido"
+
+#: src/rolePlugin/class_roleGeneric.inc:278
+#: src/rolePlugin/class_roleGeneric.inc:282
+#: src/rolePlugin/class_roleGeneric.inc:291
+#: src/rolePlugin/class_roleGeneric.inc:470 src/rolePlugin/role-list.xml:41
+#: src/rolePlugin/roleGeneric.tpl:12
+#, fuzzy
+msgid "Name"
+msgstr "Nome"
+
+#: src/rolePlugin/class_roleGeneric.inc:308
+#: src/rolePlugin/class_roleGeneric.inc:350
+#, fuzzy
+msgid "LDAP error"
+msgstr "Erro LDAP"
+
+#: src/rolePlugin/class_roleGeneric.inc:393
+msgid "Error"
+msgstr "Erro"
+
+#: src/rolePlugin/class_roleGeneric.inc:443 src/rolePlugin/roleGeneric.tpl:7
+#, fuzzy
+msgid "Generic"
+msgstr "Geral"
+
+#: src/rolePlugin/class_roleGeneric.inc:444
+#, fuzzy
+msgid "Role generic"
+msgstr "Papel desconhecido"
+
+#: src/rolePlugin/class_roleGeneric.inc:462
+#, fuzzy
+msgid "RDN for role storage."
+msgstr "Caminho dos perfis Kiosk"
+
+#: src/rolePlugin/class_roleGeneric.inc:471 src/rolePlugin/role-list.xml:49
+#: src/rolePlugin/roleGeneric.tpl:20
+#, fuzzy
+msgid "Description"
+msgstr "Descrição"
+
+#: src/rolePlugin/class_roleGeneric.inc:472 src/rolePlugin/role-list.tpl:12
+#: src/rolePlugin/roleGeneric.tpl:30
+#, fuzzy
+msgid "Base"
+msgstr "Base"
+
+#: src/rolePlugin/class_roleGeneric.inc:473
+#, fuzzy
+msgid "Telephone number"
+msgstr "Número de Telefone"
+
+#: src/rolePlugin/class_roleGeneric.inc:474
+#, fuzzy
+msgid "FAX number"
+msgstr "Número do Fax"
+
+#: src/rolePlugin/class_roleGeneric.inc:475 src/rolePlugin/roleGeneric.tpl:64
+#, fuzzy
+msgid "Occupants"
+msgstr "Ocupantes"
+
+#: src/rolePlugin/paste_generic.tpl:1
+#, fuzzy
+msgid "Paste role"
+msgstr "Papel de ACL"
+
+#: src/rolePlugin/paste_generic.tpl:4
+#, fuzzy
+msgid "Role name"
+msgstr "Nome do Objeto"
+
+#: src/rolePlugin/paste_generic.tpl:7
+#, fuzzy
+msgid "Please enter the new object role name"
+msgstr "Por favor entre com o nome do novo grupo de objeto"
+
+#: src/rolePlugin/role-list.xml:11
+#, fuzzy
+msgid "List of roles"
+msgstr "Papéis disponíveis"
+
+#: src/rolePlugin/role-list.xml:15 src/rolePlugin/role-list.xml:74
+#, fuzzy
+msgid "Role"
+msgstr "Papéis"
+
+#: src/rolePlugin/role-list.xml:57
+#, fuzzy
+msgid "Actions"
+msgstr "Ações"
+
+#: src/rolePlugin/role-list.xml:68
+#, fuzzy
+msgid "Create"
+msgstr "Criar"
+
+#: src/rolePlugin/role-list.xml:86
+#, fuzzy
+msgid "Edit"
+msgstr "Editar"
+
+#: src/rolePlugin/role-list.xml:93
+#, fuzzy
+msgid "Remove"
+msgstr "Remover"
+
+#: src/rolePlugin/role-list.xml:125 src/rolePlugin/roleGeneric.tpl:1
+#, fuzzy
+msgid "Edit role"
+msgstr "Papel desconhecido"
+
+#: src/rolePlugin/role-list.xml:138
+#, fuzzy
+msgid "Remove role"
+msgstr "Papel desconhecido"
+
+#: src/rolePlugin/roleGeneric.tpl:10
+#, fuzzy
+msgid "Generic settings"
+msgstr "Configurações gerais do usuário"
+
+#: src/rolePlugin/roleGeneric.tpl:43
+#, fuzzy
+msgid "Phone number"
+msgstr "Número de telefone"
+
+#: src/rolePlugin/roleGeneric.tpl:51
+#, fuzzy
+msgid "Fax number"
+msgstr "Número do Fax"
+
+#: src/rolePlugin/role-filter.xml:17
+#, fuzzy
+msgid "Default filter"
+msgstr "Aplicar filtro"
+
+#, fuzzy
+#~ msgid "Surename"
+#~ msgstr "Sobrenome"
+
+#~ msgid "Uid"
+#~ msgstr "Uid"
+
+#, fuzzy
+#~ msgid "Telefon number"
+#~ msgstr "Número de Telefone"
+
+#, fuzzy
+#~ msgid "Role management"
+#~ msgstr "Gerenciamento Samba"
+
+#, fuzzy
+#~ msgid "Warning"
+#~ msgstr "Aviso"
+
+#, fuzzy
+#~ msgid ""
+#~ "Please double check if you really want to do this since there is no way "
+#~ "for GOsa to get your data back."
+#~ msgstr ""
+#~ "Por favor, verifique se você realmente quer fazer isso já que não há "
+#~ "caminho para GOsa para obter seus dados de volta."
+
+#, fuzzy
+#~ msgid ""
+#~ "So - if you're sure - press 'Delete' to continue or 'Cancel' to abort."
+#~ msgstr ""
+#~ "Portanto - se você está certo - pressione 'Excluir' para continuar ou "
+#~ "\"Cancelar\" para abortar."
+
+#, fuzzy
+#~ msgid "Filter"
+#~ msgstr "Filtro"
+
+#, fuzzy
+#~ msgid "Choose subtree to place user in"
+#~ msgstr "Escolha a sub-árvore para adicionar o usuário"
+
+#, fuzzy
+#~ msgid "Select a base"
+#~ msgstr "Selecione a base"

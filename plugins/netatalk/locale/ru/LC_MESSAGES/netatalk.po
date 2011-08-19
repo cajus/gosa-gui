@@ -1,0 +1,123 @@
+# Translation of messages.po to Russian
+# Valia V. Vaneeva <fattie@altlinux.ru>, 2004.
+# $Id: messages.po,v 1.61 2005/04/18 10:37:13 migor-guest Exp $
+msgid ""
+msgstr ""
+"Project-Id-Version: messages\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:31+0200\n"
+"PO-Revision-Date: 2005-04-18 14:35+0300\n"
+"Last-Translator: Igor Muratov <migor@altlinux.org>\n"
+"Language-Team: ALT Linux Team\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: poEdit 1.3.1\n"
+
+#: src/netatalkPlugin/class_netatalk.inc:36
+#: src/netatalkPlugin/class_netatalk.inc:173
+#: src/netatalkPlugin/class_netatalk.inc:181
+#: src/netatalkPlugin/class_netatalk.inc:182
+#: src/netatalkPlugin/class_netatalk.inc:187
+#: src/netatalkPlugin/class_netatalk.inc:188
+#: src/netatalkPlugin/class_netatalk.inc:190
+#: src/netatalkPlugin/class_netatalk.inc:191
+#: src/netatalkPlugin/class_netatalk.inc:193
+#: src/netatalkPlugin/class_netatalk.inc:194
+#: src/netatalkPlugin/class_netatalk.inc:368
+msgid "Netatalk"
+msgstr ""
+
+#: src/netatalkPlugin/class_netatalk.inc:37
+#, fuzzy
+msgid "Manage Netatalk account"
+msgstr "Создать телефонный аккаунт"
+
+#: src/netatalkPlugin/class_netatalk.inc:188
+msgid "POSIX"
+msgstr ""
+
+#: src/netatalkPlugin/class_netatalk.inc:191
+msgid "Netatalk or NFS share"
+msgstr ""
+
+#: src/netatalkPlugin/class_netatalk.inc:224
+#: src/netatalkPlugin/class_netatalk.inc:380 src/netatalkPlugin/netatalk.tpl:4
+#, fuzzy
+msgid "Share"
+msgstr "сброс"
+
+#: src/netatalkPlugin/class_netatalk.inc:288
+#: src/netatalkPlugin/class_netatalk.inc:353
+#, fuzzy
+msgid "LDAP error"
+msgstr "Ошибка LDAP:"
+
+#: src/netatalkPlugin/class_netatalk.inc:372
+msgid "My account"
+msgstr "Моя учетная запись"
+
+#: src/netatalkPlugin/class_netatalk.inc:379
+#, fuzzy
+msgid "User home path"
+msgstr "Домашний телефон"
+
+#: src/netatalkPlugin/netatalk.tpl:1
+#, fuzzy
+msgid "Netatalk configuration"
+msgstr "Базы данных"
+
+#: src/netatalkPlugin/netatalk.tpl:16
+#, fuzzy
+msgid "Path"
+msgstr "Дата"
+
+#, fuzzy
+#~ msgid "Netatalk settings"
+#~ msgstr "Сетевые настройки"
+
+#, fuzzy
+#~ msgid "This account has no netatalk extensions."
+#~ msgstr "В этой учетной записи нет почтовых расширений."
+
+#, fuzzy
+#~ msgid "Remove netatalk account"
+#~ msgstr "Удалить настройки эл. почты"
+
+#, fuzzy
+#~ msgid ""
+#~ "This account has netatalk features enabled. You can disable them by "
+#~ "clicking below."
+#~ msgstr ""
+#~ "В этой учетной записи есть настройки электронной почты. Вы можете удалить "
+#~ "их, щелкнув ниже."
+
+#, fuzzy
+#~ msgid "Create netatalk account"
+#~ msgstr "Создать настройки запись эл. почты"
+
+#, fuzzy
+#~ msgid ""
+#~ "This account has netatalk features disabled. You can enable them by "
+#~ "clicking below."
+#~ msgstr ""
+#~ "В этой учетной записи нет настроек электронной почты. Вы можете добавить "
+#~ "их, щелкнув ниже."
+
+#, fuzzy
+#~ msgid "Saving of user/netatalk account with dn '%s' failed."
+#~ msgstr "Создать телефонный аккаунт"
+
+#, fuzzy
+#~ msgid "Removing of user/netatalk account with dn '%s' failed."
+#~ msgstr "Удалить настройки эл. почты"
+
+#~ msgid "Cancel"
+#~ msgstr "Отмена"
+
+#~ msgid "Click the 'Edit' button below to change informations in this dialog"
+#~ msgstr "Нажмите 'Изменить' чтобы отредактировать данные в этой форме."
+
+#~ msgid "Edit"
+#~ msgstr "Изменить"

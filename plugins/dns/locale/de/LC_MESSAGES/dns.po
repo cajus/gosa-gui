@@ -1,0 +1,471 @@
+# translation of messages.po to
+# GOsa2 Translations
+# Copyright (C) 2003 GONICUS GmbH, Germany
+# This file is distributed under the same license as the GOsa2 package.
+#
+#
+# Alfred Schroeder <schroeder@GONICUS.de>, 2004.
+# Cajus Pollmeier <pollmeier@gonicus.de>, 2004, 2005, 2006, 2008.
+# Jan Wenzel <jan.wenzel@gonicus.de>, 2004,2005, 2008.
+# Stefan Koehler <stefan.koehler@GONICUS.de>, 2005.
+msgid ""
+msgstr ""
+"Project-Id-Version: messages\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:31+0200\n"
+"PO-Revision-Date: 2010-09-15 07:47+0100\n"
+"Last-Translator: Fabian Hickert <Fabian.Hickert@GONICUS.DE>\n"
+"Language-Team:  <de@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: src/dnsService/servdns.tpl:7
+msgid "DNS take over initiated"
+msgstr "DNS-Übernahme initiiert"
+
+#: src/dnsService/servdns.tpl:9
+msgid ""
+"This includes 'all' DNS zones that are located within this server. Please "
+"double check if your really want to do this."
+msgstr ""
+"Dies umfasst 'alle' Konten, System- und Setup-Informationen dieses "
+"Teilbaums. Bitte prüfen Sie genau, ob Sie dies wünschen, da es keine "
+"Möglichkeit für GOsa gibt, die Daten wiederherzustellen. "
+
+#: src/dnsService/servdns.tpl:16
+msgid "Following objects will be taken over"
+msgstr "Die folgenden Objekte werden übernommen"
+
+#: src/dnsService/servdns.tpl:32
+msgid "Take over DNS configuration from"
+msgstr "Übernehmen der DNS-Konfiguration von"
+
+#: src/dnsService/servdns.tpl:36
+msgid "Take over"
+msgstr "Übernahme"
+
+#: src/dnsService/servdns.tpl:43
+msgid "Zones"
+msgstr "Zonen"
+
+#: src/dnsService/servDNSeditZoneEntries.tpl:2
+msgid ""
+"This dialog allows you to configure all components of this DNS zone on a "
+"single list."
+msgstr ""
+"Dieser Dialog erlaubt es Ihnen, alle Komponenten dieser DNS-Zone mithilfe "
+"einer einzelnen Liste zu konfigurieren."
+
+#: src/dnsService/servDNSeditZoneEntries.tpl:7
+msgid ""
+"This dialog can't be used until the currently edited zone was saved or the "
+"zone entry exists in the LDAP directory."
+msgstr ""
+"Dieser Dialog kann nicht verwendet werden, bis die momentan geöffnete Zone "
+"gespeichert wurde und/oder der passende Eintrag in der LDAP-Datenbank "
+"existiert."
+
+#: src/dnsService/servDNSeditZoneEntries.tpl:13
+msgid "Create a new DNS zone entry"
+msgstr "Einen neuen DNS-Zonen-Eintrag erstellen"
+
+#: src/dnsService/servDNSeditZoneEntries.tpl:13
+#: src/dnsService/class_servDNSeditZoneEntries.inc:106
+msgid "New entry"
+msgstr "Neuer Eintrag"
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:225
+#: src/dnsService/class_servDNS.inc:184 src/dnsService/class_servDNS.inc:308
+#: src/dnsService/class_servDNSeditZone.inc:198
+#: src/dnsService/class_DNS.inc:161 src/dnsService/class_DNS.inc:166
+#: src/dnsService/class_DNS.inc:630
+msgid "Error"
+msgstr "Fehler"
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:225
+#, php-format
+msgid "Cannot rename '%s' to '%s'. Name is already in use!"
+msgstr ""
+"Kann '%s' nicht in '%s' umbenennen, der angegebene Name wird bereits "
+"verwendet!"
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:258
+msgid "Name"
+msgstr "Name"
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:267
+#, php-format
+msgid "Cannot rename '%s' to '%s'. Entry is already in use."
+msgstr ""
+"Kann '%s' nicht in '%s' umbenennen, der Eintrag wird bereits verwendet."
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:273
+#, php-format
+msgid "Cannot create '%s'. Entry is already in use."
+msgstr "Kann '%s' nicht anlegen, der Eintrag wird bereits verwendet."
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:282
+#, php-format
+msgid "Entry '%s' is used more than once."
+msgstr "Der Eintrag '%s' wird öfter als ein Mal verwendet."
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:308
+#, php-format
+msgid "%s records cannot be used more than once."
+msgstr "%s Datensätze können nicht öfter als ein Mal verwendet werden."
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:315
+#, php-format
+msgid "Please fix the empty %s record for entry '%s'."
+msgstr "Bitte beheben Sie den leeren Datensatz %s des Eintrags '%s'."
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:323
+#, php-format
+msgid "Please fix the duplicate %s record for entry '%s'."
+msgstr "Bitte beheben Sie den doppelten Datensatz %s des Eintrags '%s'."
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:460
+#: src/dnsService/class_servDNSeditZone.inc:513
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:461
+msgid "Remove"
+msgstr "Entfernen"
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:513
+#, php-format
+msgid "The syntax of entry %s (record type %s, value %s) is invalid!"
+msgstr "Der Eintrag %s (Record Typ %s, Wert %s) ist ungültig!"
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:513
+msgid "Example"
+msgstr "Beispiel"
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:519
+#: src/dnsService/class_servDNSeditZoneEntries.inc:527
+#: src/dnsService/class_servDNSeditZoneEntries.inc:535
+#: src/dnsService/class_servDNSeditZoneEntries.inc:566
+msgid "Entry should be a DNS name."
+msgstr "Eintrag muss ein DNS-Name sein."
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:522
+msgid "Value should be an IPv6 address."
+msgstr "Wert muss eine IPv6-Adresse sein."
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:530
+msgid "Value should be an IPv4 address."
+msgstr "Wert muss eine IPv4-Adresse sein."
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:538
+#: src/dnsService/class_servDNSeditZoneEntries.inc:556
+#: src/dnsService/class_servDNSeditZoneEntries.inc:561
+msgid "Value should be a DNS name."
+msgstr "Wert muss ein DNS-Name sein."
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:545
+msgid "Value 1 should be a number."
+msgstr "Wert 1 muss eine Zahl sein."
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:548
+msgid "Value 2 should be a DNS name."
+msgstr "Wert 2 muss ein DNS-Name sein."
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:551
+msgid "Value should be composed of 'preference target'."
+msgstr "Wert muss aus 'preference target' zusammengestellt sein."
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:571
+msgid "Value 1 (priority) should be a number."
+msgstr "Wert 1 (Priorität) muss eine Zahl sein."
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:574
+msgid "Value 2 (weight) should be a number."
+msgstr "Wert 2 (Gewichtung) muss eine Zahl sein."
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:577
+msgid "Value 3 (port) should be a number."
+msgstr "Wert 3 (Port) muss eine Zahl sein."
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:580
+msgid "Value 4 (target) should be a DNS name."
+msgstr "Wert 4 (Ziel) muss ein DNS-Name sein."
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:583
+msgid "Value should be composed of 'priority weight port target'."
+msgstr "Wert muss aus 'priority weight port target' zusammengestellt sein."
+
+#: src/dnsService/class_servDNS.inc:31 src/dnsService/class_servDNS.inc:513
+#: src/dnsService/class_servDNS.inc:542 src/dnsService/class_servDNS.inc:543
+msgid "DNS service"
+msgstr "DNS-Dienst"
+
+#: src/dnsService/class_servDNS.inc:59
+msgid "Zone"
+msgstr "Zone"
+
+#: src/dnsService/class_servDNS.inc:59 src/dnsService/class_servDNS.inc:556
+#: src/dnsService/class_servDNSeditZone.inc:335
+msgid "Reverse zone"
+msgstr "Reverse Zone"
+
+#: src/dnsService/class_servDNS.inc:59 src/dnsService/class_servDNS.inc:565
+#: src/dnsService/servdnseditzone.tpl:139
+msgid "TTL"
+msgstr "TTL"
+
+#: src/dnsService/class_servDNS.inc:59
+msgid "Class"
+msgstr "Klasse"
+
+#: src/dnsService/class_servDNS.inc:161
+#, php-format
+msgid "You are going to migrate the DNS setup from server '%s'."
+msgstr "Sie sind dabei, die DNS-Konfiguration vom Server '%s' zu übernehmen."
+
+#: src/dnsService/class_servDNS.inc:162
+msgid ""
+"The migration will be started when you save this system. To cancel this "
+"action, use the cancel button below."
+msgstr ""
+"Die Migration wird gestartet, sobald Sie das System speichern. Klicken Sie "
+"auf den Knopf 'Abbrechen', um abzubrechen."
+
+#: src/dnsService/class_servDNS.inc:308
+#, php-format
+msgid "Cannot delete the selected zone. It is still in use by '%s'"
+msgstr ""
+"Sie können die gewählte Zone nicht entfernen, sie wird noch von folgendem(n) "
+"Eintrag / Einträgen verwendet: '%s'"
+
+#: src/dnsService/class_servDNS.inc:418 src/dnsService/class_servDNS.inc:434
+#: src/dnsService/class_servDNS.inc:459 src/dnsService/class_servDNS.inc:470
+#: src/dnsService/class_servDNS.inc:503 src/dnsService/class_DNS.inc:748
+msgid "LDAP error"
+msgstr "LDAP-Fehler"
+
+#: src/dnsService/class_servDNS.inc:543
+msgid "Services"
+msgstr "Dienste"
+
+#: src/dnsService/class_servDNS.inc:551
+msgid "Start service"
+msgstr "Dienst starten"
+
+#: src/dnsService/class_servDNS.inc:552
+msgid "Stop service"
+msgstr "Dienst stoppen"
+
+#: src/dnsService/class_servDNS.inc:553
+msgid "Restart service"
+msgstr "Dienst neustarten"
+
+#: src/dnsService/class_servDNS.inc:555
+#: src/dnsService/class_servDNSeditZone.inc:326
+#: src/dnsService/class_servDNSeditZone.inc:331
+#: src/dnsService/class_servDNSeditZone.inc:339
+#: src/dnsService/servdnseditzone.tpl:9
+msgid "Zone name"
+msgstr "Zonenname"
+
+#: src/dnsService/class_servDNS.inc:557
+#: src/dnsService/class_servDNSeditZone.inc:412
+msgid "Network class"
+msgstr "Netzwerk-Klasse"
+
+#: src/dnsService/class_servDNS.inc:558
+msgid "Zone entry editor"
+msgstr "Zonen-Editor"
+
+#: src/dnsService/class_servDNS.inc:559
+msgid "Primary DNS server"
+msgstr "Primärer DNS-Server"
+
+#: src/dnsService/class_servDNS.inc:560 src/dnsService/servdnseditzone.tpl:86
+msgid "Mail address"
+msgstr "Mail-Adresse"
+
+#: src/dnsService/class_servDNS.inc:561
+#: src/dnsService/class_servDNSeditZone.inc:343
+msgid "Serial"
+msgstr "Serial"
+
+#: src/dnsService/class_servDNS.inc:562
+#: src/dnsService/class_servDNSeditZone.inc:347
+#: src/dnsService/servdnseditzone.tpl:109
+msgid "Refresh"
+msgstr "Aktualisieren"
+
+#: src/dnsService/class_servDNS.inc:563
+#: src/dnsService/class_servDNSeditZone.inc:359
+#: src/dnsService/servdnseditzone.tpl:119
+msgid "Retry"
+msgstr "Wiederholen"
+
+#: src/dnsService/class_servDNS.inc:564
+#: src/dnsService/class_servDNSeditZone.inc:355
+#: src/dnsService/servdnseditzone.tpl:129
+msgid "Expire"
+msgstr "Ablauf"
+
+#: src/dnsService/class_servDNS.inc:566 src/dnsService/servdnseditzone.tpl:157
+#: src/dnsService/servdnseditzone.tpl:158
+msgid "MX records"
+msgstr "MX-Datensätze"
+
+#: src/dnsService/class_servDNS.inc:567 src/dnsService/servdnseditzone.tpl:49
+#: src/dnsService/servdnseditzone.tpl:51
+msgid "Zone records"
+msgstr "Zonen-Datensätze"
+
+#: src/dnsService/class_servDNSeditZone.inc:146
+msgid "Priority"
+msgstr "Priorität"
+
+#: src/dnsService/class_servDNSeditZone.inc:146
+msgid "Record"
+msgstr "Datensatz"
+
+#: src/dnsService/class_servDNSeditZone.inc:239
+msgid "Warning"
+msgstr "Warnung"
+
+#: src/dnsService/class_servDNSeditZone.inc:239
+msgid "MxRecord"
+msgstr "MX-Datensätze"
+
+#: src/dnsService/class_servDNSeditZone.inc:339
+#: src/dnsService/class_servDNSeditZone.inc:365
+msgid "Only lowercase allowed"
+msgstr "Nur Kleinbuchstaben sind erlaubt."
+
+#: src/dnsService/class_servDNSeditZone.inc:351
+msgid "Time to life"
+msgstr "Lebensdauer"
+
+#: src/dnsService/class_servDNSeditZone.inc:374
+#: src/dnsService/class_servDNSeditZone.inc:388
+#: src/dnsService/servdnseditzone.tpl:19
+msgid "Network address"
+msgstr "Netzwerk-Adresse"
+
+#: src/dnsService/class_servDNSeditZone.inc:396
+#: src/dnsService/class_servDNSeditZone.inc:402
+#: src/dnsService/class_servDNSeditZone.inc:408
+#, php-format
+msgid ""
+"The specified network address and the network class (%s/%s) do not match!"
+msgstr ""
+"Die angegebene Netzwerkaddresse und die Netzwerkklasse (%s/%s) passen nicht "
+"zueinander!"
+
+#: src/dnsService/class_servDNSeditZone.inc:505
+msgid "Delete"
+msgstr "Entfernen"
+
+#: src/dnsService/servdnseditzone.tpl:2
+msgid "Generic"
+msgstr "Allgemein"
+
+#: src/dnsService/servdnseditzone.tpl:4
+msgid "DNS zone"
+msgstr "DNS Zone"
+
+#: src/dnsService/servdnseditzone.tpl:7
+msgid "Generic settings"
+msgstr "Allgemeine Benutzereinstellungen"
+
+#: src/dnsService/servdnseditzone.tpl:29
+msgid "Net mask"
+msgstr "Netzmaske"
+
+#: src/dnsService/servdnseditzone.tpl:42
+msgid "Zone is in use, network settings can't be modified."
+msgstr ""
+"Die Zone wird gerade verwendet, die Einstellungen können nicht verändert "
+"werden."
+
+#: src/dnsService/servdnseditzone.tpl:53
+msgid "Can't be edited because the zone wasn't saved right now."
+msgstr ""
+"Kann nicht bearbeitet werden, da die Zone bis jetzt nicht gespeichert wurde."
+
+#: src/dnsService/servdnseditzone.tpl:57
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: src/dnsService/servdnseditzone.tpl:68 src/dnsService/servdnseditzone.tpl:73
+#: src/dnsService/servdnseditzone.tpl:107
+msgid "SOA record"
+msgstr "SOA-Eintrag"
+
+#: src/dnsService/servdnseditzone.tpl:70
+msgid "Zone settings"
+msgstr "Zonen-Einstellungen"
+
+#: src/dnsService/servdnseditzone.tpl:76
+msgid "Primary DNS server for this zone"
+msgstr "Primärer DNS-Server für diese Zone"
+
+#: src/dnsService/servdnseditzone.tpl:95
+msgid "Serial number (automatically incremented)"
+msgstr "Seriennummer (automatisch erhöht)"
+
+#: src/dnsService/servdnseditzone.tpl:154
+msgid "Mx record"
+msgstr "MX-Datensätze"
+
+#: src/dnsService/servdnseditzone.tpl:175
+msgid "Global zone records"
+msgstr "Globale Zonen-Datensätze"
+
+#: src/dnsService/class_DNS.inc:161
+#, php-format
+msgid "Cannot find reverse zone for DNS zone '%s'. Parsing zone aborted."
+msgstr ""
+"Konnte die Reverse-Zone für DNS-Zone '%s' nicht finden. Das Einlesen der "
+"Zone wurde abgebrochen."
+
+#: src/dnsService/class_DNS.inc:166
+#, php-format
+msgid "Found more than one reverse zone for '%s'. Parsing zone aborted."
+msgstr ""
+"Es wurde mehr als eine Reverse-Zone für DNS-Zone '%s' gefunden. Das Einlesen "
+"der Zone wurde abgebrochen."
+
+#: src/dnsService/class_DNS.inc:630
+#, php-format
+msgid "Undefined zone name '%s'!"
+msgstr "Unbekannter Zonenname '%s'!"
+
+#~ msgid "MxRecords"
+#~ msgstr "MX-Datensätze"
+
+#~ msgid "Up"
+#~ msgstr "Auf"
+
+#~ msgid "Down"
+#~ msgstr "Ab"
+
+#~ msgid "Remove DNS service"
+#~ msgstr "DNS-Dienst entfernen"
+
+#~ msgid ""
+#~ "This server has DNS features enabled. You can disable them by clicking "
+#~ "below."
+#~ msgstr ""
+#~ "Dieser Server besitzt aktivierte DNS-Funktionen. Sie können diese durch "
+#~ "einen Klick auf die untere Schaltfläche deaktivieren."
+
+#~ msgid "Add DNS service"
+#~ msgstr "DNS-Dienst hinzufügen"
+
+#~ msgid ""
+#~ "This server has DNS features disabled. You can enable them by clicking "
+#~ "below."
+#~ msgstr ""
+#~ "Aktuell besitzt dieser Server keine aktivierten DNS-Funktionen. Sie "
+#~ "können diese durch einen Klick auf die Schaltfläche unten aktivieren."

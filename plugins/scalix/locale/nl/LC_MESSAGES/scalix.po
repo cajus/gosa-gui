@@ -1,0 +1,384 @@
+# translation of messages.po to Dutch
+# GOsa2 Translations
+# Copyright (C) 2003 GONICUS GmbH, Germany
+# This file is distributed under the same license as the GOsa2 package.
+# Alfred Schroeder <schroeder@GONICUS.de>, 2004.
+# Cajus Pollmeier <pollmeier@gonicus.de>, 2004.
+#
+# Translator:
+# Niels Klomp (CareWorks ICT Services) <nk@careworks.nl>, 2005.
+msgid ""
+msgstr ""
+"Project-Id-Version: messages\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:32+0200\n"
+"PO-Revision-Date: 2006-06-02 16:58+0100\n"
+"Last-Translator: Niels Klomp (CareWorks ICT Services) <nk@careworks.nl>\n"
+"Language-Team: CareWorks ICT Services <info@careworks.nl>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/scalixGroupExtension/class_scalixGroup.inc:15
+#: src/sclixUserPlugin/class_scalixAccount.inc:458
+#, fuzzy
+msgid "SCALIX account"
+msgstr "GLPI account"
+
+#: src/scalixGroupExtension/class_scalixGroup.inc:25
+#: src/sclixUserPlugin/class_scalixAccount.inc:473
+#, fuzzy
+msgid "SCALIX Mail node"
+msgstr "E-mail"
+
+#: src/scalixGroupExtension/class_scalixGroup.inc:26
+#: src/sclixUserPlugin/class_scalixAccount.inc:474
+#, fuzzy
+msgid "Mailbox class"
+msgstr "E-mail adres"
+
+#: src/scalixGroupExtension/class_scalixGroup.inc:27
+#: src/sclixUserPlugin/class_scalixAccount.inc:475
+#, fuzzy
+msgid "Server language"
+msgstr "Servernaam"
+
+#: src/scalixGroupExtension/class_scalixGroup.inc:28
+#: src/sclixUserPlugin/class_scalixAccount.inc:476
+msgid "Administrator"
+msgstr "Beheerder"
+
+#: src/scalixGroupExtension/class_scalixGroup.inc:29
+#: src/sclixUserPlugin/class_scalixAccount.inc:477
+#, fuzzy
+msgid "Mailbox administrator"
+msgstr "Map beheerders"
+
+#: src/scalixGroupExtension/class_scalixGroup.inc:30
+#: src/sclixUserPlugin/class_scalixAccount.inc:478
+msgid "Hide user entry in SCALIX"
+msgstr ""
+
+#: src/scalixGroupExtension/class_scalixGroup.inc:31
+#: src/sclixUserPlugin/class_scalixAccount.inc:479
+#, fuzzy
+msgid "Mailbox size limitations"
+msgstr "Mail distributielijst"
+
+#: src/scalixGroupExtension/class_scalixGroup.inc:32
+#: src/sclixUserPlugin/class_scalixAccount.inc:480
+#, fuzzy
+msgid "Limit outbound"
+msgstr "Profiel quota"
+
+#: src/scalixGroupExtension/class_scalixGroup.inc:33
+#: src/sclixUserPlugin/class_scalixAccount.inc:481
+msgid "Limit inbound"
+msgstr ""
+
+#: src/scalixGroupExtension/class_scalixGroup.inc:34
+#: src/sclixUserPlugin/class_scalixAccount.inc:482
+#, fuzzy
+msgid "Notify user"
+msgstr "Tel het aantal gebruikers"
+
+#: src/scalixGroupExtension/class_scalixGroup.inc:35
+#: src/sclixUserPlugin/paste_generic.tpl:6 src/sclixUserPlugin/generic.tpl:111
+#: src/sclixUserPlugin/class_scalixAccount.inc:483
+#, fuzzy
+msgid "SCALIX email addresses"
+msgstr "E-mail adres"
+
+#: src/sclixUserPlugin/paste_generic.tpl:1
+#, fuzzy
+msgid "SCALIX paste"
+msgstr "GLPI account"
+
+#: src/sclixUserPlugin/paste_generic.tpl:8 src/sclixUserPlugin/generic.tpl:114
+#, fuzzy
+msgid "List of SCALIX email addresses"
+msgstr "E-mail adres"
+
+#: src/sclixUserPlugin/generic.tpl:1
+#, fuzzy
+msgid "SCALIX settings"
+msgstr "Posix instellingen"
+
+#: src/sclixUserPlugin/generic.tpl:6
+msgid "Generic"
+msgstr "Algemeen"
+
+#: src/sclixUserPlugin/generic.tpl:9
+msgid "Mail settings"
+msgstr "E-mail instellingen"
+
+#: src/sclixUserPlugin/generic.tpl:11
+msgid "SCALIX mail node"
+msgstr ""
+
+#: src/sclixUserPlugin/generic.tpl:20
+#, fuzzy
+msgid "SCALIX mailbox class"
+msgstr "E-mail grootte"
+
+#: src/sclixUserPlugin/generic.tpl:24
+msgid ""
+"Limited users can not make use of the group calendar functionality in SCALIX"
+msgstr ""
+
+#: src/sclixUserPlugin/generic.tpl:33
+#, fuzzy
+msgid "SCALIX server language"
+msgstr "Servernaam"
+
+#: src/sclixUserPlugin/generic.tpl:37
+msgid "Message catalog language for client"
+msgstr ""
+
+#: src/sclixUserPlugin/generic.tpl:49 src/sclixUserPlugin/generic.tpl:71
+#, fuzzy
+msgid "Settings"
+msgstr "Posix instellingen"
+
+#: src/sclixUserPlugin/generic.tpl:54
+#, fuzzy
+msgid "Select for administrator capabilities"
+msgstr "Selecteer sjabloon"
+
+#: src/sclixUserPlugin/generic.tpl:54
+#, fuzzy
+msgid "SCALIX Administrator"
+msgstr "Beheerder"
+
+#: src/sclixUserPlugin/generic.tpl:59
+#, fuzzy
+msgid "Select for mailbox administrator capabilities"
+msgstr "Selecteer sjabloon"
+
+#: src/sclixUserPlugin/generic.tpl:59
+#, fuzzy
+msgid "SCALIX Mailbox Administrator"
+msgstr "Beheerder"
+
+#: src/sclixUserPlugin/generic.tpl:64
+#, fuzzy
+msgid "Hide user entry from address book"
+msgstr "Geef a.u.b. een geldige naam op"
+
+#: src/sclixUserPlugin/generic.tpl:64
+msgid "Hide this user entry in SCALIX"
+msgstr ""
+
+#: src/sclixUserPlugin/generic.tpl:73
+#, fuzzy
+msgid "Limit mailbox size"
+msgstr "E-mail grootte"
+
+#: src/sclixUserPlugin/generic.tpl:76
+msgid "MB"
+msgstr "MB"
+
+#: src/sclixUserPlugin/generic.tpl:84
+msgid "As sanction on mailbox quota overuse, stop user from sending mail"
+msgstr ""
+
+#: src/sclixUserPlugin/generic.tpl:84
+#, fuzzy
+msgid "Limit Outbound Mail"
+msgstr "Profiel quota"
+
+#: src/sclixUserPlugin/generic.tpl:89
+msgid "As sanction on mailbox quota overuse, stop user from receiving mail"
+msgstr ""
+
+#: src/sclixUserPlugin/generic.tpl:89
+msgid "Limit Inbound Mail"
+msgstr ""
+
+#: src/sclixUserPlugin/generic.tpl:94
+msgid "As sanction on mailbox quota overuse, notify the user by email"
+msgstr ""
+
+#: src/sclixUserPlugin/generic.tpl:94
+msgid "Notify User"
+msgstr ""
+
+#: src/sclixUserPlugin/class_scalixAccount.inc:16
+msgid "SCALIX"
+msgstr ""
+
+#: src/sclixUserPlugin/class_scalixAccount.inc:17
+#, fuzzy
+msgid "Manage personal SCALIX settings"
+msgstr "Posix instellingen"
+
+#: src/sclixUserPlugin/class_scalixAccount.inc:126
+#, fuzzy
+msgid "This account has no SCALIX extensions."
+msgstr "Dit account heeft geen Unix mogelijkheden."
+
+#: src/sclixUserPlugin/class_scalixAccount.inc:135
+#, fuzzy
+msgid "Remove SCALIX account"
+msgstr "Verwijder POSIX account"
+
+#: src/sclixUserPlugin/class_scalixAccount.inc:136
+#, fuzzy
+msgid ""
+"This account has SCALIX synchronization enabled. You can disable it by "
+"clicking below."
+msgstr ""
+"Dit account heeft POSIX mogelijkheden ingeschakeld. U kunt deze uitschakelen "
+"door de knop hieronder te gebruiken."
+
+#: src/sclixUserPlugin/class_scalixAccount.inc:138
+#, fuzzy
+msgid "Create SCALIX account"
+msgstr "POSIX account aanmaken"
+
+#: src/sclixUserPlugin/class_scalixAccount.inc:138
+#, fuzzy
+msgid ""
+"This account has SCALIX synchronization disabled. You can enable it by "
+"clicking below."
+msgstr ""
+"Dit account heeft POSIX mogelijkheden uitgeschakeld. U kunt deze inschakelen "
+"door de knop hieronder te gebruiken."
+
+#: src/sclixUserPlugin/class_scalixAccount.inc:236
+#: src/sclixUserPlugin/class_scalixAccount.inc:342
+#, fuzzy
+msgid "LDAP error"
+msgstr "LDAP fout:"
+
+#: src/sclixUserPlugin/class_scalixAccount.inc:259
+#: src/sclixUserPlugin/class_scalixAccount.inc:266
+#: src/sclixUserPlugin/class_scalixAccount.inc:273
+#: src/sclixUserPlugin/class_scalixAccount.inc:283
+#: src/sclixUserPlugin/class_scalixAccount.inc:503
+#: src/sclixUserPlugin/class_scalixAccount.inc:512
+msgid "Error"
+msgstr "Fout"
+
+#: src/sclixUserPlugin/class_scalixAccount.inc:259
+#: src/sclixUserPlugin/class_scalixAccount.inc:503
+#, fuzzy
+msgid "Cannot add invalid mail address!"
+msgstr "U probeert een ongeldig E-mail adres toe te voegen"
+
+#: src/sclixUserPlugin/class_scalixAccount.inc:266
+#: src/sclixUserPlugin/class_scalixAccount.inc:283
+#, fuzzy
+msgid "You have no permission to modify these addresses."
+msgstr "U heeft geen toestemming om deze afdeling te verwijderen."
+
+#: src/sclixUserPlugin/class_scalixAccount.inc:273
+#: src/sclixUserPlugin/class_scalixAccount.inc:512
+#, fuzzy, php-format
+msgid "Cannot add mail address: it is already used by user '%s'."
+msgstr ""
+"Het adres dat u probeert toe te voegen wordt al gebruikt door gebruiker"
+
+#: src/sclixUserPlugin/class_scalixAccount.inc:364
+#, fuzzy
+msgid "Mail node"
+msgstr "E-mail"
+
+#: src/sclixUserPlugin/class_scalixAccount.inc:367
+#, fuzzy
+msgid "SCALIX object"
+msgstr "Lidmaatschap objecten"
+
+#: src/sclixUserPlugin/class_scalixAccount.inc:376
+#, fuzzy
+msgid "Email address"
+msgstr "E-mail adres"
+
+#: src/sclixUserPlugin/class_scalixAccount.inc:383
+#, fuzzy
+msgid "Limit Mailbox"
+msgstr "E-mail grootte"
+
+#: src/sclixUserPlugin/class_scalixAccount.inc:462
+msgid "My account"
+msgstr "Mijn account"
+
+#~ msgid "This does something"
+#~ msgstr "Dit doet iets"
+
+#, fuzzy
+#~ msgid "List of scalix email addresses"
+#~ msgstr "Lijst met alternatieve E-mail adressen"
+
+#, fuzzy
+#~ msgid "Scalix paste"
+#~ msgstr "Mijn account"
+
+#, fuzzy
+#~ msgid "Scalix email addresses"
+#~ msgstr "E-mail adres"
+
+#, fuzzy
+#~ msgid "Scalix account"
+#~ msgstr "Mijn account"
+
+#, fuzzy
+#~ msgid "Scalix settings"
+#~ msgstr "E-mail instellingen"
+
+#, fuzzy
+#~ msgid "Scalix server language"
+#~ msgstr "Het opslaan van de server is mislukt"
+
+#, fuzzy
+#~ msgid "Scalix Administrator"
+#~ msgstr "Beheerder"
+
+#, fuzzy
+#~ msgid "Scalix"
+#~ msgstr "Speciaal"
+
+#, fuzzy
+#~ msgid "This account has no scalix extensions."
+#~ msgstr "Dit account heeft geen Fax mogelijkheden."
+
+#, fuzzy
+#~ msgid "Remove scalix account"
+#~ msgstr "Verwijder POSIX account"
+
+#, fuzzy
+#~ msgid "Create scalix account"
+#~ msgstr "POSIX account aanmaken"
+
+#, fuzzy
+#~ msgid "Scalix object"
+#~ msgstr "Mijn account"
+
+#~ msgid "Click the 'Edit' button below to change informations in this dialog"
+#~ msgstr ""
+#~ "Gebruik de 'Bewerk' knop hieronder om de informatie in deze dialoog te "
+#~ "veranderen"
+
+#~ msgid "Add"
+#~ msgstr "Toevoegen"
+
+#~ msgid "Delete"
+#~ msgstr "Verwijderen"
+
+#~ msgid "Save"
+#~ msgstr "Opslaan"
+
+#~ msgid "Cancel"
+#~ msgstr "Annuleren"
+
+#~ msgid "Edit"
+#~ msgstr "Bewerken"
+
+#, fuzzy
+#~ msgid "There is no scalix mailnode specified."
+#~ msgstr "Er is geen E-mail server gespecificeerd."
+
+#, fuzzy
+#~ msgid "Value in 'Limit Mailbox size' is not valid."
+#~ msgstr "De waarde opgegeven bij 'Quota grootte' is niet geldig."

@@ -1,0 +1,128 @@
+# translation of admin.po to
+# translation of systems.po to
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# , 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: admin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:31+0200\n"
+"PO-Revision-Date: 2010-01-20 00:52+0100\n"
+"Last-Translator: \n"
+"Language-Team: Spanish <>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/netatalkPlugin/class_netatalk.inc:36
+#: src/netatalkPlugin/class_netatalk.inc:173
+#: src/netatalkPlugin/class_netatalk.inc:181
+#: src/netatalkPlugin/class_netatalk.inc:182
+#: src/netatalkPlugin/class_netatalk.inc:187
+#: src/netatalkPlugin/class_netatalk.inc:188
+#: src/netatalkPlugin/class_netatalk.inc:190
+#: src/netatalkPlugin/class_netatalk.inc:191
+#: src/netatalkPlugin/class_netatalk.inc:193
+#: src/netatalkPlugin/class_netatalk.inc:194
+#: src/netatalkPlugin/class_netatalk.inc:368
+msgid "Netatalk"
+msgstr "Netatalk"
+
+#: src/netatalkPlugin/class_netatalk.inc:37
+#, fuzzy
+msgid "Manage Netatalk account"
+msgstr "Administrar cuenta Netatalk"
+
+#: src/netatalkPlugin/class_netatalk.inc:188
+msgid "POSIX"
+msgstr "POSIX"
+
+#: src/netatalkPlugin/class_netatalk.inc:191
+#, fuzzy
+msgid "Netatalk or NFS share"
+msgstr "netatalk o compartido NFS"
+
+#: src/netatalkPlugin/class_netatalk.inc:224
+#: src/netatalkPlugin/class_netatalk.inc:380 src/netatalkPlugin/netatalk.tpl:4
+msgid "Share"
+msgstr "Recurso compartido"
+
+#: src/netatalkPlugin/class_netatalk.inc:288
+#: src/netatalkPlugin/class_netatalk.inc:353
+msgid "LDAP error"
+msgstr "Error LDAP"
+
+#: src/netatalkPlugin/class_netatalk.inc:372
+msgid "My account"
+msgstr "Mi cuenta"
+
+#: src/netatalkPlugin/class_netatalk.inc:379
+msgid "User home path"
+msgstr "Ruta del directorio del usuario"
+
+#: src/netatalkPlugin/netatalk.tpl:1
+#, fuzzy
+msgid "Netatalk configuration"
+msgstr "Configuración PHP"
+
+#: src/netatalkPlugin/netatalk.tpl:16
+msgid "Path"
+msgstr "Ruta"
+
+#~ msgid "netatalk"
+#~ msgstr "Netatalk"
+
+#~ msgid "Netatalk settings"
+#~ msgstr "Parámetros de Netatalk"
+
+#~ msgid "This account has no netatalk extensions."
+#~ msgstr "Esta cuenta no tiene extensión Netatalk"
+
+#~ msgid "Remove netatalk account"
+#~ msgstr "Eliminar cuenta Netatalk"
+
+#~ msgid ""
+#~ "This account has netatalk features enabled. You can disable them by "
+#~ "clicking below."
+#~ msgstr ""
+#~ "Esta cuenta tiene la extensión Netatalk activa. Puede desactivarla "
+#~ "pulsando a continuación."
+
+#~ msgid "Create netatalk account"
+#~ msgstr "Crear cuenta Netatalk"
+
+#~ msgid ""
+#~ "This account has netatalk features disabled. You can enable them by "
+#~ "clicking below."
+#~ msgstr ""
+#~ "Esta cuenta tiene la extensión Netatalk desactivada. Puede activarla "
+#~ "pulsando aqui."
+
+#~ msgid "You must select a share to use."
+#~ msgstr "Debe seleccionar la carpeta compartida que desea usar"
+
+#~ msgid "Saving of user/netatalk account with dn '%s' failed."
+#~ msgstr ""
+#~ "Ha fallado la grabación de la cuenta de usuario/Netatalk con dn '%s'."
+
+#~ msgid "Removing of user/netatalk account with dn '%s' failed."
+#~ msgstr ""
+#~ "Ha fallado la eliminación de la cuenta de usuario/Netatalk con dn '%s'."
+
+#~ msgid "Ok"
+#~ msgstr "Ok"
+
+#~ msgid "Cancel"
+#~ msgstr "Cancelar"
+
+#~ msgid "Click the 'Edit' button below to change informations in this dialog"
+#~ msgstr ""
+#~ "Pulse en el botón - Editar - para cambiar la información en esta ventana"
+
+#~ msgid "Edit"
+#~ msgstr "Editar"

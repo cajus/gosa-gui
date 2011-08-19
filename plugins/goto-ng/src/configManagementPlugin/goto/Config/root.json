@@ -1,0 +1,148 @@
+{
+    "root": {
+        "description": "root",
+        "name": "root",
+        "title": "root",
+        "items": {
+            "Distribution": {
+                "container": [
+                    "Release"
+                ],
+                "name": "Distribution",
+                "description": "Distribution",
+                "options": {
+                    "name": {
+                        "description": "Name",
+                        "syntax": "^[a-zA-Z0-9]*$",
+                        "default": "",
+                        "value": "",
+                        "required": true,
+                        "type": "string",
+                        "display": "Name",
+                        "initiallyEditableOnly": true
+                    },
+                    "origin": {
+                        "description": "Mirror Url",
+                        "default": "",
+                        "value": "",
+                        "required": false,
+                        "type": "string",
+                        "display": "Mirror Url",
+                        "initiallyEditableOnly": true
+                    },
+                    "installation_type": {
+                        "description": "Distribution type",
+                        "default": "deb",
+                        "value": "deb",
+                        "required": true,
+                        "type": "combobox",
+                        "display": "Distribution type",
+                        "values": "%INSTALLATION_TYPES",
+                        "initiallyEditableOnly": true
+                    },
+                    "installation_method": {
+                        "description": "Methode",
+                        "default": "puppet",
+                        "value": "puppet",
+                        "required": false,
+                        "type": "combobox",
+                        "display": "Installation method",
+                        "values": "%INSTALLATION_METHODS",
+                        "initiallyEditableOnly": true
+                    },
+                    "architectures": {
+                        "description": "Architecture",
+                        "default": "",
+                        "value": "",
+                        "required": false,
+                        "type": "list",
+                        "display": "Architecture"
+                    },
+                    "components": {
+                        "description": "Komponente",
+                        "default": "",
+                        "value": "",
+                        "required": false,
+                        "type": "list",
+                        "display": "Komponente"
+                    },
+                    "mirror_sources": {
+                        "description": "Mirror sources",
+                        "default": "",
+                        "value": "",
+                        "required": false,
+                        "type": "checkbox",
+                        "display": "Mirror sources"
+                    }
+                }
+            },
+            "Release": {
+                "container": "%ROOT_CFG_ITEMS",
+                "name": "Release",
+                "description": "Release",
+                "options": {
+                    "name": {
+                        "description": "Name",
+                        "default": "",
+                        "syntax": "^[a-zA-Z0-9\\-\\.]*$",
+                        "value": "",
+                        "required": true,
+                        "type": "string",
+                        "display": "Name"
+                    }
+                }
+            },
+            "root": {
+                "container": [
+                    "Distribution",
+                    "Template"
+                ],
+                "name": "\\/",
+                "description": "Wurzel"
+            },
+            "Template": {
+                "container": [],
+                "name": "Template",
+                "description": "Vorlage",
+                "options": {
+                    "name": {
+                        "description": "Name",
+                        "default": "",
+                        "value": "",
+                        "syntax": "^[a-zA-Z0-9\\-]*$",
+                        "required": true,
+                        "initiallyEditableOnly": true,
+                        "type": "string",
+                        "display": "Name"
+                    },
+                    "description": {
+                        "description": "Beschreibung",
+                        "default": "",
+                        "value": "",
+                        "required": true,
+                        "type": "string",
+                        "display": "Beschreibung"
+                    },
+                    "method": {
+                        "description": "Methode",
+                        "default": "",
+                        "value": "",
+                        "required": true,
+                        "type": "combobox",
+                        "display": "Method",
+                        "values": "%BASE_INSTALLATION_METHODS",
+                        "initiallyEditableOnly": true
+                    },
+                    "data": {
+                        "description": "Data",
+                        "default": "",
+                        "value": "",
+                        "required": true,
+                        "type": "text",
+                        "display": "Data"
+                    }
+                }
+            }
+        }
+    }
+}

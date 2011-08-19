@@ -1,0 +1,242 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:31+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/configManagementPlugin/TemplateEngine/TemplateWidget_textEditor.tpl:2
+msgid "The text is write protected due to its encoding. Editing may break it!"
+msgstr ""
+
+#: src/configManagementPlugin/TemplateEngine/TemplateWidget_textEditor.tpl:4
+msgid "Edit anyway"
+msgstr ""
+
+#: src/configManagementPlugin/TemplateEngine/TemplateWidget_textEditor.tpl:11
+msgid "Import text"
+msgstr ""
+
+#: src/configManagementPlugin/TemplateEngine/class_TemplateWidget_file.inc:37
+msgid "No file uploaded yet"
+msgstr ""
+
+#: src/configManagementPlugin/TemplateEngine/class_TemplateWidget_file.inc:46
+msgid "Upload"
+msgstr ""
+
+#: src/configManagementPlugin/TemplateEngine/class_TemplateWidget_file.inc:48
+msgid "File uploaded"
+msgstr ""
+
+#: src/configManagementPlugin/TemplateEngine/class_TemplateWidget_file.inc:48
+msgid "Bytes"
+msgstr ""
+
+#: src/configManagementPlugin/TemplateEngine/class_TemplateWidget_textEditor.inc:43
+#: src/configManagementPlugin/TemplateEngine/class_TemplateWidget_textEditor.inc:45
+#: src/configManagementPlugin/class_ConfigManagement.inc:280
+#: src/configManagementPlugin/class_ConfigManagement.inc:572
+#: src/configManagementPlugin/class_ConfigManagement.inc:586
+#: src/configManagementPlugin/class_ConfigManagement.inc:599
+#: src/configManagementPlugin/class_ConfigManagement.inc:612
+#: src/configManagementPlugin/class_ConfigManagement.inc:655
+#: src/configManagementPlugin/class_ConfigManagement.inc:668
+#: src/configManagementPlugin/class_ConfigManagement.inc:865
+#: src/configManagementPlugin/class_ConfigManagement.inc:882
+#: src/configManagementPlugin/class_ConfigManagement.inc:906
+#: src/configManagementPlugin/class_ConfigManagement.inc:933
+#: src/configManagementPlugin/class_ConfigManagement.inc:948
+#: src/configManagementPlugin/class_ConfigManagement.inc:995
+#: src/configManagementPlugin/class_ConfigManagement.inc:1011
+msgid "Error"
+msgstr ""
+
+#: src/configManagementPlugin/TemplateEngine/class_TemplateWidget_textEditor.inc:45
+msgid "file is empty"
+msgstr ""
+
+#: src/configManagementPlugin/TemplateEngine/class_TemplateWidget_textEditor.inc:70
+#, php-format
+msgid ""
+"The text encoding has changed from %s to %s. Do you really want to save?"
+msgstr ""
+
+#: src/configManagementPlugin/class_ConfigManagement.inc:8
+#: src/configManagementPlugin/class_ConfigManagement.inc:9
+#: src/configManagementPlugin/class_ConfigManagement.inc:498
+#: src/configManagementPlugin/class_ConfigManagement.inc:499
+#: src/configManagementPlugin/class_ConfigManagement.inc:505
+msgid "Config management"
+msgstr ""
+
+#: src/configManagementPlugin/class_ConfigManagement.inc:91
+msgid "No selectable install methods returned!"
+msgstr ""
+
+#: src/configManagementPlugin/class_ConfigManagement.inc:157
+#, php-format
+msgid "Failed to load templates: %s"
+msgstr ""
+
+#: src/configManagementPlugin/class_ConfigManagement.inc:170
+#: src/configManagementPlugin/class_ConfigManagement.inc:280
+#, php-format
+msgid "Failed to load distributions: %s"
+msgstr ""
+
+#: src/configManagementPlugin/class_ConfigManagement.inc:461
+msgid "Distribution"
+msgstr ""
+
+#: src/configManagementPlugin/class_ConfigManagement.inc:467
+msgid "Release"
+msgstr ""
+
+#: src/configManagementPlugin/class_ConfigManagement.inc:473
+msgid "Component"
+msgstr ""
+
+#: src/configManagementPlugin/class_ConfigManagement.inc:508
+msgid "Config item"
+msgstr ""
+
+#: src/configManagementPlugin/class_ConfigManagement.inc:546
+msgid "Permission error"
+msgstr ""
+
+#: src/configManagementPlugin/class_ConfigManagement.inc:572
+#, php-format
+msgid "Failed to remove: %s"
+msgstr ""
+
+#: src/configManagementPlugin/class_ConfigManagement.inc:586
+#, php-format
+msgid "Failed to remove the distribution: %s. Error was: %s"
+msgstr ""
+
+#: src/configManagementPlugin/class_ConfigManagement.inc:599
+#, php-format
+msgid "Failed to remove the release: %s. Error was: %s"
+msgstr ""
+
+#: src/configManagementPlugin/class_ConfigManagement.inc:612
+#, php-format
+msgid "Failed to remove the template: %s. Error was: %s"
+msgstr ""
+
+#: src/configManagementPlugin/class_ConfigManagement.inc:655
+#, php-format
+msgid "Failed to load config item details: %s"
+msgstr ""
+
+#: src/configManagementPlugin/class_ConfigManagement.inc:668
+#, php-format
+msgid "Failed to load template details: %s"
+msgstr ""
+
+#: src/configManagementPlugin/class_ConfigManagement.inc:830
+#: src/configManagementPlugin/DeviceConfig-list.xml:34
+msgid "Name"
+msgstr ""
+
+#: src/configManagementPlugin/class_ConfigManagement.inc:865
+#, php-format
+msgid "Failed to save distributions: %s"
+msgstr ""
+
+#: src/configManagementPlugin/class_ConfigManagement.inc:882
+#, php-format
+msgid "Failed to save distribution properties: %s"
+msgstr ""
+
+#: src/configManagementPlugin/class_ConfigManagement.inc:906
+#: src/configManagementPlugin/class_ConfigManagement.inc:933
+#, php-format
+msgid "Failed to save release: %s"
+msgstr ""
+
+#: src/configManagementPlugin/class_ConfigManagement.inc:948
+#, php-format
+msgid "Failed to save template: %s"
+msgstr ""
+
+#: src/configManagementPlugin/class_ConfigManagement.inc:995
+#, php-format
+msgid "Failed to save %s: %s"
+msgstr ""
+
+#: src/configManagementPlugin/class_ConfigManagement.inc:1011
+#, php-format
+msgid "Failed to save config item: %s"
+msgstr ""
+
+#: src/configManagementPlugin/DeviceConfig-list.xml:10
+msgid "List of items"
+msgstr ""
+
+#: src/configManagementPlugin/DeviceConfig-list.xml:42
+msgid "Description"
+msgstr ""
+
+#: src/configManagementPlugin/DeviceConfig-list.xml:50
+msgid "Actions"
+msgstr ""
+
+#: src/configManagementPlugin/DeviceConfig-list.xml:64
+msgid "Remove"
+msgstr ""
+
+#: src/configManagementPlugin/DeviceConfig-list.xml:75
+msgid "Edit item"
+msgstr ""
+
+#: src/configManagementPlugin/DeviceConfig-list.xml:83
+msgid "Remove item"
+msgstr ""
+
+#: src/configManagementPlugin/class_cfgMgmtListing.inc:16
+msgid "Root"
+msgstr ""
+
+#: src/configManagementPlugin/class_cfgMgmtListing.inc:17
+msgid "Go to preceding level"
+msgstr ""
+
+#: src/configManagementPlugin/class_cfgMgmtListing.inc:18
+msgid "Go to current users level"
+msgstr ""
+
+#: src/configManagementPlugin/class_cfgMgmtListing.inc:19
+msgid "Reload list"
+msgstr ""
+
+#: src/configManagementPlugin/DeviceConfig-filter.xml:14
+msgid "Default filter"
+msgstr ""
+
+#: src/configManagementPlugin/DeviceConfig-list.tpl:11
+msgid "Container"
+msgstr ""
+
+#: src/configManagementPlugin/rpcError.tpl:1
+msgid ""
+"Communication with backend failed, please check the rpc connection and try "
+"again!"
+msgstr ""
+
+#: src/configManagementPlugin/rpcError.tpl:8
+msgid "retry"
+msgstr ""

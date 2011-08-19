@@ -1,0 +1,68 @@
+# translation of messages.po to
+# Benoit Mortier <benoit.mortier@opensides.be>, 2005, 2006, 2007, 2008, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: messages\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:31+0200\n"
+"PO-Revision-Date: 2010-11-26 23:40+0100\n"
+"Last-Translator: Benoit Mortier <benoit.mortier@opensides.be>\n"
+"Language-Team:  <fr@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n > 1);\n"
+
+#: src/netatalkPlugin/class_netatalk.inc:36
+#: src/netatalkPlugin/class_netatalk.inc:173
+#: src/netatalkPlugin/class_netatalk.inc:181
+#: src/netatalkPlugin/class_netatalk.inc:182
+#: src/netatalkPlugin/class_netatalk.inc:187
+#: src/netatalkPlugin/class_netatalk.inc:188
+#: src/netatalkPlugin/class_netatalk.inc:190
+#: src/netatalkPlugin/class_netatalk.inc:191
+#: src/netatalkPlugin/class_netatalk.inc:193
+#: src/netatalkPlugin/class_netatalk.inc:194
+#: src/netatalkPlugin/class_netatalk.inc:368
+msgid "Netatalk"
+msgstr ""
+
+#: src/netatalkPlugin/class_netatalk.inc:37
+msgid "Manage Netatalk account"
+msgstr "Gèrer un compte Netatalk"
+
+#: src/netatalkPlugin/class_netatalk.inc:188
+msgid "POSIX"
+msgstr "UNIX"
+
+#: src/netatalkPlugin/class_netatalk.inc:191
+msgid "Netatalk or NFS share"
+msgstr "Partage netatalk ou NFS"
+
+#: src/netatalkPlugin/class_netatalk.inc:224
+#: src/netatalkPlugin/class_netatalk.inc:380 src/netatalkPlugin/netatalk.tpl:4
+msgid "Share"
+msgstr "Partage"
+
+#: src/netatalkPlugin/class_netatalk.inc:288
+#: src/netatalkPlugin/class_netatalk.inc:353
+msgid "LDAP error"
+msgstr "Erreur LDAP"
+
+#: src/netatalkPlugin/class_netatalk.inc:372
+msgid "My account"
+msgstr "Mon Compte"
+
+#: src/netatalkPlugin/class_netatalk.inc:379
+msgid "User home path"
+msgstr "Chemin du répertoire personnel"
+
+#: src/netatalkPlugin/netatalk.tpl:1
+msgid "Netatalk configuration"
+msgstr "Configuration de Netatalk"
+
+#: src/netatalkPlugin/netatalk.tpl:16
+msgid "Path"
+msgstr "Chemin"

@@ -1,0 +1,179 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GOsa plugins - pureftpd\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:31+0200\n"
+"PO-Revision-Date: 2010-03-12 18:02-0300\n"
+"Last-Translator: Marcos Amorim <marcosmamorim@gmail.com>\n"
+"Language-Team: Marcos Amorim <marcosmamorim@gmail.com> Clever de Oliveira "
+"<clever@dri.cefetmg.br>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+
+#: src/PureFTPdExtension/pureftpd.tpl:6
+msgid "FTP account"
+msgstr "Conta FTP"
+
+#: src/PureFTPdExtension/pureftpd.tpl:9
+#, fuzzy
+msgid "FTP configuration"
+msgstr "Configuração do PHP"
+
+#: src/PureFTPdExtension/pureftpd.tpl:16
+#, fuzzy
+msgid "Bandwith settings"
+msgstr "Configurações de email"
+
+#: src/PureFTPdExtension/pureftpd.tpl:20
+msgid "Bandwidth"
+msgstr "Banda"
+
+#: src/PureFTPdExtension/pureftpd.tpl:24
+#: src/PureFTPdExtension/class_pureftpdAccount.inc:192
+#: src/PureFTPdExtension/class_pureftpdAccount.inc:274
+msgid "Upload bandwidth"
+msgstr "Consumo banda de envio"
+
+#: src/PureFTPdExtension/pureftpd.tpl:30 src/PureFTPdExtension/pureftpd.tpl:40
+msgid "KB/s"
+msgstr ""
+
+#: src/PureFTPdExtension/pureftpd.tpl:34
+#: src/PureFTPdExtension/class_pureftpdAccount.inc:195
+#: src/PureFTPdExtension/class_pureftpdAccount.inc:275
+msgid "Download bandwidth"
+msgstr "Consumo de banda de recebimento"
+
+#: src/PureFTPdExtension/pureftpd.tpl:50
+#, fuzzy
+msgid "Quota settings"
+msgstr "Configurações de email"
+
+#: src/PureFTPdExtension/pureftpd.tpl:54
+msgid "Quota"
+msgstr "Cota"
+
+#: src/PureFTPdExtension/pureftpd.tpl:58
+msgid "Files"
+msgstr "Arquivos"
+
+#: src/PureFTPdExtension/pureftpd.tpl:67
+msgid "Size"
+msgstr "Tamanho"
+
+#: src/PureFTPdExtension/pureftpd.tpl:73
+msgid "MB"
+msgstr "MB"
+
+#: src/PureFTPdExtension/pureftpd.tpl:81
+#, fuzzy
+msgid "Ratio settings"
+msgstr "Configurações de email"
+
+#: src/PureFTPdExtension/pureftpd.tpl:85
+msgid "Ratio"
+msgstr "Taxa"
+
+#: src/PureFTPdExtension/pureftpd.tpl:89
+msgid "Uploaded / downloaded files"
+msgstr "Arquivos enviados / recebidos"
+
+#: src/PureFTPdExtension/pureftpd.tpl:105
+#: src/PureFTPdExtension/pureftpd.tpl:109
+msgid "Miscellaneous"
+msgstr "Diversos"
+
+#: src/PureFTPdExtension/pureftpd.tpl:115
+msgid "Check to disable FTP Access"
+msgstr "Desabilitar acesso FTP"
+
+#: src/PureFTPdExtension/pureftpd.tpl:117
+msgid "Temporary disable FTP access"
+msgstr "Desabilitar temporariamente o acesso FTP "
+
+#: src/PureFTPdExtension/class_pureftpdAccount.inc:6
+#: src/PureFTPdExtension/class_pureftpdAccount.inc:256
+msgid "FTP"
+msgstr "FTP"
+
+#: src/PureFTPdExtension/class_pureftpdAccount.inc:7
+#, fuzzy
+msgid "Manage FTP user settings"
+msgstr "Configurações gerais do usuário"
+
+#: src/PureFTPdExtension/class_pureftpdAccount.inc:140
+#: src/PureFTPdExtension/class_pureftpdAccount.inc:236
+msgid "LDAP error"
+msgstr "Erro LDAP"
+
+#: src/PureFTPdExtension/class_pureftpdAccount.inc:199
+msgid "Quota file"
+msgstr "Cota por arquivo"
+
+#: src/PureFTPdExtension/class_pureftpdAccount.inc:202
+msgid "Quota size"
+msgstr "Cota"
+
+#: src/PureFTPdExtension/class_pureftpdAccount.inc:205
+#: src/PureFTPdExtension/class_pureftpdAccount.inc:271
+msgid "Upload ratio"
+msgstr "Taxa de Upload!"
+
+#: src/PureFTPdExtension/class_pureftpdAccount.inc:208
+#: src/PureFTPdExtension/class_pureftpdAccount.inc:273
+msgid "Download ratio"
+msgstr "Taxa de Download"
+
+#: src/PureFTPdExtension/class_pureftpdAccount.inc:257
+#, fuzzy
+msgid "Pure-FTPd account"
+msgstr "Conta FTP"
+
+#: src/PureFTPdExtension/class_pureftpdAccount.inc:257
+#, fuzzy
+msgid "Connectivity add-on"
+msgstr "Addon conectividade"
+
+#: src/PureFTPdExtension/class_pureftpdAccount.inc:261
+msgid "My account"
+msgstr "Minha conta"
+
+#: src/PureFTPdExtension/class_pureftpdAccount.inc:270
+msgid "Quota files"
+msgstr "Cota por arquivos"
+
+#: src/PureFTPdExtension/class_pureftpdAccount.inc:272
+#, fuzzy
+msgid "Quota megabytes"
+msgstr "Cota MBytes"
+
+#: src/PureFTPdExtension/class_pureftpdAccount.inc:276
+msgid "Status"
+msgstr "Estatus"
+
+#~ msgid "This does something"
+#~ msgstr "Isto faz algo"
+
+#~ msgid "Ftp"
+#~ msgstr "Ftp"
+
+#~ msgid "Pure ftp account"
+#~ msgstr "Conta FTP"
+
+#~ msgid "Upload bandwith"
+#~ msgstr "Banda Upload"
+
+#~ msgid "Download bandwith"
+#~ msgstr "Banda Download"
+
+#~ msgid "kb/s"
+#~ msgstr "kb/s"

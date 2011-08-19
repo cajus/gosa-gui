@@ -1,0 +1,800 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: polski\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:31+0200\n"
+"PO-Revision-Date: 2010-04-30 21:26+0100\n"
+"Last-Translator: Piort Rybicki <meritus@innervision.pl>\n"
+"Language-Team: Piotr Rybicki <meritus@innervision.pl>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: POLAND\n"
+"X-Poedit-SourceCharset: iso-8859-2\n"
+"X-Poedit-Basepath: tedst\n"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:3 src/dhcpService/dhcp_host.tpl:7
+#: src/dhcpService/dhcp_service.tpl:2 src/dhcpService/dhcp_subnet.tpl:3
+#: src/dhcpService/dhcp_pool.tpl:3 src/dhcpService/dhcp_group.tpl:3
+msgid "Generic"
+msgstr "Ogólne"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:5
+#: src/dhcpService/dhcp_sharedNetwork.tpl:9
+#: src/dhcpService/dhcp_sharedNetwork.tpl:45
+#: src/dhcpService/dhcp_sharedNetwork.tpl:50
+#: src/dhcpService/dhcp_sharedNetwork.tpl:85
+#, fuzzy
+msgid "DHCP shared network"
+msgstr "Współdzielona sieć"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:11 src/dhcpService/dhcp_host.tpl:10
+#: src/dhcpService/class_dhcpSubnet.inc:147
+#: src/dhcpService/class_dhcpHost.inc:130
+#: src/dhcpService/class_dhcpHost.inc:138
+#: src/dhcpService/class_dhcpPool.inc:101
+#: src/dhcpService/class_dhcpPool.inc:109 src/dhcpService/dhcp_pool.tpl:7
+#: src/dhcpService/class_dhcpDnsZone.inc:162
+#: src/dhcpService/class_dhcpSubClass.inc:84
+#: src/dhcpService/class_dhcpSubClass.inc:87
+#: src/dhcpService/class_dhcpSubClass.inc:95 src/dhcpService/dhcp_group.tpl:7
+#: src/dhcpService/class_dhcpNetwork.inc:51
+#: src/dhcpService/class_dhcpGroup.inc:84
+#: src/dhcpService/class_dhcpGroup.inc:87
+#: src/dhcpService/class_dhcpGroup.inc:95
+#: src/dhcpService/class_dhcpSharedNetwork.inc:150
+#: src/dhcpService/class_dhcpSharedNetwork.inc:168
+#: src/dhcpService/class_dhcpClass.inc:84
+#: src/dhcpService/class_dhcpClass.inc:87
+#: src/dhcpService/class_dhcpClass.inc:95
+msgid "Name"
+msgstr "Nazwa"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:15
+msgid "Name for shared network"
+msgstr "Nazwa sieci współdzielonej"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:20
+msgid "Server identifier"
+msgstr "Identyfikator serwera"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:25
+msgid "Propagated server identifier for this shared network"
+msgstr ""
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:37
+msgid "Select if this server is authoritative for this shared network"
+msgstr ""
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:37
+msgid "Authoritative server"
+msgstr "Serwer autorytarny"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:48
+#, fuzzy
+msgid "Leases"
+msgstr "Wydania"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:52
+#: src/dhcpService/dhcp_sharedNetwork.tpl:57
+#: src/dhcpService/class_dhcpService.inc:132
+#: src/dhcpService/class_dhcpSharedNetwork.inc:154
+#, fuzzy
+msgid "Default lease time"
+msgstr "Wybierz nazwę wydania"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:57
+#: src/dhcpService/dhcp_sharedNetwork.tpl:66
+#: src/dhcpService/dhcp_sharedNetwork.tpl:75
+msgid "seconds"
+msgstr "sekund"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:62
+#: src/dhcpService/class_dhcpSharedNetwork.inc:155
+#, fuzzy
+msgid "Max. lease time"
+msgstr "Max rozmiar wiadomości"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:66
+#: src/dhcpService/class_dhcpService.inc:132
+#, fuzzy
+msgid "Maximum lease time"
+msgstr "Maksymalny rozmiar pliku"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:71
+#: src/dhcpService/class_dhcpSharedNetwork.inc:156
+msgid "Min. lease time"
+msgstr ""
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:75
+#, fuzzy
+msgid "Minimum lease time"
+msgstr "Maksymalny rozmiar pliku"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:84
+msgid "Access control"
+msgstr "Kontrola dostępu"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:90
+msgid "Select if unknown clients should get dynamic IP addresses"
+msgstr ""
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:90
+msgid "Allow unknown clients"
+msgstr "Zezwól na nieznanych klientów"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:98
+msgid "Select if BOOTP clients should get dynamic IP addresses"
+msgstr ""
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:98
+#, fuzzy
+msgid "Allow BOOTP clients"
+msgstr "Zezwól na nieznanych klientów"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:106
+#, fuzzy
+msgid "Select if clients are allowed to boot using this DHCP server"
+msgstr "Użytkownicy którzy mogą używać tej drukarki"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:106
+msgid "Allow booting"
+msgstr ""
+
+#: src/dhcpService/dhcp_host.tpl:3 src/dhcpService/dhcp_host.tpl:8
+#: src/dhcpService/dhcp_host.tpl:33
+#, fuzzy
+msgid "DHCP host configuration"
+msgstr "Konfiguracja ustawień PHP"
+
+#: src/dhcpService/dhcp_host.tpl:14
+msgid "Name of host"
+msgstr "Nazwa hosta"
+
+#: src/dhcpService/dhcp_host.tpl:19
+#, fuzzy
+msgid "Fixed address"
+msgstr "Adres email"
+
+#: src/dhcpService/dhcp_host.tpl:23
+msgid "Use host name or IP-address to assign fixed address"
+msgstr ""
+
+#: src/dhcpService/dhcp_host.tpl:31
+#, fuzzy
+msgid "Hardware"
+msgstr "Typ sprzętu"
+
+#: src/dhcpService/dhcp_host.tpl:35
+msgid "Hardware type"
+msgstr "Typ sprzętu"
+
+#: src/dhcpService/dhcp_host.tpl:45 src/dhcpService/class_dhcpHost.inc:147
+msgid "Hardware address"
+msgstr "Adres sprzętowy"
+
+#: src/dhcpService/class_dhcpSubnet.inc:136
+#: src/dhcpService/class_dhcpSubnet.inc:156 src/dhcpService/dhcp_subnet.tpl:10
+msgid "Network address"
+msgstr "Adres sieciowy"
+
+#: src/dhcpService/class_dhcpSubnet.inc:139
+#: src/dhcpService/class_dhcpSubnet.inc:155 src/dhcpService/dhcp_subnet.tpl:18
+#: src/dhcpService/dhcp_network.tpl:20
+#: src/dhcpService/class_dhcpNetwork.inc:200
+#, fuzzy
+msgid "Net mask"
+msgstr "Maska sieciowa"
+
+#: src/dhcpService/class_dhcpSubnet.inc:157
+#: src/dhcpService/class_dhcpSubnet.inc:158
+#: src/dhcpService/class_dhcpPool.inc:116
+#: src/dhcpService/class_dhcpPool.inc:120
+#: src/dhcpService/class_dhcpPool.inc:124 src/dhcpService/dhcp_pool.tpl:13
+msgid "Range"
+msgstr "Zasięg"
+
+#: src/dhcpService/class_dhcpSubnet.inc:167
+msgid "Network range"
+msgstr "Zasięg sieci"
+
+#: src/dhcpService/class_dhcpSubnet.inc:173
+#: src/dhcpService/class_dhcpPool.inc:138
+#, fuzzy
+msgid "'Range' is not inside the configured network."
+msgstr "Zamierzasz skopiować wpis '%s'."
+
+#: src/dhcpService/class_dhcpHost.inc:64
+msgid "Ethernet"
+msgstr "Ethernet"
+
+#: src/dhcpService/class_dhcpHost.inc:65
+msgid "FDDI"
+msgstr "FDDI"
+
+#: src/dhcpService/class_dhcpHost.inc:66
+msgid "Token Ring"
+msgstr "Token Ring"
+
+#: src/dhcpService/dhcp_tsigkey.tpl:2
+#: src/dhcpService/class_dhcpNewSectionDialog.inc:40
+#: src/dhcpService/class_servDHCP.inc:48
+msgid "DNS update key"
+msgstr ""
+
+#: src/dhcpService/dhcp_tsigkey.tpl:6
+#: src/dhcpService/class_dhcpTSigKey.inc:118
+#: src/dhcpService/class_dhcpTSigKey.inc:131
+#, fuzzy
+msgid "Key name"
+msgstr "Zmień nazwę"
+
+#: src/dhcpService/dhcp_tsigkey.tpl:9
+#, fuzzy
+msgid "Name of Key"
+msgstr "Nazwa hosta"
+
+#: src/dhcpService/dhcp_tsigkey.tpl:13
+msgid "Encryption method"
+msgstr ""
+
+#: src/dhcpService/dhcp_tsigkey.tpl:21
+#: src/dhcpService/class_dhcpTSigKey.inc:122
+msgid "Key"
+msgstr ""
+
+#: src/dhcpService/class_dhcpNewSectionDialog.inc:32
+#: src/dhcpService/class_servDHCP.inc:39
+#: src/dhcpService/class_servDHCP.inc:321
+#: src/dhcpService/class_servDHCP.inc:628
+msgid "Global options"
+msgstr "Opcje globalne"
+
+#: src/dhcpService/class_dhcpNewSectionDialog.inc:33
+#: src/dhcpService/class_servDHCP.inc:40
+msgid "Class"
+msgstr "Klasa"
+
+#: src/dhcpService/class_dhcpNewSectionDialog.inc:34
+#: src/dhcpService/class_servDHCP.inc:41
+msgid "Subclass"
+msgstr "Podklada"
+
+#: src/dhcpService/class_dhcpNewSectionDialog.inc:35
+#: src/dhcpService/class_servDHCP.inc:42
+msgid "Host"
+msgstr "Host"
+
+#: src/dhcpService/class_dhcpNewSectionDialog.inc:36
+#: src/dhcpService/class_servDHCP.inc:43
+msgid "Group"
+msgstr "Grupa"
+
+#: src/dhcpService/class_dhcpNewSectionDialog.inc:37
+#: src/dhcpService/class_servDHCP.inc:44
+msgid "Pool"
+msgstr "Zakres"
+
+#: src/dhcpService/class_dhcpNewSectionDialog.inc:38
+#: src/dhcpService/class_servDHCP.inc:45
+msgid "Subnet"
+msgstr "Podsieć"
+
+#: src/dhcpService/class_dhcpNewSectionDialog.inc:39
+#: src/dhcpService/class_servDHCP.inc:47
+msgid "Shared network"
+msgstr "Współdzielona sieć"
+
+#: src/dhcpService/class_dhcpNewSectionDialog.inc:41
+#: src/dhcpService/dhcp_dnszone.tpl:2 src/dhcpService/class_servDHCP.inc:49
+msgid "DNS update zone"
+msgstr ""
+
+#: src/dhcpService/dhcp_service.tpl:4 src/dhcpService/servdhcp.tpl:8
+#: src/dhcpService/class_servDHCP.inc:36
+#: src/dhcpService/class_servDHCP.inc:720
+#: src/dhcpService/class_servDHCP.inc:721
+#: src/dhcpService/class_servDHCP.inc:768
+msgid "DHCP service"
+msgstr "Usługa DHCP"
+
+#: src/dhcpService/dhcp_service.tpl:9
+msgid "Authoritative service"
+msgstr "Usługa autorytarna"
+
+#: src/dhcpService/dhcp_service.tpl:13
+msgid "Dynamic DNS update"
+msgstr ""
+
+#: src/dhcpService/dhcp_service.tpl:15
+msgid "Dynamic DNS update style"
+msgstr ""
+
+#: src/dhcpService/dhcp_service.tpl:22
+#, fuzzy
+msgid "DHCP settings"
+msgstr "Sekcje DHCP"
+
+#: src/dhcpService/dhcp_service.tpl:24
+msgid "Default lease time (s)"
+msgstr ""
+
+#: src/dhcpService/dhcp_service.tpl:28
+msgid "Enter default lease time in seconds."
+msgstr ""
+
+#: src/dhcpService/dhcp_service.tpl:33
+#, fuzzy
+msgid "Maximum lease time (s)"
+msgstr "Maksymalny rozmiar pliku"
+
+#: src/dhcpService/dhcp_service.tpl:37
+msgid "Enter maximum lease time in seconds."
+msgstr ""
+
+#: src/dhcpService/dhcp_advanced.tpl:6
+msgid "Hide advanced settings"
+msgstr "Ukryj ustawienia zaawansowane"
+
+#: src/dhcpService/dhcp_advanced.tpl:8
+#, fuzzy
+msgid "DHCP advanced settings"
+msgstr "Ukryj ustawienia zaawansowane"
+
+#: src/dhcpService/dhcp_advanced.tpl:11
+#, fuzzy
+msgid "DHCP statements"
+msgstr "Departamenty"
+
+#: src/dhcpService/dhcp_advanced.tpl:30
+msgid "DHCP options"
+msgstr "Opcje DHCP"
+
+#: src/dhcpService/dhcp_advanced.tpl:50
+msgid "Show advanced settings"
+msgstr "Pokaż ustawienia zaawansowane"
+
+#: src/dhcpService/dhcp_subnet.tpl:4 src/dhcpService/dhcp_subnet.tpl:8
+#: src/dhcpService/dhcp_subnet.tpl:29
+#, fuzzy
+msgid "DHCP subnet settings"
+msgstr "Sekcje DHCP"
+
+#: src/dhcpService/dhcp_subnet.tpl:37
+msgid "Range for dynamic address assignment"
+msgstr ""
+
+#: src/dhcpService/dhcp_network.tpl:3 src/dhcpService/dhcp_network.tpl:7
+#: src/dhcpService/dhcp_network.tpl:9 src/dhcpService/dhcp_network.tpl:42
+#: src/dhcpService/dhcp_network.tpl:68
+msgid "Network configuration"
+msgstr "Konfiguracja sieci"
+
+#: src/dhcpService/dhcp_network.tpl:11
+msgid "Router"
+msgstr "Router"
+
+#: src/dhcpService/dhcp_network.tpl:15
+msgid "Enter name or IP address of router to be used in this section"
+msgstr ""
+
+#: src/dhcpService/dhcp_network.tpl:28
+#: src/dhcpService/class_dhcpNetwork.inc:200
+#, fuzzy
+msgid "Broadcast address"
+msgstr "Adres pocztowy"
+
+#: src/dhcpService/dhcp_network.tpl:40
+#, fuzzy
+msgid "Boot up"
+msgstr "Bootup"
+
+#: src/dhcpService/dhcp_network.tpl:44
+msgid "Filename"
+msgstr "Nazwa pliku"
+
+#: src/dhcpService/dhcp_network.tpl:48
+msgid ""
+"Enter name of file that will be loaded via TFTP after client has started"
+msgstr ""
+
+#: src/dhcpService/dhcp_network.tpl:53
+msgid "Next server"
+msgstr "Następny serwer"
+
+#: src/dhcpService/dhcp_network.tpl:57
+msgid "Enter name of server to retrieve boot images from"
+msgstr ""
+
+#: src/dhcpService/dhcp_network.tpl:66
+msgid "Domain Name Service"
+msgstr "DNS"
+
+#: src/dhcpService/dhcp_network.tpl:70
+msgid "Domain"
+msgstr "Domena"
+
+#: src/dhcpService/dhcp_network.tpl:73
+msgid "Name of domain"
+msgstr "Nazwa domeny"
+
+#: src/dhcpService/dhcp_network.tpl:79
+#: src/dhcpService/class_dhcpDnsZone.inc:149
+#: src/dhcpService/dhcp_dnszone.tpl:13
+msgid "DNS server"
+msgstr "Serwer DNS"
+
+#: src/dhcpService/dhcp_network.tpl:82
+msgid "List of DNS servers to be propagated"
+msgstr ""
+
+#: src/dhcpService/dhcp_network.tpl:89
+msgid "DNS server do be added"
+msgstr "Serwer DNS do dodania"
+
+#: src/dhcpService/dhcp_network.tpl:92
+msgid "Click here add the selected server to the list"
+msgstr ""
+
+#: src/dhcpService/dhcp_network.tpl:97
+msgid "Click here remove the selected servers from the list"
+msgstr ""
+
+#: src/dhcpService/dhcp_network.tpl:102
+msgid "Domain Name Service options"
+msgstr "Opcje DNS"
+
+#: src/dhcpService/dhcp_network.tpl:104
+msgid "Assign host names found via reverse mapping"
+msgstr ""
+
+#: src/dhcpService/dhcp_network.tpl:108
+msgid "Assign host names from host declarations"
+msgstr ""
+
+#: src/dhcpService/dhcp_pool.tpl:4
+#, fuzzy
+msgid "DHCP pool settings"
+msgstr "Sekcje DHCP"
+
+#: src/dhcpService/dhcp_pool.tpl:10
+msgid "Name of pool"
+msgstr "Nazwa zakresu"
+
+#: src/dhcpService/class_dhcpDnsZone.inc:145
+#: src/dhcpService/dhcp_dnszone.tpl:6
+msgid "DNS zone"
+msgstr ""
+
+#: src/dhcpService/class_dhcpDnsZone.inc:153
+#: src/dhcpService/dhcp_dnszone.tpl:21
+msgid "Key DN"
+msgstr ""
+
+#: src/dhcpService/class_dhcpService.inc:126
+#, fuzzy
+msgid "Lease time"
+msgstr "Max rozmiar wiadomości"
+
+#: src/dhcpService/class_dhcpService.inc:129
+#, fuzzy
+msgid "Max lease time"
+msgstr "Max rozmiar wiadomości"
+
+#: src/dhcpService/dhcpNewSection.tpl:2
+msgid "Create new DHCP section"
+msgstr "Utwórz nową sekcję DHCP"
+
+#: src/dhcpService/dhcpNewSection.tpl:6
+msgid "Please choose one of the following DHCP section types."
+msgstr "Proszę wybrać jeden z następujących typów sekcji DHCP"
+
+#: src/dhcpService/dhcpNewSection.tpl:9
+msgid "Section"
+msgstr "Sekcja"
+
+#: src/dhcpService/dhcpNewSection.tpl:11
+msgid "Choose section type to create"
+msgstr "Wybierz typ sekcji do utworzenia"
+
+#: src/dhcpService/dhcpNewSection.tpl:18
+msgid "Create"
+msgstr "Utwórz"
+
+#: src/dhcpService/dhcp_group.tpl:5
+#, fuzzy
+msgid "DHCP group settings"
+msgstr "Ustawienia grupy"
+
+#: src/dhcpService/dhcp_group.tpl:10
+msgid "Name of group"
+msgstr "Nazwa grupy"
+
+#: src/dhcpService/servdhcp.tpl:4
+msgid ""
+"DHCP take over will take place when saving this entry. Choose 'Cancel' to "
+"abort."
+msgstr ""
+
+#: src/dhcpService/servdhcp.tpl:13
+msgid "Take over DHCP configuration from following server"
+msgstr ""
+
+#: src/dhcpService/servdhcp.tpl:24
+msgid "DHCP sections"
+msgstr "Sekcje DHCP"
+
+#: src/dhcpService/class_dhcpNetwork.inc:51
+#: src/dhcpService/class_dhcpAdvanced.inc:65
+#: src/dhcpService/class_dhcpAdvanced.inc:79
+#: src/dhcpService/class_servDHCP.inc:709
+msgid "Error"
+msgstr "Błąd"
+
+#: src/dhcpService/class_dhcpNetwork.inc:205
+#, php-format
+msgid "Error in definition of '%s'!"
+msgstr "Błąd w definicji '%s'!"
+
+#: src/dhcpService/class_dhcpTSigKey.inc:51
+msgid "HMAC-MD5"
+msgstr ""
+
+#: src/dhcpService/class_dhcpTSigKey.inc:52
+msgid "RSAMD5"
+msgstr ""
+
+#: src/dhcpService/class_dhcpTSigKey.inc:53
+msgid "RSASHA1"
+msgstr ""
+
+#: src/dhcpService/class_dhcpTSigKey.inc:54
+msgid "DSA"
+msgstr ""
+
+#: src/dhcpService/class_dhcpTSigKey.inc:55
+msgid "DH"
+msgstr ""
+
+#: src/dhcpService/remove_dhcp.tpl:3 src/dhcpService/class_servDHCP.inc:123
+msgid "Warning"
+msgstr "Ostrzeżenie"
+
+#: src/dhcpService/remove_dhcp.tpl:6
+#, fuzzy
+msgid ""
+"This includes 'all' DHCP subsections that are located within this section. "
+"Please double check if your really want to do this since there is no way for "
+"GOsa to get your data back."
+msgstr ""
+"Operacja odnosi się do 'wszystkich' informacji obiektowych. Proszę upewnić "
+"się, czy na pewno wykonać tą operację, gdyż nie ma możliwości powrotu."
+
+#: src/dhcpService/remove_dhcp.tpl:8
+msgid ""
+"Best thing to do before performing this action would be to save the current "
+"contents of your LDAP tree in a file. So - if you've done so - press "
+"'Delete' to continue or 'Cancel' to abort."
+msgstr ""
+"Przed wykonaniem tej operacji zaleca się wykonanie kopii bezpieczeństwa "
+"drzewa LDAP. Naciśnij 'Usuń' aby kontynuować, lub 'Anuluj' aby przerwać."
+
+#: src/dhcpService/class_dhcpAdvanced.inc:65
+#: src/dhcpService/class_dhcpAdvanced.inc:79
+#, fuzzy
+msgid "Cannot delete automatic statements!"
+msgstr "Nie można otworzyć pliku '%s'."
+
+#: src/dhcpService/class_dhcpAdvanced.inc:95
+#: src/dhcpService/class_dhcpAdvanced.inc:110
+msgid "automatic"
+msgstr "automatyczne"
+
+#: src/dhcpService/class_servDHCP.inc:38
+msgid "Logging"
+msgstr "Logowanie"
+
+#: src/dhcpService/class_servDHCP.inc:46
+#, fuzzy
+msgid "Fail-over peer"
+msgstr "Wzorce pliku"
+
+#: src/dhcpService/class_servDHCP.inc:70
+msgid "Type"
+msgstr "Typ"
+
+#: src/dhcpService/class_servDHCP.inc:70
+#, fuzzy
+msgid "Option"
+msgstr "Opcje"
+
+#: src/dhcpService/class_servDHCP.inc:70
+msgid "Address"
+msgstr "Adres"
+
+#: src/dhcpService/class_servDHCP.inc:118
+#, php-format
+msgid ""
+"You have requested a migration of the DHCP setup from server '%s' to the "
+"current one."
+msgstr "Zamierzasz zmigrować ustawienia DHCP z serwera '%s' do bierzącego."
+
+#: src/dhcpService/class_servDHCP.inc:120
+msgid "The migration will be started when you save this system."
+msgstr ""
+
+#: src/dhcpService/class_servDHCP.inc:237
+msgid "Permission error"
+msgstr "Błąd uprawnień"
+
+#: src/dhcpService/class_servDHCP.inc:274
+msgid "DHCP section"
+msgstr "Sekcja DHCP"
+
+#: src/dhcpService/class_servDHCP.inc:338
+#: src/dhcpService/class_servDHCP.inc:342
+msgid "Insert new DHCP section"
+msgstr "Wstaw nową sekcję DHCP"
+
+#: src/dhcpService/class_servDHCP.inc:339
+#: src/dhcpService/class_servDHCP.inc:343
+#: src/dhcpService/class_servDHCP.inc:345
+msgid "Edit DHCP section"
+msgstr "Edytuj sekcję DHCP"
+
+#: src/dhcpService/class_servDHCP.inc:340
+#: src/dhcpService/class_servDHCP.inc:346
+msgid "Remove DHCP section"
+msgstr "Usuń sekcję DHCP"
+
+#: src/dhcpService/class_servDHCP.inc:402
+#: src/dhcpService/class_servDHCP.inc:419
+#: src/dhcpService/class_servDHCP.inc:474
+#: src/dhcpService/class_servDHCP.inc:550
+#: src/dhcpService/class_servDHCP.inc:558
+#: src/dhcpService/class_servDHCP.inc:585
+msgid "LDAP error"
+msgstr "błąd LDAP"
+
+#: src/dhcpService/class_servDHCP.inc:709
+#, fuzzy
+msgid ""
+"The DHCP configuration set is unknown. Please contact your system "
+"administrator."
+msgstr "Konto zablokowane. Proszę skontaktować się z administratorem systemu."
+
+#: src/dhcpService/class_servDHCP.inc:721
+msgid "Services"
+msgstr "Usługi"
+
+#: src/dhcpService/class_servDHCP.inc:729
+#, fuzzy
+msgid "DHCP entries"
+msgstr "Usługa DHCP"
+
+#: src/dhcpService/class_servDHCP.inc:730
+msgid "Start service"
+msgstr "Uruchom usługę"
+
+#: src/dhcpService/class_servDHCP.inc:731
+msgid "Stop service"
+msgstr "Zatrzymaj usługę"
+
+#: src/dhcpService/class_servDHCP.inc:732
+msgid "Restart service"
+msgstr "Restart usługi"
+
+#~ msgid "Broadcast"
+#~ msgstr "Broadcast"
+
+#, fuzzy
+#~ msgid "Service start"
+#~ msgstr "Usługi"
+
+#, fuzzy
+#~ msgid "Service stop"
+#~ msgstr "Usługi"
+
+#, fuzzy
+#~ msgid "Service restart"
+#~ msgstr "Szukaj wewnątrz tego poddrzewa"
+
+#, fuzzy
+#~ msgid "May lease time"
+#~ msgstr "Max rozmiar wiadomości"
+
+#~ msgid "Save"
+#~ msgstr "Zapisz"
+
+#~ msgid "Cancel"
+#~ msgstr "Anuluj"
+
+#~ msgid "Required field 'Name' is not filled."
+#~ msgstr "Wymagane pole 'Nazwa' nie jest wypełnione."
+
+#, fuzzy
+#~ msgid "The value specified as '%s' is not numeric!"
+#~ msgstr "Wartość podana jako '%s' zawiera niedozwolone znaki!"
+
+#, fuzzy
+#~ msgid "The name for this host section is already used!"
+#~ msgstr "Zmiana nazwy nieudana, ta nazwa typu systemu jest już w użyciu."
+
+#~ msgid "Delete"
+#~ msgstr "Usuń"
+
+#, fuzzy
+#~ msgid "The name for this section is already used!"
+#~ msgstr "Zmiana nazwy nieudana, ta nazwa typu systemu jest już w użyciu."
+
+#, fuzzy
+#~ msgid "Required field 'Range' is not filled."
+#~ msgstr "Wymagane pole 'Nazwa' nie jest wypełnione."
+
+#, fuzzy
+#~ msgid "Field 'Range' contains invalid IP addresses."
+#~ msgstr "Pole 'Nazwa' zawiera niedozwolone znaki."
+
+#, fuzzy
+#~ msgid "Field 'Range' contains invalid IP range."
+#~ msgstr "Pole 'Nazwa' zawiera niedozwolone znaki."
+
+#~ msgid "Add"
+#~ msgstr "Dodaj"
+
+#~ msgid "Apply"
+#~ msgstr "Zastosuj"
+
+#, fuzzy
+#~ msgid "Required field 'Network address' is not filled."
+#~ msgstr "Wymagane pole 'Nazwa' nie jest wypełnione."
+
+#, fuzzy
+#~ msgid "Required field 'Netmask' is not filled."
+#~ msgstr "Wymagane pole 'Nazwa' nie jest wypełnione."
+
+#, fuzzy
+#~ msgid "The field '%s' contains an invalid IP address"
+#~ msgstr "Pole adres IP zawiera nieprawidłowy adres."
+
+#, fuzzy
+#~ msgid "Field 'Name' contains illegal characters."
+#~ msgstr "Pole 'Nazwa' zawiera niedozwolone znaki."
+
+#, fuzzy
+#~ msgid "The hardware address specified by you is not valid!"
+#~ msgstr "Wartość podana jako 'Proporcja' jest nieprawidłowa."
+
+#, fuzzy
+#~ msgid "Default lease time needs to be numeric."
+#~ msgstr "Port sieve musi być liczbą."
+
+#, fuzzy
+#~ msgid "Maximum lease time needs to be numeric."
+#~ msgstr "Port sieve musi być liczbą."
+
+#, fuzzy
+#~ msgid "You have no permission to remove DHCP sections!"
+#~ msgstr "Brak uprawnień do usunięcia tego użytkownika!"
+
+#, fuzzy
+#~ msgid "You're about to delete the DHCP section '%s'."
+#~ msgstr "Zamierzasz usunąć aplikację '%s'."
+
+#, fuzzy
+#~ msgid "Removing DHCP entries failed"
+#~ msgstr "Usuwanie wpisów DNS nieudane"
+
+#, fuzzy
+#~ msgid "Can't remove DHCP object!"
+#~ msgstr "Usuń obiekt"
+
+#, fuzzy
+#~ msgid "Can't save DHCP object!"
+#~ msgstr "Nie można zapisać pliku '%s'."
+
+#, fuzzy
+#~ msgid "Saving DHCP service failed"
+#~ msgstr "Zapisywanie serwera nieudane"

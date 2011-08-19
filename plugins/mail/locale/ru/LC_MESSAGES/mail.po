@@ -1,0 +1,3100 @@
+# Translation of messages.po to Russian
+# Valia V. Vaneeva <fattie@altlinux.ru>, 2004.
+# $Id: messages.po,v 1.61 2005/04/18 10:37:13 migor-guest Exp $
+msgid ""
+msgstr ""
+"Project-Id-Version: messages\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:31+0200\n"
+"PO-Revision-Date: 2005-04-18 14:35+0300\n"
+"Last-Translator: Igor Muratov <migor@altlinux.org>\n"
+"Language-Team: ALT Linux Team\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: poEdit 1.3.1\n"
+
+#: src/mailQueuePlugin/class_mailqueue.inc:6
+#: src/mailQueuePlugin/class_mailqueue.inc:337
+#: src/mailQueuePlugin/contents.tpl:4
+#, fuzzy
+msgid "Mail queue"
+msgstr "Сервер"
+
+#: src/mailQueuePlugin/class_mailqueue.inc:7
+msgid "View and control the mailservers mail processing queue"
+msgstr ""
+
+#: src/mailQueuePlugin/class_mailqueue.inc:116
+#: src/mailQueuePlugin/class_mailqueue.inc:150
+#: src/mailQueuePlugin/class_mailqueue.inc:156
+#: src/groupMailExtension/class_groupMail.inc:354
+#: src/groupMailExtension/class_groupMail.inc:378
+#: src/groupMailExtension/class_groupMail.inc:384
+#: src/groupMailExtension/class_groupMail.inc:410
+#: src/groupMailExtension/class_groupMail.inc:416
+#: src/groupMailExtension/class_groupMail.inc:430
+#: src/spamService/class_goSpamServer.inc:152
+#: src/spamService/class_goSpamServer.inc:215
+#: src/mailExtension/class_mailAccount.inc:325
+#: src/mailExtension/class_mailAccount.inc:349
+#: src/mailExtension/class_mailAccount.inc:355
+#: src/mailExtension/class_mailAccount.inc:385
+#: src/mailExtension/class_mailAccount.inc:390
+#: src/mailExtension/class_mailAccount.inc:403
+#: src/sieveEditorPlugin/class_My_Tree.inc:660
+#: src/sieveEditorPlugin/class_sieveManagement.inc:221
+#: src/sieveEditorPlugin/class_sieveManagement.inc:226
+#: src/sieveEditorPlugin/class_sieveManagement.inc:232
+#: src/sieveEditorPlugin/class_sieveManagement.inc:238
+#: src/sieveEditorPlugin/class_sieveManagement.inc:448
+msgid "Error"
+msgstr ""
+
+#: src/mailQueuePlugin/class_mailqueue.inc:211
+msgid "up"
+msgstr ""
+
+#: src/mailQueuePlugin/class_mailqueue.inc:213
+#, fuzzy
+msgid "down"
+msgstr "Домен"
+
+#: src/mailQueuePlugin/class_mailqueue.inc:224
+#: src/mailQueuePlugin/class_mailqueue.inc:324
+msgid "All"
+msgstr "Все"
+
+#: src/mailQueuePlugin/class_mailqueue.inc:268
+msgid "no limit"
+msgstr ""
+
+#: src/mailQueuePlugin/class_mailqueue.inc:271
+msgid "hour"
+msgstr "час"
+
+#: src/mailQueuePlugin/class_mailqueue.inc:273
+#, fuzzy
+msgid "hours"
+msgstr "час"
+
+#: src/mailQueuePlugin/class_mailqueue.inc:325
+msgid "Hold"
+msgstr ""
+
+#: src/mailQueuePlugin/class_mailqueue.inc:326
+#, fuzzy
+msgid "Release"
+msgstr "Роль"
+
+#: src/mailQueuePlugin/class_mailqueue.inc:327
+#, fuzzy
+msgid "Active"
+msgstr "Личный"
+
+#: src/mailQueuePlugin/class_mailqueue.inc:328
+#, fuzzy
+msgid "Not active"
+msgstr "Личный"
+
+#: src/mailQueuePlugin/class_mailqueue.inc:338
+#: src/mailQueuePlugin/class_mailqueue.inc:343
+#, fuzzy
+msgid "Mail queue add-on"
+msgstr "Сервер"
+
+#: src/mailQueuePlugin/class_mailqueue.inc:346
+#: src/mailQueuePlugin/contents.tpl:40
+msgid "Release all messages"
+msgstr ""
+
+#: src/mailQueuePlugin/class_mailqueue.inc:347
+#: src/mailQueuePlugin/contents.tpl:35
+#, fuzzy
+msgid "Hold all messages"
+msgstr "Перенаправлять сообщения"
+
+#: src/mailQueuePlugin/class_mailqueue.inc:348
+#, fuzzy
+msgid "Delete all messages"
+msgstr "Удалить"
+
+#: src/mailQueuePlugin/class_mailqueue.inc:349
+#: src/mailQueuePlugin/contents.tpl:45
+#, fuzzy
+msgid "Re-queue all messages"
+msgstr "Сообщение о состоянии"
+
+#: src/mailQueuePlugin/class_mailqueue.inc:350
+#: src/mailQueuePlugin/contents.tpl:118
+#, fuzzy
+msgid "Release message"
+msgstr "Сообщение о состоянии"
+
+#: src/mailQueuePlugin/class_mailqueue.inc:351
+#: src/mailQueuePlugin/contents.tpl:125
+#, fuzzy
+msgid "Hold message"
+msgstr "Домашняя страница"
+
+#: src/mailQueuePlugin/class_mailqueue.inc:352
+#, fuzzy
+msgid "Delete message"
+msgstr "Удалить"
+
+#: src/mailQueuePlugin/class_mailqueue.inc:353
+#, fuzzy
+msgid "Re-queue message"
+msgstr "Сообщение о состоянии"
+
+#: src/mailQueuePlugin/class_mailqueue.inc:354
+msgid "Gathering queue data"
+msgstr ""
+
+#: src/mailQueuePlugin/class_mailqueue.inc:355
+#, fuzzy
+msgid "Get header information"
+msgstr "Общая информация о пользователе"
+
+#: src/mailQueuePlugin/contents.tpl:7
+#: src/mailService/class_goMailServer.inc:199
+#: src/mailService/class_goMailServer.inc:208
+#, fuzzy
+msgid "Filter"
+msgstr "Фильтры"
+
+#: src/mailQueuePlugin/contents.tpl:9
+#, fuzzy
+msgid "Search on"
+msgstr "Поиск"
+
+#: src/mailQueuePlugin/contents.tpl:10
+#, fuzzy
+msgid "Select a server"
+msgstr "Выберите, чтобы просмотреть серверы"
+
+#: src/mailQueuePlugin/contents.tpl:14
+msgid "Search for"
+msgstr "Поиск"
+
+#: src/mailQueuePlugin/contents.tpl:16
+msgid "Enter user name to search for"
+msgstr ""
+
+#: src/mailQueuePlugin/contents.tpl:19
+msgid "within the last"
+msgstr ""
+
+#: src/mailQueuePlugin/contents.tpl:25
+msgid "Search"
+msgstr "Поиск"
+
+#: src/mailQueuePlugin/contents.tpl:30
+msgid "Remove all messages"
+msgstr ""
+
+#: src/mailQueuePlugin/contents.tpl:31
+msgid "Remove all messages from selected servers queue"
+msgstr ""
+
+#: src/mailQueuePlugin/contents.tpl:36
+msgid "Hold all messages in selected servers queue"
+msgstr ""
+
+#: src/mailQueuePlugin/contents.tpl:41
+msgid "Release all messages in selected servers queue"
+msgstr ""
+
+#: src/mailQueuePlugin/contents.tpl:46
+msgid "Re-queue all messages in selected servers queue"
+msgstr ""
+
+#: src/mailQueuePlugin/contents.tpl:64
+#, fuzzy
+msgid "Search returned no results"
+msgstr "Не найдено..."
+
+#: src/mailQueuePlugin/contents.tpl:69
+#, fuzzy
+msgid "Phone reports"
+msgstr "Показать пользователей с прокси-серверами"
+
+#: src/mailQueuePlugin/contents.tpl:76
+#, fuzzy
+msgid "ID"
+msgstr "UID"
+
+#: src/mailQueuePlugin/contents.tpl:77 src/groupMailExtension/mail.tpl:37
+#: src/mailExtension/generic.tpl:31
+msgid "Server"
+msgstr "Сервер"
+
+#: src/mailQueuePlugin/contents.tpl:78
+#: src/sieveEditorPlugin/templates/element_size.tpl:4
+#: src/sieveEditorPlugin/class_sieveManagement.inc:610
+msgid "Size"
+msgstr "Размер"
+
+#: src/mailQueuePlugin/contents.tpl:79
+#, fuzzy
+msgid "Arrival"
+msgstr "Апрель"
+
+#: src/mailQueuePlugin/contents.tpl:80
+msgid "Sender"
+msgstr "Отправитель"
+
+#: src/mailQueuePlugin/contents.tpl:81
+#, fuzzy
+msgid "Recipient"
+msgstr "Описание"
+
+#: src/mailQueuePlugin/contents.tpl:82
+#: src/sieveEditorPlugin/class_sieveManagement.inc:83
+msgid "Status"
+msgstr "Состояние"
+
+#: src/mailQueuePlugin/contents.tpl:110
+#, fuzzy
+msgid "Delete this message"
+msgstr "Удалить"
+
+#: src/mailQueuePlugin/contents.tpl:133
+#, fuzzy
+msgid "Re-queue this message"
+msgstr "Сообщение о состоянии"
+
+#: src/mailQueuePlugin/contents.tpl:140
+#, fuzzy
+msgid "Display header of this message"
+msgstr "Показать совпадения номеров"
+
+#: src/mailQueuePlugin/contents.tpl:159
+#, fuzzy
+msgid "Page selector"
+msgstr "Настройки Samba"
+
+#: src/groupMailExtension/mail.tpl:1 src/groupMailExtension/paste_mail.tpl:1
+#: src/mailService/goMailServer.tpl:3 src/mailExtension/copypaste.tpl:1
+#: src/mailExtension/class_mailAccount.inc:1449
+#: src/mailExtension/generic.tpl:1 src/ogroupMailExtension/mail.tpl:2
+#, fuzzy
+msgid "Mail settings"
+msgstr "Почтовые настройки пользователя"
+
+#: src/groupMailExtension/mail.tpl:6 src/mailService/goMailServer.tpl:1
+#: src/mailExtension/generic.tpl:5 src/imapService/goImapServer.tpl:1
+msgid "Generic"
+msgstr "Общее"
+
+#: src/groupMailExtension/mail.tpl:7
+#, fuzzy
+msgid "Address and mail server settings"
+msgstr "Администрирование"
+
+#: src/groupMailExtension/mail.tpl:9
+#: src/groupMailExtension/class_groupMail.inc:863
+#: src/groupMailExtension/paste_mail.tpl:9 src/mailExtension/copypaste.tpl:6
+#: src/mailExtension/class_mailAccount.inc:1028
+#: src/mailExtension/generic.tpl:10 src/ogroupMailExtension/mail.tpl:12
+msgid "Primary address"
+msgstr "Основной адрес"
+
+#: src/groupMailExtension/mail.tpl:44 src/mailExtension/generic.tpl:38
+msgid "Specify the mail server where the user will be hosted on"
+msgstr "Выберите почтовый сервер для учетной записи пользователя"
+
+#: src/groupMailExtension/mail.tpl:58 src/mailExtension/generic.tpl:54
+msgid "Quota usage"
+msgstr "Использование квоты"
+
+#: src/groupMailExtension/mail.tpl:62
+#: src/groupMailExtension/class_groupMail.inc:872
+#: src/groupMailExtension/class_groupMail.inc:1007
+#: src/mailExtension/class_mailAccount.inc:1062
+#: src/mailExtension/class_mailAccount.inc:1288
+#: src/mailExtension/class_mailAccount.inc:1490
+#: src/mailExtension/generic.tpl:58
+msgid "Quota size"
+msgstr "Размер квоты"
+
+#: src/groupMailExtension/mail.tpl:75
+#: src/groupMailExtension/class_groupMail.inc:1009
+#, fuzzy
+msgid "Folder type"
+msgstr "Фильтр"
+
+#: src/groupMailExtension/mail.tpl:106
+#: src/groupMailExtension/paste_mail.tpl:26 src/mailExtension/copypaste.tpl:41
+#: src/mailExtension/generic.tpl:76
+#, fuzzy
+msgid "Alternative addresses"
+msgstr "Альтернативные адреса"
+
+#: src/groupMailExtension/mail.tpl:111
+#: src/groupMailExtension/paste_mail.tpl:27 src/mailExtension/copypaste.tpl:43
+#: src/mailExtension/generic.tpl:79
+msgid "List of alternative mail addresses"
+msgstr "Список альтернативных адресов эл. почты"
+
+#: src/groupMailExtension/mail.tpl:138
+#, fuzzy
+msgid "Mail folder configuration"
+msgstr "Системная информация"
+
+#: src/groupMailExtension/mail.tpl:144
+msgid "IMAP shared folders"
+msgstr "Общие папки IMAP"
+
+#: src/groupMailExtension/mail.tpl:147
+#, fuzzy
+msgid "Folder permissions"
+msgstr "Права для членов группы"
+
+#: src/groupMailExtension/mail.tpl:151
+msgid "Default permission"
+msgstr "Права по умолчанию"
+
+#: src/groupMailExtension/mail.tpl:153
+msgid "Member permission"
+msgstr "Права для членов группы"
+
+#: src/groupMailExtension/mail.tpl:172
+#, fuzzy
+msgid "Hide"
+msgstr "Отправитель"
+
+#: src/groupMailExtension/mail.tpl:175
+#, fuzzy
+msgid "Show"
+msgstr "Показать группы"
+
+#: src/groupMailExtension/mail.tpl:199 src/groupMailExtension/mail.tpl:200
+#: src/mailExtension/generic.tpl:329
+msgid "Advanced mail options"
+msgstr "Дополнительные почтовые настройки"
+
+#: src/groupMailExtension/mail.tpl:206 src/mailExtension/generic.tpl:336
+msgid "Select if user can only send and receive inside his own domain"
+msgstr ""
+"Выберите, может ли пользователь отправлять и получать сообщения только "
+"внутри своего домена"
+
+#: src/groupMailExtension/mail.tpl:208 src/mailExtension/generic.tpl:338
+msgid "User is only allowed to send and receive local mails"
+msgstr "Пользователь может отправлять и получать почту только локально"
+
+#: src/groupMailExtension/mail.tpl:216
+#: src/groupMailExtension/paste_mail.tpl:40
+msgid "Forward messages to non group members"
+msgstr "Пересылать сообщения не членам группы"
+
+#: src/groupMailExtension/mail.tpl:224
+#, fuzzy
+msgid "Used in all groups"
+msgstr "Введите адрес сервера"
+
+#: src/groupMailExtension/mail.tpl:227
+#, fuzzy
+msgid "Not used in all groups"
+msgstr "Показать обычные группы"
+
+#: src/groupMailExtension/mail.tpl:246
+#: src/groupMailExtension/paste_mail.tpl:49 src/mailExtension/copypaste.tpl:34
+#: src/mailExtension/generic.tpl:317
+msgid "Add local"
+msgstr "Добавить локально"
+
+#: src/groupMailExtension/class_groupMail.inc:121
+#: src/groupMailExtension/class_groupMail.inc:128
+#: src/groupMailExtension/class_groupMail.inc:135
+#: src/groupMailExtension/class_groupMail.inc:142
+#: src/groupMailExtension/class_groupMail.inc:147
+#: src/groupMailExtension/class_groupMail.inc:150
+#: src/groupMailExtension/class_groupMail.inc:567
+#: src/groupMailExtension/class_groupMail.inc:571
+#: src/groupMailExtension/class_groupMail.inc:575
+#: src/groupMailExtension/class_groupMail.inc:798
+#: src/groupMailExtension/class_groupMail.inc:802
+#: src/groupMailExtension/class_groupMail.inc:806
+#: src/groupMailExtension/class_groupMail.inc:815
+#: src/mailExtension/class_mailAccount.inc:165
+#: src/mailExtension/class_mailAccount.inc:172
+#: src/mailExtension/class_mailAccount.inc:177
+#: src/mailExtension/class_mailAccount.inc:180
+#: src/mailExtension/class_mailAccount.inc:858
+#: src/mailExtension/class_mailAccount.inc:862
+#: src/mailExtension/class_mailAccount.inc:936
+#: src/mailExtension/class_mailAccount.inc:940
+#: src/mailExtension/class_mailAccount.inc:944
+#, fuzzy
+msgid "Mail error"
+msgstr "Сервер"
+
+#: src/groupMailExtension/class_groupMail.inc:121
+#: src/mailExtension/class_mailAccount.inc:165
+#, fuzzy, php-format
+msgid "Cannot read quota settings: %s"
+msgstr "Не могу открыть файл на сервере."
+
+#: src/groupMailExtension/class_groupMail.inc:128
+#: src/mailExtension/class_mailAccount.inc:172
+#, fuzzy, php-format
+msgid "Cannot get list of mailboxes: %s"
+msgstr "Не удается удалить почтовый ящик IMAP. Ответ сервера: '%s'."
+
+#: src/groupMailExtension/class_groupMail.inc:135
+#, fuzzy, php-format
+msgid "Cannot receive folder types: %s"
+msgstr "Общие папки IMAP"
+
+#: src/groupMailExtension/class_groupMail.inc:142
+#, fuzzy, php-format
+msgid "Cannot receive folder permissions: %s"
+msgstr "Общие папки IMAP"
+
+#: src/groupMailExtension/class_groupMail.inc:147
+#: src/groupMailExtension/class_groupMail.inc:567
+#: src/groupMailExtension/class_groupMail.inc:798
+#: src/mailExtension/class_mailAccount.inc:177
+#: src/mailExtension/class_mailAccount.inc:858
+#: src/mailExtension/class_mailAccount.inc:936
+#, php-format
+msgid "Mail method cannot connect: %s"
+msgstr ""
+
+#: src/groupMailExtension/class_groupMail.inc:150
+#: src/mailExtension/class_mailAccount.inc:180
+#, php-format
+msgid "Mailbox '%s' doesn't exists on mail server: %s"
+msgstr ""
+
+#: src/groupMailExtension/class_groupMail.inc:287
+#: src/groupMailExtension/class_groupMail.inc:289
+#: src/groupMailExtension/class_groupMail.inc:290
+#: src/groupMailExtension/class_groupMail.inc:295
+#: src/groupMailExtension/class_groupMail.inc:297
+#: src/groupMailExtension/class_groupMail.inc:298
+#: src/groupMailExtension/class_groupMail.inc:853
+#: src/groupMailExtension/class_groupMail.inc:998
+#: src/mailExtension/class_mailAccount.inc:68
+#: src/mailExtension/class_mailAccount.inc:251
+#: src/mailExtension/class_mailAccount.inc:259
+#: src/mailExtension/class_mailAccount.inc:261
+#: src/mailExtension/class_mailAccount.inc:266
+#: src/mailExtension/class_mailAccount.inc:268
+#: src/mailExtension/class_mailAccount.inc:1016
+#: src/mailExtension/class_mailAccount.inc:1282
+#: src/mailExtension/class_mailAccount.inc:1448
+#: src/ogroupMailExtension/class_mailogroup.inc:186
+#: src/ogroupMailExtension/paste_mail.tpl:4
+msgid "Mail"
+msgstr "Почта"
+
+#: src/groupMailExtension/class_groupMail.inc:308
+#, fuzzy
+msgid ""
+"Remove shared folder from mail server database when entry gets removed in "
+"LDAP"
+msgstr "Не удается удалить пользователя из базы данных Kerberos."
+
+#: src/groupMailExtension/class_groupMail.inc:309
+msgid "Remove the shared folder and all its contents after saving this account"
+msgstr ""
+
+#: src/groupMailExtension/class_groupMail.inc:354
+#: src/mailExtension/class_mailAccount.inc:325
+#, fuzzy
+msgid "Please select an entry!"
+msgstr "Введите корректный серийный номер"
+
+#: src/groupMailExtension/class_groupMail.inc:378
+#: src/groupMailExtension/class_groupMail.inc:410
+#: src/groupMailExtension/class_groupMail.inc:416
+#: src/groupMailExtension/class_groupMail.inc:430
+#: src/groupMailExtension/class_groupMail.inc:865
+#: src/groupMailExtension/class_groupMail.inc:885
+#: src/groupMailExtension/class_groupMail.inc:1006
+#: src/mailExtension/class_mailAccount.inc:349
+#: src/mailExtension/class_mailAccount.inc:385
+#: src/mailExtension/class_mailAccount.inc:390
+#: src/mailExtension/class_mailAccount.inc:403
+#: src/mailExtension/class_mailAccount.inc:1032
+#: src/mailExtension/class_mailAccount.inc:1036
+#: src/mailExtension/class_mailAccount.inc:1054
+#: src/mailExtension/class_mailAccount.inc:1488
+#: src/mailAddressSelectDialog/selectMailAddress-list.xml:57
+#: src/ogroupMailExtension/class_mailogroup.inc:86
+#: src/ogroupMailExtension/class_mailogroup.inc:93
+#: src/ogroupMailExtension/class_mailogroup.inc:194
+#, fuzzy
+msgid "Mail address"
+msgstr "MAC-адрес"
+
+#: src/groupMailExtension/class_groupMail.inc:384
+#: src/mailExtension/class_mailAccount.inc:355
+#, fuzzy
+msgid "Cannot add primary address to the list of forwarders!"
+msgstr ""
+"Вы пытаетесь добавить некорректный адрес электронной почты к списку тех, "
+"кому должны пересылаться сообщения."
+
+#: src/groupMailExtension/class_groupMail.inc:426
+#: src/mailExtension/class_mailAccount.inc:399
+#: src/mailExtension/class_mailAccount.inc:1050
+#, fuzzy, php-format
+msgid "Address is already in use by group '%s'."
+msgstr "Добавляемый вами адрес уже используется пользователем"
+
+#: src/groupMailExtension/class_groupMail.inc:428
+#: src/mailExtension/class_mailAccount.inc:401
+#: src/mailExtension/class_mailAccount.inc:1052
+#, fuzzy, php-format
+msgid "Address is already in use by user '%s'."
+msgstr "Добавляемый вами адрес уже используется пользователем"
+
+#: src/groupMailExtension/class_groupMail.inc:555
+#: src/groupMailExtension/class_groupMail.inc:785
+#: src/spamService/class_goSpamServer.inc:276
+#: src/mailService/class_goMailServer.inc:525
+#: src/mailExtension/class_mailAccount.inc:849
+#: src/mailExtension/class_mailAccount.inc:922
+#: src/imapService/class_goImapServer.inc:190
+#: src/virusService/class_goVirusServer.inc:154
+#: src/ogroupMailExtension/class_mailogroup.inc:120
+#: src/ogroupMailExtension/class_mailogroup.inc:157
+#, fuzzy
+msgid "LDAP error"
+msgstr "Ошибка LDAP:"
+
+#: src/groupMailExtension/class_groupMail.inc:571
+#: src/mailExtension/class_mailAccount.inc:862
+#, fuzzy, php-format
+msgid "Cannot remove mailbox: %s"
+msgstr "Не удается удалить почтовый ящик IMAP. Ответ сервера: '%s'."
+
+#: src/groupMailExtension/class_groupMail.inc:575
+#: src/groupMailExtension/class_groupMail.inc:815
+#, fuzzy, php-format
+msgid "Cannot update shared folder permissions: %s"
+msgstr "Общие папки IMAP"
+
+#: src/groupMailExtension/class_groupMail.inc:676
+#, fuzzy
+msgid "New"
+msgstr "Пользователи домена"
+
+#: src/groupMailExtension/class_groupMail.inc:802
+#: src/mailExtension/class_mailAccount.inc:940
+#, fuzzy, php-format
+msgid "Cannot update mailbox: %s"
+msgstr "Не удается создать почтовый ящик IMAP. Ответ сервера: \"%s\"."
+
+#: src/groupMailExtension/class_groupMail.inc:806
+#: src/mailExtension/class_mailAccount.inc:944
+#, fuzzy, php-format
+msgid "Cannot write quota settings: %s"
+msgstr "Удалить"
+
+#: src/groupMailExtension/class_groupMail.inc:847
+#, php-format
+msgid ""
+"The group 'cn' has changed. It can't be changed due to the fact that mail "
+"method '%s' relies on it!"
+msgstr ""
+
+#: src/groupMailExtension/class_groupMail.inc:891
+#: src/mailExtension/class_mailAccount.inc:1502
+#, fuzzy
+msgid "Mail max size"
+msgstr "Размер квоты"
+
+#: src/groupMailExtension/class_groupMail.inc:899
+msgid "You need to set the maximum mail size in order to reject anything."
+msgstr "Помните, что указывать нужно максимальный допустимый размер сообщений."
+
+#: src/groupMailExtension/class_groupMail.inc:903
+#: src/groupMailExtension/class_groupMail.inc:1008
+#: src/mailExtension/class_mailAccount.inc:1489
+#, fuzzy
+msgid "Mail server"
+msgstr "Сервер"
+
+#: src/groupMailExtension/class_groupMail.inc:999
+#, fuzzy
+msgid "Group mail"
+msgstr "Группа"
+
+#: src/groupMailExtension/class_groupMail.inc:1009
+msgid "Kolab"
+msgstr ""
+
+#: src/groupMailExtension/class_groupMail.inc:1010
+#, fuzzy
+msgid "Alternate addresses"
+msgstr "Альтернативные адреса"
+
+#: src/groupMailExtension/class_groupMail.inc:1011
+#, fuzzy
+msgid "Forwarding addresses"
+msgstr "Основной адрес"
+
+#: src/groupMailExtension/class_groupMail.inc:1012
+#, fuzzy
+msgid "Only local"
+msgstr "Добавить локально"
+
+#: src/groupMailExtension/class_groupMail.inc:1013
+#, fuzzy
+msgid "Permissions"
+msgstr "Права для членов группы"
+
+#: src/groupMailExtension/paste_mail.tpl:2
+#, fuzzy
+msgid "Paste mail settings"
+msgstr "Почтовые настройки пользователя"
+
+#: src/groupMailExtension/paste_mail.tpl:6
+#, fuzzy
+msgid "Address settings"
+msgstr "Дополнительные записи в fstab"
+
+#: src/groupMailExtension/paste_mail.tpl:13
+msgid "Primary mail address for this shared folder"
+msgstr "Основной адрес эл. почты для этой общей папки"
+
+#: src/groupMailExtension/paste_mail.tpl:21
+#, fuzzy
+msgid "Additional mail settings"
+msgstr "Дополнительные записи в fstab"
+
+#: src/spamService/goSpamServerRule.tpl:2
+#: src/mailAddressSelectDialog/selectMailAddress-list.xml:49
+#: src/sieveEditorPlugin/class_sieveManagement.inc:84
+msgid "Name"
+msgstr "Фамилия"
+
+#: src/spamService/goSpamServerRule.tpl:8
+#: src/spamService/class_goSpamServer.inc:84
+#, fuzzy
+msgid "Rule"
+msgstr "Роль"
+
+#: src/spamService/class_goSpamServer.inc:42
+#: src/spamService/class_goSpamServer.inc:319
+#: src/spamService/class_goSpamServer.inc:320
+#: src/spamService/class_goSpamServer.inc:355
+msgid "Spamassassin"
+msgstr ""
+
+#: src/spamService/class_goSpamServer.inc:215
+#, fuzzy
+msgid "Trusted network"
+msgstr "Атрибуты UNIX"
+
+#: src/spamService/class_goSpamServer.inc:286
+msgid "Score"
+msgstr ""
+
+#: src/spamService/class_goSpamServer.inc:320
+#: src/mailService/class_goMailServer.inc:577
+#: src/imapService/class_goImapServer.inc:200
+#: src/virusService/class_goVirusServer.inc:220
+msgid "Services"
+msgstr "Сервисы"
+
+#: src/spamService/class_goSpamServer.inc:332
+#: src/spamService/goSpamServer.tpl:8
+#, fuzzy
+msgid "Rewrite header"
+msgstr "Отправитель"
+
+#: src/spamService/class_goSpamServer.inc:333
+#, fuzzy
+msgid "Trusted networks"
+msgstr "Атрибуты UNIX"
+
+#: src/spamService/class_goSpamServer.inc:334
+#: src/spamService/goSpamServer.tpl:16
+msgid "Required score"
+msgstr ""
+
+#: src/spamService/class_goSpamServer.inc:335
+#: src/spamService/goSpamServer.tpl:107 src/spamService/goSpamServer.tpl:109
+#, fuzzy
+msgid "Rules"
+msgstr "Роль"
+
+#: src/spamService/class_goSpamServer.inc:338
+#: src/mailService/class_goMailServer.inc:620
+#: src/imapService/class_goImapServer.inc:213
+#: src/virusService/class_goVirusServer.inc:232
+#, fuzzy
+msgid "Start"
+msgstr "Запуск"
+
+#: src/spamService/class_goSpamServer.inc:339
+#: src/mailService/class_goMailServer.inc:621
+#: src/imapService/class_goImapServer.inc:214
+#: src/sieveEditorPlugin/templates/element_stop.tpl:4
+#: src/sieveEditorPlugin/templates/object_container.tpl:28
+#: src/sieveEditorPlugin/class_sieveManagement.inc:520
+#: src/sieveEditorPlugin/class_sieveManagement.inc:720
+#: src/virusService/class_goVirusServer.inc:233
+#, fuzzy
+msgid "Stop"
+msgstr "Отношение"
+
+#: src/spamService/class_goSpamServer.inc:340
+#: src/mailService/class_goMailServer.inc:622
+#: src/imapService/class_goImapServer.inc:215
+#: src/virusService/class_goVirusServer.inc:234
+#, fuzzy
+msgid "Restart"
+msgstr "Повторить"
+
+#: src/spamService/class_goSpamServer.inc:342
+#: src/spamService/goSpamServer.tpl:66
+msgid "Enable use of Bayes filtering"
+msgstr ""
+
+#: src/spamService/class_goSpamServer.inc:343
+msgid "Enabled Bayes auto learning"
+msgstr ""
+
+#: src/spamService/class_goSpamServer.inc:344
+#: src/spamService/goSpamServer.tpl:74
+msgid "Enable RBL checks"
+msgstr ""
+
+#: src/spamService/class_goSpamServer.inc:345
+#: src/spamService/goSpamServer.tpl:85
+msgid "Enable use of Razor"
+msgstr ""
+
+#: src/spamService/class_goSpamServer.inc:346
+#: src/spamService/goSpamServer.tpl:89
+msgid "Enable use of DDC"
+msgstr ""
+
+#: src/spamService/class_goSpamServer.inc:347
+#: src/spamService/goSpamServer.tpl:93
+msgid "Enable use of Pyzor"
+msgstr ""
+
+#: src/spamService/goSpamServer.tpl:2 src/spamService/goSpamServer.tpl:6
+msgid "Spam taggin"
+msgstr ""
+
+#: src/spamService/goSpamServer.tpl:5
+msgid "Spam tagging"
+msgstr ""
+
+#: src/spamService/goSpamServer.tpl:19
+msgid "Select required score to tag mail as SPAM"
+msgstr ""
+
+#: src/spamService/goSpamServer.tpl:31 src/mailService/goMailServer.tpl:59
+#, fuzzy
+msgid "Network settings"
+msgstr "Почтовые настройки пользователя"
+
+#: src/spamService/goSpamServer.tpl:47 src/mailService/goMailServer.tpl:76
+#: src/mailService/goMailServer.tpl:109
+msgid "Remove"
+msgstr "Удалить"
+
+#: src/spamService/goSpamServer.tpl:61 src/spamService/goSpamServer.tpl:62
+#: src/spamService/goSpamServer.tpl:81
+#, fuzzy
+msgid "Flags"
+msgstr "женский"
+
+#: src/spamService/goSpamServer.tpl:70
+msgid "Enable Bayes auto learning"
+msgstr ""
+
+#: src/mailService/goMailServer.tpl:7 src/imapService/goImapServer.tpl:5
+#, fuzzy
+msgid "Generic settings"
+msgstr "Общая информация о пользователе"
+
+#: src/mailService/goMailServer.tpl:9
+#: src/mailService/class_goMailServer.inc:623
+msgid "Visible fully qualified host name"
+msgstr ""
+
+#: src/mailService/goMailServer.tpl:12
+msgid "The fully qualified host name."
+msgstr ""
+
+#: src/mailService/goMailServer.tpl:17
+#, fuzzy
+msgid "Max mail header size"
+msgstr "Размер квоты"
+
+#: src/mailService/goMailServer.tpl:22
+#, fuzzy
+msgid "This value specifies the maximal header size."
+msgstr "Группа с таким именем уже существует."
+
+#: src/mailService/goMailServer.tpl:22 src/mailService/goMailServer.tpl:32
+#: src/mailService/goMailServer.tpl:41
+msgid "KB"
+msgstr "Kb"
+
+#: src/mailService/goMailServer.tpl:27
+#: src/mailService/class_goMailServer.inc:626
+#, fuzzy
+msgid "Max mailbox size"
+msgstr "Размер квоты"
+
+#: src/mailService/goMailServer.tpl:32
+msgid "Defines the maximal size of mail box."
+msgstr ""
+
+#: src/mailService/goMailServer.tpl:36
+#: src/mailService/class_goMailServer.inc:627
+#, fuzzy
+msgid "Max message size"
+msgstr "Сообщение"
+
+#: src/mailService/goMailServer.tpl:41
+msgid "Specify the maximal size of a message."
+msgstr ""
+
+#: src/mailService/goMailServer.tpl:46
+#: src/mailService/class_goMailServer.inc:630
+#, fuzzy
+msgid "Relay host"
+msgstr "Набор правил"
+
+#: src/mailService/goMailServer.tpl:51
+msgid "Relay messages to following host:"
+msgstr ""
+
+#: src/mailService/goMailServer.tpl:62
+#: src/mailService/class_goMailServer.inc:629
+msgid "Local networks"
+msgstr ""
+
+#: src/mailService/goMailServer.tpl:64
+#, fuzzy
+msgid "Postfix networks"
+msgstr "Атрибуты UNIX"
+
+#: src/mailService/goMailServer.tpl:87 src/mailService/goMailServer.tpl:92
+#, fuzzy
+msgid "Domains and routing"
+msgstr "Администраторы домена"
+
+#: src/mailService/goMailServer.tpl:95
+#: src/mailService/class_goMailServer.inc:628
+msgid "Domains to accept mail for"
+msgstr ""
+
+#: src/mailService/goMailServer.tpl:97
+msgid "Postfix is responsible for the following domains:"
+msgstr ""
+
+#: src/mailService/goMailServer.tpl:118 src/mailService/goMailServer.tpl:121
+#, fuzzy
+msgid "Transports"
+msgstr "Время передачи"
+
+#: src/mailService/goMailServer.tpl:130
+msgid "Select a transport protocol."
+msgstr ""
+
+#: src/mailService/goMailServer.tpl:149
+#, fuzzy
+msgid "Restrictions"
+msgstr "Действие"
+
+#: src/mailService/goMailServer.tpl:154 src/mailService/goMailServer.tpl:157
+#: src/mailService/class_goMailServer.inc:632
+#, fuzzy
+msgid "Restrictions for sender"
+msgstr "Местоположение ветки"
+
+#: src/mailService/goMailServer.tpl:165 src/mailService/goMailServer.tpl:193
+#, fuzzy
+msgid "Restriction filter"
+msgstr "Поиск"
+
+#: src/mailService/goMailServer.tpl:182 src/mailService/goMailServer.tpl:185
+#: src/mailService/class_goMailServer.inc:633
+msgid "Restrictions for recipient"
+msgstr ""
+
+#: src/mailService/goMailServer.tpl:215 src/imapService/goImapServer.tpl:84
+msgid "The server must be saved before you can use the status flag."
+msgstr ""
+
+#: src/mailService/goMailServer.tpl:217 src/imapService/goImapServer.tpl:86
+msgid "The service must be saved before you can use the status flag."
+msgstr ""
+
+#: src/mailService/goMailServer.tpl:220 src/imapService/goImapServer.tpl:90
+#, fuzzy
+msgid "Set new status"
+msgstr "Состояние системы"
+
+#: src/mailService/goMailServer.tpl:226 src/imapService/goImapServer.tpl:96
+#, fuzzy
+msgid "Set status"
+msgstr "Состояние системы"
+
+#: src/mailService/goMailServer.tpl:228 src/imapService/goImapServer.tpl:97
+msgid "Execute"
+msgstr "Выполнить"
+
+#: src/mailService/class_goMailServer.inc:45
+#: src/mailService/class_goMailServer.inc:455
+#, fuzzy
+msgid "Mail SMTP service (Postfix)"
+msgstr "Сервер"
+
+#: src/mailService/class_goMailServer.inc:199
+#: src/mailService/class_goMailServer.inc:208
+#: src/mailService/class_goMailServer.inc:216
+#, fuzzy
+msgid "Source"
+msgstr "час"
+
+#: src/mailService/class_goMailServer.inc:199
+#: src/mailService/class_goMailServer.inc:208
+#: src/mailService/class_goMailServer.inc:216
+#, fuzzy
+msgid "Destination"
+msgstr "Описание"
+
+#: src/mailService/class_goMailServer.inc:216
+msgid "Protocol"
+msgstr ""
+
+#: src/mailService/class_goMailServer.inc:543
+#: src/mailService/class_goMailServer.inc:625
+msgid "Header size limit"
+msgstr ""
+
+#: src/mailService/class_goMailServer.inc:546
+#, fuzzy
+msgid "Mailbox size limit"
+msgstr "Размер квоты"
+
+#: src/mailService/class_goMailServer.inc:549
+#, fuzzy
+msgid "Message size limit"
+msgstr "Сообщение"
+
+#: src/mailService/class_goMailServer.inc:576
+#, fuzzy
+msgid "Mail SMTP (Postfix)"
+msgstr "Сервер"
+
+#: src/mailService/class_goMailServer.inc:577
+#, fuzzy
+msgid "Mail SMTP - Postfix"
+msgstr "Сервер"
+
+#: src/mailService/class_goMailServer.inc:593
+msgid "File containing user defined protocols."
+msgstr ""
+
+#: src/mailService/class_goMailServer.inc:607
+msgid "File containing user defined restriction filters."
+msgstr ""
+
+#: src/mailService/class_goMailServer.inc:624
+msgid "Description"
+msgstr "Описание"
+
+#: src/mailService/class_goMailServer.inc:631
+#, fuzzy
+msgid "Transport table"
+msgstr "Время передачи"
+
+#: src/mailExtension/copypaste.tpl:4
+#, fuzzy
+msgid "Address configuration"
+msgstr "Системная информация"
+
+#: src/mailExtension/copypaste.tpl:25 src/mailExtension/generic.tpl:293
+msgid "Forward messages to"
+msgstr "Перенаправлять сообщения"
+
+#: src/mailExtension/class_mail-methods-cyrus.inc:39
+msgid "There are no IMAP compatible mail servers defined!"
+msgstr ""
+
+#: src/mailExtension/class_mail-methods-cyrus.inc:44
+msgid "Mail server for this account is invalid!"
+msgstr ""
+
+#: src/mailExtension/class_mail-methods-cyrus.inc:222
+#, fuzzy
+msgid "IMAP error"
+msgstr "Ошибка LDAP:"
+
+#: src/mailExtension/class_mail-methods-cyrus.inc:222
+#, fuzzy, php-format
+msgid "Cannot modify IMAP mailbox quota: %s"
+msgstr "Не удается удалить почтовый ящик IMAP. Ответ сервера: '%s'."
+
+#: src/mailExtension/class_mail-methods-cyrus.inc:298
+#, fuzzy
+msgid "Mail info"
+msgstr "Имя сервера"
+
+#: src/mailExtension/class_mail-methods-cyrus.inc:299
+#, php-format
+msgid ""
+"LDAP entry has been removed but Cyrus mailbox (%s) is kept.\n"
+"Please delete it manually!"
+msgstr ""
+
+#: src/mailExtension/class_mail-methods-cyrus.inc:383
+#: src/mailExtension/class_mail-methods-cyrus.inc:420
+msgid "The module imap_getacl is not implemented!"
+msgstr ""
+
+#: src/mailExtension/class_mail-methods-cyrus.inc:472
+#, php-format
+msgid "File '%s' does not exist!"
+msgstr ""
+
+#: src/mailExtension/class_mail-methods-cyrus.inc:473
+msgid "The sieve script may not be written correctly."
+msgstr ""
+
+#: src/mailExtension/class_mail-methods-cyrus.inc:474
+#: src/sieveEditorPlugin/class_My_Tree.inc:245
+msgid "Warning"
+msgstr "Предупреждение"
+
+#: src/mailExtension/class_mail-methods-cyrus.inc:512
+#: src/sieveEditorPlugin/class_sieveManagement.inc:325
+#, php-format
+msgid "Cannot retrieve SIEVE script: %s"
+msgstr ""
+
+#: src/mailExtension/class_mail-methods-cyrus.inc:601
+#: src/sieveEditorPlugin/class_sieveManagement.inc:1044
+#, php-format
+msgid "Cannot store SIEVE script: %s"
+msgstr ""
+
+#: src/mailExtension/class_mail-methods-cyrus.inc:608
+#, php-format
+msgid "Cannot activate SIEVE script: %s"
+msgstr ""
+
+#: src/mailExtension/class_mail-methods.inc:141
+#: src/mailExtension/class_mail-methods.inc:486
+#: src/mailExtension/class_mailAccount.inc:636
+#, fuzzy
+msgid "Configuration error"
+msgstr "Настроить"
+
+#: src/mailExtension/class_mail-methods.inc:142
+#, php-format
+msgid "The configured mail attribute '%s' is unsupported!"
+msgstr ""
+
+#: src/mailExtension/class_mail-methods.inc:487
+#, php-format
+msgid "Mail method '%s' is unknown!"
+msgstr ""
+
+#: src/mailExtension/class_mail-methods.inc:713
+#: src/mailExtension/class_mail-methods.inc:714
+#, fuzzy
+msgid "None"
+msgstr "нет"
+
+#: src/mailExtension/class_mail-methods.inc:803
+#, fuzzy
+msgid "Unknown"
+msgstr "состояние неизвестно"
+
+#: src/mailExtension/class_mail-methods.inc:805
+#, fuzzy
+msgid "Unlimited"
+msgstr "не определена"
+
+#: src/mailExtension/class_mailAccount.inc:69
+#, fuzzy
+msgid "Manage personal mail settings"
+msgstr "Атрибуты UNIX"
+
+#: src/mailExtension/class_mailAccount.inc:636
+#, fuzzy, php-format
+msgid "No DESC tag in vacation template '%s'!"
+msgstr "В файле сообщения автоответчика отсутствует тег DESC:"
+
+#: src/mailExtension/class_mailAccount.inc:665
+#: src/mailExtension/class_mailAccount.inc:678
+#: src/mailExtension/class_mailAccount.inc:712
+#: src/mailExtension/class_mailAccount.inc:725
+#, fuzzy
+msgid "Permission error"
+msgstr "Права для членов группы"
+
+#: src/mailExtension/class_mailAccount.inc:665
+#: src/mailExtension/class_mailAccount.inc:678
+#: src/mailExtension/class_mailAccount.inc:712
+#: src/mailExtension/class_mailAccount.inc:725
+#, fuzzy
+msgid "You have no permission to modify these addresses!"
+msgstr "У вас недостаточно прав для удаления этого подразделения."
+
+#: src/mailExtension/class_mailAccount.inc:759
+#: src/mailExtension/class_mailAccount.inc:762
+#, fuzzy
+msgid "unknown"
+msgstr "состояние неизвестно"
+
+#: src/mailExtension/class_mailAccount.inc:958
+#, fuzzy
+msgid "Mail error saving sieve settings"
+msgstr "Использовать другой сценарий SIEVE"
+
+#: src/mailExtension/class_mailAccount.inc:1071
+#: src/mailExtension/class_mailAccount.inc:1079
+#: src/mailExtension/class_mailAccount.inc:1297
+#, fuzzy
+msgid "Mail reject size"
+msgstr "Размер квоты"
+
+#: src/mailExtension/class_mailAccount.inc:1083
+#: src/mailExtension/class_mailAccount.inc:1304
+#, fuzzy
+msgid "Spam folder"
+msgstr "в папку"
+
+#: src/mailExtension/class_mailAccount.inc:1091
+#: src/mailExtension/class_mailAccount.inc:1312
+#: src/mailExtension/generic.tpl:184
+#, fuzzy
+msgid "from"
+msgstr "и"
+
+#: src/mailExtension/class_mailAccount.inc:1095
+#: src/mailExtension/class_mailAccount.inc:1316
+#, fuzzy
+msgid "to"
+msgstr "Отношение"
+
+#: src/mailExtension/class_mailAccount.inc:1106
+#: src/mailExtension/class_mailAccount.inc:1327
+#, fuzzy
+msgid "Vacation interval"
+msgstr "Сообщение автоответчика"
+
+#: src/mailExtension/class_mailAccount.inc:1453
+msgid "My account"
+msgstr "Моя учетная запись"
+
+#: src/mailExtension/class_mailAccount.inc:1468
+msgid ""
+"Remove mail boxes from the IMAP storage after they their user gets removed."
+msgstr ""
+
+#: src/mailExtension/class_mailAccount.inc:1478
+msgid ""
+"Comma separated list of folders to be automatically created on user creation."
+msgstr ""
+
+#: src/mailExtension/class_mailAccount.inc:1492
+#, fuzzy
+msgid "Add vacation information"
+msgstr "Информация об организации"
+
+#: src/mailExtension/class_mailAccount.inc:1493
+#: src/mailExtension/generic.tpl:269
+#: src/sieveEditorPlugin/templates/element_vacation.tpl:46
+#: src/sieveEditorPlugin/templates/object_container.tpl:29
+#: src/sieveEditorPlugin/class_sieveManagement.inc:521
+#: src/sieveEditorPlugin/class_sieveManagement.inc:721
+msgid "Vacation message"
+msgstr "Сообщение автоответчика"
+
+#: src/mailExtension/class_mailAccount.inc:1495
+msgid "Use SPAM filter"
+msgstr ""
+
+#: src/mailExtension/class_mailAccount.inc:1496
+#, fuzzy
+msgid "SPAM level"
+msgstr "Уровень информативности"
+
+#: src/mailExtension/class_mailAccount.inc:1497
+#, fuzzy
+msgid "SPAM mail box"
+msgstr "Размер квоты"
+
+#: src/mailExtension/class_mailAccount.inc:1499
+#, fuzzy
+msgid "Sieve management"
+msgstr "Название"
+
+#: src/mailExtension/class_mailAccount.inc:1501
+#, fuzzy
+msgid "Reject due to mail size"
+msgstr "Отклонять сообщения размером больше"
+
+#: src/mailExtension/class_mailAccount.inc:1504
+#: src/mailExtension/class_mailAccount.inc:1509
+#, fuzzy
+msgid "Forwarding address"
+msgstr "Основной адрес"
+
+#: src/mailExtension/class_mailAccount.inc:1505
+#, fuzzy
+msgid "Local delivery"
+msgstr "Последняя доставка"
+
+#: src/mailExtension/class_mailAccount.inc:1506
+#, fuzzy
+msgid "No delivery to own mailbox "
+msgstr "Не оставлять копии в своем почтовом ящике"
+
+#: src/mailExtension/class_mailAccount.inc:1507
+#, fuzzy
+msgid "Mail alternative addresses"
+msgstr "Альтернативные адреса"
+
+#: src/mailExtension/class_mailAccount.inc:1510
+#: src/mailExtension/generic.tpl:120
+msgid "Use custom sieve script"
+msgstr "Использовать другой сценарий SIEVE"
+
+#: src/mailExtension/generic.tpl:7
+#, fuzzy
+msgid "Mail address configuration"
+msgstr "Системная информация"
+
+#: src/mailExtension/generic.tpl:102
+#, fuzzy
+msgid "Mail account configration flags"
+msgstr "Настроить"
+
+#: src/mailExtension/generic.tpl:120
+msgid "disables all Mail options!"
+msgstr "отключает все почтовые настройки!"
+
+#: src/mailExtension/generic.tpl:129
+#, fuzzy
+msgid "Sieve Management"
+msgstr "Название"
+
+#: src/mailExtension/generic.tpl:145 src/mailExtension/generic.tpl:182
+#, fuzzy
+msgid "Spam filter configuration"
+msgstr "Настроить"
+
+#: src/mailExtension/generic.tpl:155
+msgid "Select if you want to forward mails without getting own copies of them"
+msgstr "Выберите, нужно ли оставлять копии перенаправляемых сообщений"
+
+#: src/mailExtension/generic.tpl:159
+msgid "No delivery to own mailbox"
+msgstr "Не оставлять копии в своем почтовом ящике"
+
+#: src/mailExtension/generic.tpl:170
+msgid ""
+"Select to automatically response with the vacation message defined below"
+msgstr "Выберите, чтобы включить автоответчик с сообщением, указанным ниже"
+
+#: src/mailExtension/generic.tpl:175
+msgid "Activate vacation message"
+msgstr "Включить автоответчик"
+
+#: src/mailExtension/generic.tpl:197
+msgid "till"
+msgstr ""
+
+#: src/mailExtension/generic.tpl:222
+#, fuzzy
+msgid "Select if you want to filter this mails through Spamassassin"
+msgstr "Выберите, нужно ли фильтровать сообщения с помощью SpamAssassin"
+
+#: src/mailExtension/generic.tpl:226
+#, fuzzy
+msgid "Move mails tagged with SPAM level greater than"
+msgstr "Перемещать сообщения с меткой рекламы больше"
+
+#: src/mailExtension/generic.tpl:229
+#, fuzzy
+msgid "Choose SPAM level - smaller values are more sensitive"
+msgstr ""
+"Выберите метку рекламы - чем меньше значение, тем чувствительнее фильтр"
+
+#: src/mailExtension/generic.tpl:233
+msgid "to folder"
+msgstr "в папку"
+
+#: src/mailExtension/generic.tpl:253
+msgid "Reject mails bigger than"
+msgstr "Отклонять сообщения размером больше"
+
+#: src/mailExtension/generic.tpl:256
+msgid "MB"
+msgstr "Мб"
+
+#: src/mailExtension/generic.tpl:286
+#: src/sieveEditorPlugin/templates/import_script.tpl:12
+#: src/sieveEditorPlugin/templates/edit_frame_base.tpl:7
+msgid "Import"
+msgstr "Импортировать"
+
+#: src/mailExtension/generic.tpl:331
+#, fuzzy
+msgid "Delivery settings"
+msgstr "Почтовые настройки пользователя"
+
+#: src/mailAddressSelectDialog/class_mailAddressSelect.inc:29
+#, fuzzy
+msgid "Mail address selection"
+msgstr "MAC-адрес"
+
+#: src/mailAddressSelectDialog/selectMailAddress-filter.xml:22
+#, fuzzy
+msgid "Default filter"
+msgstr "Параметры загрузки"
+
+#: src/mailAddressSelectDialog/selectMailAddress-list.tpl:12
+msgid "Base"
+msgstr "Ветка"
+
+#: src/mailAddressSelectDialog/selectMailAddress-list.xml:10
+#, fuzzy
+msgid "Please select the desired entries"
+msgstr "Язык по умолчанию"
+
+#: src/mailAddressSelectDialog/selectMailAddress-list.xml:15
+msgid "User"
+msgstr "Пользователь"
+
+#: src/mailAddressSelectDialog/selectMailAddress-list.xml:23
+msgid "Group"
+msgstr "Группа"
+
+#: src/imapService/class_goImapServer.inc:48
+#, fuzzy
+msgid "IMAP/POP3 service"
+msgstr "LDAP-сервер"
+
+#: src/imapService/class_goImapServer.inc:53
+#: src/imapService/class_goImapServer.inc:216
+#, fuzzy
+msgid "Repair database"
+msgstr "Базы данных"
+
+#: src/imapService/class_goImapServer.inc:100
+#, fuzzy
+msgid "IMAP/POP3 (Cyrus) service"
+msgstr "LDAP-сервер"
+
+#: src/imapService/class_goImapServer.inc:110
+#: src/imapService/class_goImapServer.inc:218
+#: src/imapService/goImapServer.tpl:7
+#, fuzzy
+msgid "Server identifier"
+msgstr "Номер дома"
+
+#: src/imapService/class_goImapServer.inc:114
+#: src/imapService/class_goImapServer.inc:116
+#: src/imapService/class_goImapServer.inc:219
+#: src/imapService/goImapServer.tpl:16
+#, fuzzy
+msgid "Connect URL"
+msgstr "Подключение"
+
+#: src/imapService/class_goImapServer.inc:120
+#: src/imapService/class_goImapServer.inc:122
+#: src/imapService/class_goImapServer.inc:223
+#: src/imapService/goImapServer.tpl:43
+#, fuzzy
+msgid "Sieve connect URL"
+msgstr "Подключение"
+
+#: src/imapService/class_goImapServer.inc:123
+#, fuzzy, php-format
+msgid "Valid options are: %s"
+msgstr "Почтовые настройки"
+
+#: src/imapService/class_goImapServer.inc:127
+#: src/imapService/class_goImapServer.inc:220
+#: src/imapService/goImapServer.tpl:25
+#, fuzzy
+msgid "Administrator"
+msgstr "Администрирование"
+
+#: src/imapService/class_goImapServer.inc:130
+#: src/imapService/goImapServer.tpl:34
+msgid "Password"
+msgstr "Пароль"
+
+#: src/imapService/class_goImapServer.inc:199
+#: src/imapService/class_goImapServer.inc:200
+#, fuzzy
+msgid "IMAP/POP3"
+msgstr "LDAP-сервер"
+
+#: src/imapService/class_goImapServer.inc:221
+#, fuzzy
+msgid "Administrator password"
+msgstr "Пароль администратора"
+
+#: src/imapService/class_goImapServer.inc:224
+#: src/imapService/goImapServer.tpl:57
+#, fuzzy
+msgid "Start IMAP service"
+msgstr "LDAP-сервер"
+
+#: src/imapService/class_goImapServer.inc:225
+#: src/imapService/goImapServer.tpl:63
+#, fuzzy
+msgid "Start IMAP SSL service"
+msgstr "Служба SSH"
+
+#: src/imapService/class_goImapServer.inc:226
+#: src/imapService/goImapServer.tpl:69
+#, fuzzy
+msgid "Start POP3 service"
+msgstr "Служба печати"
+
+#: src/imapService/class_goImapServer.inc:227
+#: src/imapService/goImapServer.tpl:75
+#, fuzzy
+msgid "Start POP3 SSL service"
+msgstr "Служба SSH"
+
+#: src/imapService/goImapServer.tpl:2
+#, fuzzy
+msgid "IMAP service"
+msgstr "LDAP-сервер"
+
+#: src/sieveEditorPlugin/class_sieveElement_Vacation.inc:148
+#, fuzzy
+msgid "Alternative sender address must be a valid email addresses."
+msgstr "Введите корректное имя пользователя!"
+
+#: src/sieveEditorPlugin/templates/select_test_type.tpl:1
+#, fuzzy
+msgid "Select the type of test you want to add"
+msgstr "Выбрать пользователей для добавления"
+
+#: src/sieveEditorPlugin/templates/select_test_type.tpl:3
+#, fuzzy
+msgid "Available test types"
+msgstr "Доступные приложения"
+
+#: src/sieveEditorPlugin/templates/select_test_type.tpl:11
+#: src/sieveEditorPlugin/templates/add_element.tpl:11
+msgid "Continue"
+msgstr "Продолжить"
+
+#: src/sieveEditorPlugin/templates/element_redirect.tpl:1
+#, fuzzy
+msgid "Sieve element redirect"
+msgstr "Удалить объект"
+
+#: src/sieveEditorPlugin/templates/element_redirect.tpl:13
+#: src/sieveEditorPlugin/templates/object_container.tpl:25
+#: src/sieveEditorPlugin/class_sieveManagement.inc:517
+#: src/sieveEditorPlugin/class_sieveManagement.inc:717
+#, fuzzy
+msgid "Redirect"
+msgstr "напрямую"
+
+#: src/sieveEditorPlugin/templates/element_redirect.tpl:18
+msgid "Redirect mail to following recipients"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/element_size.tpl:1
+msgid "Sieve test case: size"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/element_size.tpl:11
+#: src/sieveEditorPlugin/templates/element_size.tpl:14
+#: src/sieveEditorPlugin/templates/element_anyof.tpl:5
+#: src/sieveEditorPlugin/templates/element_anyof.tpl:8
+#: src/sieveEditorPlugin/templates/element_allof.tpl:5
+#: src/sieveEditorPlugin/templates/element_allof.tpl:8
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:43
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:46
+#: src/sieveEditorPlugin/templates/element_exists.tpl:11
+#: src/sieveEditorPlugin/templates/element_exists.tpl:14
+msgid "Inverse match"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/element_size.tpl:11
+#: src/sieveEditorPlugin/templates/element_anyof.tpl:5
+#: src/sieveEditorPlugin/templates/element_header.tpl:115
+#: src/sieveEditorPlugin/templates/element_allof.tpl:5
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:114
+#: src/sieveEditorPlugin/templates/element_address.tpl:122
+#: src/sieveEditorPlugin/templates/element_exists.tpl:11
+#, fuzzy
+msgid "Not"
+msgstr "нет"
+
+#: src/sieveEditorPlugin/templates/element_size.tpl:14
+#: src/sieveEditorPlugin/templates/element_header.tpl:118
+#: src/sieveEditorPlugin/templates/element_allof.tpl:8
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:117
+#: src/sieveEditorPlugin/templates/element_address.tpl:125
+#: src/sieveEditorPlugin/templates/element_exists.tpl:14
+msgid "-"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/element_size.tpl:18
+#, fuzzy
+msgid "Select match type"
+msgstr "Выберите, чтобы просмотреть серверы"
+
+#: src/sieveEditorPlugin/templates/element_size.tpl:22
+#, fuzzy
+msgid "Select value unit"
+msgstr "Выберите подразделение"
+
+#: src/sieveEditorPlugin/templates/remove_script.tpl:6
+msgid ""
+"Please double check if your really want to do this since there is no way for "
+"GOsa to get your data back."
+msgstr ""
+"Подумайте еще раз, действительно ли вам нужно удаление, так как GOsa не "
+"сможет отменить результаты этой операции."
+
+#: src/sieveEditorPlugin/templates/remove_script.tpl:7
+#, fuzzy
+msgid ""
+"Best thing to do before performing this action would be to save the current "
+"script in a file. So - if you've done so - press 'Delete' to continue or "
+"'Cancel' to abort."
+msgstr ""
+"Лучше всего перед удалением сохранить резервную копию текущего дерева LDAP в "
+"файл. Если вы сделали это и действительно хотите выполнить удаление, нажмите "
+"<i>Удалить</i>, иначе нажмите <i>Отмена</i>."
+
+#: src/sieveEditorPlugin/templates/element_elsif.tpl:1
+#: src/sieveEditorPlugin/templates/block_indent_start.tpl:2
+#: src/sieveEditorPlugin/templates/element_header.tpl:13
+#: src/sieveEditorPlugin/templates/element_header.tpl:25
+#: src/sieveEditorPlugin/templates/element_header.tpl:78
+#: src/sieveEditorPlugin/templates/element_header.tpl:93
+#: src/sieveEditorPlugin/templates/element_header.tpl:103
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:25
+#: src/sieveEditorPlugin/templates/element_address.tpl:3
+#: src/sieveEditorPlugin/templates/element_address.tpl:12
+#: src/sieveEditorPlugin/templates/element_address.tpl:24
+#: src/sieveEditorPlugin/templates/element_address.tpl:86
+#: src/sieveEditorPlugin/templates/element_address.tpl:101
+#: src/sieveEditorPlugin/templates/element_address.tpl:110
+#: src/sieveEditorPlugin/templates/element_vacation.tpl:1
+#: src/sieveEditorPlugin/templates/element_boolean.tpl:1
+#: src/sieveEditorPlugin/templates/object_container.tpl:1
+#, fuzzy
+msgid "Sieve element"
+msgstr "Удалить объект"
+
+#: src/sieveEditorPlugin/templates/element_elsif.tpl:4
+#: src/sieveEditorPlugin/templates/object_container.tpl:32
+#: src/sieveEditorPlugin/class_sieveManagement.inc:583
+#: src/sieveEditorPlugin/class_sieveManagement.inc:759
+#: src/sieveEditorPlugin/class_sieveManagement.inc:764
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:838
+msgid "Else If"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/element_anyof.tpl:1
+#: src/sieveEditorPlugin/templates/element_if.tpl:1
+#: src/sieveEditorPlugin/templates/element_allof.tpl:1
+#: src/sieveEditorPlugin/templates/element_exists.tpl:1
+#, fuzzy
+msgid "Sieve filter"
+msgstr "Параметры загрузки"
+
+#: src/sieveEditorPlugin/templates/element_anyof.tpl:12
+#: src/sieveEditorPlugin/class_sieveManagement.inc:613
+msgid "Any of"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/add_element.tpl:1
+#, fuzzy
+msgid "Add a new element"
+msgstr "Добавить сервис DNS"
+
+#: src/sieveEditorPlugin/templates/add_element.tpl:2
+#, fuzzy
+msgid "Please select the type of element you want to add"
+msgstr "Введите корректный серийный номер"
+
+#: src/sieveEditorPlugin/templates/add_element.tpl:14
+#, fuzzy
+msgid "Abort"
+msgstr "Порт"
+
+#: src/sieveEditorPlugin/templates/element_require.tpl:1
+msgid "Sieve: require"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/element_require.tpl:12
+#: src/sieveEditorPlugin/templates/object_container.tpl:27
+#: src/sieveEditorPlugin/class_sieveManagement.inc:519
+#: src/sieveEditorPlugin/class_sieveManagement.inc:719
+msgid "Require"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/management.tpl:1
+#, fuzzy
+msgid "List of sieve scripts"
+msgstr "Список пользователей"
+
+#: src/sieveEditorPlugin/templates/management.tpl:5
+msgid ""
+"Connection to the sieve server could not be established, the authentication "
+"attribute is empty."
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/management.tpl:6
+msgid ""
+"Please verify that the attributes UID and mail are not empty and try again."
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/management.tpl:12
+msgid "Connection to the sieve server could not be established."
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/management.tpl:15
+msgid "Possibly the sieve account has not been created yet."
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/management.tpl:19
+msgid ""
+"Be careful. All your changes will be saved directly to sieve, if you use the "
+"save button below."
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/element_comment.tpl:1
+#, fuzzy
+msgid "Sieve comment"
+msgstr "Название"
+
+#: src/sieveEditorPlugin/templates/element_comment.tpl:4
+#: src/sieveEditorPlugin/templates/object_container.tpl:21
+#: src/sieveEditorPlugin/class_sieveManagement.inc:513
+#: src/sieveEditorPlugin/class_sieveManagement.inc:713
+#, fuzzy
+msgid "Comment"
+msgstr "Контакт"
+
+#: src/sieveEditorPlugin/templates/element_comment.tpl:8
+msgid "Edit"
+msgstr "Изменить"
+
+#: src/sieveEditorPlugin/templates/element_fileinto.tpl:1
+#, fuzzy
+msgid "Sieve: File into"
+msgstr "Имя сервера"
+
+#: src/sieveEditorPlugin/templates/element_fileinto.tpl:4
+#, fuzzy
+msgid "Move mail into folder"
+msgstr "в папку"
+
+#: src/sieveEditorPlugin/templates/element_fileinto.tpl:8
+#, fuzzy
+msgid "Select from list"
+msgstr "Создать шаблон"
+
+#: src/sieveEditorPlugin/templates/element_fileinto.tpl:10
+#, fuzzy
+msgid "Manual selection"
+msgstr "Язык"
+
+#: src/sieveEditorPlugin/templates/element_fileinto.tpl:19
+#, fuzzy
+msgid "Folder"
+msgstr "Фильтр"
+
+#: src/sieveEditorPlugin/templates/element_else.tpl:1
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:4
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:13
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:77
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:92
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:100
+#, fuzzy
+msgid "Sieve envelope"
+msgstr "Название"
+
+#: src/sieveEditorPlugin/templates/element_else.tpl:4
+#: src/sieveEditorPlugin/templates/object_container.tpl:31
+#: src/sieveEditorPlugin/class_sieveManagement.inc:581
+#: src/sieveEditorPlugin/class_sieveManagement.inc:757
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:840
+#, fuzzy
+msgid "Else"
+msgstr "Выбрать"
+
+#: src/sieveEditorPlugin/templates/object_container_clear.tpl:1
+#, fuzzy
+msgid "Sieve element clear"
+msgstr "Удалить объект"
+
+#: src/sieveEditorPlugin/templates/object_container_clear.tpl:8
+#: src/sieveEditorPlugin/templates/object_container.tpl:8
+#, fuzzy
+msgid "Move object up one position"
+msgstr "Включаемые объекты"
+
+#: src/sieveEditorPlugin/templates/object_container_clear.tpl:11
+#: src/sieveEditorPlugin/templates/object_container.tpl:11
+msgid "Move object down one position"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/object_container_clear.tpl:14
+#: src/sieveEditorPlugin/templates/object_test_container.tpl:11
+#: src/sieveEditorPlugin/templates/object_container.tpl:14
+#, fuzzy
+msgid "Remove object"
+msgstr "Включаемые объекты"
+
+#: src/sieveEditorPlugin/templates/element_header.tpl:3
+#, fuzzy
+msgid "Sieve header"
+msgstr "Отправитель"
+
+#: src/sieveEditorPlugin/templates/element_header.tpl:16
+#: src/sieveEditorPlugin/templates/element_header.tpl:112
+#: src/sieveEditorPlugin/class_sieveManagement.inc:608
+#, fuzzy
+msgid "Header"
+msgstr "Отправитель"
+
+#: src/sieveEditorPlugin/templates/element_header.tpl:20
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:20
+#: src/sieveEditorPlugin/templates/element_address.tpl:19
+#: src/sieveEditorPlugin/templates/element_vacation.tpl:17
+#, fuzzy
+msgid "Normal view"
+msgstr "Почтовый индекс"
+
+#: src/sieveEditorPlugin/templates/element_header.tpl:28
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:28
+#: src/sieveEditorPlugin/templates/element_address.tpl:27
+#, fuzzy
+msgid "Match type"
+msgstr "Соответствующий объект"
+
+#: src/sieveEditorPlugin/templates/element_header.tpl:31
+#: src/sieveEditorPlugin/templates/element_header.tpl:56
+#: src/sieveEditorPlugin/templates/element_header.tpl:67
+#: src/sieveEditorPlugin/templates/element_header.tpl:122
+#: src/sieveEditorPlugin/templates/element_header.tpl:127
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:31
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:56
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:67
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:121
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:126
+#: src/sieveEditorPlugin/templates/element_address.tpl:30
+#: src/sieveEditorPlugin/templates/element_address.tpl:55
+#: src/sieveEditorPlugin/templates/element_address.tpl:65
+#: src/sieveEditorPlugin/templates/element_address.tpl:76
+#: src/sieveEditorPlugin/templates/element_address.tpl:129
+#: src/sieveEditorPlugin/templates/element_address.tpl:134
+#: src/sieveEditorPlugin/templates/element_boolean.tpl:5
+#, fuzzy
+msgid "Boolean value"
+msgstr "По умолчанию"
+
+#: src/sieveEditorPlugin/templates/element_header.tpl:39
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:39
+#: src/sieveEditorPlugin/templates/element_address.tpl:38
+#, fuzzy
+msgid "Invert test"
+msgstr "Память"
+
+#: src/sieveEditorPlugin/templates/element_header.tpl:43
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:43
+#: src/sieveEditorPlugin/templates/element_address.tpl:42
+#, fuzzy
+msgid "Yes"
+msgstr "Системы"
+
+#: src/sieveEditorPlugin/templates/element_header.tpl:46
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:46
+#: src/sieveEditorPlugin/templates/element_address.tpl:45
+#, fuzzy
+msgid "No"
+msgstr "нет"
+
+#: src/sieveEditorPlugin/templates/element_header.tpl:53
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:53
+#: src/sieveEditorPlugin/templates/element_address.tpl:62
+#, fuzzy
+msgid "Comparator"
+msgstr "не полный"
+
+#: src/sieveEditorPlugin/templates/element_header.tpl:64
+#, fuzzy
+msgid "operator"
+msgstr "Почтовые настройки"
+
+#: src/sieveEditorPlugin/templates/element_header.tpl:81
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:80
+#: src/sieveEditorPlugin/templates/element_address.tpl:89
+msgid "Address fields to include"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/element_header.tpl:85
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:84
+#: src/sieveEditorPlugin/templates/element_address.tpl:93
+msgid "Values to match for"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/element_header.tpl:140
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:139
+#: src/sieveEditorPlugin/templates/element_address.tpl:147
+#: src/sieveEditorPlugin/templates/element_vacation.tpl:50
+#, fuzzy
+msgid "Expert view"
+msgstr "Режим"
+
+#: src/sieveEditorPlugin/templates/element_reject.tpl:1
+#, fuzzy
+msgid "Sieve: reject"
+msgstr "Сервер"
+
+#: src/sieveEditorPlugin/templates/element_reject.tpl:14
+#, fuzzy
+msgid "Reject mail"
+msgstr "Отклонять сообщения размером больше"
+
+#: src/sieveEditorPlugin/templates/element_reject.tpl:17
+msgid "This is a multi-line text element"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/element_reject.tpl:19
+#, fuzzy
+msgid "This is stored as single string"
+msgstr "Что-то будет"
+
+#: src/sieveEditorPlugin/templates/element_keep.tpl:1
+#, fuzzy
+msgid "Sieve element keep"
+msgstr "Удалить объект"
+
+#: src/sieveEditorPlugin/templates/element_keep.tpl:4
+#: src/sieveEditorPlugin/templates/object_container.tpl:20
+#: src/sieveEditorPlugin/templates/object_container.tpl:23
+#: src/sieveEditorPlugin/class_sieveManagement.inc:512
+#: src/sieveEditorPlugin/class_sieveManagement.inc:515
+#: src/sieveEditorPlugin/class_sieveManagement.inc:712
+#: src/sieveEditorPlugin/class_sieveManagement.inc:715
+msgid "Keep"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/element_keep.tpl:9
+#, fuzzy
+msgid "Keep message"
+msgstr "Удалить"
+
+#: src/sieveEditorPlugin/templates/element_if.tpl:4
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:834
+#, fuzzy
+msgid "Condition"
+msgstr "Подключение"
+
+#: src/sieveEditorPlugin/templates/object_test_container.tpl:1
+msgid "Sieve test case"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/object_test_container.tpl:7
+#, fuzzy
+msgid "Add object"
+msgstr "Соответствующий объект"
+
+#: src/sieveEditorPlugin/templates/create_script.tpl:2
+msgid ""
+"Please enter the name for the new script below. Script names must consist of "
+"lower case characters only."
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/create_script.tpl:8
+#, fuzzy
+msgid "Script name"
+msgstr "Список"
+
+#: src/sieveEditorPlugin/templates/import_script.tpl:1
+#, fuzzy
+msgid "Import sieve script"
+msgstr "Показать хосты"
+
+#: src/sieveEditorPlugin/templates/import_script.tpl:2
+msgid ""
+"Please select the sieve script you want to import. Use the import button to "
+"import the script or the cancel button to abort."
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/import_script.tpl:5
+#, fuzzy
+msgid "Script to import"
+msgstr "Путь к сценариям"
+
+#: src/sieveEditorPlugin/templates/element_stop.tpl:1
+#, fuzzy
+msgid "Sieve element stop"
+msgstr "Удалить объект"
+
+#: src/sieveEditorPlugin/templates/element_stop.tpl:9
+msgid "Stop execution here"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/element_allof.tpl:12
+#: src/sieveEditorPlugin/class_sieveManagement.inc:612
+#, fuzzy
+msgid "All of"
+msgstr "Все"
+
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:16
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:111
+#: src/sieveEditorPlugin/class_sieveManagement.inc:609
+msgid "Envelope"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:64
+#: src/sieveEditorPlugin/templates/element_address.tpl:73
+#, fuzzy
+msgid "Operator"
+msgstr "не полный"
+
+#: src/sieveEditorPlugin/templates/element_discard.tpl:1
+#, fuzzy
+msgid "Sieve element discard"
+msgstr "Удалить объект"
+
+#: src/sieveEditorPlugin/templates/element_discard.tpl:4
+#: src/sieveEditorPlugin/templates/object_container.tpl:24
+#: src/sieveEditorPlugin/class_sieveManagement.inc:516
+#: src/sieveEditorPlugin/class_sieveManagement.inc:716
+#, fuzzy
+msgid "Discard"
+msgstr "Устройства"
+
+#: src/sieveEditorPlugin/templates/element_discard.tpl:9
+#, fuzzy
+msgid "Discard message"
+msgstr "Удалить"
+
+#: src/sieveEditorPlugin/templates/element_address.tpl:15
+#: src/sieveEditorPlugin/templates/element_address.tpl:119
+#: src/sieveEditorPlugin/class_sieveManagement.inc:607
+msgid "Address"
+msgstr "Адрес"
+
+#: src/sieveEditorPlugin/templates/element_address.tpl:52
+msgid "Part of address that should be used"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/element_vacation.tpl:13
+#, fuzzy
+msgid "Vacation Message"
+msgstr "Сообщение автоответчика"
+
+#: src/sieveEditorPlugin/templates/element_vacation.tpl:23
+#, fuzzy
+msgid "Release interval"
+msgstr "Интервал времени"
+
+#: src/sieveEditorPlugin/templates/element_vacation.tpl:27
+#, fuzzy
+msgid "days"
+msgstr "день"
+
+#: src/sieveEditorPlugin/templates/element_vacation.tpl:32
+#, fuzzy
+msgid "Alternative sender addresses"
+msgstr "Альтернативные адреса"
+
+#: src/sieveEditorPlugin/templates/element_boolean.tpl:4
+#, fuzzy
+msgid "Boolean"
+msgstr "По умолчанию"
+
+#: src/sieveEditorPlugin/templates/element_boolean.tpl:8
+#, fuzzy
+msgid "Update"
+msgstr "Обновить"
+
+#: src/sieveEditorPlugin/templates/object_container.tpl:19
+#, fuzzy
+msgid "choose element"
+msgstr "Удалить объект"
+
+#: src/sieveEditorPlugin/templates/object_container.tpl:22
+#: src/sieveEditorPlugin/class_sieveManagement.inc:514
+#: src/sieveEditorPlugin/class_sieveManagement.inc:714
+#, fuzzy
+msgid "File into"
+msgstr "Имя сервера"
+
+#: src/sieveEditorPlugin/templates/object_container.tpl:26
+#: src/sieveEditorPlugin/class_sieveManagement.inc:518
+#: src/sieveEditorPlugin/class_sieveManagement.inc:718
+#, fuzzy
+msgid "Reject"
+msgstr "Удалить"
+
+#: src/sieveEditorPlugin/templates/object_container.tpl:30
+#: src/sieveEditorPlugin/class_sieveManagement.inc:522
+#: src/sieveEditorPlugin/class_sieveManagement.inc:722
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:836
+#, fuzzy
+msgid "If"
+msgstr "Unix"
+
+#: src/sieveEditorPlugin/templates/object_container.tpl:36
+msgid "Add a new object above this one."
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/object_container.tpl:38
+msgid "Add a new object below this one."
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/element_exists.tpl:9
+#: src/sieveEditorPlugin/class_sieveManagement.inc:611
+#, fuzzy
+msgid "Exists"
+msgstr "Изменить"
+
+#: src/sieveEditorPlugin/templates/edit_frame_base.tpl:2
+#, fuzzy
+msgid "Sieve editor"
+msgstr "Сервер"
+
+#: src/sieveEditorPlugin/templates/edit_frame_base.tpl:6
+msgid "Export"
+msgstr "Экспорт"
+
+#: src/sieveEditorPlugin/templates/edit_frame_base.tpl:12
+#, fuzzy
+msgid "View structured"
+msgstr "Искать в поддеревьях"
+
+#: src/sieveEditorPlugin/templates/edit_frame_base.tpl:14
+#, fuzzy
+msgid "View source"
+msgstr "Звук"
+
+#: src/sieveEditorPlugin/class_sieveElement_Redirect.inc:24
+#, fuzzy
+msgid "Please specify a valid email address."
+msgstr "Введите корректное имя пользователя!"
+
+#: src/sieveEditorPlugin/class_sieveElement_Redirect.inc:35
+#, fuzzy
+msgid "Place a mail address here"
+msgstr "Введите корректный серийный номер"
+
+#: src/sieveEditorPlugin/class_sieveElement_Reject.inc:21
+msgid "Invalid character found, quotes are not allowed in a reject message."
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveElement_Reject.inc:37
+msgid "Your reject text here"
+msgstr ""
+
+#: src/sieveEditorPlugin/class_My_Tree.inc:245
+#, fuzzy
+msgid "Cannot remove last element!"
+msgstr "Удалить объект"
+
+#: src/sieveEditorPlugin/class_My_Tree.inc:658
+msgid "Require must be the first command in the script."
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:85
+msgid "Information"
+msgstr "Информация"
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:86
+#, fuzzy
+msgid "Length"
+msgstr "Улица"
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:132
+#: src/sieveEditorPlugin/class_sieveManagement.inc:262
+#, fuzzy
+msgid "Parse failed"
+msgstr "Ошибка"
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:136
+#: src/sieveEditorPlugin/class_sieveManagement.inc:266
+#, fuzzy
+msgid "Parse successful"
+msgstr "Импорт успешен."
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:175
+#, php-format
+msgid ""
+"The specified mail server '%s' does not exist within the GOsa configuration."
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:221
+msgid "No script name specified!"
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:226
+#, fuzzy
+msgid "Please use only lowercase script names!"
+msgstr "Введите корректное имя пользователя!"
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:232
+#, fuzzy
+msgid "Please use only alphabetical characters in script names!"
+msgstr "Вам не разрешено менять пароль."
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:238
+#, fuzzy
+msgid "Script name already in use!"
+msgstr "Указанное имя уже используется."
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:315
+#: src/sieveEditorPlugin/class_sieveManagement.inc:325
+#: src/sieveEditorPlugin/class_sieveManagement.inc:362
+#: src/sieveEditorPlugin/class_sieveManagement.inc:366
+#: src/sieveEditorPlugin/class_sieveManagement.inc:415
+#: src/sieveEditorPlugin/class_sieveManagement.inc:419
+#: src/sieveEditorPlugin/class_sieveManagement.inc:452
+#: src/sieveEditorPlugin/class_sieveManagement.inc:538
+#: src/sieveEditorPlugin/class_sieveManagement.inc:771
+#: src/sieveEditorPlugin/class_sieveManagement.inc:1031
+#: src/sieveEditorPlugin/class_sieveManagement.inc:1044
+#, fuzzy
+msgid "SIEVE error"
+msgstr "Ошибка LDAP:"
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:315
+#: src/sieveEditorPlugin/class_sieveManagement.inc:362
+#: src/sieveEditorPlugin/class_sieveManagement.inc:1031
+#, fuzzy, php-format
+msgid "Cannot log into SIEVE server: %s"
+msgstr "Невозможно зарегистрироваться на сервере SIEVE. Ответ сервера: \"%s\"."
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:366
+#, fuzzy, php-format
+msgid "Cannot remove SIEVE script: %s"
+msgstr "состояние неизвестно"
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:412
+#, fuzzy
+msgid "Edited"
+msgstr "Изменить"
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:448
+#, fuzzy
+msgid "Uploaded script is empty!"
+msgstr "Сертификаты"
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:450
+#, fuzzy
+msgid "Internal error"
+msgstr "Терминал-сервер"
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:450
+#, fuzzy, php-format
+msgid "Cannot access temporary file '%s'!"
+msgstr "Удалить"
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:452
+#, fuzzy, php-format
+msgid "Cannot open temporary file '%s'!"
+msgstr "Удалить"
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:538
+#, fuzzy
+msgid "Cannot add new element!"
+msgstr "Добавить сервис DNS"
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:614
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:915
+#, fuzzy
+msgid "True"
+msgstr "Улица"
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:615
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:915
+#, fuzzy
+msgid "False"
+msgstr "женский"
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:649
+msgid "This script is marked as active"
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:657
+#, fuzzy
+msgid "Activate script"
+msgstr "Личный"
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:673
+#, php-format
+msgid "Can't log into SIEVE server. Server says '%s'."
+msgstr "Невозможно зарегистрироваться на сервере SIEVE. Ответ сервера: \"%s\"."
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:771
+#, fuzzy
+msgid "Cannot insert element at the requested position!"
+msgstr "Невозможно подключиться к серверу базы данных!"
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:1046
+#, fuzzy
+msgid "Failed to save sieve script"
+msgstr "Использовать другой сценарий SIEVE"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:27
+#, fuzzy
+msgid "Complete address"
+msgstr "не полный"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:27
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:33
+#, fuzzy
+msgid "Default"
+msgstr "по умолчанию"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:28
+#, fuzzy
+msgid "Domain part"
+msgstr "Пользователи домена"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:29
+#, fuzzy
+msgid "Local part"
+msgstr "Местоположение"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:33
+msgid "Case insensitive"
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:34
+msgid "Case sensitive"
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:35
+#, fuzzy
+msgid "Numeric"
+msgstr "Ноябрь"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:39
+msgid "is"
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:40
+#, fuzzy
+msgid "reg-ex"
+msgstr "сброс"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:41
+#, fuzzy
+msgid "contains"
+msgstr "Действия"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:42
+#, fuzzy
+msgid "matches"
+msgstr "Отмена"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:43
+#, fuzzy
+msgid "count"
+msgstr "Учетная запись"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:44
+#, fuzzy
+msgid "value is"
+msgstr "По умолчанию"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:48
+#, fuzzy
+msgid "less than"
+msgstr "Добро пожаловать %s!"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:49
+msgid "less or equal"
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:50
+msgid "equals"
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:51
+msgid "greater or equal"
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:52
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:726
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:1059
+#, fuzzy
+msgid "greater than"
+msgstr "Создать параметры"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:53
+#, fuzzy
+msgid "not equal"
+msgstr "не полный"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:102
+#, fuzzy
+msgid "Can't save empty tests."
+msgstr "Удалить"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:446
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:447
+#, fuzzy
+msgid "empty"
+msgstr "Шаблон"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:493
+msgid "Nothing specified right now"
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:595
+msgid "Invalid type of address part."
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:605
+#, fuzzy
+msgid "Invalid match type given."
+msgstr "Значение поля \"Имя\" содержит недопустимые символы."
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:621
+#, fuzzy
+msgid "Invalid operator given."
+msgstr "Значение поля \"Имя\" содержит недопустимые символы."
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:638
+#, fuzzy
+msgid "Please specify a valid operator."
+msgstr "Введите корректное имя пользователя!"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:654
+#, fuzzy
+msgid ""
+"Invalid character found in address attribute. Quotes are not allowed here."
+msgstr "Введите корректное имя пользователя!"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:669
+msgid ""
+"Invalid character found in value attribute. Quotes are not allowed here."
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:727
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:1060
+msgid "lower than"
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:729
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:1062
+#, fuzzy
+msgid "Megabyte"
+msgstr "Дата"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:730
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:1063
+msgid "Kilobyte"
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:731
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:1064
+#, fuzzy
+msgid "Bytes"
+msgstr "Системы"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:745
+#, fuzzy
+msgid "Please select a valid match type in the list box below."
+msgstr "Введите корректный серийный номер"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:759
+msgid "Only numeric values are allowed here."
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:769
+#, fuzzy
+msgid "No valid unit selected"
+msgstr "Изменить сертификаты"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:876
+#, fuzzy
+msgid "Empty"
+msgstr "Шаблон"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:1134
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:1164
+#, fuzzy
+msgid "Click here to add a new test"
+msgstr "Нажмите на эту кнопку, чтобы войти в систему"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:1176
+#, fuzzy
+msgid "Unknown switch type"
+msgstr "состояние неизвестно"
+
+#: src/sieveEditorPlugin/class_sieveElement_Require.inc:73
+#, fuzzy
+msgid "Please specify at least one valid requirement."
+msgstr "Укажите корректный номер телефона."
+
+#: src/sieveEditorPlugin/class_sieveElement_Comment.inc:21
+msgid "Your comment here"
+msgstr ""
+
+#: src/virusService/goVirusServer.tpl:2
+#, fuzzy
+msgid "Anti virus setting"
+msgstr "Добавить сервис DNS"
+
+#: src/virusService/goVirusServer.tpl:5
+#, fuzzy
+msgid "Generic virus filtering"
+msgstr "Общая информация о пользователе"
+
+#: src/virusService/goVirusServer.tpl:10 src/virusService/goVirusServer.tpl:50
+#, fuzzy
+msgid "Database setting"
+msgstr "Базы данных"
+
+#: src/virusService/goVirusServer.tpl:12
+#: src/virusService/class_goVirusServer.inc:176
+#, fuzzy
+msgid "Database user"
+msgstr "Базы данных"
+
+#: src/virusService/goVirusServer.tpl:20
+#: src/virusService/class_goVirusServer.inc:176
+#: src/virusService/class_goVirusServer.inc:247
+#, fuzzy
+msgid "Database mirror"
+msgstr "Базы данных"
+
+#: src/virusService/goVirusServer.tpl:29
+#: src/virusService/class_goVirusServer.inc:176
+#: src/virusService/class_goVirusServer.inc:249
+msgid "HTTP proxy URL"
+msgstr ""
+
+#: src/virusService/goVirusServer.tpl:37
+#: src/virusService/class_goVirusServer.inc:164
+#: src/virusService/class_goVirusServer.inc:241
+msgid "Maximum threads"
+msgstr ""
+
+#: src/virusService/goVirusServer.tpl:41
+#, fuzzy
+msgid "Select number of maximal threads"
+msgstr "Выбрать номера для добавления"
+
+#: src/virusService/goVirusServer.tpl:52
+msgid "Max directory recursions"
+msgstr ""
+
+#: src/virusService/goVirusServer.tpl:60
+#: src/virusService/class_goVirusServer.inc:168
+#: src/virusService/class_goVirusServer.inc:248
+#, fuzzy
+msgid "Checks per day"
+msgstr "Изменить параметры"
+
+#: src/virusService/goVirusServer.tpl:72
+#: src/virusService/class_goVirusServer.inc:236
+#, fuzzy
+msgid "Enable debugging"
+msgstr "отключен"
+
+#: src/virusService/goVirusServer.tpl:79
+#: src/virusService/class_goVirusServer.inc:237
+msgid "Enable mail scanning"
+msgstr ""
+
+#: src/virusService/goVirusServer.tpl:88
+msgid "Archive scanning"
+msgstr ""
+
+#: src/virusService/goVirusServer.tpl:94
+#: src/virusService/goVirusServer.tpl:118
+#, fuzzy
+msgid "Archive setting"
+msgstr "Администрирование"
+
+#: src/virusService/goVirusServer.tpl:104
+#: src/virusService/class_goVirusServer.inc:238
+msgid "Enable scanning of archives"
+msgstr ""
+
+#: src/virusService/goVirusServer.tpl:112
+#: src/virusService/class_goVirusServer.inc:239
+msgid "Block encrypted archives"
+msgstr ""
+
+#: src/virusService/goVirusServer.tpl:120
+#: src/virusService/class_goVirusServer.inc:165
+#: src/virusService/class_goVirusServer.inc:244
+#, fuzzy
+msgid "Maximum file size"
+msgstr "Размер квоты"
+
+#: src/virusService/goVirusServer.tpl:130
+msgid "Maximum recursion"
+msgstr ""
+
+#: src/virusService/goVirusServer.tpl:141
+#: src/virusService/class_goVirusServer.inc:167
+#: src/virusService/class_goVirusServer.inc:246
+#, fuzzy
+msgid "Maximum compression ratio"
+msgstr "Параметры доступа"
+
+#: src/virusService/class_goVirusServer.inc:45
+#: src/virusService/class_goVirusServer.inc:210
+#: src/virusService/class_goVirusServer.inc:219
+#: src/virusService/class_goVirusServer.inc:220
+msgid "Anti virus"
+msgstr ""
+
+#: src/virusService/class_goVirusServer.inc:163
+#: src/virusService/class_goVirusServer.inc:242
+msgid "Maximum directory recursions"
+msgstr ""
+
+#: src/virusService/class_goVirusServer.inc:166
+#: src/virusService/class_goVirusServer.inc:245
+msgid "Maximum recursions"
+msgstr ""
+
+#: src/virusService/class_goVirusServer.inc:243
+#, fuzzy
+msgid "Anti virus user"
+msgstr "Добавить сервис DNS"
+
+#: src/ogroupMailExtension/class_mailogroup.inc:50
+msgid "Remove mail account"
+msgstr "Удалить настройки эл. почты"
+
+#: src/ogroupMailExtension/class_mailogroup.inc:51
+#: src/ogroupMailExtension/class_mailogroup.inc:54
+#, fuzzy
+msgid "mail group"
+msgstr "Основная группа"
+
+#: src/ogroupMailExtension/class_mailogroup.inc:53
+msgid "Create mail account"
+msgstr "Создать настройки запись эл. почты"
+
+#: src/ogroupMailExtension/class_mailogroup.inc:86
+msgid "your-name@your-domain.com"
+msgstr ""
+
+#: src/ogroupMailExtension/class_mailogroup.inc:187
+#, fuzzy
+msgid "Mail group"
+msgstr "Основная группа"
+
+#: src/ogroupMailExtension/mail.tpl:9 src/ogroupMailExtension/mail.tpl:10
+#, fuzzy
+msgid "Mail distribution list"
+msgstr "Почтовые настройки пользователя"
+
+#: src/ogroupMailExtension/mail.tpl:15
+#, fuzzy
+msgid "Primary mail address for this distribution list"
+msgstr "Основной адрес эл. почты для этой общей папки"
+
+#: src/ogroupMailExtension/paste_mail.tpl:1
+#, fuzzy
+msgid "Paste group mail settings"
+msgstr "Настройки Samba"
+
+#: src/ogroupMailExtension/paste_mail.tpl:7
+#, fuzzy
+msgid "Please enter a mail address"
+msgstr "Введите корректный серийный номер"
+
+#~ msgid "This does something"
+#~ msgstr "Что-то будет"
+
+#, fuzzy
+#~ msgid "Admin user"
+#~ msgstr "Пользователи домена"
+
+#~ msgid "Admin password"
+#~ msgstr "Пароль администратора"
+
+#, fuzzy
+#~ msgid "Unhold all messages"
+#~ msgstr "Перенаправлять сообщения"
+
+#, fuzzy
+#~ msgid "Unhold message"
+#~ msgstr "Домашняя страница"
+
+#, fuzzy
+#~ msgid "Fileinto"
+#~ msgstr "Файлы"
+
+#, fuzzy
+#~ msgid "emtpy"
+#~ msgstr "Шаблон"
+
+#, fuzzy
+#~ msgid "Reload"
+#~ msgstr "чтение"
+
+#~ msgid "Select addresses to add"
+#~ msgstr "Выберите адреса для добавления"
+
+#~ msgid "Filters"
+#~ msgstr "Фильтры"
+
+#~ msgid "Display addresses of department"
+#~ msgstr "Показать адреса подразделения"
+
+#~ msgid "Choose the department the search will be based on"
+#~ msgstr "Выбрать раздел, для которого будет осуществлен поиск"
+
+#~ msgid "Display addresses matching"
+#~ msgstr "Показать подходяшие адреса"
+
+#~ msgid "Regular expression for matching addresses"
+#~ msgstr "Регулярное выражение для поиска адреса"
+
+#~ msgid "Display addresses of user"
+#~ msgstr "Показать адреса пользователя"
+
+#~ msgid "User name of which addresses are shown"
+#~ msgstr "Имя пользователя, адрес которого показан"
+
+#~ msgid "Folder administrators"
+#~ msgstr "Администраторы папки"
+
+#~ msgid "Select a specific department"
+#~ msgstr "Выберите подразделение."
+
+#~ msgid "Choose"
+#~ msgstr "Выбрать"
+
+#, fuzzy
+#~ msgid "Please enter a search string here."
+#~ msgstr "Введите корректный серийный номер"
+
+#, fuzzy
+#~ msgid "with status"
+#~ msgstr "Состояние"
+
+#, fuzzy
+#~ msgid "delete"
+#~ msgstr "Удалить"
+
+#, fuzzy
+#~ msgid "hold"
+#~ msgstr "Почтовые настройки"
+
+#, fuzzy
+#~ msgid "requeue"
+#~ msgstr "Номер телефона"
+
+#, fuzzy
+#~ msgid "header"
+#~ msgstr "Отправитель"
+
+#, fuzzy
+#~ msgid "Move up"
+#~ msgstr "Режим"
+
+#, fuzzy
+#~ msgid "Down"
+#~ msgstr "Домен"
+
+#, fuzzy
+#~ msgid "Move down"
+#~ msgstr "Домен"
+
+#, fuzzy
+#~ msgid "Add new"
+#~ msgstr "Пользователи домена"
+
+#, fuzzy
+#~ msgid "Move this object up one position"
+#~ msgstr "Включаемые объекты"
+
+#, fuzzy
+#~ msgid "Remove this object"
+#~ msgstr "Включаемые объекты"
+
+#, fuzzy
+#~ msgid "Create new script"
+#~ msgstr "Создание нового объекта в"
+
+#, fuzzy
+#~ msgid "Script length"
+#~ msgstr "Путь к сценариям"
+
+#, fuzzy
+#~ msgid "Remove script"
+#~ msgstr "Удалить сервис DNS"
+
+#, fuzzy
+#~ msgid "Edit script"
+#~ msgstr "Пользователи домена"
+
+#, fuzzy
+#~ msgid "Show users"
+#~ msgstr "Показать пользователей Samba"
+
+#, fuzzy
+#~ msgid "Show groups"
+#~ msgstr "Показать группы samba"
+
+#, fuzzy
+#~ msgid "Select department"
+#~ msgstr "Выберите подразделение"
+
+#, fuzzy
+#~ msgid "Cannot connect mail method: %s"
+#~ msgstr "Удалить"
+
+#, fuzzy
+#~ msgid "Cannot remove mailbox: %s."
+#~ msgstr "Не удается удалить почтовый ящик IMAP. Ответ сервера: '%s'."
+
+#, fuzzy
+#~ msgid "Cannot update mailbox: %s."
+#~ msgstr "Не удается создать почтовый ящик IMAP. Ответ сервера: \"%s\"."
+
+#, fuzzy
+#~ msgid "Cannot write quota settings: %s."
+#~ msgstr "Удалить"
+
+#, fuzzy
+#~ msgid "Cannot get list of mailboxes! Error was: %s."
+#~ msgstr "Не удается удалить почтовый ящик IMAP. Ответ сервера: '%s'."
+
+#, fuzzy
+#~ msgid "Cannot connect mail method! Error was: %s."
+#~ msgstr "Удалить"
+
+#, fuzzy
+#~ msgid "Cannot remove mailbox! Error was: %s."
+#~ msgstr "Не удается удалить почтовый ящик IMAP. Ответ сервера: '%s'."
+
+#, fuzzy
+#~ msgid "Cannot update mailbox! Error was: %s."
+#~ msgstr "Не удается создать почтовый ящик IMAP. Ответ сервера: \"%s\"."
+
+#, fuzzy
+#~ msgid "Specify the mail server where the user will  be hosted on"
+#~ msgstr "Выберите почтовый сервер для учетной записи пользователя"
+
+#~ msgid "Select mail server to place user on"
+#~ msgstr "Выберите почтовый сервер для пользователя"
+
+#~ msgid "not defined"
+#~ msgstr "не определена"
+
+#~ msgid "read"
+#~ msgstr "чтение"
+
+#~ msgid "post"
+#~ msgstr "отправка"
+
+#~ msgid "external post"
+#~ msgstr "отправка (внешн.)"
+
+#~ msgid "append"
+#~ msgstr "добавление"
+
+#~ msgid "write"
+#~ msgstr "запись"
+
+#, fuzzy
+#~ msgid "admin"
+#~ msgstr "DN администратора"
+
+#, fuzzy
+#~ msgid "mail"
+#~ msgstr "Почта"
+
+#, fuzzy
+#~ msgid "forward address"
+#~ msgstr "Основной адрес"
+
+#, fuzzy
+#~ msgid "Cannot forward to users own mail address!"
+#~ msgstr "Вы пытаетесь добавить некорректный адрес электронной почты "
+
+#, fuzzy
+#~ msgid "Alternate address"
+#~ msgstr "Альтернативные адреса"
+
+#~ msgid "Add"
+#~ msgstr "Добавить"
+
+#, fuzzy
+#~ msgid "Mails"
+#~ msgstr "Почта"
+
+#, fuzzy
+#~ msgid "Tasks"
+#~ msgstr "Выберите тип мыши"
+
+#, fuzzy
+#~ msgid "Journals"
+#~ msgstr "час"
+
+#, fuzzy
+#~ msgid "Contacts"
+#~ msgstr "Контакт"
+
+#, fuzzy
+#~ msgid "Notes"
+#~ msgstr "нет"
+
+#, fuzzy
+#~ msgid "Drafts"
+#~ msgstr "Дата"
+
+#, fuzzy
+#~ msgid "Sent items"
+#~ msgstr "Состояние системы"
+
+#, fuzzy
+#~ msgid "Junk mail"
+#~ msgstr "Группа"
+
+#~ msgid "Mail options"
+#~ msgstr "Почтовые настройки"
+
+#, fuzzy
+#~ msgid "You have no permission to submit a '%s' command!"
+#~ msgstr "У вас недостаточно прав для создания пользователя в этой ветке."
+
+#, fuzzy
+#~ msgid "No mail servers specified!"
+#~ msgstr "Не указан сервер журналов."
+
+#~ msgid "There is no mail method '%s' specified in your gosa.conf available."
+#~ msgstr "Метод '%s' не описан в вашем файле конфигурации."
+
+#~ msgid ""
+#~ "Adding your one of your own addresses to the forwarders makes no sense."
+#~ msgstr ""
+#~ "Добавление своего единственного адреса к списку пересылки не имеет смысла."
+
+#, fuzzy
+#~ msgid "alternate address"
+#~ msgstr "Альтернативные адреса"
+
+#~ msgid "Delete"
+#~ msgstr "Удалить"
+
+#~ msgid "Save"
+#~ msgstr "Сохранить"
+
+#~ msgid "Cancel"
+#~ msgstr "Отмена"
+
+#~ msgid "Apply"
+#~ msgstr "Применить"
+
+#~ msgid "This 'dn' has no valid mail extensions."
+#~ msgstr "Для этого DN нет корректных почтовых расширений."
+
+#~ msgid ""
+#~ "This account has mail features enabled. You can disable them by clicking "
+#~ "below."
+#~ msgstr ""
+#~ "В этой учетной записи есть настройки электронной почты. Вы можете удалить "
+#~ "их, щелкнув ниже."
+
+#~ msgid ""
+#~ "This account has mail features disabled. You can enable them by clicking "
+#~ "below."
+#~ msgstr ""
+#~ "В этой учетной записи нет настроек электронной почты. Вы можете добавить "
+#~ "их, щелкнув ниже."
+
+#, fuzzy
+#~ msgid "You're trying to add an invalid email address "
+#~ msgstr ""
+#~ "Вы пытаетесь добавить некорректный адрес электронной почты к списку тех, "
+#~ "кому должны пересылаться сообщения."
+
+#~ msgid ""
+#~ "You're trying to add an invalid email address to the list of alternate "
+#~ "addresses."
+#~ msgstr ""
+#~ "Вы пытаетесь добавить некорректный адрес электронной почты к списку "
+#~ "альтернативных адресов."
+
+#~ msgid "The address you're trying to add is already used by user"
+#~ msgstr "Добавляемый вами адрес уже используется пользователем"
+
+#~ msgid "The required field 'Primary address' is not set."
+#~ msgstr "Обязательное поле \"Основной адрес\" не заполнено."
+
+#~ msgid "Please enter a valid email addres in 'Primary address' field."
+#~ msgstr "Введите корректное значение в поле \"Основной адрес\"."
+
+#~ msgid "The primary address you've entered is already in use."
+#~ msgstr "Введенный вами адрес уже используется."
+
+#~ msgid "Value in 'Quota size' is not valid."
+#~ msgstr "Значение поля \"Квота\" некорректно."
+
+#~ msgid "Please specify a vaild mail size for mails to be rejected."
+#~ msgstr "Укажите корректный размер сообщений, которые будут отклоняться."
+
+#, fuzzy
+#~ msgid "Please specify a numeric value for header size limit."
+#~ msgstr "Укажите корректный номер телефона."
+
+#, fuzzy
+#~ msgid "Please specify a numeric value for mailbox size limit."
+#~ msgstr "Укажите корректный номер телефона."
+
+#, fuzzy
+#~ msgid "Please specify a numeric value for message size limit."
+#~ msgstr "Укажите корректный номер телефона."
+
+#, fuzzy
+#~ msgid "Please specify a server identifier."
+#~ msgstr "Введите корректное имя пользователя!"
+
+#, fuzzy
+#~ msgid "Please specify a connect url."
+#~ msgstr "Введите корректное имя пользователя!"
+
+#, fuzzy
+#~ msgid "Please specify an admin user."
+#~ msgstr "Введите корректное имя пользователя!"
+
+#, fuzzy
+#~ msgid "Please specify a password for the admin user."
+#~ msgstr "Укажите корректный номер телефона."
+
+#, fuzzy
+#~ msgid "Please specify a valid value for '%s'."
+#~ msgstr "Укажите корректный номер телефона."
+
+#, fuzzy
+#~ msgid ""
+#~ "This group has mail features enabled. You can disable them by clicking "
+#~ "below."
+#~ msgstr ""
+#~ "В этой учетной записи есть настройки электронной почты. Вы можете удалить "
+#~ "их, щелкнув ниже."
+
+#, fuzzy
+#~ msgid ""
+#~ "This group has mail features disabled. You can enable them by clicking "
+#~ "below."
+#~ msgstr ""
+#~ "В этой учетной записи нет настроек электронной почты. Вы можете добавить "
+#~ "их, щелкнув ниже."
+
+#~ msgid "Please enter a valid email address in 'Primary address' field."
+#~ msgstr "Введите корректное значение в поле \"Основной адрес\"."
+
+#~ msgid "Back"
+#~ msgstr "Назад"
+
+#, fuzzy
+#~ msgid "Mailqueue"
+#~ msgstr "Сервер"
+
+#, fuzzy
+#~ msgid "Mailqueue addon"
+#~ msgstr "Сервер"
+
+#~ msgid "This account has no mail extensions."
+#~ msgstr "В этой учетной записи нет почтовых расширений."
+
+#~ msgid "January"
+#~ msgstr "Январь"
+
+#~ msgid "February"
+#~ msgstr "Февраль"
+
+#~ msgid "March"
+#~ msgstr "Март"
+
+#~ msgid "April"
+#~ msgstr "Апрель"
+
+#~ msgid "May"
+#~ msgstr "Май"
+
+#~ msgid "June"
+#~ msgstr "Июнь"
+
+#~ msgid "July"
+#~ msgstr "Июль"
+
+#~ msgid "August"
+#~ msgstr "Август"
+
+#~ msgid "September"
+#~ msgstr "Сентябрь"
+
+#~ msgid "October"
+#~ msgstr "Октябрь"
+
+#~ msgid "November"
+#~ msgstr "Ноябрь"
+
+#~ msgid "December"
+#~ msgstr "Декабрь"
+
+#, fuzzy
+#~ msgid "Removing of user/mail account with dn '%s' failed."
+#~ msgstr "Удалить настройки эл. почты"
+
+#, fuzzy
+#~ msgid "Saving of user/mail account with dn '%s' failed."
+#~ msgstr "Удалить настройки эл. почты"
+
+#~ msgid "Click the 'Edit' button below to change informations in this dialog"
+#~ msgstr "Нажмите 'Изменить' чтобы отредактировать данные в этой форме."
+
+#, fuzzy
+#~ msgid "Saving of object group/mail with dn '%s' failed."
+#~ msgstr "Моя учетная запись"
+
+#, fuzzy
+#~ msgid "Removing of object group/mail with dn '%s' failed."
+#~ msgstr "Атрибуты UNIX"
+
+#, fuzzy
+#~ msgid "Saving of server services/anti virus with dn '%s' failed."
+#~ msgstr "Атрибуты UNIX"
+
+#, fuzzy
+#~ msgid "Saving of server services/spamassassin with dn '%s' failed."
+#~ msgstr "Атрибуты UNIX"
+
+#, fuzzy
+#~ msgid "Saving server services/mail with dn '%s' failed."
+#~ msgstr "Атрибуты UNIX"
+
+#, fuzzy
+#~ msgid "Removing of groups/mail with dn '%s' failed."
+#~ msgstr "Почтовые настройки пользователя"
+
+#, fuzzy
+#~ msgid "Saving of groups/mail with dn '%s' failed."
+#~ msgstr "Почтовые настройки пользователя"

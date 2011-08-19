@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:31+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/goSyslogService/goLogDBServer.tpl:1
+msgid "Logging database information"
+msgstr ""
+
+#: src/goSyslogService/goLogDBServer.tpl:4
+#: src/goSyslogService/class_goLogDBServer.inc:75
+#: src/goSyslogService/class_goLogDBServer.inc:106
+msgid "Database"
+msgstr ""
+
+#: src/goSyslogService/goLogDBServer.tpl:12
+msgid "Logging DB user"
+msgstr ""
+
+#: src/goSyslogService/goLogDBServer.tpl:20
+#: src/goSyslogService/class_goLogDBServer.inc:72
+#: src/goSyslogService/class_goLogDBServer.inc:105
+msgid "Password"
+msgstr ""
+
+#: src/goSyslogService/class_goSyslogServer.inc:27
+#: src/goSyslogService/class_goSyslogServer.inc:47
+msgid "Syslog server"
+msgstr ""
+
+#: src/goSyslogService/class_goSyslogServer.inc:68
+#: src/goSyslogService/class_goSyslogServer.inc:69
+msgid "Logging service"
+msgstr ""
+
+#: src/goSyslogService/class_goSyslogServer.inc:69
+#: src/goSyslogService/class_goLogDBServer.inc:93
+msgid "Services"
+msgstr ""
+
+#: src/goSyslogService/goSyslogServer.tpl:1
+msgid "Syslog Service"
+msgstr ""
+
+#: src/goSyslogService/goSyslogServer.tpl:1
+msgid "enabled"
+msgstr ""
+
+#: src/goSyslogService/class_goLogDBServer.inc:31
+#: src/goSyslogService/class_goLogDBServer.inc:59
+msgid "Syslog service database"
+msgstr ""
+
+#: src/goSyslogService/class_goLogDBServer.inc:69
+msgid "User"
+msgstr ""
+
+#: src/goSyslogService/class_goLogDBServer.inc:92
+#: src/goSyslogService/class_goLogDBServer.inc:93
+msgid "Logging database"
+msgstr ""
+
+#: src/goSyslogService/class_goLogDBServer.inc:101
+msgid "Start"
+msgstr ""
+
+#: src/goSyslogService/class_goLogDBServer.inc:102
+msgid "Stop"
+msgstr ""
+
+#: src/goSyslogService/class_goLogDBServer.inc:103
+msgid "Restart"
+msgstr ""
+
+#: src/goSyslogService/class_goLogDBServer.inc:104
+msgid "Administrator"
+msgstr ""

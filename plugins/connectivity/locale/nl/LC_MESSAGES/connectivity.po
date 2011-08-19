@@ -1,0 +1,74 @@
+# translation of messages.po to Dutch
+# GOsa2 Translations
+# Copyright (C) 2003 GONICUS GmbH, Germany
+# This file is distributed under the same license as the GOsa2 package.
+# Alfred Schroeder <schroeder@GONICUS.de>, 2004.
+# Cajus Pollmeier <pollmeier@gonicus.de>, 2004.
+#
+# Translator:
+# Niels Klomp (CareWorks ICT Services) <nk@careworks.nl>, 2005,2006,2008,2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: messages\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:31+0200\n"
+"PO-Revision-Date: 2008-06-09 17:58+0100\n"
+"Last-Translator: Niels Klomp (CareWorks ICT Services) <nk@careworks.nl>\n"
+"Language-Team: CareWorks ICT Services <info@careworks.nl>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/connectivityPlugin/intranet.tpl:4
+#, fuzzy
+msgid "Intra net account"
+msgstr "Intranet account"
+
+#: src/connectivityPlugin/class_connectivity.inc:15
+#: src/connectivityPlugin/class_connectivity.inc:287
+msgid "Connectivity"
+msgstr "Verbindingen"
+
+#: src/connectivityPlugin/class_connectivity.inc:16
+#, fuzzy
+msgid "Manage connectivity user settings"
+msgstr "Algemene wachtrij instellingen"
+
+#: src/connectivityPlugin/class_connectivity.inc:290
+#: src/connectivityPlugin/class_intranetAccount.inc:208
+msgid "My account"
+msgstr "Mijn account"
+
+#: src/connectivityPlugin/class_connectivity.inc:294
+#: src/connectivityPlugin/class_intranetAccount.inc:217
+#, fuzzy
+msgid "Connectivity add-on"
+msgstr "Verbindingen module"
+
+#: src/connectivityPlugin/class_intranetAccount.inc:16
+#, fuzzy
+msgid "Intra net"
+msgstr "Intranet"
+
+#: src/connectivityPlugin/class_intranetAccount.inc:18
+msgid "Manage user properties of that belong to the internal network"
+msgstr ""
+
+#: src/connectivityPlugin/class_intranetAccount.inc:126
+#: src/connectivityPlugin/class_intranetAccount.inc:195
+msgid "LDAP error"
+msgstr "LDAP fout"
+
+#: src/connectivityPlugin/class_intranetAccount.inc:205
+#, fuzzy
+msgid "Intra-net"
+msgstr "Intranet"
+
+#: src/connectivityPlugin/class_intranetAccount.inc:217
+#, fuzzy
+msgid "Intra-net account settings"
+msgstr "Intranet account instellingen"
+
+#~ msgid "This does something"
+#~ msgstr "Dit doet iets"

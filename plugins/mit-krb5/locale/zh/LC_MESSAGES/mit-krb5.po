@@ -1,0 +1,483 @@
+# translation of messages.po to Chinese Simplified
+# Copyright (C) 2003 GONICUS GmbH, Germany
+# This file is distributed under the same license as the GOsa2 package.
+#
+# Jiang Xin <worldhello.net@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: messages\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:31+0200\n"
+"PO-Revision-Date: 2007-06-03 12:27+0800\n"
+"Last-Translator: Jiang Xin <worldhello.net@gmail.com>\n"
+"Language-Team: Chinese Simplified <zh@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:4
+#: src/kerberosService/pwd_kerberos_mit.tpl:20
+#, fuzzy
+msgid "Kerberos options"
+msgstr "Kerberos"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:9
+#, fuzzy
+msgid "Retry"
+msgstr "仓库"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:12
+#: src/kerberosService/pwd_kerberos_mit.tpl:245
+msgid "Cancel"
+msgstr "取消"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:17
+#: src/kerberosService/pwd_kerberos_mit.tpl:22
+#: src/kerberosService/krb5_policy.tpl:1
+#, fuzzy
+msgid "Policy settings"
+msgstr "Posix 设置"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:24
+#: src/kerberosService/class_krb_host_keys.inc:90
+#: src/kerberosService/class_goKrbServer.inc:186
+#: src/kerberosService/class_goKrbServer.inc:399
+#, fuzzy
+msgid "Realm"
+msgstr "Ram"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:41
+#: src/kerberosService/class_goKrbServer.inc:274
+#, fuzzy
+msgid "Policy"
+msgstr "波兰语"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:58
+#: src/kerberosService/class_password-methods-MIT.inc:608
+msgid "Ticket max life"
+msgstr ""
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:64
+#: src/kerberosService/pwd_kerberos_mit.tpl:71
+#: src/kerberosService/class_password-methods-MIT.inc:611
+msgid "Ticket max renew"
+msgstr ""
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:74
+msgid "infinite"
+msgstr ""
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:75
+msgid "Hour"
+msgstr "小时"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:76
+#, fuzzy
+msgid "Minute"
+msgstr "打印机"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:77
+#, fuzzy
+msgid "Day"
+msgstr "五月"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:78
+#, fuzzy
+msgid "Month"
+msgstr "月"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:79
+#, fuzzy
+msgid "Year"
+msgstr "查找"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:82
+msgid "Valid ticket end time"
+msgstr ""
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:120
+#, fuzzy
+msgid "Password expires"
+msgstr "口令"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:160
+#: src/kerberosService/class_krb_host_keys.inc:90
+msgid "Status"
+msgstr "状态"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:162
+msgid "Generic"
+msgstr "通用配置"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:164
+#, fuzzy
+msgid "Failed logins"
+msgstr "失败"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:165
+#: src/kerberosService/pwd_kerberos_mit.tpl:173
+#: src/kerberosService/pwd_kerberos_mit.tpl:177
+#: src/kerberosService/pwd_kerberos_mit.tpl:181
+#: src/kerberosService/pwd_kerberos_mit.tpl:185
+#: src/kerberosService/class_password-methods-MIT.inc:324
+msgid "none"
+msgstr "无"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:168
+#, fuzzy
+msgid "Key version number"
+msgstr "电话号码"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:172
+#, fuzzy
+msgid "Last failed login"
+msgstr "姓"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:176
+#, fuzzy
+msgid "Last password change"
+msgstr "不允许修改口令"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:180
+msgid "Last successful login"
+msgstr ""
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:184
+#, fuzzy
+msgid "Last modification date"
+msgstr "未安装证书"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:191
+#: src/kerberosService/pwd_kerberos_mit.tpl:193
+#, fuzzy
+msgid "Flags"
+msgstr "类"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:197
+msgid "Prohibit issuance of service tickets"
+msgstr ""
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:200
+msgid "Prohibit forward able tickets"
+msgstr ""
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:203
+msgid "Disallow proxable tickets"
+msgstr ""
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:206
+msgid "Prohibit renewable tickets"
+msgstr ""
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:209
+msgid "Prohibit postdated tickets"
+msgstr ""
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:212
+msgid "Disallow Ticket-Granting Service"
+msgstr ""
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:215
+#, fuzzy
+msgid "Password change service"
+msgstr "不允许修改口令"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:218
+#, fuzzy
+msgid "Pre-authentication required"
+msgstr "Nagios 鉴权"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:221
+#, fuzzy
+msgid "Force a password change"
+msgstr "不允许修改口令"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:224
+#, fuzzy
+msgid "Hardware pre-authentication"
+msgstr "Nagios 鉴权"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:227
+#, fuzzy
+msgid "Disallow user to user authentication"
+msgstr "Nagios 鉴权"
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:230
+msgid "Forbid ticket issuance"
+msgstr ""
+
+#: src/kerberosService/pwd_kerberos_mit.tpl:244
+msgid "Save"
+msgstr "保存"
+
+#: src/kerberosService/krb_host_keys.tpl:3
+#, fuzzy
+msgid "Kerberos keys"
+msgstr "Kerberos Realm"
+
+#: src/kerberosService/krb5_policy.tpl:3 src/kerberosService/krb5_policy.tpl:7
+#: src/kerberosService/krb5_policy.tpl:29
+#, fuzzy
+msgid "Kerberos policy"
+msgstr "Kerberos Realm"
+
+#: src/kerberosService/krb5_policy.tpl:9
+#: src/kerberosService/class_krb5_policy.inc:109
+#: src/kerberosService/class_krb5_policy.inc:112
+#: src/kerberosService/class_krb5_policy.inc:116
+#, fuzzy
+msgid "Policy name"
+msgstr "位置名称"
+
+#: src/kerberosService/krb5_policy.tpl:13
+#: src/kerberosService/class_krb5_policy.inc:128
+#: src/kerberosService/class_krb5_policy.inc:130
+#: src/kerberosService/class_krb5_policy.inc:140
+#, fuzzy
+msgid "Minimum password length"
+msgstr "口令存储"
+
+#: src/kerberosService/krb5_policy.tpl:17
+#: src/kerberosService/class_krb5_policy.inc:135
+#: src/kerberosService/class_krb5_policy.inc:137
+#: src/kerberosService/class_krb5_policy.inc:140
+msgid "Required different characters"
+msgstr ""
+
+#: src/kerberosService/krb5_policy.tpl:21
+#: src/kerberosService/class_krb5_policy.inc:121
+#: src/kerberosService/class_krb5_policy.inc:123
+#, fuzzy
+msgid "Password history size"
+msgstr "口令存储"
+
+#: src/kerberosService/krb5_policy.tpl:32
+#: src/kerberosService/class_krb5_policy.inc:145
+#: src/kerberosService/class_krb5_policy.inc:147
+#: src/kerberosService/class_krb5_policy.inc:157
+msgid "Minimum password lifetime"
+msgstr ""
+
+#: src/kerberosService/krb5_policy.tpl:33
+#: src/kerberosService/krb5_policy.tpl:37
+msgid "seconds"
+msgstr ""
+
+#: src/kerberosService/krb5_policy.tpl:36
+#: src/kerberosService/class_krb5_policy.inc:152
+#: src/kerberosService/class_krb5_policy.inc:154
+#: src/kerberosService/class_krb5_policy.inc:157
+#, fuzzy
+msgid "Password lifetime"
+msgstr "口令"
+
+#: src/kerberosService/class_password-methods-MIT.inc:235
+#, fuzzy, php-format
+msgid "Cannot load principal '%s', from server '%s'!"
+msgstr "无法在主服务器 '%s' 上选择数据库 '%s'。"
+
+#: src/kerberosService/class_password-methods-MIT.inc:236
+#: src/kerberosService/class_password-methods-MIT.inc:292
+#: src/kerberosService/class_password-methods-MIT.inc:320
+#: src/kerberosService/class_password-methods-MIT.inc:395
+#: src/kerberosService/class_password-methods-MIT.inc:410
+#: src/kerberosService/class_password-methods-MIT.inc:690
+#: src/kerberosService/class_krb_host_keys.inc:361
+#: src/kerberosService/class_krb_host_keys.inc:394
+#: src/kerberosService/class_goKrbServer.inc:74
+#: src/kerberosService/class_goKrbServer.inc:356
+#: src/kerberosService/class_goKrbServer.inc:365
+#: src/kerberosService/class_goKrbServer.inc:369
+#, fuzzy
+msgid "Service infrastructure"
+msgstr "在子树中查找"
+
+#: src/kerberosService/class_password-methods-MIT.inc:291
+#, fuzzy, php-format
+msgid "Cannot load principals from server '%s'!"
+msgstr "无法连接到数据库!"
+
+#: src/kerberosService/class_password-methods-MIT.inc:319
+#, fuzzy, php-format
+msgid "Cannot load policies from server '%s'!"
+msgstr "无法打开文件 '%s'。"
+
+#: src/kerberosService/class_password-methods-MIT.inc:449
+#, fuzzy
+msgid "Daemon based"
+msgstr "关闭"
+
+#: src/kerberosService/class_password-methods-MIT.inc:494
+#: src/kerberosService/class_krb_host_keys.inc:253
+#: src/kerberosService/class_goKrbServer.inc:382
+msgid "Kerberos"
+msgstr "Kerberos"
+
+#: src/kerberosService/class_krb5_policy.inc:79
+#, php-format
+msgid "This policy is referenced %d times."
+msgstr ""
+
+#: src/kerberosService/class_krb5_policy.inc:139
+#: src/kerberosService/class_krb5_policy.inc:156
+#, fuzzy, php-format
+msgid ""
+"The value specified for '%s' must be smaller than the value specified for "
+"'%s'!"
+msgstr "指定 '%s' 的值必须是数字类型。"
+
+#: src/kerberosService/class_krb_host_keys.inc:90
+#, fuzzy
+msgid "Principle"
+msgstr "打印机"
+
+#: src/kerberosService/class_krb_host_keys.inc:244
+msgid "updated to"
+msgstr ""
+
+#: src/kerberosService/class_krb_host_keys.inc:253
+#, php-format
+msgid ""
+"The principal name of this system has changed. Do you want to update your "
+"principals? The affected principals are listed below: %s"
+msgstr ""
+
+#: src/kerberosService/class_krb_host_keys.inc:266
+#, fuzzy
+msgid "Create key"
+msgstr "创建"
+
+#: src/kerberosService/class_krb_host_keys.inc:268
+#, fuzzy
+msgid "Recreate key"
+msgstr "创建"
+
+#: src/kerberosService/class_krb_host_keys.inc:269
+#, fuzzy
+msgid "Remove key"
+msgstr "删除"
+
+#: src/kerberosService/class_krb_host_keys.inc:308
+#: src/kerberosService/class_krb_host_keys.inc:334
+#, fuzzy
+msgid "installed"
+msgstr "禁用"
+
+#: src/kerberosService/class_krb_host_keys.inc:475
+#, fuzzy
+msgid "Kerberos key"
+msgstr "Kerberos Realm"
+
+#: src/kerberosService/class_krb_host_keys.inc:476
+#, fuzzy
+msgid "Kerberos host key"
+msgstr "Kerberos Realm"
+
+#: src/kerberosService/class_goKrbServer.inc:58
+#, fuzzy
+msgid "Kerberos service"
+msgstr "Kerberos 服务器"
+
+#: src/kerberosService/class_goKrbServer.inc:90
+msgid "Name"
+msgstr "名称"
+
+#: src/kerberosService/class_goKrbServer.inc:173
+#, fuzzy
+msgid "Kerberos service (kadmin access informations)"
+msgstr "Kerberos kadmin 访问"
+
+#: src/kerberosService/class_goKrbServer.inc:189
+msgid ""
+"Cannot apply policy changes! The defined Kerberos server has no MAC address."
+msgstr ""
+
+#: src/kerberosService/class_goKrbServer.inc:274
+msgid "Remove"
+msgstr "删除"
+
+#: src/kerberosService/class_goKrbServer.inc:383
+#, fuzzy
+msgid "Kerberos access information"
+msgstr "个人信息"
+
+#: src/kerberosService/class_goKrbServer.inc:383
+msgid "Services"
+msgstr "服务"
+
+#: src/kerberosService/class_goKrbServer.inc:395
+#, fuzzy
+msgid "Start"
+msgstr "启动"
+
+#: src/kerberosService/class_goKrbServer.inc:396
+msgid "Stop"
+msgstr ""
+
+#: src/kerberosService/class_goKrbServer.inc:397
+#, fuzzy
+msgid "Restart"
+msgstr "仓库"
+
+#: src/kerberosService/class_goKrbServer.inc:398
+#: src/kerberosService/goKrbServer.tpl:9
+#, fuzzy
+msgid "Policies"
+msgstr "波兰语"
+
+#: src/kerberosService/goKrbServer.tpl:1
+msgid "Kerberos kadmin access"
+msgstr "Kerberos kadmin 访问"
+
+#: src/kerberosService/goKrbServer.tpl:3
+#, fuzzy
+msgid "Kerberos Realm"
+msgstr "Kerberos Realm"
+
+#, fuzzy
+#~ msgid "Heimdal"
+#~ msgstr "串行"
+
+#, fuzzy
+#~ msgid "Heimdal options"
+#~ msgstr "串行"
+
+#, fuzzy
+#~ msgid "Password end"
+#~ msgstr "口令"
+
+#~ msgid "Admin user"
+#~ msgstr "管理员"
+
+#, fuzzy
+#~ msgid "Admin"
+#~ msgstr "管理员"
+
+#, fuzzy
+#~ msgid "Valid password"
+#~ msgstr "旧口令"
+
+#, fuzzy
+#~ msgid "Please specify a numeric value for %s."
+#~ msgstr "请为 ttl 提供一个数值。"
+
+#~ msgid "The specified kerberos password is empty."
+#~ msgstr "提供的 kerberos 口令为空。"
+
+#, fuzzy
+#~ msgid "The specified kerberos admin is empty."
+#~ msgstr "提供的 kerberos 口令为空。"
+
+#, fuzzy
+#~ msgid "The specified kerberos realm is empty."
+#~ msgstr "提供的 kerberos 口令为空。"
+
+#, fuzzy
+#~ msgid "Tried to remove heimdal extension."
+#~ msgstr "删除环境变量扩展"
+
+#, fuzzy
+#~ msgid "Could not add or update heimdal extensions."
+#~ msgstr "这个账号没有邮件扩展。"

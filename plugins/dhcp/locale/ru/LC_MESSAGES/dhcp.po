@@ -1,0 +1,841 @@
+# Translation of messages.po to Russian
+# Valia V. Vaneeva <fattie@altlinux.ru>, 2004.
+# $Id: messages.po,v 1.61 2005/04/18 10:37:13 migor-guest Exp $
+msgid ""
+msgstr ""
+"Project-Id-Version: messages\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:31+0200\n"
+"PO-Revision-Date: 2005-04-18 14:35+0300\n"
+"Last-Translator: Igor Muratov <migor@altlinux.org>\n"
+"Language-Team: ALT Linux Team\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: poEdit 1.3.1\n"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:3 src/dhcpService/dhcp_host.tpl:7
+#: src/dhcpService/dhcp_service.tpl:2 src/dhcpService/dhcp_subnet.tpl:3
+#: src/dhcpService/dhcp_pool.tpl:3 src/dhcpService/dhcp_group.tpl:3
+msgid "Generic"
+msgstr "Общее"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:5
+#: src/dhcpService/dhcp_sharedNetwork.tpl:9
+#: src/dhcpService/dhcp_sharedNetwork.tpl:45
+#: src/dhcpService/dhcp_sharedNetwork.tpl:50
+#: src/dhcpService/dhcp_sharedNetwork.tpl:85
+#, fuzzy
+msgid "DHCP shared network"
+msgstr "Атрибуты UNIX"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:11 src/dhcpService/dhcp_host.tpl:10
+#: src/dhcpService/class_dhcpSubnet.inc:147
+#: src/dhcpService/class_dhcpHost.inc:130
+#: src/dhcpService/class_dhcpHost.inc:138
+#: src/dhcpService/class_dhcpPool.inc:101
+#: src/dhcpService/class_dhcpPool.inc:109 src/dhcpService/dhcp_pool.tpl:7
+#: src/dhcpService/class_dhcpDnsZone.inc:162
+#: src/dhcpService/class_dhcpSubClass.inc:84
+#: src/dhcpService/class_dhcpSubClass.inc:87
+#: src/dhcpService/class_dhcpSubClass.inc:95 src/dhcpService/dhcp_group.tpl:7
+#: src/dhcpService/class_dhcpNetwork.inc:51
+#: src/dhcpService/class_dhcpGroup.inc:84
+#: src/dhcpService/class_dhcpGroup.inc:87
+#: src/dhcpService/class_dhcpGroup.inc:95
+#: src/dhcpService/class_dhcpSharedNetwork.inc:150
+#: src/dhcpService/class_dhcpSharedNetwork.inc:168
+#: src/dhcpService/class_dhcpClass.inc:84
+#: src/dhcpService/class_dhcpClass.inc:87
+#: src/dhcpService/class_dhcpClass.inc:95
+msgid "Name"
+msgstr "Фамилия"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:15
+#, fuzzy
+msgid "Name for shared network"
+msgstr "Атрибуты UNIX"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:20
+#, fuzzy
+msgid "Server identifier"
+msgstr "Номер дома"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:25
+msgid "Propagated server identifier for this shared network"
+msgstr ""
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:37
+msgid "Select if this server is authoritative for this shared network"
+msgstr ""
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:37
+#, fuzzy
+msgid "Authoritative server"
+msgstr "Рабочие станции"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:48
+#, fuzzy
+msgid "Leases"
+msgstr "Набор правил"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:52
+#: src/dhcpService/dhcp_sharedNetwork.tpl:57
+#: src/dhcpService/class_dhcpService.inc:132
+#: src/dhcpService/class_dhcpSharedNetwork.inc:154
+#, fuzzy
+msgid "Default lease time"
+msgstr "Выберите, чтобы просмотреть серверы"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:57
+#: src/dhcpService/dhcp_sharedNetwork.tpl:66
+#: src/dhcpService/dhcp_sharedNetwork.tpl:75
+#, fuzzy
+msgid "seconds"
+msgstr "отправка"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:62
+#: src/dhcpService/class_dhcpSharedNetwork.inc:155
+#, fuzzy
+msgid "Max. lease time"
+msgstr "Сообщение"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:66
+#: src/dhcpService/class_dhcpService.inc:132
+#, fuzzy
+msgid "Maximum lease time"
+msgstr "Размер квоты"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:71
+#: src/dhcpService/class_dhcpSharedNetwork.inc:156
+msgid "Min. lease time"
+msgstr ""
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:75
+#, fuzzy
+msgid "Minimum lease time"
+msgstr "Размер квоты"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:84
+#, fuzzy
+msgid "Access control"
+msgstr "Параметры доступа"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:90
+msgid "Select if unknown clients should get dynamic IP addresses"
+msgstr ""
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:90
+#, fuzzy
+msgid "Allow unknown clients"
+msgstr "состояние неизвестно"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:98
+msgid "Select if BOOTP clients should get dynamic IP addresses"
+msgstr ""
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:98
+#, fuzzy
+msgid "Allow BOOTP clients"
+msgstr "состояние неизвестно"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:106
+#, fuzzy
+msgid "Select if clients are allowed to boot using this DHCP server"
+msgstr "У вас недостаточно прав для удаления этого объекта!"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:106
+msgid "Allow booting"
+msgstr ""
+
+#: src/dhcpService/dhcp_host.tpl:3 src/dhcpService/dhcp_host.tpl:8
+#: src/dhcpService/dhcp_host.tpl:33
+#, fuzzy
+msgid "DHCP host configuration"
+msgstr "Базы данных"
+
+#: src/dhcpService/dhcp_host.tpl:14
+#, fuzzy
+msgid "Name of host"
+msgstr "Имя стоп-листа"
+
+#: src/dhcpService/dhcp_host.tpl:19
+#, fuzzy
+msgid "Fixed address"
+msgstr "MAC-адрес"
+
+#: src/dhcpService/dhcp_host.tpl:23
+msgid "Use host name or IP-address to assign fixed address"
+msgstr ""
+
+#: src/dhcpService/dhcp_host.tpl:31
+#, fuzzy
+msgid "Hardware"
+msgstr "Основной адрес"
+
+#: src/dhcpService/dhcp_host.tpl:35
+msgid "Hardware type"
+msgstr ""
+
+#: src/dhcpService/dhcp_host.tpl:45 src/dhcpService/class_dhcpHost.inc:147
+#, fuzzy
+msgid "Hardware address"
+msgstr "Основной адрес"
+
+#: src/dhcpService/class_dhcpSubnet.inc:136
+#: src/dhcpService/class_dhcpSubnet.inc:156 src/dhcpService/dhcp_subnet.tpl:10
+#, fuzzy
+msgid "Network address"
+msgstr "Сетевые устройства"
+
+#: src/dhcpService/class_dhcpSubnet.inc:139
+#: src/dhcpService/class_dhcpSubnet.inc:155 src/dhcpService/dhcp_subnet.tpl:18
+#: src/dhcpService/dhcp_network.tpl:20
+#: src/dhcpService/class_dhcpNetwork.inc:200
+msgid "Net mask"
+msgstr ""
+
+#: src/dhcpService/class_dhcpSubnet.inc:157
+#: src/dhcpService/class_dhcpSubnet.inc:158
+#: src/dhcpService/class_dhcpPool.inc:116
+#: src/dhcpService/class_dhcpPool.inc:120
+#: src/dhcpService/class_dhcpPool.inc:124 src/dhcpService/dhcp_pool.tpl:13
+#, fuzzy
+msgid "Range"
+msgstr "Название"
+
+#: src/dhcpService/class_dhcpSubnet.inc:167
+#, fuzzy
+msgid "Network range"
+msgstr "Сетевые устройства"
+
+#: src/dhcpService/class_dhcpSubnet.inc:173
+#: src/dhcpService/class_dhcpPool.inc:138
+#, fuzzy
+msgid "'Range' is not inside the configured network."
+msgstr "Вы собираетесь удалить объект %s."
+
+#: src/dhcpService/class_dhcpHost.inc:64
+#, fuzzy
+msgid "Ethernet"
+msgstr "Фильтры"
+
+#: src/dhcpService/class_dhcpHost.inc:65
+msgid "FDDI"
+msgstr ""
+
+#: src/dhcpService/class_dhcpHost.inc:66
+msgid "Token Ring"
+msgstr ""
+
+#: src/dhcpService/dhcp_tsigkey.tpl:2
+#: src/dhcpService/class_dhcpNewSectionDialog.inc:40
+#: src/dhcpService/class_servDHCP.inc:48
+msgid "DNS update key"
+msgstr ""
+
+#: src/dhcpService/dhcp_tsigkey.tpl:6
+#: src/dhcpService/class_dhcpTSigKey.inc:118
+#: src/dhcpService/class_dhcpTSigKey.inc:131
+#, fuzzy
+msgid "Key name"
+msgstr "Имя сервера"
+
+#: src/dhcpService/dhcp_tsigkey.tpl:9
+#, fuzzy
+msgid "Name of Key"
+msgstr "Имя стоп-листа"
+
+#: src/dhcpService/dhcp_tsigkey.tpl:13
+msgid "Encryption method"
+msgstr ""
+
+#: src/dhcpService/dhcp_tsigkey.tpl:21
+#: src/dhcpService/class_dhcpTSigKey.inc:122
+msgid "Key"
+msgstr ""
+
+#: src/dhcpService/class_dhcpNewSectionDialog.inc:32
+#: src/dhcpService/class_servDHCP.inc:39
+#: src/dhcpService/class_servDHCP.inc:321
+#: src/dhcpService/class_servDHCP.inc:628
+#, fuzzy
+msgid "Global options"
+msgstr "Почтовые настройки"
+
+#: src/dhcpService/class_dhcpNewSectionDialog.inc:33
+#: src/dhcpService/class_servDHCP.inc:40
+#, fuzzy
+msgid "Class"
+msgstr "Выберите тип мыши"
+
+#: src/dhcpService/class_dhcpNewSectionDialog.inc:34
+#: src/dhcpService/class_servDHCP.inc:41
+#, fuzzy
+msgid "Subclass"
+msgstr "Экспорт успешен."
+
+#: src/dhcpService/class_dhcpNewSectionDialog.inc:35
+#: src/dhcpService/class_servDHCP.inc:42
+#, fuzzy
+msgid "Host"
+msgstr "отправка"
+
+#: src/dhcpService/class_dhcpNewSectionDialog.inc:36
+#: src/dhcpService/class_servDHCP.inc:43
+msgid "Group"
+msgstr "Группа"
+
+#: src/dhcpService/class_dhcpNewSectionDialog.inc:37
+#: src/dhcpService/class_servDHCP.inc:44
+#, fuzzy
+msgid "Pool"
+msgstr "Английский"
+
+#: src/dhcpService/class_dhcpNewSectionDialog.inc:38
+#: src/dhcpService/class_servDHCP.inc:45
+#, fuzzy
+msgid "Subnet"
+msgstr "Установить"
+
+#: src/dhcpService/class_dhcpNewSectionDialog.inc:39
+#: src/dhcpService/class_servDHCP.inc:47
+#, fuzzy
+msgid "Shared network"
+msgstr "Атрибуты UNIX"
+
+#: src/dhcpService/class_dhcpNewSectionDialog.inc:41
+#: src/dhcpService/dhcp_dnszone.tpl:2 src/dhcpService/class_servDHCP.inc:49
+msgid "DNS update zone"
+msgstr ""
+
+#: src/dhcpService/dhcp_service.tpl:4 src/dhcpService/servdhcp.tpl:8
+#: src/dhcpService/class_servDHCP.inc:36
+#: src/dhcpService/class_servDHCP.inc:720
+#: src/dhcpService/class_servDHCP.inc:721
+#: src/dhcpService/class_servDHCP.inc:768
+#, fuzzy
+msgid "DHCP service"
+msgstr "Добавить сервис DHCP"
+
+#: src/dhcpService/dhcp_service.tpl:9
+#, fuzzy
+msgid "Authoritative service"
+msgstr "Рабочие станции"
+
+#: src/dhcpService/dhcp_service.tpl:13
+msgid "Dynamic DNS update"
+msgstr ""
+
+#: src/dhcpService/dhcp_service.tpl:15
+msgid "Dynamic DNS update style"
+msgstr ""
+
+#: src/dhcpService/dhcp_service.tpl:22
+#, fuzzy
+msgid "DHCP settings"
+msgstr "Проверка конфигурации PHP"
+
+#: src/dhcpService/dhcp_service.tpl:24
+msgid "Default lease time (s)"
+msgstr ""
+
+#: src/dhcpService/dhcp_service.tpl:28
+msgid "Enter default lease time in seconds."
+msgstr ""
+
+#: src/dhcpService/dhcp_service.tpl:33
+#, fuzzy
+msgid "Maximum lease time (s)"
+msgstr "Размер квоты"
+
+#: src/dhcpService/dhcp_service.tpl:37
+msgid "Enter maximum lease time in seconds."
+msgstr ""
+
+#: src/dhcpService/dhcp_advanced.tpl:6
+#, fuzzy
+msgid "Hide advanced settings"
+msgstr "Настройки телефона"
+
+#: src/dhcpService/dhcp_advanced.tpl:8
+#, fuzzy
+msgid "DHCP advanced settings"
+msgstr "Настройки телефона"
+
+#: src/dhcpService/dhcp_advanced.tpl:11
+#, fuzzy
+msgid "DHCP statements"
+msgstr "Подразделения"
+
+#: src/dhcpService/dhcp_advanced.tpl:30
+#, fuzzy
+msgid "DHCP options"
+msgstr "Добавить параметр"
+
+#: src/dhcpService/dhcp_advanced.tpl:50
+#, fuzzy
+msgid "Show advanced settings"
+msgstr "Настройки телефона"
+
+#: src/dhcpService/dhcp_subnet.tpl:4 src/dhcpService/dhcp_subnet.tpl:8
+#: src/dhcpService/dhcp_subnet.tpl:29
+#, fuzzy
+msgid "DHCP subnet settings"
+msgstr "Проверка конфигурации PHP"
+
+#: src/dhcpService/dhcp_subnet.tpl:37
+msgid "Range for dynamic address assignment"
+msgstr ""
+
+#: src/dhcpService/dhcp_network.tpl:3 src/dhcpService/dhcp_network.tpl:7
+#: src/dhcpService/dhcp_network.tpl:9 src/dhcpService/dhcp_network.tpl:42
+#: src/dhcpService/dhcp_network.tpl:68
+#, fuzzy
+msgid "Network configuration"
+msgstr "Базы данных"
+
+#: src/dhcpService/dhcp_network.tpl:11
+#, fuzzy
+msgid "Router"
+msgstr "не полный"
+
+#: src/dhcpService/dhcp_network.tpl:15
+msgid "Enter name or IP address of router to be used in this section"
+msgstr ""
+
+#: src/dhcpService/dhcp_network.tpl:28
+#: src/dhcpService/class_dhcpNetwork.inc:200
+#, fuzzy
+msgid "Broadcast address"
+msgstr "Почтовый индекс"
+
+#: src/dhcpService/dhcp_network.tpl:40
+#, fuzzy
+msgid "Boot up"
+msgstr "Перезагрузить"
+
+#: src/dhcpService/dhcp_network.tpl:44
+#, fuzzy
+msgid "Filename"
+msgstr "Имя сервера"
+
+#: src/dhcpService/dhcp_network.tpl:48
+msgid ""
+"Enter name of file that will be loaded via TFTP after client has started"
+msgstr ""
+
+#: src/dhcpService/dhcp_network.tpl:53
+#, fuzzy
+msgid "Next server"
+msgstr "Сервер NTP"
+
+#: src/dhcpService/dhcp_network.tpl:57
+msgid "Enter name of server to retrieve boot images from"
+msgstr ""
+
+#: src/dhcpService/dhcp_network.tpl:66
+#, fuzzy
+msgid "Domain Name Service"
+msgstr "Сканер"
+
+#: src/dhcpService/dhcp_network.tpl:70
+msgid "Domain"
+msgstr "Домен"
+
+#: src/dhcpService/dhcp_network.tpl:73
+#, fuzzy
+msgid "Name of domain"
+msgstr "Подразделение"
+
+#: src/dhcpService/dhcp_network.tpl:79
+#: src/dhcpService/class_dhcpDnsZone.inc:149
+#: src/dhcpService/dhcp_dnszone.tpl:13
+#, fuzzy
+msgid "DNS server"
+msgstr "Добавить сервис DNS"
+
+#: src/dhcpService/dhcp_network.tpl:82
+msgid "List of DNS servers to be propagated"
+msgstr ""
+
+#: src/dhcpService/dhcp_network.tpl:89
+#, fuzzy
+msgid "DNS server do be added"
+msgstr "Выбрать номера для добавления"
+
+#: src/dhcpService/dhcp_network.tpl:92
+msgid "Click here add the selected server to the list"
+msgstr ""
+
+#: src/dhcpService/dhcp_network.tpl:97
+msgid "Click here remove the selected servers from the list"
+msgstr ""
+
+#: src/dhcpService/dhcp_network.tpl:102
+#, fuzzy
+msgid "Domain Name Service options"
+msgstr "Сканер"
+
+#: src/dhcpService/dhcp_network.tpl:104
+msgid "Assign host names found via reverse mapping"
+msgstr ""
+
+#: src/dhcpService/dhcp_network.tpl:108
+msgid "Assign host names from host declarations"
+msgstr ""
+
+#: src/dhcpService/dhcp_pool.tpl:4
+#, fuzzy
+msgid "DHCP pool settings"
+msgstr "Проверка конфигурации PHP"
+
+#: src/dhcpService/dhcp_pool.tpl:10
+#, fuzzy
+msgid "Name of pool"
+msgstr "Имя стоп-листа"
+
+#: src/dhcpService/class_dhcpDnsZone.inc:145
+#: src/dhcpService/dhcp_dnszone.tpl:6
+msgid "DNS zone"
+msgstr ""
+
+#: src/dhcpService/class_dhcpDnsZone.inc:153
+#: src/dhcpService/dhcp_dnszone.tpl:21
+msgid "Key DN"
+msgstr ""
+
+#: src/dhcpService/class_dhcpService.inc:126
+#, fuzzy
+msgid "Lease time"
+msgstr "Сообщение"
+
+#: src/dhcpService/class_dhcpService.inc:129
+#, fuzzy
+msgid "Max lease time"
+msgstr "Сообщение"
+
+#: src/dhcpService/dhcpNewSection.tpl:2
+#, fuzzy
+msgid "Create new DHCP section"
+msgstr "Создать приложения"
+
+#: src/dhcpService/dhcpNewSection.tpl:6
+msgid "Please choose one of the following DHCP section types."
+msgstr ""
+
+#: src/dhcpService/dhcpNewSection.tpl:9
+#, fuzzy
+msgid "Section"
+msgstr "Действие"
+
+#: src/dhcpService/dhcpNewSection.tpl:11
+#, fuzzy
+msgid "Choose section type to create"
+msgstr "Выберите тип мыши"
+
+#: src/dhcpService/dhcpNewSection.tpl:18
+msgid "Create"
+msgstr "Создать"
+
+#: src/dhcpService/dhcp_group.tpl:5
+#, fuzzy
+msgid "DHCP group settings"
+msgstr "Настройки Samba"
+
+#: src/dhcpService/dhcp_group.tpl:10
+#, fuzzy
+msgid "Name of group"
+msgstr "Название группы"
+
+#: src/dhcpService/servdhcp.tpl:4
+msgid ""
+"DHCP take over will take place when saving this entry. Choose 'Cancel' to "
+"abort."
+msgstr ""
+
+#: src/dhcpService/servdhcp.tpl:13
+msgid "Take over DHCP configuration from following server"
+msgstr ""
+
+#: src/dhcpService/servdhcp.tpl:24
+#, fuzzy
+msgid "DHCP sections"
+msgstr "Проверка конфигурации PHP"
+
+#: src/dhcpService/class_dhcpNetwork.inc:51
+#: src/dhcpService/class_dhcpAdvanced.inc:65
+#: src/dhcpService/class_dhcpAdvanced.inc:79
+#: src/dhcpService/class_servDHCP.inc:709
+msgid "Error"
+msgstr ""
+
+#: src/dhcpService/class_dhcpNetwork.inc:205
+#, php-format
+msgid "Error in definition of '%s'!"
+msgstr ""
+
+#: src/dhcpService/class_dhcpTSigKey.inc:51
+msgid "HMAC-MD5"
+msgstr ""
+
+#: src/dhcpService/class_dhcpTSigKey.inc:52
+msgid "RSAMD5"
+msgstr ""
+
+#: src/dhcpService/class_dhcpTSigKey.inc:53
+msgid "RSASHA1"
+msgstr ""
+
+#: src/dhcpService/class_dhcpTSigKey.inc:54
+msgid "DSA"
+msgstr ""
+
+#: src/dhcpService/class_dhcpTSigKey.inc:55
+msgid "DH"
+msgstr ""
+
+#: src/dhcpService/remove_dhcp.tpl:3 src/dhcpService/class_servDHCP.inc:123
+msgid "Warning"
+msgstr "Предупреждение"
+
+#: src/dhcpService/remove_dhcp.tpl:6
+#, fuzzy
+msgid ""
+"This includes 'all' DHCP subsections that are located within this section. "
+"Please double check if your really want to do this since there is no way for "
+"GOsa to get your data back."
+msgstr ""
+"Сюда входит <b>вся</b> информация о системе и ее настройках. Подумайте еще "
+"раз, действительно ли вам нужно удаление, так как GOsa не сможет отменить "
+"результаты этой операции."
+
+#: src/dhcpService/remove_dhcp.tpl:8
+#, fuzzy
+msgid ""
+"Best thing to do before performing this action would be to save the current "
+"contents of your LDAP tree in a file. So - if you've done so - press "
+"'Delete' to continue or 'Cancel' to abort."
+msgstr ""
+"Лучше всего перед удалением сохранить резервную копию текущего дерева LDAP в "
+"файл. Если вы сделали это и действительно хотите выполнить удаление, нажмите "
+"<i>Удалить</i>, иначе нажмите <i>Отмена</i>."
+
+#: src/dhcpService/class_dhcpAdvanced.inc:65
+#: src/dhcpService/class_dhcpAdvanced.inc:79
+#, fuzzy
+msgid "Cannot delete automatic statements!"
+msgstr "Удалить"
+
+#: src/dhcpService/class_dhcpAdvanced.inc:95
+#: src/dhcpService/class_dhcpAdvanced.inc:110
+msgid "automatic"
+msgstr "автоматически"
+
+#: src/dhcpService/class_servDHCP.inc:38
+#, fuzzy
+msgid "Logging"
+msgstr "Имя пользователя"
+
+#: src/dhcpService/class_servDHCP.inc:46
+#, fuzzy
+msgid "Fail-over peer"
+msgstr "Фильтры"
+
+#: src/dhcpService/class_servDHCP.inc:70
+msgid "Type"
+msgstr "Тип"
+
+#: src/dhcpService/class_servDHCP.inc:70
+#, fuzzy
+msgid "Option"
+msgstr "Параметры"
+
+#: src/dhcpService/class_servDHCP.inc:70
+msgid "Address"
+msgstr "Адрес"
+
+#: src/dhcpService/class_servDHCP.inc:118
+#, fuzzy, php-format
+msgid ""
+"You have requested a migration of the DHCP setup from server '%s' to the "
+"current one."
+msgstr "Вы собираетесь удалить объект %s."
+
+#: src/dhcpService/class_servDHCP.inc:120
+msgid "The migration will be started when you save this system."
+msgstr ""
+
+#: src/dhcpService/class_servDHCP.inc:237
+#, fuzzy
+msgid "Permission error"
+msgstr "Права для членов группы"
+
+#: src/dhcpService/class_servDHCP.inc:274
+#, fuzzy
+msgid "DHCP section"
+msgstr "Проверка конфигурации PHP"
+
+#: src/dhcpService/class_servDHCP.inc:338
+#: src/dhcpService/class_servDHCP.inc:342
+msgid "Insert new DHCP section"
+msgstr ""
+
+#: src/dhcpService/class_servDHCP.inc:339
+#: src/dhcpService/class_servDHCP.inc:343
+#: src/dhcpService/class_servDHCP.inc:345
+#, fuzzy
+msgid "Edit DHCP section"
+msgstr "Проверка конфигурации PHP"
+
+#: src/dhcpService/class_servDHCP.inc:340
+#: src/dhcpService/class_servDHCP.inc:346
+#, fuzzy
+msgid "Remove DHCP section"
+msgstr "Удалить сервис DHCP"
+
+#: src/dhcpService/class_servDHCP.inc:402
+#: src/dhcpService/class_servDHCP.inc:419
+#: src/dhcpService/class_servDHCP.inc:474
+#: src/dhcpService/class_servDHCP.inc:550
+#: src/dhcpService/class_servDHCP.inc:558
+#: src/dhcpService/class_servDHCP.inc:585
+#, fuzzy
+msgid "LDAP error"
+msgstr "Ошибка LDAP:"
+
+#: src/dhcpService/class_servDHCP.inc:709
+#, fuzzy
+msgid ""
+"The DHCP configuration set is unknown. Please contact your system "
+"administrator."
+msgstr ""
+"Не удается начать сеанс на LDAP-сервере. Обратитесь к системному "
+"администратору."
+
+#: src/dhcpService/class_servDHCP.inc:721
+msgid "Services"
+msgstr "Сервисы"
+
+#: src/dhcpService/class_servDHCP.inc:729
+#, fuzzy
+msgid "DHCP entries"
+msgstr "Добавить сервис DHCP"
+
+#: src/dhcpService/class_servDHCP.inc:730
+#, fuzzy
+msgid "Start service"
+msgstr "Сервисы"
+
+#: src/dhcpService/class_servDHCP.inc:731
+#, fuzzy
+msgid "Stop service"
+msgstr "Сервисы"
+
+#: src/dhcpService/class_servDHCP.inc:732
+#, fuzzy
+msgid "Restart service"
+msgstr "Сервер NTP"
+
+#, fuzzy
+#~ msgid "Service start"
+#~ msgstr "Сервисы"
+
+#, fuzzy
+#~ msgid "Service stop"
+#~ msgstr "Сервисы"
+
+#, fuzzy
+#~ msgid "Service restart"
+#~ msgstr "Искать в поддеревьях"
+
+#, fuzzy
+#~ msgid "May lease time"
+#~ msgstr "Сообщение"
+
+#~ msgid "Save"
+#~ msgstr "Сохранить"
+
+#~ msgid "Cancel"
+#~ msgstr "Отмена"
+
+#~ msgid "Required field 'Name' is not filled."
+#~ msgstr "Обязательное поле \"Имя\" не заполнено."
+
+#, fuzzy
+#~ msgid "The value specified as '%s' is not numeric!"
+#~ msgstr "Значение '%s' содержит недопустимые символы."
+
+#, fuzzy
+#~ msgid "The name for this host section is already used!"
+#~ msgstr "Указанное имя уже используется."
+
+#~ msgid "Delete"
+#~ msgstr "Удалить"
+
+#, fuzzy
+#~ msgid "The name for this section is already used!"
+#~ msgstr "Указанное имя уже используется."
+
+#, fuzzy
+#~ msgid "Required field 'Range' is not filled."
+#~ msgstr "Обязательное поле \"Имя\" не заполнено."
+
+#, fuzzy
+#~ msgid "Field 'Range' contains invalid IP addresses."
+#~ msgstr "Значение поля \"Имя\" содержит недопустимые символы."
+
+#, fuzzy
+#~ msgid "Field 'Range' contains invalid IP range."
+#~ msgstr "Значение поля \"Имя\" содержит недопустимые символы."
+
+#~ msgid "Add"
+#~ msgstr "Добавить"
+
+#~ msgid "Apply"
+#~ msgstr "Применить"
+
+#, fuzzy
+#~ msgid "Required field 'Network address' is not filled."
+#~ msgstr "Обязательное поле \"Имя\" не заполнено."
+
+#, fuzzy
+#~ msgid "Required field 'Netmask' is not filled."
+#~ msgstr "Обязательное поле \"Имя\" не заполнено."
+
+#, fuzzy
+#~ msgid "The field '%s' contains an invalid IP address"
+#~ msgstr "Значение поля \"Имя\" содержит недопустимые символы."
+
+#, fuzzy
+#~ msgid "Field 'Name' contains illegal characters."
+#~ msgstr "Значение поля \"Имя\" содержит недопустимые символы."
+
+#, fuzzy
+#~ msgid "The hardware address specified by you is not valid!"
+#~ msgstr "Значение поля \"Отношение\" некорректно."
+
+#, fuzzy
+#~ msgid "You have no permission to remove DHCP sections!"
+#~ msgstr "У вас недостаточно прав для удаления этого пользователя!"
+
+#, fuzzy
+#~ msgid "You're about to delete the DHCP section '%s'."
+#~ msgstr "Вы собираетесь удалить приложение \"%s\"."
+
+#, fuzzy
+#~ msgid "Removing DHCP entries failed"
+#~ msgstr "Удалить сервис DNS"
+
+#, fuzzy
+#~ msgid "Can't remove DHCP object!"
+#~ msgstr "Включаемые объекты"
+
+#, fuzzy
+#~ msgid "Can't save DHCP object!"
+#~ msgstr "Удалить"
+
+#, fuzzy
+#~ msgid "Saving DHCP service failed"
+#~ msgstr "Удалить сервис DNS"

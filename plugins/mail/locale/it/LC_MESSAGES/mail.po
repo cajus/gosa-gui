@@ -1,0 +1,3050 @@
+# translation of messages.po to Italian
+# Copyright (c) 2005 B-Open Solutions srl - http://www.bopen.it/
+# Copyright (c) 2005 Alessandro Amici <a.amici@bopen.it>
+# Alessandro Amici <a.amici@bopen.it>, 2005.
+msgid ""
+msgstr ""
+"Project-Id-Version: messages\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:31+0200\n"
+"PO-Revision-Date: 2005-11-18 15:26+0100\n"
+"Last-Translator: Alessandro Amici <a.amici@bopen.it>\n"
+"Language-Team: Italian\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.9.1\n"
+
+#: src/mailQueuePlugin/class_mailqueue.inc:6
+#: src/mailQueuePlugin/class_mailqueue.inc:337
+#: src/mailQueuePlugin/contents.tpl:4
+msgid "Mail queue"
+msgstr "Coda della posta"
+
+#: src/mailQueuePlugin/class_mailqueue.inc:7
+msgid "View and control the mailservers mail processing queue"
+msgstr ""
+
+#: src/mailQueuePlugin/class_mailqueue.inc:116
+#: src/mailQueuePlugin/class_mailqueue.inc:150
+#: src/mailQueuePlugin/class_mailqueue.inc:156
+#: src/groupMailExtension/class_groupMail.inc:354
+#: src/groupMailExtension/class_groupMail.inc:378
+#: src/groupMailExtension/class_groupMail.inc:384
+#: src/groupMailExtension/class_groupMail.inc:410
+#: src/groupMailExtension/class_groupMail.inc:416
+#: src/groupMailExtension/class_groupMail.inc:430
+#: src/spamService/class_goSpamServer.inc:152
+#: src/spamService/class_goSpamServer.inc:215
+#: src/mailExtension/class_mailAccount.inc:325
+#: src/mailExtension/class_mailAccount.inc:349
+#: src/mailExtension/class_mailAccount.inc:355
+#: src/mailExtension/class_mailAccount.inc:385
+#: src/mailExtension/class_mailAccount.inc:390
+#: src/mailExtension/class_mailAccount.inc:403
+#: src/sieveEditorPlugin/class_My_Tree.inc:660
+#: src/sieveEditorPlugin/class_sieveManagement.inc:221
+#: src/sieveEditorPlugin/class_sieveManagement.inc:226
+#: src/sieveEditorPlugin/class_sieveManagement.inc:232
+#: src/sieveEditorPlugin/class_sieveManagement.inc:238
+#: src/sieveEditorPlugin/class_sieveManagement.inc:448
+msgid "Error"
+msgstr ""
+
+#: src/mailQueuePlugin/class_mailqueue.inc:211
+msgid "up"
+msgstr ""
+
+#: src/mailQueuePlugin/class_mailqueue.inc:213
+#, fuzzy
+msgid "down"
+msgstr "Dominio"
+
+#: src/mailQueuePlugin/class_mailqueue.inc:224
+#: src/mailQueuePlugin/class_mailqueue.inc:324
+#, fuzzy
+msgid "All"
+msgstr "Annulla"
+
+#: src/mailQueuePlugin/class_mailqueue.inc:268
+msgid "no limit"
+msgstr ""
+
+#: src/mailQueuePlugin/class_mailqueue.inc:271
+msgid "hour"
+msgstr "ora"
+
+#: src/mailQueuePlugin/class_mailqueue.inc:273
+#, fuzzy
+msgid "hours"
+msgstr "ora"
+
+#: src/mailQueuePlugin/class_mailqueue.inc:325
+msgid "Hold"
+msgstr ""
+
+#: src/mailQueuePlugin/class_mailqueue.inc:326
+#, fuzzy
+msgid "Release"
+msgstr "Ruolo"
+
+#: src/mailQueuePlugin/class_mailqueue.inc:327
+#, fuzzy
+msgid "Active"
+msgstr "Privato"
+
+#: src/mailQueuePlugin/class_mailqueue.inc:328
+#, fuzzy
+msgid "Not active"
+msgstr "Privato"
+
+#: src/mailQueuePlugin/class_mailqueue.inc:338
+#: src/mailQueuePlugin/class_mailqueue.inc:343
+#, fuzzy
+msgid "Mail queue add-on"
+msgstr "Coda della posta"
+
+#: src/mailQueuePlugin/class_mailqueue.inc:346
+#: src/mailQueuePlugin/contents.tpl:40
+msgid "Release all messages"
+msgstr ""
+
+#: src/mailQueuePlugin/class_mailqueue.inc:347
+#: src/mailQueuePlugin/contents.tpl:35
+#, fuzzy
+msgid "Hold all messages"
+msgstr "Inoltra i messaggi a"
+
+#: src/mailQueuePlugin/class_mailqueue.inc:348
+#, fuzzy
+msgid "Delete all messages"
+msgstr "Elimina questo record"
+
+#: src/mailQueuePlugin/class_mailqueue.inc:349
+#: src/mailQueuePlugin/contents.tpl:45
+#, fuzzy
+msgid "Re-queue all messages"
+msgstr "Rimuovi"
+
+#: src/mailQueuePlugin/class_mailqueue.inc:350
+#: src/mailQueuePlugin/contents.tpl:118
+#, fuzzy
+msgid "Release message"
+msgstr "Rimuovi"
+
+#: src/mailQueuePlugin/class_mailqueue.inc:351
+#: src/mailQueuePlugin/contents.tpl:125
+#, fuzzy
+msgid "Hold message"
+msgstr "Home Page"
+
+#: src/mailQueuePlugin/class_mailqueue.inc:352
+#, fuzzy
+msgid "Delete message"
+msgstr "Elimina questo record"
+
+#: src/mailQueuePlugin/class_mailqueue.inc:353
+#, fuzzy
+msgid "Re-queue message"
+msgstr "Rimuovi"
+
+#: src/mailQueuePlugin/class_mailqueue.inc:354
+msgid "Gathering queue data"
+msgstr ""
+
+#: src/mailQueuePlugin/class_mailqueue.inc:355
+#, fuzzy
+msgid "Get header information"
+msgstr "Informazioni generali"
+
+#: src/mailQueuePlugin/contents.tpl:7
+#: src/mailService/class_goMailServer.inc:199
+#: src/mailService/class_goMailServer.inc:208
+#, fuzzy
+msgid "Filter"
+msgstr "Filtri"
+
+#: src/mailQueuePlugin/contents.tpl:9
+#, fuzzy
+msgid "Search on"
+msgstr "Cerca"
+
+#: src/mailQueuePlugin/contents.tpl:10
+#, fuzzy
+msgid "Select a server"
+msgstr "Rimuovi"
+
+#: src/mailQueuePlugin/contents.tpl:14
+msgid "Search for"
+msgstr "Cerca"
+
+#: src/mailQueuePlugin/contents.tpl:16
+msgid "Enter user name to search for"
+msgstr ""
+
+#: src/mailQueuePlugin/contents.tpl:19
+msgid "within the last"
+msgstr ""
+
+#: src/mailQueuePlugin/contents.tpl:25
+msgid "Search"
+msgstr "Cerca"
+
+#: src/mailQueuePlugin/contents.tpl:30
+msgid "Remove all messages"
+msgstr ""
+
+#: src/mailQueuePlugin/contents.tpl:31
+msgid "Remove all messages from selected servers queue"
+msgstr ""
+
+#: src/mailQueuePlugin/contents.tpl:36
+msgid "Hold all messages in selected servers queue"
+msgstr ""
+
+#: src/mailQueuePlugin/contents.tpl:41
+msgid "Release all messages in selected servers queue"
+msgstr ""
+
+#: src/mailQueuePlugin/contents.tpl:46
+msgid "Re-queue all messages in selected servers queue"
+msgstr ""
+
+#: src/mailQueuePlugin/contents.tpl:64
+msgid "Search returned no results"
+msgstr ""
+
+#: src/mailQueuePlugin/contents.tpl:69
+#, fuzzy
+msgid "Phone reports"
+msgstr "Mostra utenti proxy"
+
+#: src/mailQueuePlugin/contents.tpl:76
+#, fuzzy
+msgid "ID"
+msgstr "UID"
+
+#: src/mailQueuePlugin/contents.tpl:77 src/groupMailExtension/mail.tpl:37
+#: src/mailExtension/generic.tpl:31
+msgid "Server"
+msgstr "Server"
+
+#: src/mailQueuePlugin/contents.tpl:78
+#: src/sieveEditorPlugin/templates/element_size.tpl:4
+#: src/sieveEditorPlugin/class_sieveManagement.inc:610
+msgid "Size"
+msgstr "Dimensione"
+
+#: src/mailQueuePlugin/contents.tpl:79
+#, fuzzy
+msgid "Arrival"
+msgstr "Aprile"
+
+#: src/mailQueuePlugin/contents.tpl:80
+#, fuzzy
+msgid "Sender"
+msgstr "Generale"
+
+#: src/mailQueuePlugin/contents.tpl:81
+#, fuzzy
+msgid "Recipient"
+msgstr "Descrizione"
+
+#: src/mailQueuePlugin/contents.tpl:82
+#: src/sieveEditorPlugin/class_sieveManagement.inc:83
+msgid "Status"
+msgstr "Stato"
+
+#: src/mailQueuePlugin/contents.tpl:110
+#, fuzzy
+msgid "Delete this message"
+msgstr "Elimina questo record"
+
+#: src/mailQueuePlugin/contents.tpl:133
+#, fuzzy
+msgid "Re-queue this message"
+msgstr "Rimuovi"
+
+#: src/mailQueuePlugin/contents.tpl:140
+#, fuzzy
+msgid "Display header of this message"
+msgstr "Mostra utenti che corrispondono a"
+
+#: src/mailQueuePlugin/contents.tpl:159
+#, fuzzy
+msgid "Page selector"
+msgstr "Impostazioni FAX"
+
+#: src/groupMailExtension/mail.tpl:1 src/groupMailExtension/paste_mail.tpl:1
+#: src/mailService/goMailServer.tpl:3 src/mailExtension/copypaste.tpl:1
+#: src/mailExtension/class_mailAccount.inc:1449
+#: src/mailExtension/generic.tpl:1 src/ogroupMailExtension/mail.tpl:2
+#, fuzzy
+msgid "Mail settings"
+msgstr "Opzioni di posta dell'identità"
+
+#: src/groupMailExtension/mail.tpl:6 src/mailService/goMailServer.tpl:1
+#: src/mailExtension/generic.tpl:5 src/imapService/goImapServer.tpl:1
+msgid "Generic"
+msgstr "Generale"
+
+#: src/groupMailExtension/mail.tpl:7
+#, fuzzy
+msgid "Address and mail server settings"
+msgstr "Amministrazione"
+
+#: src/groupMailExtension/mail.tpl:9
+#: src/groupMailExtension/class_groupMail.inc:863
+#: src/groupMailExtension/paste_mail.tpl:9 src/mailExtension/copypaste.tpl:6
+#: src/mailExtension/class_mailAccount.inc:1028
+#: src/mailExtension/generic.tpl:10 src/ogroupMailExtension/mail.tpl:12
+msgid "Primary address"
+msgstr "Indirizzo principale"
+
+#: src/groupMailExtension/mail.tpl:44 src/mailExtension/generic.tpl:38
+msgid "Specify the mail server where the user will be hosted on"
+msgstr "Specifica il server di posta per l'utente"
+
+#: src/groupMailExtension/mail.tpl:58 src/mailExtension/generic.tpl:54
+msgid "Quota usage"
+msgstr "Utilizzo quota"
+
+#: src/groupMailExtension/mail.tpl:62
+#: src/groupMailExtension/class_groupMail.inc:872
+#: src/groupMailExtension/class_groupMail.inc:1007
+#: src/mailExtension/class_mailAccount.inc:1062
+#: src/mailExtension/class_mailAccount.inc:1288
+#: src/mailExtension/class_mailAccount.inc:1490
+#: src/mailExtension/generic.tpl:58
+msgid "Quota size"
+msgstr "Dimensione quota"
+
+#: src/groupMailExtension/mail.tpl:75
+#: src/groupMailExtension/class_groupMail.inc:1009
+#, fuzzy
+msgid "Folder type"
+msgstr "Filtro"
+
+#: src/groupMailExtension/mail.tpl:106
+#: src/groupMailExtension/paste_mail.tpl:26 src/mailExtension/copypaste.tpl:41
+#: src/mailExtension/generic.tpl:76
+msgid "Alternative addresses"
+msgstr "Indirizzi alternativi"
+
+#: src/groupMailExtension/mail.tpl:111
+#: src/groupMailExtension/paste_mail.tpl:27 src/mailExtension/copypaste.tpl:43
+#: src/mailExtension/generic.tpl:79
+msgid "List of alternative mail addresses"
+msgstr "Lista degli indirizzi alternativi"
+
+#: src/groupMailExtension/mail.tpl:138
+#, fuzzy
+msgid "Mail folder configuration"
+msgstr "Scarica il file di  configurazione"
+
+#: src/groupMailExtension/mail.tpl:144
+msgid "IMAP shared folders"
+msgstr "Cartelle condivise IMAP"
+
+#: src/groupMailExtension/mail.tpl:147
+#, fuzzy
+msgid "Folder permissions"
+msgstr "Permessi dei membri"
+
+#: src/groupMailExtension/mail.tpl:151
+msgid "Default permission"
+msgstr "Permessi predefiniti"
+
+#: src/groupMailExtension/mail.tpl:153
+msgid "Member permission"
+msgstr "Permessi dei membri"
+
+#: src/groupMailExtension/mail.tpl:172
+#, fuzzy
+msgid "Hide"
+msgstr "leggere"
+
+#: src/groupMailExtension/mail.tpl:175
+#, fuzzy
+msgid "Show"
+msgstr "Mostra gruppi"
+
+#: src/groupMailExtension/mail.tpl:199 src/groupMailExtension/mail.tpl:200
+#: src/mailExtension/generic.tpl:329
+msgid "Advanced mail options"
+msgstr "Opzioni di posta avanzate"
+
+#: src/groupMailExtension/mail.tpl:206 src/mailExtension/generic.tpl:336
+msgid "Select if user can only send and receive inside his own domain"
+msgstr ""
+"Seleziona se l'utente può mandare e ricevere mail solo all'interno del "
+"proprio dominio"
+
+#: src/groupMailExtension/mail.tpl:208 src/mailExtension/generic.tpl:338
+msgid "User is only allowed to send and receive local mails"
+msgstr "L'utente è abilitato a mandare e ricevere solo mail locali"
+
+#: src/groupMailExtension/mail.tpl:216
+#: src/groupMailExtension/paste_mail.tpl:40
+msgid "Forward messages to non group members"
+msgstr "Inoltra i messaggi ai membri esterni al gruppo"
+
+#: src/groupMailExtension/mail.tpl:224
+#, fuzzy
+msgid "Used in all groups"
+msgstr "Inserisci la URI del server LDAP"
+
+#: src/groupMailExtension/mail.tpl:227
+#, fuzzy
+msgid "Not used in all groups"
+msgstr "Mostra gruppi funzionali"
+
+#: src/groupMailExtension/mail.tpl:246
+#: src/groupMailExtension/paste_mail.tpl:49 src/mailExtension/copypaste.tpl:34
+#: src/mailExtension/generic.tpl:317
+msgid "Add local"
+msgstr "Aggiungi localmente"
+
+#: src/groupMailExtension/class_groupMail.inc:121
+#: src/groupMailExtension/class_groupMail.inc:128
+#: src/groupMailExtension/class_groupMail.inc:135
+#: src/groupMailExtension/class_groupMail.inc:142
+#: src/groupMailExtension/class_groupMail.inc:147
+#: src/groupMailExtension/class_groupMail.inc:150
+#: src/groupMailExtension/class_groupMail.inc:567
+#: src/groupMailExtension/class_groupMail.inc:571
+#: src/groupMailExtension/class_groupMail.inc:575
+#: src/groupMailExtension/class_groupMail.inc:798
+#: src/groupMailExtension/class_groupMail.inc:802
+#: src/groupMailExtension/class_groupMail.inc:806
+#: src/groupMailExtension/class_groupMail.inc:815
+#: src/mailExtension/class_mailAccount.inc:165
+#: src/mailExtension/class_mailAccount.inc:172
+#: src/mailExtension/class_mailAccount.inc:177
+#: src/mailExtension/class_mailAccount.inc:180
+#: src/mailExtension/class_mailAccount.inc:858
+#: src/mailExtension/class_mailAccount.inc:862
+#: src/mailExtension/class_mailAccount.inc:936
+#: src/mailExtension/class_mailAccount.inc:940
+#: src/mailExtension/class_mailAccount.inc:944
+#, fuzzy
+msgid "Mail error"
+msgstr "Server"
+
+#: src/groupMailExtension/class_groupMail.inc:121
+#: src/mailExtension/class_mailAccount.inc:165
+#, fuzzy, php-format
+msgid "Cannot read quota settings: %s"
+msgstr "Rimuovi"
+
+#: src/groupMailExtension/class_groupMail.inc:128
+#: src/mailExtension/class_mailAccount.inc:172
+#, fuzzy, php-format
+msgid "Cannot get list of mailboxes: %s"
+msgstr "Rimuovi"
+
+#: src/groupMailExtension/class_groupMail.inc:135
+#, fuzzy, php-format
+msgid "Cannot receive folder types: %s"
+msgstr "Cartelle condivise IMAP"
+
+#: src/groupMailExtension/class_groupMail.inc:142
+#, fuzzy, php-format
+msgid "Cannot receive folder permissions: %s"
+msgstr "Cartelle condivise IMAP"
+
+#: src/groupMailExtension/class_groupMail.inc:147
+#: src/groupMailExtension/class_groupMail.inc:567
+#: src/groupMailExtension/class_groupMail.inc:798
+#: src/mailExtension/class_mailAccount.inc:177
+#: src/mailExtension/class_mailAccount.inc:858
+#: src/mailExtension/class_mailAccount.inc:936
+#, php-format
+msgid "Mail method cannot connect: %s"
+msgstr ""
+
+#: src/groupMailExtension/class_groupMail.inc:150
+#: src/mailExtension/class_mailAccount.inc:180
+#, php-format
+msgid "Mailbox '%s' doesn't exists on mail server: %s"
+msgstr ""
+
+#: src/groupMailExtension/class_groupMail.inc:287
+#: src/groupMailExtension/class_groupMail.inc:289
+#: src/groupMailExtension/class_groupMail.inc:290
+#: src/groupMailExtension/class_groupMail.inc:295
+#: src/groupMailExtension/class_groupMail.inc:297
+#: src/groupMailExtension/class_groupMail.inc:298
+#: src/groupMailExtension/class_groupMail.inc:853
+#: src/groupMailExtension/class_groupMail.inc:998
+#: src/mailExtension/class_mailAccount.inc:68
+#: src/mailExtension/class_mailAccount.inc:251
+#: src/mailExtension/class_mailAccount.inc:259
+#: src/mailExtension/class_mailAccount.inc:261
+#: src/mailExtension/class_mailAccount.inc:266
+#: src/mailExtension/class_mailAccount.inc:268
+#: src/mailExtension/class_mailAccount.inc:1016
+#: src/mailExtension/class_mailAccount.inc:1282
+#: src/mailExtension/class_mailAccount.inc:1448
+#: src/ogroupMailExtension/class_mailogroup.inc:186
+#: src/ogroupMailExtension/paste_mail.tpl:4
+msgid "Mail"
+msgstr "Posta"
+
+#: src/groupMailExtension/class_groupMail.inc:308
+msgid ""
+"Remove shared folder from mail server database when entry gets removed in "
+"LDAP"
+msgstr ""
+
+#: src/groupMailExtension/class_groupMail.inc:309
+msgid "Remove the shared folder and all its contents after saving this account"
+msgstr ""
+
+#: src/groupMailExtension/class_groupMail.inc:354
+#: src/mailExtension/class_mailAccount.inc:325
+#, fuzzy
+msgid "Please select an entry!"
+msgstr "Prego inserire un numero di telefono valido!"
+
+#: src/groupMailExtension/class_groupMail.inc:378
+#: src/groupMailExtension/class_groupMail.inc:410
+#: src/groupMailExtension/class_groupMail.inc:416
+#: src/groupMailExtension/class_groupMail.inc:430
+#: src/groupMailExtension/class_groupMail.inc:865
+#: src/groupMailExtension/class_groupMail.inc:885
+#: src/groupMailExtension/class_groupMail.inc:1006
+#: src/mailExtension/class_mailAccount.inc:349
+#: src/mailExtension/class_mailAccount.inc:385
+#: src/mailExtension/class_mailAccount.inc:390
+#: src/mailExtension/class_mailAccount.inc:403
+#: src/mailExtension/class_mailAccount.inc:1032
+#: src/mailExtension/class_mailAccount.inc:1036
+#: src/mailExtension/class_mailAccount.inc:1054
+#: src/mailExtension/class_mailAccount.inc:1488
+#: src/mailAddressSelectDialog/selectMailAddress-list.xml:57
+#: src/ogroupMailExtension/class_mailogroup.inc:86
+#: src/ogroupMailExtension/class_mailogroup.inc:93
+#: src/ogroupMailExtension/class_mailogroup.inc:194
+msgid "Mail address"
+msgstr "Indirizzo principale"
+
+#: src/groupMailExtension/class_groupMail.inc:384
+#: src/mailExtension/class_mailAccount.inc:355
+#, fuzzy
+msgid "Cannot add primary address to the list of forwarders!"
+msgstr ""
+"Stai tentandi di aggiungere un indirizzo di posta non valido alla lista "
+"degli inoltri"
+
+#: src/groupMailExtension/class_groupMail.inc:426
+#: src/mailExtension/class_mailAccount.inc:399
+#: src/mailExtension/class_mailAccount.inc:1050
+#, fuzzy, php-format
+msgid "Address is already in use by group '%s'."
+msgstr "L'indirizzo che stai cercando di aggiungere  gi in uso"
+
+#: src/groupMailExtension/class_groupMail.inc:428
+#: src/mailExtension/class_mailAccount.inc:401
+#: src/mailExtension/class_mailAccount.inc:1052
+#, fuzzy, php-format
+msgid "Address is already in use by user '%s'."
+msgstr "L'indirizzo che stai cercando di aggiungere  gi in uso"
+
+#: src/groupMailExtension/class_groupMail.inc:555
+#: src/groupMailExtension/class_groupMail.inc:785
+#: src/spamService/class_goSpamServer.inc:276
+#: src/mailService/class_goMailServer.inc:525
+#: src/mailExtension/class_mailAccount.inc:849
+#: src/mailExtension/class_mailAccount.inc:922
+#: src/imapService/class_goImapServer.inc:190
+#: src/virusService/class_goVirusServer.inc:154
+#: src/ogroupMailExtension/class_mailogroup.inc:120
+#: src/ogroupMailExtension/class_mailogroup.inc:157
+#, fuzzy
+msgid "LDAP error"
+msgstr "Errore LDAP"
+
+#: src/groupMailExtension/class_groupMail.inc:571
+#: src/mailExtension/class_mailAccount.inc:862
+#, fuzzy, php-format
+msgid "Cannot remove mailbox: %s"
+msgstr "Rimuovi"
+
+#: src/groupMailExtension/class_groupMail.inc:575
+#: src/groupMailExtension/class_groupMail.inc:815
+#, fuzzy, php-format
+msgid "Cannot update shared folder permissions: %s"
+msgstr "Cartelle condivise IMAP"
+
+#: src/groupMailExtension/class_groupMail.inc:676
+#, fuzzy
+msgid "New"
+msgstr "Modifica contatto"
+
+#: src/groupMailExtension/class_groupMail.inc:802
+#: src/mailExtension/class_mailAccount.inc:940
+#, fuzzy, php-format
+msgid "Cannot update mailbox: %s"
+msgstr "Rimuovi"
+
+#: src/groupMailExtension/class_groupMail.inc:806
+#: src/mailExtension/class_mailAccount.inc:944
+#, fuzzy, php-format
+msgid "Cannot write quota settings: %s"
+msgstr "Rimuovi"
+
+#: src/groupMailExtension/class_groupMail.inc:847
+#, php-format
+msgid ""
+"The group 'cn' has changed. It can't be changed due to the fact that mail "
+"method '%s' relies on it!"
+msgstr ""
+
+#: src/groupMailExtension/class_groupMail.inc:891
+#: src/mailExtension/class_mailAccount.inc:1502
+#, fuzzy
+msgid "Mail max size"
+msgstr "Inoltra i messaggi a"
+
+#: src/groupMailExtension/class_groupMail.inc:899
+msgid "You need to set the maximum mail size in order to reject anything."
+msgstr "Devi specificare la dimensione massima delle mail da rigettare."
+
+#: src/groupMailExtension/class_groupMail.inc:903
+#: src/groupMailExtension/class_groupMail.inc:1008
+#: src/mailExtension/class_mailAccount.inc:1489
+#, fuzzy
+msgid "Mail server"
+msgstr "Server"
+
+#: src/groupMailExtension/class_groupMail.inc:999
+#, fuzzy
+msgid "Group mail"
+msgstr "Nome gruppo"
+
+#: src/groupMailExtension/class_groupMail.inc:1009
+msgid "Kolab"
+msgstr ""
+
+#: src/groupMailExtension/class_groupMail.inc:1010
+#, fuzzy
+msgid "Alternate addresses"
+msgstr "Indirizzi alternativi"
+
+#: src/groupMailExtension/class_groupMail.inc:1011
+#, fuzzy
+msgid "Forwarding addresses"
+msgstr "Indirizzo principale"
+
+#: src/groupMailExtension/class_groupMail.inc:1012
+#, fuzzy
+msgid "Only local"
+msgstr "Aggiungi localmente"
+
+#: src/groupMailExtension/class_groupMail.inc:1013
+msgid "Permissions"
+msgstr "Permessi"
+
+#: src/groupMailExtension/paste_mail.tpl:2
+#, fuzzy
+msgid "Paste mail settings"
+msgstr "Opzioni di posta dell'identità"
+
+#: src/groupMailExtension/paste_mail.tpl:6
+#, fuzzy
+msgid "Address settings"
+msgstr "Opzioni applicazione"
+
+#: src/groupMailExtension/paste_mail.tpl:13
+msgid "Primary mail address for this shared folder"
+msgstr ""
+
+#: src/groupMailExtension/paste_mail.tpl:21
+#, fuzzy
+msgid "Additional mail settings"
+msgstr "Opzioni applicazione"
+
+#: src/spamService/goSpamServerRule.tpl:2
+#: src/mailAddressSelectDialog/selectMailAddress-list.xml:49
+#: src/sieveEditorPlugin/class_sieveManagement.inc:84
+msgid "Name"
+msgstr "Cognome"
+
+#: src/spamService/goSpamServerRule.tpl:8
+#: src/spamService/class_goSpamServer.inc:84
+#, fuzzy
+msgid "Rule"
+msgstr "Ruolo"
+
+#: src/spamService/class_goSpamServer.inc:42
+#: src/spamService/class_goSpamServer.inc:319
+#: src/spamService/class_goSpamServer.inc:320
+#: src/spamService/class_goSpamServer.inc:355
+msgid "Spamassassin"
+msgstr ""
+
+#: src/spamService/class_goSpamServer.inc:215
+#, fuzzy
+msgid "Trusted network"
+msgstr "Impostazioni Unix"
+
+#: src/spamService/class_goSpamServer.inc:286
+msgid "Score"
+msgstr ""
+
+#: src/spamService/class_goSpamServer.inc:320
+#: src/mailService/class_goMailServer.inc:577
+#: src/imapService/class_goImapServer.inc:200
+#: src/virusService/class_goVirusServer.inc:220
+msgid "Services"
+msgstr "Servizi"
+
+#: src/spamService/class_goSpamServer.inc:332
+#: src/spamService/goSpamServer.tpl:8
+#, fuzzy
+msgid "Rewrite header"
+msgstr "leggere"
+
+#: src/spamService/class_goSpamServer.inc:333
+#, fuzzy
+msgid "Trusted networks"
+msgstr "Impostazioni Unix"
+
+#: src/spamService/class_goSpamServer.inc:334
+#: src/spamService/goSpamServer.tpl:16
+msgid "Required score"
+msgstr ""
+
+#: src/spamService/class_goSpamServer.inc:335
+#: src/spamService/goSpamServer.tpl:107 src/spamService/goSpamServer.tpl:109
+#, fuzzy
+msgid "Rules"
+msgstr "Ruolo"
+
+#: src/spamService/class_goSpamServer.inc:338
+#: src/mailService/class_goMailServer.inc:620
+#: src/imapService/class_goImapServer.inc:213
+#: src/virusService/class_goVirusServer.inc:232
+#, fuzzy
+msgid "Start"
+msgstr "Avvio"
+
+#: src/spamService/class_goSpamServer.inc:339
+#: src/mailService/class_goMailServer.inc:621
+#: src/imapService/class_goImapServer.inc:214
+#: src/sieveEditorPlugin/templates/element_stop.tpl:4
+#: src/sieveEditorPlugin/templates/object_container.tpl:28
+#: src/sieveEditorPlugin/class_sieveManagement.inc:520
+#: src/sieveEditorPlugin/class_sieveManagement.inc:720
+#: src/virusService/class_goVirusServer.inc:233
+#, fuzzy
+msgid "Stop"
+msgstr "Rapporto"
+
+#: src/spamService/class_goSpamServer.inc:340
+#: src/mailService/class_goMailServer.inc:622
+#: src/imapService/class_goImapServer.inc:215
+#: src/virusService/class_goVirusServer.inc:234
+#, fuzzy
+msgid "Restart"
+msgstr "Riprova"
+
+#: src/spamService/class_goSpamServer.inc:342
+#: src/spamService/goSpamServer.tpl:66
+msgid "Enable use of Bayes filtering"
+msgstr ""
+
+#: src/spamService/class_goSpamServer.inc:343
+msgid "Enabled Bayes auto learning"
+msgstr ""
+
+#: src/spamService/class_goSpamServer.inc:344
+#: src/spamService/goSpamServer.tpl:74
+msgid "Enable RBL checks"
+msgstr ""
+
+#: src/spamService/class_goSpamServer.inc:345
+#: src/spamService/goSpamServer.tpl:85
+msgid "Enable use of Razor"
+msgstr ""
+
+#: src/spamService/class_goSpamServer.inc:346
+#: src/spamService/goSpamServer.tpl:89
+msgid "Enable use of DDC"
+msgstr ""
+
+#: src/spamService/class_goSpamServer.inc:347
+#: src/spamService/goSpamServer.tpl:93
+msgid "Enable use of Pyzor"
+msgstr ""
+
+#: src/spamService/goSpamServer.tpl:2 src/spamService/goSpamServer.tpl:6
+msgid "Spam taggin"
+msgstr ""
+
+#: src/spamService/goSpamServer.tpl:5
+msgid "Spam tagging"
+msgstr ""
+
+#: src/spamService/goSpamServer.tpl:19
+msgid "Select required score to tag mail as SPAM"
+msgstr ""
+
+#: src/spamService/goSpamServer.tpl:31 src/mailService/goMailServer.tpl:59
+#, fuzzy
+msgid "Network settings"
+msgstr "Opzioni di posta dell'identità"
+
+#: src/spamService/goSpamServer.tpl:47 src/mailService/goMailServer.tpl:76
+#: src/mailService/goMailServer.tpl:109
+msgid "Remove"
+msgstr "Rimuovi"
+
+#: src/spamService/goSpamServer.tpl:61 src/spamService/goSpamServer.tpl:62
+#: src/spamService/goSpamServer.tpl:81
+#, fuzzy
+msgid "Flags"
+msgstr "classe"
+
+#: src/spamService/goSpamServer.tpl:70
+msgid "Enable Bayes auto learning"
+msgstr ""
+
+#: src/mailService/goMailServer.tpl:7 src/imapService/goImapServer.tpl:5
+#, fuzzy
+msgid "Generic settings"
+msgstr "Impostazioni generali delle code"
+
+#: src/mailService/goMailServer.tpl:9
+#: src/mailService/class_goMailServer.inc:623
+msgid "Visible fully qualified host name"
+msgstr ""
+
+#: src/mailService/goMailServer.tpl:12
+msgid "The fully qualified host name."
+msgstr ""
+
+#: src/mailService/goMailServer.tpl:17
+msgid "Max mail header size"
+msgstr ""
+
+#: src/mailService/goMailServer.tpl:22
+msgid "This value specifies the maximal header size."
+msgstr ""
+
+#: src/mailService/goMailServer.tpl:22 src/mailService/goMailServer.tpl:32
+#: src/mailService/goMailServer.tpl:41
+msgid "KB"
+msgstr "KB"
+
+#: src/mailService/goMailServer.tpl:27
+#: src/mailService/class_goMailServer.inc:626
+msgid "Max mailbox size"
+msgstr ""
+
+#: src/mailService/goMailServer.tpl:32
+msgid "Defines the maximal size of mail box."
+msgstr ""
+
+#: src/mailService/goMailServer.tpl:36
+#: src/mailService/class_goMailServer.inc:627
+#, fuzzy
+msgid "Max message size"
+msgstr "Inoltra i messaggi a"
+
+#: src/mailService/goMailServer.tpl:41
+msgid "Specify the maximal size of a message."
+msgstr ""
+
+#: src/mailService/goMailServer.tpl:46
+#: src/mailService/class_goMailServer.inc:630
+#, fuzzy
+msgid "Relay host"
+msgstr "Rimuovi"
+
+#: src/mailService/goMailServer.tpl:51
+msgid "Relay messages to following host:"
+msgstr ""
+
+#: src/mailService/goMailServer.tpl:62
+#: src/mailService/class_goMailServer.inc:629
+msgid "Local networks"
+msgstr ""
+
+#: src/mailService/goMailServer.tpl:64
+#, fuzzy
+msgid "Postfix networks"
+msgstr "Impostazioni Unix"
+
+#: src/mailService/goMailServer.tpl:87 src/mailService/goMailServer.tpl:92
+#, fuzzy
+msgid "Domains and routing"
+msgstr "Amministratori di Dominio"
+
+#: src/mailService/goMailServer.tpl:95
+#: src/mailService/class_goMailServer.inc:628
+msgid "Domains to accept mail for"
+msgstr ""
+
+#: src/mailService/goMailServer.tpl:97
+msgid "Postfix is responsible for the following domains:"
+msgstr ""
+
+#: src/mailService/goMailServer.tpl:118 src/mailService/goMailServer.tpl:121
+msgid "Transports"
+msgstr ""
+
+#: src/mailService/goMailServer.tpl:130
+msgid "Select a transport protocol."
+msgstr ""
+
+#: src/mailService/goMailServer.tpl:149
+#, fuzzy
+msgid "Restrictions"
+msgstr "Azione"
+
+#: src/mailService/goMailServer.tpl:154 src/mailService/goMailServer.tpl:157
+#: src/mailService/class_goMailServer.inc:632
+#, fuzzy
+msgid "Restrictions for sender"
+msgstr "Non ci sono certificati installati"
+
+#: src/mailService/goMailServer.tpl:165 src/mailService/goMailServer.tpl:193
+#, fuzzy
+msgid "Restriction filter"
+msgstr "Cerca"
+
+#: src/mailService/goMailServer.tpl:182 src/mailService/goMailServer.tpl:185
+#: src/mailService/class_goMailServer.inc:633
+msgid "Restrictions for recipient"
+msgstr ""
+
+#: src/mailService/goMailServer.tpl:215 src/imapService/goImapServer.tpl:84
+msgid "The server must be saved before you can use the status flag."
+msgstr ""
+
+#: src/mailService/goMailServer.tpl:217 src/imapService/goImapServer.tpl:86
+msgid "The service must be saved before you can use the status flag."
+msgstr ""
+
+#: src/mailService/goMailServer.tpl:220 src/imapService/goImapServer.tpl:90
+#, fuzzy
+msgid "Set new status"
+msgstr "Stato"
+
+#: src/mailService/goMailServer.tpl:226 src/imapService/goImapServer.tpl:96
+#, fuzzy
+msgid "Set status"
+msgstr "Stato"
+
+#: src/mailService/goMailServer.tpl:228 src/imapService/goImapServer.tpl:97
+msgid "Execute"
+msgstr "Esegui"
+
+#: src/mailService/class_goMailServer.inc:45
+#: src/mailService/class_goMailServer.inc:455
+#, fuzzy
+msgid "Mail SMTP service (Postfix)"
+msgstr "Server"
+
+#: src/mailService/class_goMailServer.inc:199
+#: src/mailService/class_goMailServer.inc:208
+#: src/mailService/class_goMailServer.inc:216
+#, fuzzy
+msgid "Source"
+msgstr "ora"
+
+#: src/mailService/class_goMailServer.inc:199
+#: src/mailService/class_goMailServer.inc:208
+#: src/mailService/class_goMailServer.inc:216
+#, fuzzy
+msgid "Destination"
+msgstr "Descrizione"
+
+#: src/mailService/class_goMailServer.inc:216
+msgid "Protocol"
+msgstr ""
+
+#: src/mailService/class_goMailServer.inc:543
+#: src/mailService/class_goMailServer.inc:625
+msgid "Header size limit"
+msgstr ""
+
+#: src/mailService/class_goMailServer.inc:546
+#, fuzzy
+msgid "Mailbox size limit"
+msgstr "Inoltra i messaggi a"
+
+#: src/mailService/class_goMailServer.inc:549
+#, fuzzy
+msgid "Message size limit"
+msgstr "Inoltra i messaggi a"
+
+#: src/mailService/class_goMailServer.inc:576
+#, fuzzy
+msgid "Mail SMTP (Postfix)"
+msgstr "Server"
+
+#: src/mailService/class_goMailServer.inc:577
+#, fuzzy
+msgid "Mail SMTP - Postfix"
+msgstr "Server"
+
+#: src/mailService/class_goMailServer.inc:593
+msgid "File containing user defined protocols."
+msgstr ""
+
+#: src/mailService/class_goMailServer.inc:607
+msgid "File containing user defined restriction filters."
+msgstr ""
+
+#: src/mailService/class_goMailServer.inc:624
+msgid "Description"
+msgstr "Descrizione"
+
+#: src/mailService/class_goMailServer.inc:631
+msgid "Transport table"
+msgstr ""
+
+#: src/mailExtension/copypaste.tpl:4
+#, fuzzy
+msgid "Address configuration"
+msgstr "Scarica il file di  configurazione"
+
+#: src/mailExtension/copypaste.tpl:25 src/mailExtension/generic.tpl:293
+msgid "Forward messages to"
+msgstr "Inoltra i messaggi a"
+
+#: src/mailExtension/class_mail-methods-cyrus.inc:39
+msgid "There are no IMAP compatible mail servers defined!"
+msgstr ""
+
+#: src/mailExtension/class_mail-methods-cyrus.inc:44
+msgid "Mail server for this account is invalid!"
+msgstr ""
+
+#: src/mailExtension/class_mail-methods-cyrus.inc:222
+#, fuzzy
+msgid "IMAP error"
+msgstr "Errore LDAP"
+
+#: src/mailExtension/class_mail-methods-cyrus.inc:222
+#, php-format
+msgid "Cannot modify IMAP mailbox quota: %s"
+msgstr ""
+
+#: src/mailExtension/class_mail-methods-cyrus.inc:298
+#, fuzzy
+msgid "Mail info"
+msgstr "Cognome"
+
+#: src/mailExtension/class_mail-methods-cyrus.inc:299
+#, php-format
+msgid ""
+"LDAP entry has been removed but Cyrus mailbox (%s) is kept.\n"
+"Please delete it manually!"
+msgstr ""
+
+#: src/mailExtension/class_mail-methods-cyrus.inc:383
+#: src/mailExtension/class_mail-methods-cyrus.inc:420
+msgid "The module imap_getacl is not implemented!"
+msgstr ""
+
+#: src/mailExtension/class_mail-methods-cyrus.inc:472
+#, php-format
+msgid "File '%s' does not exist!"
+msgstr ""
+
+#: src/mailExtension/class_mail-methods-cyrus.inc:473
+msgid "The sieve script may not be written correctly."
+msgstr ""
+
+#: src/mailExtension/class_mail-methods-cyrus.inc:474
+#: src/sieveEditorPlugin/class_My_Tree.inc:245
+msgid "Warning"
+msgstr "Attenzione"
+
+#: src/mailExtension/class_mail-methods-cyrus.inc:512
+#: src/sieveEditorPlugin/class_sieveManagement.inc:325
+#, php-format
+msgid "Cannot retrieve SIEVE script: %s"
+msgstr ""
+
+#: src/mailExtension/class_mail-methods-cyrus.inc:601
+#: src/sieveEditorPlugin/class_sieveManagement.inc:1044
+#, php-format
+msgid "Cannot store SIEVE script: %s"
+msgstr ""
+
+#: src/mailExtension/class_mail-methods-cyrus.inc:608
+#, php-format
+msgid "Cannot activate SIEVE script: %s"
+msgstr ""
+
+#: src/mailExtension/class_mail-methods.inc:141
+#: src/mailExtension/class_mail-methods.inc:486
+#: src/mailExtension/class_mailAccount.inc:636
+#, fuzzy
+msgid "Configuration error"
+msgstr "File di configurazione"
+
+#: src/mailExtension/class_mail-methods.inc:142
+#, php-format
+msgid "The configured mail attribute '%s' is unsupported!"
+msgstr ""
+
+#: src/mailExtension/class_mail-methods.inc:487
+#, php-format
+msgid "Mail method '%s' is unknown!"
+msgstr ""
+
+#: src/mailExtension/class_mail-methods.inc:713
+#: src/mailExtension/class_mail-methods.inc:714
+#, fuzzy
+msgid "None"
+msgstr "nessuno"
+
+#: src/mailExtension/class_mail-methods.inc:803
+msgid "Unknown"
+msgstr ""
+
+#: src/mailExtension/class_mail-methods.inc:805
+#, fuzzy
+msgid "Unlimited"
+msgstr "non definito"
+
+#: src/mailExtension/class_mailAccount.inc:69
+#, fuzzy
+msgid "Manage personal mail settings"
+msgstr "Impostazioni Unix"
+
+#: src/mailExtension/class_mailAccount.inc:636
+#, fuzzy, php-format
+msgid "No DESC tag in vacation template '%s'!"
+msgstr "Manca il DESC tag nel messaggio di risposta automatica:"
+
+#: src/mailExtension/class_mailAccount.inc:665
+#: src/mailExtension/class_mailAccount.inc:678
+#: src/mailExtension/class_mailAccount.inc:712
+#: src/mailExtension/class_mailAccount.inc:725
+#, fuzzy
+msgid "Permission error"
+msgstr "Permessi"
+
+#: src/mailExtension/class_mailAccount.inc:665
+#: src/mailExtension/class_mailAccount.inc:678
+#: src/mailExtension/class_mailAccount.inc:712
+#: src/mailExtension/class_mailAccount.inc:725
+#, fuzzy
+msgid "You have no permission to modify these addresses!"
+msgstr "Non hai il permesso di cambiare la tua password."
+
+#: src/mailExtension/class_mailAccount.inc:759
+#: src/mailExtension/class_mailAccount.inc:762
+msgid "unknown"
+msgstr ""
+
+#: src/mailExtension/class_mailAccount.inc:958
+#, fuzzy
+msgid "Mail error saving sieve settings"
+msgstr "Usa uno script di sieve personalizzato"
+
+#: src/mailExtension/class_mailAccount.inc:1071
+#: src/mailExtension/class_mailAccount.inc:1079
+#: src/mailExtension/class_mailAccount.inc:1297
+#, fuzzy
+msgid "Mail reject size"
+msgstr "Inoltra i messaggi a"
+
+#: src/mailExtension/class_mailAccount.inc:1083
+#: src/mailExtension/class_mailAccount.inc:1304
+#, fuzzy
+msgid "Spam folder"
+msgstr "nella cartella"
+
+#: src/mailExtension/class_mailAccount.inc:1091
+#: src/mailExtension/class_mailAccount.inc:1312
+#: src/mailExtension/generic.tpl:184
+#, fuzzy
+msgid "from"
+msgstr "e"
+
+#: src/mailExtension/class_mailAccount.inc:1095
+#: src/mailExtension/class_mailAccount.inc:1316
+#, fuzzy
+msgid "to"
+msgstr "Rapporto"
+
+#: src/mailExtension/class_mailAccount.inc:1106
+#: src/mailExtension/class_mailAccount.inc:1327
+#, fuzzy
+msgid "Vacation interval"
+msgstr "Messaggio di di risposta automatica"
+
+#: src/mailExtension/class_mailAccount.inc:1453
+msgid "My account"
+msgstr "Identità"
+
+#: src/mailExtension/class_mailAccount.inc:1468
+msgid ""
+"Remove mail boxes from the IMAP storage after they their user gets removed."
+msgstr ""
+
+#: src/mailExtension/class_mailAccount.inc:1478
+msgid ""
+"Comma separated list of folders to be automatically created on user creation."
+msgstr ""
+
+#: src/mailExtension/class_mailAccount.inc:1492
+#, fuzzy
+msgid "Add vacation information"
+msgstr "Informazioni organizzazione"
+
+#: src/mailExtension/class_mailAccount.inc:1493
+#: src/mailExtension/generic.tpl:269
+#: src/sieveEditorPlugin/templates/element_vacation.tpl:46
+#: src/sieveEditorPlugin/templates/object_container.tpl:29
+#: src/sieveEditorPlugin/class_sieveManagement.inc:521
+#: src/sieveEditorPlugin/class_sieveManagement.inc:721
+msgid "Vacation message"
+msgstr "Messaggio di di risposta automatica"
+
+#: src/mailExtension/class_mailAccount.inc:1495
+msgid "Use SPAM filter"
+msgstr ""
+
+#: src/mailExtension/class_mailAccount.inc:1496
+msgid "SPAM level"
+msgstr ""
+
+#: src/mailExtension/class_mailAccount.inc:1497
+msgid "SPAM mail box"
+msgstr ""
+
+#: src/mailExtension/class_mailAccount.inc:1499
+#, fuzzy
+msgid "Sieve management"
+msgstr "Dirigenza"
+
+#: src/mailExtension/class_mailAccount.inc:1501
+#, fuzzy
+msgid "Reject due to mail size"
+msgstr "Rifiuta mail più grandi di"
+
+#: src/mailExtension/class_mailAccount.inc:1504
+#: src/mailExtension/class_mailAccount.inc:1509
+#, fuzzy
+msgid "Forwarding address"
+msgstr "Indirizzo principale"
+
+#: src/mailExtension/class_mailAccount.inc:1505
+#, fuzzy
+msgid "Local delivery"
+msgstr "Ultimo recapito"
+
+#: src/mailExtension/class_mailAccount.inc:1506
+#, fuzzy
+msgid "No delivery to own mailbox "
+msgstr "Non recapitare nella propria mailbox"
+
+#: src/mailExtension/class_mailAccount.inc:1507
+#, fuzzy
+msgid "Mail alternative addresses"
+msgstr "Indirizzi alternativi"
+
+#: src/mailExtension/class_mailAccount.inc:1510
+#: src/mailExtension/generic.tpl:120
+msgid "Use custom sieve script"
+msgstr "Usa uno script di sieve personalizzato"
+
+#: src/mailExtension/generic.tpl:7
+#, fuzzy
+msgid "Mail address configuration"
+msgstr "Scarica il file di  configurazione"
+
+#: src/mailExtension/generic.tpl:102
+#, fuzzy
+msgid "Mail account configration flags"
+msgstr "File di configurazione"
+
+#: src/mailExtension/generic.tpl:120
+msgid "disables all Mail options!"
+msgstr "disabilita tutte le opzioni di posta!"
+
+#: src/mailExtension/generic.tpl:129
+#, fuzzy
+msgid "Sieve Management"
+msgstr "Dirigenza"
+
+#: src/mailExtension/generic.tpl:145 src/mailExtension/generic.tpl:182
+#, fuzzy
+msgid "Spam filter configuration"
+msgstr "File di configurazione"
+
+#: src/mailExtension/generic.tpl:155
+msgid "Select if you want to forward mails without getting own copies of them"
+msgstr ""
+"Seleziona se intendi inoltrare le mail senza mantenerne una copia locale"
+
+#: src/mailExtension/generic.tpl:159
+msgid "No delivery to own mailbox"
+msgstr "Non recapitare nella propria mailbox"
+
+#: src/mailExtension/generic.tpl:170
+msgid ""
+"Select to automatically response with the vacation message defined below"
+msgstr "Seleziona per rispondere automaticamente con il messaggio seguente"
+
+#: src/mailExtension/generic.tpl:175
+msgid "Activate vacation message"
+msgstr "Attiva la risposta automatica"
+
+#: src/mailExtension/generic.tpl:197
+msgid "till"
+msgstr ""
+
+#: src/mailExtension/generic.tpl:222
+#, fuzzy
+msgid "Select if you want to filter this mails through Spamassassin"
+msgstr "Seleziona se intendi filtrare le tue mail con Spamassassin"
+
+#: src/mailExtension/generic.tpl:226
+#, fuzzy
+msgid "Move mails tagged with SPAM level greater than"
+msgstr "Muovi mail marcate con un livello di Spam superiore a"
+
+#: src/mailExtension/generic.tpl:229
+#, fuzzy
+msgid "Choose SPAM level - smaller values are more sensitive"
+msgstr ""
+"Scegli il livello si Spam - valori più bassi indicano maggiore sensibilità"
+
+#: src/mailExtension/generic.tpl:233
+msgid "to folder"
+msgstr "nella cartella"
+
+#: src/mailExtension/generic.tpl:253
+msgid "Reject mails bigger than"
+msgstr "Rifiuta mail più grandi di"
+
+#: src/mailExtension/generic.tpl:256
+msgid "MB"
+msgstr "Mb"
+
+#: src/mailExtension/generic.tpl:286
+#: src/sieveEditorPlugin/templates/import_script.tpl:12
+#: src/sieveEditorPlugin/templates/edit_frame_base.tpl:7
+msgid "Import"
+msgstr "Importa"
+
+#: src/mailExtension/generic.tpl:331
+#, fuzzy
+msgid "Delivery settings"
+msgstr "Opzioni di posta dell'identità"
+
+#: src/mailAddressSelectDialog/class_mailAddressSelect.inc:29
+#, fuzzy
+msgid "Mail address selection"
+msgstr "Indirizzo principale"
+
+#: src/mailAddressSelectDialog/selectMailAddress-filter.xml:22
+#, fuzzy
+msgid "Default filter"
+msgstr "Parametro"
+
+#: src/mailAddressSelectDialog/selectMailAddress-list.tpl:12
+msgid "Base"
+msgstr "Base"
+
+#: src/mailAddressSelectDialog/selectMailAddress-list.xml:10
+#, fuzzy
+msgid "Please select the desired entries"
+msgstr "Lingua preferita"
+
+#: src/mailAddressSelectDialog/selectMailAddress-list.xml:15
+msgid "User"
+msgstr ""
+
+#: src/mailAddressSelectDialog/selectMailAddress-list.xml:23
+msgid "Group"
+msgstr "Gruppo"
+
+#: src/imapService/class_goImapServer.inc:48
+msgid "IMAP/POP3 service"
+msgstr ""
+
+#: src/imapService/class_goImapServer.inc:53
+#: src/imapService/class_goImapServer.inc:216
+#, fuzzy
+msgid "Repair database"
+msgstr "Database"
+
+#: src/imapService/class_goImapServer.inc:100
+#, fuzzy
+msgid "IMAP/POP3 (Cyrus) service"
+msgstr "Server"
+
+#: src/imapService/class_goImapServer.inc:110
+#: src/imapService/class_goImapServer.inc:218
+#: src/imapService/goImapServer.tpl:7
+#, fuzzy
+msgid "Server identifier"
+msgstr "Identificativo della casa"
+
+#: src/imapService/class_goImapServer.inc:114
+#: src/imapService/class_goImapServer.inc:116
+#: src/imapService/class_goImapServer.inc:219
+#: src/imapService/goImapServer.tpl:16
+#, fuzzy
+msgid "Connect URL"
+msgstr "Connessione"
+
+#: src/imapService/class_goImapServer.inc:120
+#: src/imapService/class_goImapServer.inc:122
+#: src/imapService/class_goImapServer.inc:223
+#: src/imapService/goImapServer.tpl:43
+#, fuzzy
+msgid "Sieve connect URL"
+msgstr "Connessione"
+
+#: src/imapService/class_goImapServer.inc:123
+#, fuzzy, php-format
+msgid "Valid options are: %s"
+msgstr "Opzioni di posta"
+
+#: src/imapService/class_goImapServer.inc:127
+#: src/imapService/class_goImapServer.inc:220
+#: src/imapService/goImapServer.tpl:25
+#, fuzzy
+msgid "Administrator"
+msgstr "Amministrazione"
+
+#: src/imapService/class_goImapServer.inc:130
+#: src/imapService/goImapServer.tpl:34
+msgid "Password"
+msgstr "Password"
+
+#: src/imapService/class_goImapServer.inc:199
+#: src/imapService/class_goImapServer.inc:200
+msgid "IMAP/POP3"
+msgstr ""
+
+#: src/imapService/class_goImapServer.inc:221
+#, fuzzy
+msgid "Administrator password"
+msgstr "Password dell'amministratore"
+
+#: src/imapService/class_goImapServer.inc:224
+#: src/imapService/goImapServer.tpl:57
+msgid "Start IMAP service"
+msgstr ""
+
+#: src/imapService/class_goImapServer.inc:225
+#: src/imapService/goImapServer.tpl:63
+msgid "Start IMAP SSL service"
+msgstr ""
+
+#: src/imapService/class_goImapServer.inc:226
+#: src/imapService/goImapServer.tpl:69
+msgid "Start POP3 service"
+msgstr ""
+
+#: src/imapService/class_goImapServer.inc:227
+#: src/imapService/goImapServer.tpl:75
+msgid "Start POP3 SSL service"
+msgstr ""
+
+#: src/imapService/goImapServer.tpl:2
+#, fuzzy
+msgid "IMAP service"
+msgstr "Server"
+
+#: src/sieveEditorPlugin/class_sieveElement_Vacation.inc:148
+#, fuzzy
+msgid "Alternative sender address must be a valid email addresses."
+msgstr "Prego inserire un numero di telefono valido!"
+
+#: src/sieveEditorPlugin/templates/select_test_type.tpl:1
+#, fuzzy
+msgid "Select the type of test you want to add"
+msgstr "Selezioni utenti da aggiungere"
+
+#: src/sieveEditorPlugin/templates/select_test_type.tpl:3
+#, fuzzy
+msgid "Available test types"
+msgstr "Applicazioni disponibili"
+
+#: src/sieveEditorPlugin/templates/select_test_type.tpl:11
+#: src/sieveEditorPlugin/templates/add_element.tpl:11
+msgid "Continue"
+msgstr "Continua"
+
+#: src/sieveEditorPlugin/templates/element_redirect.tpl:1
+#, fuzzy
+msgid "Sieve element redirect"
+msgstr "Elimina contatto"
+
+#: src/sieveEditorPlugin/templates/element_redirect.tpl:13
+#: src/sieveEditorPlugin/templates/object_container.tpl:25
+#: src/sieveEditorPlugin/class_sieveManagement.inc:517
+#: src/sieveEditorPlugin/class_sieveManagement.inc:717
+#, fuzzy
+msgid "Redirect"
+msgstr "modifica"
+
+#: src/sieveEditorPlugin/templates/element_redirect.tpl:18
+msgid "Redirect mail to following recipients"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/element_size.tpl:1
+msgid "Sieve test case: size"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/element_size.tpl:11
+#: src/sieveEditorPlugin/templates/element_size.tpl:14
+#: src/sieveEditorPlugin/templates/element_anyof.tpl:5
+#: src/sieveEditorPlugin/templates/element_anyof.tpl:8
+#: src/sieveEditorPlugin/templates/element_allof.tpl:5
+#: src/sieveEditorPlugin/templates/element_allof.tpl:8
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:43
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:46
+#: src/sieveEditorPlugin/templates/element_exists.tpl:11
+#: src/sieveEditorPlugin/templates/element_exists.tpl:14
+msgid "Inverse match"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/element_size.tpl:11
+#: src/sieveEditorPlugin/templates/element_anyof.tpl:5
+#: src/sieveEditorPlugin/templates/element_header.tpl:115
+#: src/sieveEditorPlugin/templates/element_allof.tpl:5
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:114
+#: src/sieveEditorPlugin/templates/element_address.tpl:122
+#: src/sieveEditorPlugin/templates/element_exists.tpl:11
+#, fuzzy
+msgid "Not"
+msgstr "nessuno"
+
+#: src/sieveEditorPlugin/templates/element_size.tpl:14
+#: src/sieveEditorPlugin/templates/element_header.tpl:118
+#: src/sieveEditorPlugin/templates/element_allof.tpl:8
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:117
+#: src/sieveEditorPlugin/templates/element_address.tpl:125
+#: src/sieveEditorPlugin/templates/element_exists.tpl:14
+msgid "-"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/element_size.tpl:18
+#, fuzzy
+msgid "Select match type"
+msgstr "Rimuovi"
+
+#: src/sieveEditorPlugin/templates/element_size.tpl:22
+#, fuzzy
+msgid "Select value unit"
+msgstr "Imposta dipartimento"
+
+#: src/sieveEditorPlugin/templates/remove_script.tpl:6
+msgid ""
+"Please double check if your really want to do this since there is no way for "
+"GOsa to get your data back."
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/remove_script.tpl:7
+msgid ""
+"Best thing to do before performing this action would be to save the current "
+"script in a file. So - if you've done so - press 'Delete' to continue or "
+"'Cancel' to abort."
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/element_elsif.tpl:1
+#: src/sieveEditorPlugin/templates/block_indent_start.tpl:2
+#: src/sieveEditorPlugin/templates/element_header.tpl:13
+#: src/sieveEditorPlugin/templates/element_header.tpl:25
+#: src/sieveEditorPlugin/templates/element_header.tpl:78
+#: src/sieveEditorPlugin/templates/element_header.tpl:93
+#: src/sieveEditorPlugin/templates/element_header.tpl:103
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:25
+#: src/sieveEditorPlugin/templates/element_address.tpl:3
+#: src/sieveEditorPlugin/templates/element_address.tpl:12
+#: src/sieveEditorPlugin/templates/element_address.tpl:24
+#: src/sieveEditorPlugin/templates/element_address.tpl:86
+#: src/sieveEditorPlugin/templates/element_address.tpl:101
+#: src/sieveEditorPlugin/templates/element_address.tpl:110
+#: src/sieveEditorPlugin/templates/element_vacation.tpl:1
+#: src/sieveEditorPlugin/templates/element_boolean.tpl:1
+#: src/sieveEditorPlugin/templates/object_container.tpl:1
+#, fuzzy
+msgid "Sieve element"
+msgstr "Elimina contatto"
+
+#: src/sieveEditorPlugin/templates/element_elsif.tpl:4
+#: src/sieveEditorPlugin/templates/object_container.tpl:32
+#: src/sieveEditorPlugin/class_sieveManagement.inc:583
+#: src/sieveEditorPlugin/class_sieveManagement.inc:759
+#: src/sieveEditorPlugin/class_sieveManagement.inc:764
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:838
+msgid "Else If"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/element_anyof.tpl:1
+#: src/sieveEditorPlugin/templates/element_if.tpl:1
+#: src/sieveEditorPlugin/templates/element_allof.tpl:1
+#: src/sieveEditorPlugin/templates/element_exists.tpl:1
+#, fuzzy
+msgid "Sieve filter"
+msgstr "Parametro"
+
+#: src/sieveEditorPlugin/templates/element_anyof.tpl:12
+#: src/sieveEditorPlugin/class_sieveManagement.inc:613
+msgid "Any of"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/add_element.tpl:1
+#, fuzzy
+msgid "Add a new element"
+msgstr "Dispositivi del client"
+
+#: src/sieveEditorPlugin/templates/add_element.tpl:2
+#, fuzzy
+msgid "Please select the type of element you want to add"
+msgstr "Prego inserire un numero di telefono valido!"
+
+#: src/sieveEditorPlugin/templates/add_element.tpl:14
+msgid "Abort"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/element_require.tpl:1
+msgid "Sieve: require"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/element_require.tpl:12
+#: src/sieveEditorPlugin/templates/object_container.tpl:27
+#: src/sieveEditorPlugin/class_sieveManagement.inc:519
+#: src/sieveEditorPlugin/class_sieveManagement.inc:719
+msgid "Require"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/management.tpl:1
+#, fuzzy
+msgid "List of sieve scripts"
+msgstr "Lista degli utenti"
+
+#: src/sieveEditorPlugin/templates/management.tpl:5
+msgid ""
+"Connection to the sieve server could not be established, the authentication "
+"attribute is empty."
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/management.tpl:6
+msgid ""
+"Please verify that the attributes UID and mail are not empty and try again."
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/management.tpl:12
+msgid "Connection to the sieve server could not be established."
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/management.tpl:15
+msgid "Possibly the sieve account has not been created yet."
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/management.tpl:19
+msgid ""
+"Be careful. All your changes will be saved directly to sieve, if you use the "
+"save button below."
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/element_comment.tpl:1
+#, fuzzy
+msgid "Sieve comment"
+msgstr "Dirigenza"
+
+#: src/sieveEditorPlugin/templates/element_comment.tpl:4
+#: src/sieveEditorPlugin/templates/object_container.tpl:21
+#: src/sieveEditorPlugin/class_sieveManagement.inc:513
+#: src/sieveEditorPlugin/class_sieveManagement.inc:713
+#, fuzzy
+msgid "Comment"
+msgstr "Contenuti"
+
+#: src/sieveEditorPlugin/templates/element_comment.tpl:8
+msgid "Edit"
+msgstr "Modifica"
+
+#: src/sieveEditorPlugin/templates/element_fileinto.tpl:1
+#, fuzzy
+msgid "Sieve: File into"
+msgstr "Cognome"
+
+#: src/sieveEditorPlugin/templates/element_fileinto.tpl:4
+#, fuzzy
+msgid "Move mail into folder"
+msgstr "nella cartella"
+
+#: src/sieveEditorPlugin/templates/element_fileinto.tpl:8
+#, fuzzy
+msgid "Select from list"
+msgstr "Rimuovi"
+
+#: src/sieveEditorPlugin/templates/element_fileinto.tpl:10
+#, fuzzy
+msgid "Manual selection"
+msgstr "Lingua"
+
+#: src/sieveEditorPlugin/templates/element_fileinto.tpl:19
+#, fuzzy
+msgid "Folder"
+msgstr "Filtro"
+
+#: src/sieveEditorPlugin/templates/element_else.tpl:1
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:4
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:13
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:77
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:92
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:100
+#, fuzzy
+msgid "Sieve envelope"
+msgstr "Dirigenza"
+
+#: src/sieveEditorPlugin/templates/element_else.tpl:4
+#: src/sieveEditorPlugin/templates/object_container.tpl:31
+#: src/sieveEditorPlugin/class_sieveManagement.inc:581
+#: src/sieveEditorPlugin/class_sieveManagement.inc:757
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:840
+#, fuzzy
+msgid "Else"
+msgstr "Scegli"
+
+#: src/sieveEditorPlugin/templates/object_container_clear.tpl:1
+#, fuzzy
+msgid "Sieve element clear"
+msgstr "Elimina contatto"
+
+#: src/sieveEditorPlugin/templates/object_container_clear.tpl:8
+#: src/sieveEditorPlugin/templates/object_container.tpl:8
+#, fuzzy
+msgid "Move object up one position"
+msgstr "Oggetti membri"
+
+#: src/sieveEditorPlugin/templates/object_container_clear.tpl:11
+#: src/sieveEditorPlugin/templates/object_container.tpl:11
+msgid "Move object down one position"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/object_container_clear.tpl:14
+#: src/sieveEditorPlugin/templates/object_test_container.tpl:11
+#: src/sieveEditorPlugin/templates/object_container.tpl:14
+#, fuzzy
+msgid "Remove object"
+msgstr "Oggetti membri"
+
+#: src/sieveEditorPlugin/templates/element_header.tpl:3
+#, fuzzy
+msgid "Sieve header"
+msgstr "leggere"
+
+#: src/sieveEditorPlugin/templates/element_header.tpl:16
+#: src/sieveEditorPlugin/templates/element_header.tpl:112
+#: src/sieveEditorPlugin/class_sieveManagement.inc:608
+#, fuzzy
+msgid "Header"
+msgstr "leggere"
+
+#: src/sieveEditorPlugin/templates/element_header.tpl:20
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:20
+#: src/sieveEditorPlugin/templates/element_address.tpl:19
+#: src/sieveEditorPlugin/templates/element_vacation.tpl:17
+#, fuzzy
+msgid "Normal view"
+msgstr "CAP"
+
+#: src/sieveEditorPlugin/templates/element_header.tpl:28
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:28
+#: src/sieveEditorPlugin/templates/element_address.tpl:27
+#, fuzzy
+msgid "Match type"
+msgstr "Oggetto corrispondente"
+
+#: src/sieveEditorPlugin/templates/element_header.tpl:31
+#: src/sieveEditorPlugin/templates/element_header.tpl:56
+#: src/sieveEditorPlugin/templates/element_header.tpl:67
+#: src/sieveEditorPlugin/templates/element_header.tpl:122
+#: src/sieveEditorPlugin/templates/element_header.tpl:127
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:31
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:56
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:67
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:121
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:126
+#: src/sieveEditorPlugin/templates/element_address.tpl:30
+#: src/sieveEditorPlugin/templates/element_address.tpl:55
+#: src/sieveEditorPlugin/templates/element_address.tpl:65
+#: src/sieveEditorPlugin/templates/element_address.tpl:76
+#: src/sieveEditorPlugin/templates/element_address.tpl:129
+#: src/sieveEditorPlugin/templates/element_address.tpl:134
+#: src/sieveEditorPlugin/templates/element_boolean.tpl:5
+msgid "Boolean value"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/element_header.tpl:39
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:39
+#: src/sieveEditorPlugin/templates/element_address.tpl:38
+#, fuzzy
+msgid "Invert test"
+msgstr "Elimina foto"
+
+#: src/sieveEditorPlugin/templates/element_header.tpl:43
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:43
+#: src/sieveEditorPlugin/templates/element_address.tpl:42
+#, fuzzy
+msgid "Yes"
+msgstr "Sistemi"
+
+#: src/sieveEditorPlugin/templates/element_header.tpl:46
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:46
+#: src/sieveEditorPlugin/templates/element_address.tpl:45
+#, fuzzy
+msgid "No"
+msgstr "nessuno"
+
+#: src/sieveEditorPlugin/templates/element_header.tpl:53
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:53
+#: src/sieveEditorPlugin/templates/element_address.tpl:62
+#, fuzzy
+msgid "Comparator"
+msgstr "Computer"
+
+#: src/sieveEditorPlugin/templates/element_header.tpl:64
+#, fuzzy
+msgid "operator"
+msgstr "Opzioni di posta"
+
+#: src/sieveEditorPlugin/templates/element_header.tpl:81
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:80
+#: src/sieveEditorPlugin/templates/element_address.tpl:89
+msgid "Address fields to include"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/element_header.tpl:85
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:84
+#: src/sieveEditorPlugin/templates/element_address.tpl:93
+msgid "Values to match for"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/element_header.tpl:140
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:139
+#: src/sieveEditorPlugin/templates/element_address.tpl:147
+#: src/sieveEditorPlugin/templates/element_vacation.tpl:50
+#, fuzzy
+msgid "Expert view"
+msgstr "nella cartella"
+
+#: src/sieveEditorPlugin/templates/element_reject.tpl:1
+#, fuzzy
+msgid "Sieve: reject"
+msgstr "Dirigenza"
+
+#: src/sieveEditorPlugin/templates/element_reject.tpl:14
+#, fuzzy
+msgid "Reject mail"
+msgstr "Rifiuta mail più grandi di"
+
+#: src/sieveEditorPlugin/templates/element_reject.tpl:17
+msgid "This is a multi-line text element"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/element_reject.tpl:19
+#, fuzzy
+msgid "This is stored as single string"
+msgstr "Questo fa qualcosa"
+
+#: src/sieveEditorPlugin/templates/element_keep.tpl:1
+#, fuzzy
+msgid "Sieve element keep"
+msgstr "Elimina contatto"
+
+#: src/sieveEditorPlugin/templates/element_keep.tpl:4
+#: src/sieveEditorPlugin/templates/object_container.tpl:20
+#: src/sieveEditorPlugin/templates/object_container.tpl:23
+#: src/sieveEditorPlugin/class_sieveManagement.inc:512
+#: src/sieveEditorPlugin/class_sieveManagement.inc:515
+#: src/sieveEditorPlugin/class_sieveManagement.inc:712
+#: src/sieveEditorPlugin/class_sieveManagement.inc:715
+msgid "Keep"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/element_keep.tpl:9
+#, fuzzy
+msgid "Keep message"
+msgstr "Elimina questo record"
+
+#: src/sieveEditorPlugin/templates/element_if.tpl:4
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:834
+#, fuzzy
+msgid "Condition"
+msgstr "Connessione"
+
+#: src/sieveEditorPlugin/templates/object_test_container.tpl:1
+msgid "Sieve test case"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/object_test_container.tpl:7
+#, fuzzy
+msgid "Add object"
+msgstr "Oggetto corrispondente"
+
+#: src/sieveEditorPlugin/templates/create_script.tpl:2
+msgid ""
+"Please enter the name for the new script below. Script names must consist of "
+"lower case characters only."
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/create_script.tpl:8
+#, fuzzy
+msgid "Script name"
+msgstr "Script path"
+
+#: src/sieveEditorPlugin/templates/import_script.tpl:1
+#, fuzzy
+msgid "Import sieve script"
+msgstr "Mostra stampanti"
+
+#: src/sieveEditorPlugin/templates/import_script.tpl:2
+msgid ""
+"Please select the sieve script you want to import. Use the import button to "
+"import the script or the cancel button to abort."
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/import_script.tpl:5
+#, fuzzy
+msgid "Script to import"
+msgstr "Script path"
+
+#: src/sieveEditorPlugin/templates/element_stop.tpl:1
+#, fuzzy
+msgid "Sieve element stop"
+msgstr "Elimina contatto"
+
+#: src/sieveEditorPlugin/templates/element_stop.tpl:9
+msgid "Stop execution here"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/element_allof.tpl:12
+#: src/sieveEditorPlugin/class_sieveManagement.inc:612
+msgid "All of"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:16
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:111
+#: src/sieveEditorPlugin/class_sieveManagement.inc:609
+msgid "Envelope"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/element_envelope.tpl:64
+#: src/sieveEditorPlugin/templates/element_address.tpl:73
+#, fuzzy
+msgid "Operator"
+msgstr "Computer"
+
+#: src/sieveEditorPlugin/templates/element_discard.tpl:1
+#, fuzzy
+msgid "Sieve element discard"
+msgstr "Elimina contatto"
+
+#: src/sieveEditorPlugin/templates/element_discard.tpl:4
+#: src/sieveEditorPlugin/templates/object_container.tpl:24
+#: src/sieveEditorPlugin/class_sieveManagement.inc:516
+#: src/sieveEditorPlugin/class_sieveManagement.inc:716
+#, fuzzy
+msgid "Discard"
+msgstr "Dispositivi"
+
+#: src/sieveEditorPlugin/templates/element_discard.tpl:9
+#, fuzzy
+msgid "Discard message"
+msgstr "Elimina questo record"
+
+#: src/sieveEditorPlugin/templates/element_address.tpl:15
+#: src/sieveEditorPlugin/templates/element_address.tpl:119
+#: src/sieveEditorPlugin/class_sieveManagement.inc:607
+msgid "Address"
+msgstr "Indirizzo"
+
+#: src/sieveEditorPlugin/templates/element_address.tpl:52
+msgid "Part of address that should be used"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/element_vacation.tpl:13
+#, fuzzy
+msgid "Vacation Message"
+msgstr "Messaggio di di risposta automatica"
+
+#: src/sieveEditorPlugin/templates/element_vacation.tpl:23
+#, fuzzy
+msgid "Release interval"
+msgstr "Rimuovi"
+
+#: src/sieveEditorPlugin/templates/element_vacation.tpl:27
+msgid "days"
+msgstr "giorni"
+
+#: src/sieveEditorPlugin/templates/element_vacation.tpl:32
+#, fuzzy
+msgid "Alternative sender addresses"
+msgstr "Indirizzi alternativi"
+
+#: src/sieveEditorPlugin/templates/element_boolean.tpl:4
+msgid "Boolean"
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/element_boolean.tpl:8
+#, fuzzy
+msgid "Update"
+msgstr "Aggiorna"
+
+#: src/sieveEditorPlugin/templates/object_container.tpl:19
+#, fuzzy
+msgid "choose element"
+msgstr "Elimina contatto"
+
+#: src/sieveEditorPlugin/templates/object_container.tpl:22
+#: src/sieveEditorPlugin/class_sieveManagement.inc:514
+#: src/sieveEditorPlugin/class_sieveManagement.inc:714
+#, fuzzy
+msgid "File into"
+msgstr "Cognome"
+
+#: src/sieveEditorPlugin/templates/object_container.tpl:26
+#: src/sieveEditorPlugin/class_sieveManagement.inc:518
+#: src/sieveEditorPlugin/class_sieveManagement.inc:718
+#, fuzzy
+msgid "Reject"
+msgstr "Rimuovi"
+
+#: src/sieveEditorPlugin/templates/object_container.tpl:30
+#: src/sieveEditorPlugin/class_sieveManagement.inc:522
+#: src/sieveEditorPlugin/class_sieveManagement.inc:722
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:836
+#, fuzzy
+msgid "If"
+msgstr "Unix"
+
+#: src/sieveEditorPlugin/templates/object_container.tpl:36
+msgid "Add a new object above this one."
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/object_container.tpl:38
+msgid "Add a new object below this one."
+msgstr ""
+
+#: src/sieveEditorPlugin/templates/element_exists.tpl:9
+#: src/sieveEditorPlugin/class_sieveManagement.inc:611
+#, fuzzy
+msgid "Exists"
+msgstr "Modifica"
+
+#: src/sieveEditorPlugin/templates/edit_frame_base.tpl:2
+#, fuzzy
+msgid "Sieve editor"
+msgstr "Terminal Server"
+
+#: src/sieveEditorPlugin/templates/edit_frame_base.tpl:6
+msgid "Export"
+msgstr "Esporta"
+
+#: src/sieveEditorPlugin/templates/edit_frame_base.tpl:12
+#, fuzzy
+msgid "View structured"
+msgstr "Seleziona per mostrare le applicazioni"
+
+#: src/sieveEditorPlugin/templates/edit_frame_base.tpl:14
+#, fuzzy
+msgid "View source"
+msgstr "Servizi"
+
+#: src/sieveEditorPlugin/class_sieveElement_Redirect.inc:24
+#, fuzzy
+msgid "Please specify a valid email address."
+msgstr "Prego inserire un numero di telefono valido!"
+
+#: src/sieveEditorPlugin/class_sieveElement_Redirect.inc:35
+#, fuzzy
+msgid "Place a mail address here"
+msgstr "Prego inserire un numero di telefono valido!"
+
+#: src/sieveEditorPlugin/class_sieveElement_Reject.inc:21
+msgid "Invalid character found, quotes are not allowed in a reject message."
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveElement_Reject.inc:37
+msgid "Your reject text here"
+msgstr ""
+
+#: src/sieveEditorPlugin/class_My_Tree.inc:245
+#, fuzzy
+msgid "Cannot remove last element!"
+msgstr "Elimina contatto"
+
+#: src/sieveEditorPlugin/class_My_Tree.inc:658
+msgid "Require must be the first command in the script."
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:85
+msgid "Information"
+msgstr "Informazioni"
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:86
+#, fuzzy
+msgid "Length"
+msgstr "Strada"
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:132
+#: src/sieveEditorPlugin/class_sieveManagement.inc:262
+#, fuzzy
+msgid "Parse failed"
+msgstr "Nome applicazione"
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:136
+#: src/sieveEditorPlugin/class_sieveManagement.inc:266
+#, fuzzy
+msgid "Parse successful"
+msgstr "Setup completato"
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:175
+#, php-format
+msgid ""
+"The specified mail server '%s' does not exist within the GOsa configuration."
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:221
+msgid "No script name specified!"
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:226
+#, fuzzy
+msgid "Please use only lowercase script names!"
+msgstr "Prego inserire un numero di telefono valido!"
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:232
+#, fuzzy
+msgid "Please use only alphabetical characters in script names!"
+msgstr "Non hai il permesso di cambiare la tua password."
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:238
+#, fuzzy
+msgid "Script name already in use!"
+msgstr "L'indirizzo principale inserito è già in uso."
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:315
+#: src/sieveEditorPlugin/class_sieveManagement.inc:325
+#: src/sieveEditorPlugin/class_sieveManagement.inc:362
+#: src/sieveEditorPlugin/class_sieveManagement.inc:366
+#: src/sieveEditorPlugin/class_sieveManagement.inc:415
+#: src/sieveEditorPlugin/class_sieveManagement.inc:419
+#: src/sieveEditorPlugin/class_sieveManagement.inc:452
+#: src/sieveEditorPlugin/class_sieveManagement.inc:538
+#: src/sieveEditorPlugin/class_sieveManagement.inc:771
+#: src/sieveEditorPlugin/class_sieveManagement.inc:1031
+#: src/sieveEditorPlugin/class_sieveManagement.inc:1044
+#, fuzzy
+msgid "SIEVE error"
+msgstr "Errore PHP"
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:315
+#: src/sieveEditorPlugin/class_sieveManagement.inc:362
+#: src/sieveEditorPlugin/class_sieveManagement.inc:1031
+#, fuzzy, php-format
+msgid "Cannot log into SIEVE server: %s"
+msgstr "Accesso al server LDAP fallito. La ragione è: %s."
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:366
+#, php-format
+msgid "Cannot remove SIEVE script: %s"
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:412
+#, fuzzy
+msgid "Edited"
+msgstr "Modifica"
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:448
+#, fuzzy
+msgid "Uploaded script is empty!"
+msgstr "Certificati"
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:450
+#, fuzzy
+msgid "Internal error"
+msgstr "Terminal Server"
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:450
+#, fuzzy, php-format
+msgid "Cannot access temporary file '%s'!"
+msgstr "Rimuovi"
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:452
+#, fuzzy, php-format
+msgid "Cannot open temporary file '%s'!"
+msgstr "Rimuovi"
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:538
+#, fuzzy
+msgid "Cannot add new element!"
+msgstr "Dispositivi del client"
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:614
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:915
+#, fuzzy
+msgid "True"
+msgstr "Futuro"
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:615
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:915
+#, fuzzy
+msgid "False"
+msgstr "femmina"
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:649
+msgid "This script is marked as active"
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:657
+#, fuzzy
+msgid "Activate script"
+msgstr "Privato"
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:673
+#, php-format
+msgid "Can't log into SIEVE server. Server says '%s'."
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:771
+#, fuzzy
+msgid "Cannot insert element at the requested position!"
+msgstr "Mostra utenti del dipartimento"
+
+#: src/sieveEditorPlugin/class_sieveManagement.inc:1046
+#, fuzzy
+msgid "Failed to save sieve script"
+msgstr "Usa uno script di sieve personalizzato"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:27
+#, fuzzy
+msgid "Complete address"
+msgstr "incompleto"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:27
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:33
+#, fuzzy
+msgid "Default"
+msgstr "Stampante predefinita"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:28
+#, fuzzy
+msgid "Domain part"
+msgstr "Utenti di Dominio"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:29
+#, fuzzy
+msgid "Local part"
+msgstr "Località"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:33
+msgid "Case insensitive"
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:34
+msgid "Case sensitive"
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:35
+msgid "Numeric"
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:39
+msgid "is"
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:40
+#, fuzzy
+msgid "reg-ex"
+msgstr "reset"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:41
+#, fuzzy
+msgid "contains"
+msgstr "Azioni"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:42
+#, fuzzy
+msgid "matches"
+msgstr "Annulla"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:43
+#, fuzzy
+msgid "count"
+msgstr "Sicurezza"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:44
+#, fuzzy
+msgid "value is"
+msgstr "valido"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:48
+#, fuzzy
+msgid "less than"
+msgstr "Benvenuto %s!"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:49
+msgid "less or equal"
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:50
+#, fuzzy
+msgid "equals"
+msgstr "Dettagli"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:51
+msgid "greater or equal"
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:52
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:726
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:1059
+#, fuzzy
+msgid "greater than"
+msgstr "Creare"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:53
+#, fuzzy
+msgid "not equal"
+msgstr "incompleto"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:102
+#, fuzzy
+msgid "Can't save empty tests."
+msgstr "Rimuovi"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:446
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:447
+#, fuzzy
+msgid "empty"
+msgstr "Riprova"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:493
+msgid "Nothing specified right now"
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:595
+msgid "Invalid type of address part."
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:605
+#, fuzzy
+msgid "Invalid match type given."
+msgstr "L'uid contiene dei caratteri invalidi!"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:621
+#, fuzzy
+msgid "Invalid operator given."
+msgstr "L'uid contiene dei caratteri invalidi!"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:638
+#, fuzzy
+msgid "Please specify a valid operator."
+msgstr "Prego inserire un numero di telefono valido!"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:654
+msgid ""
+"Invalid character found in address attribute. Quotes are not allowed here."
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:669
+msgid ""
+"Invalid character found in value attribute. Quotes are not allowed here."
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:727
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:1060
+msgid "lower than"
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:729
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:1062
+#, fuzzy
+msgid "Megabyte"
+msgstr "Creare"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:730
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:1063
+msgid "Kilobyte"
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:731
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:1064
+#, fuzzy
+msgid "Bytes"
+msgstr "Sistemi"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:745
+#, fuzzy
+msgid "Please select a valid match type in the list box below."
+msgstr "Prego inserire un numero di telefono valido!"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:759
+msgid "Only numeric values are allowed here."
+msgstr ""
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:769
+#, fuzzy
+msgid "No valid unit selected"
+msgstr "Non ci sono certificati installati"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:876
+#, fuzzy
+msgid "Empty"
+msgstr "Riprova"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:1134
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:1164
+#, fuzzy
+msgid "Click here to add a new test"
+msgstr "Clicca qui per connetterti"
+
+#: src/sieveEditorPlugin/class_sieveElement_If.inc:1176
+#, fuzzy
+msgid "Unknown switch type"
+msgstr "ACL"
+
+#: src/sieveEditorPlugin/class_sieveElement_Require.inc:73
+#, fuzzy
+msgid "Please specify at least one valid requirement."
+msgstr "Specificare una dimenzione valida per le mail da rigettare."
+
+#: src/sieveEditorPlugin/class_sieveElement_Comment.inc:21
+msgid "Your comment here"
+msgstr ""
+
+#: src/virusService/goVirusServer.tpl:2
+#, fuzzy
+msgid "Anti virus setting"
+msgstr "Dispositivi del client"
+
+#: src/virusService/goVirusServer.tpl:5
+#, fuzzy
+msgid "Generic virus filtering"
+msgstr "Impostazioni generali delle code"
+
+#: src/virusService/goVirusServer.tpl:10 src/virusService/goVirusServer.tpl:50
+#, fuzzy
+msgid "Database setting"
+msgstr "Database"
+
+#: src/virusService/goVirusServer.tpl:12
+#: src/virusService/class_goVirusServer.inc:176
+#, fuzzy
+msgid "Database user"
+msgstr "Database"
+
+#: src/virusService/goVirusServer.tpl:20
+#: src/virusService/class_goVirusServer.inc:176
+#: src/virusService/class_goVirusServer.inc:247
+#, fuzzy
+msgid "Database mirror"
+msgstr "Database"
+
+#: src/virusService/goVirusServer.tpl:29
+#: src/virusService/class_goVirusServer.inc:176
+#: src/virusService/class_goVirusServer.inc:249
+msgid "HTTP proxy URL"
+msgstr ""
+
+#: src/virusService/goVirusServer.tpl:37
+#: src/virusService/class_goVirusServer.inc:164
+#: src/virusService/class_goVirusServer.inc:241
+msgid "Maximum threads"
+msgstr ""
+
+#: src/virusService/goVirusServer.tpl:41
+#, fuzzy
+msgid "Select number of maximal threads"
+msgstr "Seleziona il numero da aggiungere"
+
+#: src/virusService/goVirusServer.tpl:52
+msgid "Max directory recursions"
+msgstr ""
+
+#: src/virusService/goVirusServer.tpl:60
+#: src/virusService/class_goVirusServer.inc:168
+#: src/virusService/class_goVirusServer.inc:248
+#, fuzzy
+msgid "Checks per day"
+msgstr "Parametro"
+
+#: src/virusService/goVirusServer.tpl:72
+#: src/virusService/class_goVirusServer.inc:236
+#, fuzzy
+msgid "Enable debugging"
+msgstr "disabilitato"
+
+#: src/virusService/goVirusServer.tpl:79
+#: src/virusService/class_goVirusServer.inc:237
+msgid "Enable mail scanning"
+msgstr ""
+
+#: src/virusService/goVirusServer.tpl:88
+msgid "Archive scanning"
+msgstr ""
+
+#: src/virusService/goVirusServer.tpl:94
+#: src/virusService/goVirusServer.tpl:118
+#, fuzzy
+msgid "Archive setting"
+msgstr "Amministrazione"
+
+#: src/virusService/goVirusServer.tpl:104
+#: src/virusService/class_goVirusServer.inc:238
+msgid "Enable scanning of archives"
+msgstr ""
+
+#: src/virusService/goVirusServer.tpl:112
+#: src/virusService/class_goVirusServer.inc:239
+msgid "Block encrypted archives"
+msgstr ""
+
+#: src/virusService/goVirusServer.tpl:120
+#: src/virusService/class_goVirusServer.inc:165
+#: src/virusService/class_goVirusServer.inc:244
+#, fuzzy
+msgid "Maximum file size"
+msgstr "Inoltra i messaggi a"
+
+#: src/virusService/goVirusServer.tpl:130
+msgid "Maximum recursion"
+msgstr ""
+
+#: src/virusService/goVirusServer.tpl:141
+#: src/virusService/class_goVirusServer.inc:167
+#: src/virusService/class_goVirusServer.inc:246
+#, fuzzy
+msgid "Maximum compression ratio"
+msgstr "Opzioni di accesso"
+
+#: src/virusService/class_goVirusServer.inc:45
+#: src/virusService/class_goVirusServer.inc:210
+#: src/virusService/class_goVirusServer.inc:219
+#: src/virusService/class_goVirusServer.inc:220
+msgid "Anti virus"
+msgstr ""
+
+#: src/virusService/class_goVirusServer.inc:163
+#: src/virusService/class_goVirusServer.inc:242
+msgid "Maximum directory recursions"
+msgstr ""
+
+#: src/virusService/class_goVirusServer.inc:166
+#: src/virusService/class_goVirusServer.inc:245
+msgid "Maximum recursions"
+msgstr ""
+
+#: src/virusService/class_goVirusServer.inc:243
+#, fuzzy
+msgid "Anti virus user"
+msgstr "Dispositivi del client"
+
+#: src/ogroupMailExtension/class_mailogroup.inc:50
+msgid "Remove mail account"
+msgstr "Rimuovi le estensioni di posta"
+
+#: src/ogroupMailExtension/class_mailogroup.inc:51
+#: src/ogroupMailExtension/class_mailogroup.inc:54
+#, fuzzy
+msgid "mail group"
+msgstr "Gruppo primario"
+
+#: src/ogroupMailExtension/class_mailogroup.inc:53
+msgid "Create mail account"
+msgstr "Crea estensioni di posta"
+
+#: src/ogroupMailExtension/class_mailogroup.inc:86
+msgid "your-name@your-domain.com"
+msgstr ""
+
+#: src/ogroupMailExtension/class_mailogroup.inc:187
+#, fuzzy
+msgid "Mail group"
+msgstr "Gruppo primario"
+
+#: src/ogroupMailExtension/mail.tpl:9 src/ogroupMailExtension/mail.tpl:10
+#, fuzzy
+msgid "Mail distribution list"
+msgstr "Opzioni di posta dell'identità"
+
+#: src/ogroupMailExtension/mail.tpl:15
+msgid "Primary mail address for this distribution list"
+msgstr ""
+
+#: src/ogroupMailExtension/paste_mail.tpl:1
+#, fuzzy
+msgid "Paste group mail settings"
+msgstr "Impostazioni FAX"
+
+#: src/ogroupMailExtension/paste_mail.tpl:7
+#, fuzzy
+msgid "Please enter a mail address"
+msgstr "Prego inserire un numero di telefono valido!"
+
+#~ msgid "This does something"
+#~ msgstr "Questo fa qualcosa"
+
+#, fuzzy
+#~ msgid "Admin user"
+#~ msgstr "Modifica contatto"
+
+#~ msgid "Admin password"
+#~ msgstr "Password dell'amministratore"
+
+#, fuzzy
+#~ msgid "Unhold all messages"
+#~ msgstr "Inoltra i messaggi a"
+
+#, fuzzy
+#~ msgid "Unhold message"
+#~ msgstr "Home Page"
+
+#, fuzzy
+#~ msgid "Fileinto"
+#~ msgstr "Cognome"
+
+#, fuzzy
+#~ msgid "emtpy"
+#~ msgstr "Riprova"
+
+#, fuzzy
+#~ msgid "Reload"
+#~ msgstr "leggere"
+
+#~ msgid "Select addresses to add"
+#~ msgstr "Seleziona gli indirizzi da aggiungere"
+
+#~ msgid "Filters"
+#~ msgstr "Filtri"
+
+#~ msgid "Display addresses of department"
+#~ msgstr "Mostra l'indirizzo del dipartimento"
+
+#~ msgid "Choose the department the search will be based on"
+#~ msgstr "Scegli il dipartimento di base per la ricerca"
+
+#~ msgid "Display addresses matching"
+#~ msgstr "Mostra gli indirizzi che corrispondono"
+
+#~ msgid "Regular expression for matching addresses"
+#~ msgstr "Espressione regolare per selezionare l'indirizzo"
+
+#~ msgid "Display addresses of user"
+#~ msgstr "Mostra l'indirizzo dell'utente"
+
+#~ msgid "User name of which addresses are shown"
+#~ msgstr "Nome dell'utente del quale mostrare gli indirizzi"
+
+#~ msgid "Folder administrators"
+#~ msgstr "Amministratori cartella"
+
+#~ msgid "Select a specific department"
+#~ msgstr "Selezione un dipartimento"
+
+#~ msgid "Choose"
+#~ msgstr "Scegli"
+
+#, fuzzy
+#~ msgid "Please enter a search string here."
+#~ msgstr "Prego inserire un numero di telefono valido!"
+
+#, fuzzy
+#~ msgid "with status"
+#~ msgstr "Stato"
+
+#~ msgid "delete"
+#~ msgstr "elimina"
+
+#, fuzzy
+#~ msgid "hold"
+#~ msgstr "metodo"
+
+#, fuzzy
+#~ msgid "requeue"
+#~ msgstr "Numero di telefono"
+
+#, fuzzy
+#~ msgid "header"
+#~ msgstr "leggere"
+
+#, fuzzy
+#~ msgid "Move up"
+#~ msgstr "Dominio"
+
+#, fuzzy
+#~ msgid "Down"
+#~ msgstr "Dominio"
+
+#, fuzzy
+#~ msgid "Move down"
+#~ msgstr "Dominio"
+
+#, fuzzy
+#~ msgid "Add new"
+#~ msgstr "Modifica contatto"
+
+#, fuzzy
+#~ msgid "Move this object up one position"
+#~ msgstr "Oggetti membri"
+
+#, fuzzy
+#~ msgid "Remove this object"
+#~ msgstr "Oggetti membri"
+
+#, fuzzy
+#~ msgid "Create new script"
+#~ msgstr "Crea in"
+
+#, fuzzy
+#~ msgid "Script length"
+#~ msgstr "Mostra terminali"
+
+#, fuzzy
+#~ msgid "Remove script"
+#~ msgstr "Elimina contatto"
+
+#, fuzzy
+#~ msgid "Edit script"
+#~ msgstr "Modifica contatto"
+
+#, fuzzy
+#~ msgid "Show users"
+#~ msgstr "Mostra utenti Samba"
+
+#, fuzzy
+#~ msgid "Show groups"
+#~ msgstr "Mostra gruppi samba"
+
+#, fuzzy
+#~ msgid "Select department"
+#~ msgstr "Imposta dipartimento"
+
+#, fuzzy
+#~ msgid "Cannot connect mail method: %s"
+#~ msgstr "Rimuovi"
+
+#, fuzzy
+#~ msgid "Cannot remove mailbox: %s."
+#~ msgstr "Rimuovi"
+
+#, fuzzy
+#~ msgid "Cannot update mailbox: %s."
+#~ msgstr "Rimuovi"
+
+#, fuzzy
+#~ msgid "Cannot write quota settings: %s."
+#~ msgstr "Rimuovi"
+
+#, fuzzy
+#~ msgid "Cannot connect mail method! Error was: %s."
+#~ msgstr "Rimuovi"
+
+#, fuzzy
+#~ msgid "Cannot remove mailbox! Error was: %s."
+#~ msgstr "Rimuovi"
+
+#, fuzzy
+#~ msgid "Cannot update mailbox! Error was: %s."
+#~ msgstr "Rimuovi"
+
+#, fuzzy
+#~ msgid "Specify the mail server where the user will  be hosted on"
+#~ msgstr "Specifica il server di posta per l'utente"
+
+#~ msgid "not defined"
+#~ msgstr "non definito"
+
+#~ msgid "read"
+#~ msgstr "leggere"
+
+#~ msgid "post"
+#~ msgstr "spedire"
+
+#~ msgid "external post"
+#~ msgstr "spedire esterno"
+
+#~ msgid "append"
+#~ msgstr "appendere"
+
+#~ msgid "write"
+#~ msgstr "scrivere"
+
+#, fuzzy
+#~ msgid "admin"
+#~ msgstr "DN dell'amministratore"
+
+#, fuzzy
+#~ msgid "mail"
+#~ msgstr "Posta"
+
+#, fuzzy
+#~ msgid "forward address"
+#~ msgstr "Indirizzo principale"
+
+#, fuzzy
+#~ msgid "Cannot forward to users own mail address!"
+#~ msgstr "Stai cercando di aggungere un indirizzo di posta non valido"
+
+#, fuzzy
+#~ msgid "Alternate address"
+#~ msgstr "Indirizzi alternativi"
+
+#~ msgid "Add"
+#~ msgstr "Aggiungi"
+
+#, fuzzy
+#~ msgid "Mails"
+#~ msgstr "Posta"
+
+#, fuzzy
+#~ msgid "Tasks"
+#~ msgstr "classe"
+
+#, fuzzy
+#~ msgid "Journals"
+#~ msgstr "ora"
+
+#, fuzzy
+#~ msgid "Contacts"
+#~ msgstr "Contatto"
+
+#, fuzzy
+#~ msgid "Notes"
+#~ msgstr "nessuno"
+
+#, fuzzy
+#~ msgid "Drafts"
+#~ msgstr "Data"
+
+#, fuzzy
+#~ msgid "Sent items"
+#~ msgstr "Stato"
+
+#, fuzzy
+#~ msgid "Junk mail"
+#~ msgstr "Nome gruppo"
+
+#~ msgid "Mail options"
+#~ msgstr "Opzioni di posta"
+
+#, fuzzy
+#~ msgid "You have no permission to submit a '%s' command!"
+#~ msgstr "Non hai il permesso di cambiare la tua password."
+
+#~ msgid "There is no mail method '%s' specified in your gosa.conf available."
+#~ msgstr "Il metodo di posta '%s' non è definito in gosa.conf"
+
+#~ msgid ""
+#~ "Adding your one of your own addresses to the forwarders makes no sense."
+#~ msgstr "Aggiungere il tuo indirizzo alla lista delgi inoltri non ha senso."
+
+#, fuzzy
+#~ msgid "alternate address"
+#~ msgstr "Indirizzi alternativi"
+
+#~ msgid "Delete"
+#~ msgstr "Rimuovi"
+
+#~ msgid "Save"
+#~ msgstr "Salva"
+
+#~ msgid "Cancel"
+#~ msgstr "Annulla"
+
+#~ msgid "Apply"
+#~ msgstr "Applica"
+
+#~ msgid ""
+#~ "This account has mail features enabled. You can disable them by clicking "
+#~ "below."
+#~ msgstr "Questa identià possiede estensioni di posta."
+
+#~ msgid ""
+#~ "This account has mail features disabled. You can enable them by clicking "
+#~ "below."
+#~ msgstr "Questa identità non possiede estensioni di posta."
+
+#, fuzzy
+#~ msgid "You're trying to add an invalid email address "
+#~ msgstr ""
+#~ "Stai tentandi di aggiungere un indirizzo di posta non valido alla lista "
+#~ "degli inoltri"
+
+#~ msgid ""
+#~ "You're trying to add an invalid email address to the list of alternate "
+#~ "addresses."
+#~ msgstr ""
+#~ "Stai cercando di aggungere un indirizzo di posta non valido alla lista "
+#~ "degli indirizzi alternativi."
+
+#~ msgid "The address you're trying to add is already used by user"
+#~ msgstr "L'indirizzo che stai cercando di aggiungere  gi in uso"
+
+#~ msgid "The required field 'Primary address' is not set."
+#~ msgstr "Il campo 'Indirizzo principale' non è stao inserito"
+
+#~ msgid "Please enter a valid email addres in 'Primary address' field."
+#~ msgstr ""
+#~ "Prego inserire un indirizzo email valido nel campo 'Indirizzo principale'"
+
+#~ msgid "The primary address you've entered is already in use."
+#~ msgstr "L'indirizzo principale inserito è già in uso."
+
+#~ msgid "Value in 'Quota size' is not valid."
+#~ msgstr "Il valore di 'Dimensione quota' non è valido"
+
+#~ msgid "Please specify a vaild mail size for mails to be rejected."
+#~ msgstr "Specificare una dimenzione valida per le mail da rigettare."
+
+#, fuzzy
+#~ msgid "Please specify a numeric value for header size limit."
+#~ msgstr "Specificare una dimenzione valida per le mail da rigettare."
+
+#, fuzzy
+#~ msgid "Please specify a numeric value for mailbox size limit."
+#~ msgstr "Specificare una dimenzione valida per le mail da rigettare."
+
+#, fuzzy
+#~ msgid "Please specify a numeric value for message size limit."
+#~ msgstr "Specificare una dimenzione valida per le mail da rigettare."
+
+#, fuzzy
+#~ msgid "Please specify a server identifier."
+#~ msgstr "Prego inserire un numero di telefono valido!"
+
+#, fuzzy
+#~ msgid "Please specify a connect url."
+#~ msgstr "Prego inserire un numero di telefono valido!"
+
+#, fuzzy
+#~ msgid "Please specify an admin user."
+#~ msgstr "Prego inserire un numero di telefono valido!"
+
+#, fuzzy
+#~ msgid "Please specify a password for the admin user."
+#~ msgstr "Prego inserire un numero di telefono valido!"
+
+#, fuzzy
+#~ msgid "Please specify a valid value for '%s'."
+#~ msgstr "Specificare una dimenzione valida per le mail da rigettare."
+
+#, fuzzy
+#~ msgid ""
+#~ "This group has mail features enabled. You can disable them by clicking "
+#~ "below."
+#~ msgstr "Questa identià possiede estensioni di posta."
+
+#, fuzzy
+#~ msgid ""
+#~ "This group has mail features disabled. You can enable them by clicking "
+#~ "below."
+#~ msgstr "Questa identità non possiede estensioni di posta."
+
+#~ msgid "Please enter a valid email address in 'Primary address' field."
+#~ msgstr ""
+#~ "Inserire un indirizzo di posta valido nel campo 'Indirizzo principale'."
+
+#~ msgid "Back"
+#~ msgstr "Indietro"
+
+#, fuzzy
+#~ msgid "Mailqueue"
+#~ msgstr "Coda della posta"
+
+#, fuzzy
+#~ msgid "Mailqueue addon"
+#~ msgstr "Coda della posta"
+
+#~ msgid "This account has no mail extensions."
+#~ msgstr "Questa identità non ha le estensioni per la posta"
+
+#~ msgid "January"
+#~ msgstr "Gennaio"
+
+#~ msgid "February"
+#~ msgstr "Febbraio"
+
+#~ msgid "March"
+#~ msgstr "Marzo"
+
+#~ msgid "April"
+#~ msgstr "Aprile"
+
+#~ msgid "May"
+#~ msgstr "Maggio"
+
+#~ msgid "June"
+#~ msgstr "Giugno"
+
+#~ msgid "July"
+#~ msgstr "Luglio"
+
+#~ msgid "August"
+#~ msgstr "Agosto"
+
+#~ msgid "September"
+#~ msgstr "Settembre"
+
+#~ msgid "October"
+#~ msgstr "Ottobre"
+
+#~ msgid "November"
+#~ msgstr "Novembre"
+
+#~ msgid "December"
+#~ msgstr "Dicembre"
+
+#, fuzzy
+#~ msgid "Removing of user/mail account with dn '%s' failed."
+#~ msgstr "Rimuovi le estensioni di posta"
+
+#, fuzzy
+#~ msgid "Saving of user/mail account with dn '%s' failed."
+#~ msgstr "Rimuovi le estensioni di posta"
+
+#~ msgid "Click the 'Edit' button below to change informations in this dialog"
+#~ msgstr ""
+#~ "Click sul bottone 'Modifica' qui sotto per cambiare le informazioni in "
+#~ "questo dialogo"
+
+#, fuzzy
+#~ msgid "Saving of object group/mail with dn '%s' failed."
+#~ msgstr "Account Kolab"
+
+#, fuzzy
+#~ msgid "Removing of object group/mail with dn '%s' failed."
+#~ msgstr "Elimina estensioni Unix"
+
+#, fuzzy
+#~ msgid "Saving of server services/anti virus with dn '%s' failed."
+#~ msgstr "Crea estensioni telefoniche"
+
+#, fuzzy
+#~ msgid "Saving of server services/spamassassin with dn '%s' failed."
+#~ msgstr "Crea estensioni telefoniche"
+
+#, fuzzy
+#~ msgid "Saving server services/mail with dn '%s' failed."
+#~ msgstr "Crea estensioni telefoniche"
+
+#, fuzzy
+#~ msgid "Removing of groups/mail with dn '%s' failed."
+#~ msgstr "Opzioni di posta dell'identità"
+
+#, fuzzy
+#~ msgid "Saving of groups/mail with dn '%s' failed."
+#~ msgstr "Opzioni di posta dell'identità"

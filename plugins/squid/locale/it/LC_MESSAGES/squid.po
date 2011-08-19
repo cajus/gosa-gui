@@ -1,0 +1,141 @@
+# translation of messages.po to Italian
+# Copyright (c) 2005 B-Open Solutions srl - http://www.bopen.it/
+# Copyright (c) 2005 Alessandro Amici <a.amici@bopen.it>
+# Alessandro Amici <a.amici@bopen.it>, 2005.
+msgid ""
+msgstr ""
+"Project-Id-Version: messages\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:32+0200\n"
+"PO-Revision-Date: 2005-11-18 15:26+0100\n"
+"Last-Translator: Alessandro Amici <a.amici@bopen.it>\n"
+"Language-Team: Italian\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.9.1\n"
+
+#: src/squidExtension/proxy.tpl:37
+#: src/squidExtension/class_proxyAccount.inc:331
+msgid "Proxy account"
+msgstr "Estenzioni Proxy Internet"
+
+#: src/squidExtension/proxy.tpl:39
+#, fuzzy
+msgid "Proxy configuration"
+msgstr "Scarica il file di  configurazione"
+
+#: src/squidExtension/proxy.tpl:45
+msgid "Filter unwanted content (i.e. pornographic or violence related)"
+msgstr "Filtra il contenuto non desiderato (p.e. pornografico o violento)"
+
+#: src/squidExtension/proxy.tpl:56
+msgid "Limit proxy access to working time"
+msgstr "Limita l'accesso a Internet alle ore lavorative"
+
+#: src/squidExtension/proxy.tpl:58
+#, fuzzy
+msgid "Worktime restrictions"
+msgstr "La password spira il"
+
+#: src/squidExtension/proxy.tpl:97
+#: src/squidExtension/class_proxyAccount.inc:347
+msgid "Restrict proxy usage by quota"
+msgstr "Restringi la quota d'uso di Internet"
+
+#: src/squidExtension/proxy.tpl:99
+#, fuzzy
+msgid "Quota configuration"
+msgstr "Scarica il file di  configurazione"
+
+#: src/squidExtension/proxy.tpl:112
+msgid "per"
+msgstr "per"
+
+#: src/squidExtension/class_proxyAccount.inc:5
+#: src/squidExtension/class_proxyAccount.inc:330
+msgid "Proxy"
+msgstr "Proxy"
+
+#: src/squidExtension/class_proxyAccount.inc:6
+#, fuzzy
+msgid "Manage Proxy user settings"
+msgstr "Impostazioni generali delle code"
+
+#: src/squidExtension/class_proxyAccount.inc:92
+msgid "KB"
+msgstr "KB"
+
+#: src/squidExtension/class_proxyAccount.inc:92
+msgid "MB"
+msgstr "Mb"
+
+#: src/squidExtension/class_proxyAccount.inc:92
+msgid "GB"
+msgstr ""
+
+#: src/squidExtension/class_proxyAccount.inc:93
+msgid "hour"
+msgstr "ora"
+
+#: src/squidExtension/class_proxyAccount.inc:93
+msgid "day"
+msgstr "giorno"
+
+#: src/squidExtension/class_proxyAccount.inc:93
+msgid "week"
+msgstr "settimana"
+
+#: src/squidExtension/class_proxyAccount.inc:93
+msgid "month"
+msgstr "mese"
+
+#: src/squidExtension/class_proxyAccount.inc:183
+#: src/squidExtension/class_proxyAccount.inc:309
+#, fuzzy
+msgid "LDAP error"
+msgstr "Errore LDAP"
+
+#: src/squidExtension/class_proxyAccount.inc:204
+#: src/squidExtension/class_proxyAccount.inc:206
+#, fuzzy
+msgid "Quota Setting"
+msgstr "Opzioni di posta dell'identità"
+
+#: src/squidExtension/class_proxyAccount.inc:331
+#, fuzzy
+msgid "Connectivity add-on"
+msgstr "Connettività"
+
+#: src/squidExtension/class_proxyAccount.inc:335
+msgid "My account"
+msgstr "Identità"
+
+#: src/squidExtension/class_proxyAccount.inc:344
+msgid "Quota"
+msgstr ""
+
+#: src/squidExtension/class_proxyAccount.inc:345
+msgid "Filter unwanted content"
+msgstr ""
+
+#: src/squidExtension/class_proxyAccount.inc:346
+#, fuzzy
+msgid "Limit proxy access"
+msgstr "Limita l'accesso a Internet alle ore lavorative"
+
+#~ msgid "This does something"
+#~ msgstr "Questo fa qualcosa"
+
+#, fuzzy
+#~ msgid "Removing of user/proxy account with dn '%s' failed."
+#~ msgstr "Elimina estensioni Unix"
+
+#, fuzzy
+#~ msgid "Saving of user/proxy account with dn '%s' failed."
+#~ msgstr "Estenzioni Proxy Internet"
+
+#, fuzzy
+#~ msgid "Numerical value for Quota Setting is not valid."
+#~ msgstr "Il valore di 'Dimensione quota' non è valido"

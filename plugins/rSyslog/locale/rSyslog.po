@@ -1,0 +1,252 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/rSyslogPlugin/class_rsyslog.inc:5 src/rSyslogPlugin/rSyslog.tpl:4
+msgid "System logs"
+msgstr ""
+
+#: src/rSyslogPlugin/class_rsyslog.inc:6
+msgid "View recorded systemlogs"
+msgstr ""
+
+#: src/rSyslogPlugin/class_rsyslog.inc:119
+#: src/rSyslogPlugin/class_rsyslog.inc:125
+msgid "-"
+msgstr ""
+
+#: src/rSyslogPlugin/class_rsyslog.inc:121
+#: src/rSyslogPlugin/class_rsyslog.inc:127
+msgid "All"
+msgstr ""
+
+#: src/rSyslogPlugin/class_rsyslog.inc:153
+#, php-format
+msgid "%s entries match the filter"
+msgstr ""
+
+#: src/rSyslogPlugin/class_rsyslog.inc:231
+#, php-format
+msgid "The selected server '%s' does not exists!"
+msgstr ""
+
+#: src/rSyslogPlugin/class_rsyslog.inc:384
+msgid "Emergency"
+msgstr ""
+
+#: src/rSyslogPlugin/class_rsyslog.inc:385
+msgid "Alert"
+msgstr ""
+
+#: src/rSyslogPlugin/class_rsyslog.inc:386
+msgid "Critical"
+msgstr ""
+
+#: src/rSyslogPlugin/class_rsyslog.inc:387 src/rSyslogPlugin/rSyslog.tpl:75
+msgid "Error"
+msgstr ""
+
+#: src/rSyslogPlugin/class_rsyslog.inc:388
+msgid "Warning"
+msgstr ""
+
+#: src/rSyslogPlugin/class_rsyslog.inc:389
+msgid "Notice"
+msgstr ""
+
+#: src/rSyslogPlugin/class_rsyslog.inc:390
+msgid "Informational"
+msgstr ""
+
+#: src/rSyslogPlugin/class_rsyslog.inc:391
+msgid "Debug"
+msgstr ""
+
+#: src/rSyslogPlugin/class_rsyslog.inc:397
+#: src/rSyslogPlugin/class_rsyslog.inc:432
+#, php-format
+msgid "Unknown (%s)"
+msgstr ""
+
+#: src/rSyslogPlugin/class_rsyslog.inc:403
+msgid "Kernel"
+msgstr ""
+
+#: src/rSyslogPlugin/class_rsyslog.inc:404
+msgid "User level"
+msgstr ""
+
+#: src/rSyslogPlugin/class_rsyslog.inc:405
+msgid "Mail system"
+msgstr ""
+
+#: src/rSyslogPlugin/class_rsyslog.inc:406
+msgid "System daemon"
+msgstr ""
+
+#: src/rSyslogPlugin/class_rsyslog.inc:407
+#: src/rSyslogPlugin/class_rsyslog.inc:413
+msgid "Security"
+msgstr ""
+
+#: src/rSyslogPlugin/class_rsyslog.inc:408
+msgid "Internal"
+msgstr ""
+
+#: src/rSyslogPlugin/class_rsyslog.inc:409
+msgid "Printing"
+msgstr ""
+
+#: src/rSyslogPlugin/class_rsyslog.inc:410
+msgid "News"
+msgstr ""
+
+#: src/rSyslogPlugin/class_rsyslog.inc:411
+msgid "UUCP"
+msgstr ""
+
+#: src/rSyslogPlugin/class_rsyslog.inc:412
+msgid "Cron"
+msgstr ""
+
+#: src/rSyslogPlugin/class_rsyslog.inc:414
+msgid "FTP"
+msgstr ""
+
+#: src/rSyslogPlugin/class_rsyslog.inc:415
+msgid "NTP"
+msgstr ""
+
+#: src/rSyslogPlugin/class_rsyslog.inc:416
+msgid "Log audit"
+msgstr ""
+
+#: src/rSyslogPlugin/class_rsyslog.inc:417
+msgid "Log alert"
+msgstr ""
+
+#: src/rSyslogPlugin/class_rsyslog.inc:418
+msgid "Clock"
+msgstr ""
+
+#: src/rSyslogPlugin/rSyslog.tpl:7
+msgid "Filter"
+msgstr ""
+
+#: src/rSyslogPlugin/rSyslog.tpl:10
+msgid "Server"
+msgstr ""
+
+#: src/rSyslogPlugin/rSyslog.tpl:17
+msgid "Host"
+msgstr ""
+
+#: src/rSyslogPlugin/rSyslog.tpl:24 src/rSyslogPlugin/rSyslog.tpl:128
+msgid "Severity"
+msgstr ""
+
+#: src/rSyslogPlugin/rSyslog.tpl:31
+msgid "From"
+msgstr ""
+
+#: src/rSyslogPlugin/rSyslog.tpl:47
+msgid "till"
+msgstr ""
+
+#: src/rSyslogPlugin/rSyslog.tpl:63 src/rSyslogPlugin/rSyslog.tpl:67
+msgid "Search"
+msgstr ""
+
+#: src/rSyslogPlugin/rSyslog.tpl:84
+msgid "Entry list"
+msgstr ""
+
+#: src/rSyslogPlugin/rSyslog.tpl:88
+msgid "Date"
+msgstr ""
+
+#: src/rSyslogPlugin/rSyslog.tpl:98
+msgid "Source"
+msgstr ""
+
+#: src/rSyslogPlugin/rSyslog.tpl:108
+msgid "Header"
+msgstr ""
+
+#: src/rSyslogPlugin/rSyslog.tpl:118
+msgid "Facility"
+msgstr ""
+
+#: src/rSyslogPlugin/rSyslog.tpl:138
+msgid "Message"
+msgstr ""
+
+#: src/rSyslogService/rSyslogServer.tpl:2
+msgid "Syslog logging"
+msgstr ""
+
+#: src/rSyslogService/rSyslogServer.tpl:7
+msgid "Server provides a Syslog MySQL database"
+msgstr ""
+
+#: src/rSyslogService/rSyslogServer.tpl:9
+msgid "rSyslog database settings"
+msgstr ""
+
+#: src/rSyslogService/rSyslogServer.tpl:11
+#: src/rSyslogService/class_rSyslogServer.inc:85
+#: src/rSyslogService/class_rSyslogServer.inc:188
+msgid "Database"
+msgstr ""
+
+#: src/rSyslogService/rSyslogServer.tpl:20
+msgid "Database user"
+msgstr ""
+
+#: src/rSyslogService/rSyslogServer.tpl:29
+#: src/rSyslogService/class_rSyslogServer.inc:88
+#: src/rSyslogService/class_rSyslogServer.inc:190
+msgid "Password"
+msgstr ""
+
+#: src/rSyslogService/class_rSyslogServer.inc:29
+msgid "Logging"
+msgstr ""
+
+#: src/rSyslogService/class_rSyslogServer.inc:68
+#: src/rSyslogService/class_rSyslogServer.inc:175
+#: src/rSyslogService/class_rSyslogServer.inc:176
+msgid "Logging service"
+msgstr ""
+
+#: src/rSyslogService/class_rSyslogServer.inc:82
+#: src/rSyslogService/class_rSyslogServer.inc:189
+msgid "User"
+msgstr ""
+
+#: src/rSyslogService/class_rSyslogServer.inc:150
+msgid "LDAP error"
+msgstr ""
+
+#: src/rSyslogService/class_rSyslogServer.inc:176
+msgid "Services"
+msgstr ""
+
+#: src/rSyslogService/class_rSyslogServer.inc:191
+msgid "Allow view of entries on this server"
+msgstr ""

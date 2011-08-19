@@ -1,0 +1,577 @@
+# translation of messages.po to Dutch
+# GOsa2 Translations
+# Copyright (C) 2003 GONICUS GmbH, Germany
+# This file is distributed under the same license as the GOsa2 package.
+# Alfred Schroeder <schroeder@GONICUS.de>, 2004.
+# Cajus Pollmeier <pollmeier@gonicus.de>, 2004.
+#
+# Translator:
+# Niels Klomp (CareWorks ICT Services) <nk@careworks.nl>, 2005.
+msgid ""
+msgstr ""
+"Project-Id-Version: messages\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:31+0200\n"
+"PO-Revision-Date: 2006-06-02 16:58+0100\n"
+"Last-Translator: Niels Klomp (CareWorks ICT Services) <nk@careworks.nl>\n"
+"Language-Team: CareWorks ICT Services <info@careworks.nl>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/dnsService/servdns.tpl:7
+msgid "DNS take over initiated"
+msgstr ""
+
+#: src/dnsService/servdns.tpl:9
+#, fuzzy
+msgid ""
+"This includes 'all' DNS zones that are located within this server. Please "
+"double check if your really want to do this."
+msgstr ""
+"Dit omvat 'alle' accounts, systemen etc. in deze subtree. Verzeker uzelf er "
+"van dat dit is wat u wilt, aangezien er geen mogelijkheid voor GOsa is om "
+"deze gegevens terug te halen."
+
+#: src/dnsService/servdns.tpl:16
+msgid "Following objects will be taken over"
+msgstr ""
+
+#: src/dnsService/servdns.tpl:32
+#, fuzzy
+msgid "Take over DNS configuration from"
+msgstr "FAX database"
+
+#: src/dnsService/servdns.tpl:36
+#, fuzzy
+msgid "Take over"
+msgstr "Tijd Service"
+
+#: src/dnsService/servdns.tpl:43
+msgid "Zones"
+msgstr "Zones"
+
+#: src/dnsService/servDNSeditZoneEntries.tpl:2
+msgid ""
+"This dialog allows you to configure all components of this DNS zone on a "
+"single list."
+msgstr ""
+"Deze dialoog maakt het mogelijk om alle componenten van deze DNS zone binnen "
+"een enkele lijst te configureren"
+
+#: src/dnsService/servDNSeditZoneEntries.tpl:7
+#, fuzzy
+msgid ""
+"This dialog can't be used until the currently edited zone was saved or the "
+"zone entry exists in the LDAP directory."
+msgstr ""
+"Deze dialoog kan niet gebruikt worden, totdat de zone die nu bewerkt wordt "
+"opgeslagen wordt of de zone invoerregel in de LDAP database bestaat."
+
+#: src/dnsService/servDNSeditZoneEntries.tpl:13
+msgid "Create a new DNS zone entry"
+msgstr "Een nieuwe DNS zone regel aanmaken"
+
+#: src/dnsService/servDNSeditZoneEntries.tpl:13
+#: src/dnsService/class_servDNSeditZoneEntries.inc:106
+msgid "New entry"
+msgstr "Nieuwe regel"
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:225
+#: src/dnsService/class_servDNS.inc:184 src/dnsService/class_servDNS.inc:308
+#: src/dnsService/class_servDNSeditZone.inc:198
+#: src/dnsService/class_DNS.inc:161 src/dnsService/class_DNS.inc:166
+#: src/dnsService/class_DNS.inc:630
+msgid "Error"
+msgstr "Fout"
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:225
+#, fuzzy, php-format
+msgid "Cannot rename '%s' to '%s'. Name is already in use!"
+msgstr "Kan '%s' niet hernoemen naar '%s'. De gewenste naam bestaat al."
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:258
+msgid "Name"
+msgstr "Naam"
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:267
+#, fuzzy, php-format
+msgid "Cannot rename '%s' to '%s'. Entry is already in use."
+msgstr "Kan '%s' niet hernoemen naar '%s'. De gewenste naam bestaat al."
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:273
+#, fuzzy, php-format
+msgid "Cannot create '%s'. Entry is already in use."
+msgstr "Kan '%s' niet aanmaken. De gewenste naam bestaat al."
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:282
+#, fuzzy, php-format
+msgid "Entry '%s' is used more than once."
+msgstr "De naam '%s' wordt meer dan een maal gebruikt."
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:308
+#, fuzzy, php-format
+msgid "%s records cannot be used more than once."
+msgstr "De naam '%s' wordt meer dan een maal gebruikt."
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:315
+#, fuzzy, php-format
+msgid "Please fix the empty %s record for entry '%s'."
+msgstr "Er is een lege '%s' voor host '%s'."
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:323
+#, php-format
+msgid "Please fix the duplicate %s record for entry '%s'."
+msgstr ""
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:460
+#: src/dnsService/class_servDNSeditZone.inc:513
+msgid "Add"
+msgstr "Toevoegen"
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:461
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:513
+#, php-format
+msgid "The syntax of entry %s (record type %s, value %s) is invalid!"
+msgstr ""
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:513
+msgid "Example"
+msgstr ""
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:519
+#: src/dnsService/class_servDNSeditZoneEntries.inc:527
+#: src/dnsService/class_servDNSeditZoneEntries.inc:535
+#: src/dnsService/class_servDNSeditZoneEntries.inc:566
+msgid "Entry should be a DNS name."
+msgstr ""
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:522
+msgid "Value should be an IPv6 address."
+msgstr ""
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:530
+msgid "Value should be an IPv4 address."
+msgstr ""
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:538
+#: src/dnsService/class_servDNSeditZoneEntries.inc:556
+#: src/dnsService/class_servDNSeditZoneEntries.inc:561
+msgid "Value should be a DNS name."
+msgstr ""
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:545
+msgid "Value 1 should be a number."
+msgstr ""
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:548
+msgid "Value 2 should be a DNS name."
+msgstr ""
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:551
+msgid "Value should be composed of 'preference target'."
+msgstr ""
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:571
+msgid "Value 1 (priority) should be a number."
+msgstr ""
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:574
+msgid "Value 2 (weight) should be a number."
+msgstr ""
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:577
+msgid "Value 3 (port) should be a number."
+msgstr ""
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:580
+msgid "Value 4 (target) should be a DNS name."
+msgstr ""
+
+#: src/dnsService/class_servDNSeditZoneEntries.inc:583
+msgid "Value should be composed of 'priority weight port target'."
+msgstr ""
+
+#: src/dnsService/class_servDNS.inc:31 src/dnsService/class_servDNS.inc:513
+#: src/dnsService/class_servDNS.inc:542 src/dnsService/class_servDNS.inc:543
+#, fuzzy
+msgid "DNS service"
+msgstr "Voeg DNS service toe"
+
+#: src/dnsService/class_servDNS.inc:59
+#, fuzzy
+msgid "Zone"
+msgstr "Zones"
+
+#: src/dnsService/class_servDNS.inc:59 src/dnsService/class_servDNS.inc:556
+#: src/dnsService/class_servDNSeditZone.inc:335
+msgid "Reverse zone"
+msgstr "Reverse zone"
+
+#: src/dnsService/class_servDNS.inc:59 src/dnsService/class_servDNS.inc:565
+#: src/dnsService/servdnseditzone.tpl:139
+msgid "TTL"
+msgstr "TTL"
+
+#: src/dnsService/class_servDNS.inc:59
+msgid "Class"
+msgstr "Klasse"
+
+#: src/dnsService/class_servDNS.inc:161
+#, fuzzy, php-format
+msgid "You are going to migrate the DNS setup from server '%s'."
+msgstr "U staat op het punt de invoer '%s' te kopieren."
+
+#: src/dnsService/class_servDNS.inc:162
+msgid ""
+"The migration will be started when you save this system. To cancel this "
+"action, use the cancel button below."
+msgstr ""
+
+#: src/dnsService/class_servDNS.inc:308
+#, fuzzy, php-format
+msgid "Cannot delete the selected zone. It is still in use by '%s'"
+msgstr ""
+"Kan de geselecteerde zone niet verwijderen, aangezien deze nog gebruikt "
+"wordt door de volgende regel(s) '%s'"
+
+#: src/dnsService/class_servDNS.inc:418 src/dnsService/class_servDNS.inc:434
+#: src/dnsService/class_servDNS.inc:459 src/dnsService/class_servDNS.inc:470
+#: src/dnsService/class_servDNS.inc:503 src/dnsService/class_DNS.inc:748
+#, fuzzy
+msgid "LDAP error"
+msgstr "LDAP fout:"
+
+#: src/dnsService/class_servDNS.inc:543
+msgid "Services"
+msgstr "Services"
+
+#: src/dnsService/class_servDNS.inc:551
+#, fuzzy
+msgid "Start service"
+msgstr "Voeg DNS service toe"
+
+#: src/dnsService/class_servDNS.inc:552
+#, fuzzy
+msgid "Stop service"
+msgstr "Voeg DNS service toe"
+
+#: src/dnsService/class_servDNS.inc:553
+#, fuzzy
+msgid "Restart service"
+msgstr "Voeg DNS service toe"
+
+#: src/dnsService/class_servDNS.inc:555
+#: src/dnsService/class_servDNSeditZone.inc:326
+#: src/dnsService/class_servDNSeditZone.inc:331
+#: src/dnsService/class_servDNSeditZone.inc:339
+#: src/dnsService/servdnseditzone.tpl:9
+msgid "Zone name"
+msgstr "Zone-naam"
+
+#: src/dnsService/class_servDNS.inc:557
+#: src/dnsService/class_servDNSeditZone.inc:412
+#, fuzzy
+msgid "Network class"
+msgstr "Netwerkadres"
+
+#: src/dnsService/class_servDNS.inc:558
+#, fuzzy
+msgid "Zone entry editor"
+msgstr "Zone records"
+
+#: src/dnsService/class_servDNS.inc:559
+#, fuzzy
+msgid "Primary DNS server"
+msgstr "Primaire DNS server voor deze zone"
+
+#: src/dnsService/class_servDNS.inc:560 src/dnsService/servdnseditzone.tpl:86
+msgid "Mail address"
+msgstr "E-mail adres"
+
+#: src/dnsService/class_servDNS.inc:561
+#: src/dnsService/class_servDNSeditZone.inc:343
+msgid "Serial"
+msgstr "Serieel"
+
+#: src/dnsService/class_servDNS.inc:562
+#: src/dnsService/class_servDNSeditZone.inc:347
+#: src/dnsService/servdnseditzone.tpl:109
+msgid "Refresh"
+msgstr "Ververs"
+
+#: src/dnsService/class_servDNS.inc:563
+#: src/dnsService/class_servDNSeditZone.inc:359
+#: src/dnsService/servdnseditzone.tpl:119
+msgid "Retry"
+msgstr "Opnieuw proberen"
+
+#: src/dnsService/class_servDNS.inc:564
+#: src/dnsService/class_servDNSeditZone.inc:355
+#: src/dnsService/servdnseditzone.tpl:129
+msgid "Expire"
+msgstr "Vervaltijd"
+
+#: src/dnsService/class_servDNS.inc:566 src/dnsService/servdnseditzone.tpl:157
+#: src/dnsService/servdnseditzone.tpl:158
+#, fuzzy
+msgid "MX records"
+msgstr "MX records"
+
+#: src/dnsService/class_servDNS.inc:567 src/dnsService/servdnseditzone.tpl:49
+#: src/dnsService/servdnseditzone.tpl:51
+msgid "Zone records"
+msgstr "Zone records"
+
+#: src/dnsService/class_servDNSeditZone.inc:146
+msgid "Priority"
+msgstr ""
+
+#: src/dnsService/class_servDNSeditZone.inc:146
+#, fuzzy
+msgid "Record"
+msgstr "MX records"
+
+#: src/dnsService/class_servDNSeditZone.inc:239
+msgid "Warning"
+msgstr "Waarschuwing"
+
+#: src/dnsService/class_servDNSeditZone.inc:239
+#, fuzzy
+msgid "MxRecord"
+msgstr "MX records"
+
+#: src/dnsService/class_servDNSeditZone.inc:339
+#: src/dnsService/class_servDNSeditZone.inc:365
+#, fuzzy
+msgid "Only lowercase allowed"
+msgstr "Hoofdletter zijn niet toegestaan voor de zone-naam."
+
+#: src/dnsService/class_servDNSeditZone.inc:351
+#, fuzzy
+msgid "Time to life"
+msgstr "Tijdzone"
+
+#: src/dnsService/class_servDNSeditZone.inc:374
+#: src/dnsService/class_servDNSeditZone.inc:388
+#: src/dnsService/servdnseditzone.tpl:19
+msgid "Network address"
+msgstr "Netwerkadres"
+
+#: src/dnsService/class_servDNSeditZone.inc:396
+#: src/dnsService/class_servDNSeditZone.inc:402
+#: src/dnsService/class_servDNSeditZone.inc:408
+#, php-format
+msgid ""
+"The specified network address and the network class (%s/%s) do not match!"
+msgstr ""
+
+#: src/dnsService/class_servDNSeditZone.inc:505
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: src/dnsService/servdnseditzone.tpl:2
+msgid "Generic"
+msgstr "Algemeen"
+
+#: src/dnsService/servdnseditzone.tpl:4
+msgid "DNS zone"
+msgstr ""
+
+#: src/dnsService/servdnseditzone.tpl:7
+#, fuzzy
+msgid "Generic settings"
+msgstr "Algemene wachtrij instellingen"
+
+#: src/dnsService/servdnseditzone.tpl:29
+#, fuzzy
+msgid "Net mask"
+msgstr "Netatalk"
+
+#: src/dnsService/servdnseditzone.tpl:42
+msgid "Zone is in use, network settings can't be modified."
+msgstr ""
+
+#: src/dnsService/servdnseditzone.tpl:53
+msgid "Can't be edited because the zone wasn't saved right now."
+msgstr ""
+"Kan niet bewerkt worden, aangezien de zone momenteel niet opgeslagen is."
+
+#: src/dnsService/servdnseditzone.tpl:57
+msgid "Edit"
+msgstr "Bewerken"
+
+#: src/dnsService/servdnseditzone.tpl:68 src/dnsService/servdnseditzone.tpl:73
+#: src/dnsService/servdnseditzone.tpl:107
+msgid "SOA record"
+msgstr "SOA record"
+
+#: src/dnsService/servdnseditzone.tpl:70
+#, fuzzy
+msgid "Zone settings"
+msgstr "Gebruikersinstellingen"
+
+#: src/dnsService/servdnseditzone.tpl:76
+#, fuzzy
+msgid "Primary DNS server for this zone"
+msgstr "Primaire DNS server voor deze zone"
+
+#: src/dnsService/servdnseditzone.tpl:95
+msgid "Serial number (automatically incremented)"
+msgstr "Serienummer (automatisch opgehoogd)"
+
+#: src/dnsService/servdnseditzone.tpl:154
+#, fuzzy
+msgid "Mx record"
+msgstr "MX records"
+
+#: src/dnsService/servdnseditzone.tpl:175
+msgid "Global zone records"
+msgstr "Globale zone records"
+
+#: src/dnsService/class_DNS.inc:161
+#, fuzzy, php-format
+msgid "Cannot find reverse zone for DNS zone '%s'. Parsing zone aborted."
+msgstr ""
+"Kon de reverse zone voor dns zone '%s' niet vinden. Het doornemen van deze "
+"zone is gestopt."
+
+#: src/dnsService/class_DNS.inc:166
+#, fuzzy, php-format
+msgid "Found more than one reverse zone for '%s'. Parsing zone aborted."
+msgstr ""
+"Er zijn meer dan een reverse zones voor dns zone '%s' gevonden. Het "
+"doornemen van deze zone is gestopt."
+
+#: src/dnsService/class_DNS.inc:630
+#, php-format
+msgid "Undefined zone name '%s'!"
+msgstr ""
+
+#~ msgid "MxRecords"
+#~ msgstr "MX records"
+
+#~ msgid "Up"
+#~ msgstr "Omhoog"
+
+#~ msgid "Down"
+#~ msgstr "Omlaag"
+
+#~ msgid "Remove DNS service"
+#~ msgstr "Verwijder DNS service"
+
+#~ msgid ""
+#~ "This server has DNS features enabled. You can disable them by clicking "
+#~ "below."
+#~ msgstr ""
+#~ "Deze server heeft DNS mogelijkheden ingeschakeld. U kunt deze "
+#~ "uitschakelen door de knop hieronder te gebruiken."
+
+#~ msgid "Add DNS service"
+#~ msgstr "Voeg DNS service toe"
+
+#~ msgid ""
+#~ "This server has DNS features disabled. You can enable them by clicking "
+#~ "below."
+#~ msgstr ""
+#~ "Deze server heeft DNS mogelijkheden uitgeschakeld. U kunt deze "
+#~ "inschakelen door de knop hieronder te gebruiken."
+
+#, fuzzy
+#~ msgid "Service start"
+#~ msgstr "Services"
+
+#, fuzzy
+#~ msgid "Service stop"
+#~ msgstr "Services"
+
+#, fuzzy
+#~ msgid "Service restart"
+#~ msgstr "Zoek binnen subtree"
+
+#, fuzzy
+#~ msgid "The zone name is not valid!"
+#~ msgstr "Het uitnodigingsbeleid invoer voor adres '%s' is niet geldig"
+
+#, fuzzy
+#~ msgid "The reverse zone is not valid!"
+#~ msgstr "Het uitnodigingsbeleid invoer voor adres '%s' is niet geldig"
+
+#, fuzzy
+#~ msgid "Only lowercase characters are allowed in zone names!"
+#~ msgstr "Hoofdletter zijn niet toegestaan voor de zone-naam."
+
+#, fuzzy
+#~ msgid "Network address is not valid!"
+#~ msgstr "Netwerkadres"
+
+#, fuzzy
+#~ msgid "The network class '%s' is not valid!"
+#~ msgstr "Het uitnodigingsbeleid invoer voor adres '%s' is niet geldig"
+
+#~ msgid "Cancel"
+#~ msgstr "Annuleren"
+
+#~ msgid "Save"
+#~ msgstr "Opslaan"
+
+#, fuzzy
+#~ msgid "Entry name contains invalid characters."
+#~ msgstr "Invoerregel '%s' bevat ongeldige karakters."
+
+#, fuzzy
+#~ msgid "Removing of system server/dns with dn '%s' failed."
+#~ msgstr "Het verwijderen van de server is mislukt"
+
+#, fuzzy
+#~ msgid "Saving of system server/dns with dn '%s' failed."
+#~ msgstr "Het opslaan van de server db instellingen is mislukt"
+
+#~ msgid "Please choose a valid zone name."
+#~ msgstr "Geef a.u.b. een geldige zonenaam op."
+
+#~ msgid "Please choose a valid reverse zone name."
+#~ msgstr "Geef a.u.b. een geldige omgekeerde zonenaam op."
+
+#~ msgid "Please specify a numeric value for serial number."
+#~ msgstr "Geef a.u.b. een nummerieke waarde voor het serienummer op."
+
+#~ msgid "Please specify a numeric value for refresh."
+#~ msgstr "Geef a.u.b. een nummerieke waarde op voor de verversing."
+
+#~ msgid "Please specify a numeric value for ttl."
+#~ msgstr "Geef a.u.b. een nummerieke waarde op voor TTL."
+
+#~ msgid "Please specify a numeric value for expire."
+#~ msgstr "Geef a.u.b. een nummerieke waarde op voor verval."
+
+#~ msgid "Please specify a numeric value for retry."
+#~ msgstr "Geef a.u.b. een nummerieke waarde op voor opnieuw proberen."
+
+#~ msgid "Only lowercase is allowed, please check your '%ss'."
+#~ msgstr "Hoofdletters zijn niet toegestaan. Controleer uw '%ss'"
+
+#, fuzzy
+#~ msgid ""
+#~ "The given network address is not a valid, please specify a valid IP "
+#~ "address."
+#~ msgstr "Het veld IP adres bevat een ongeldig adres."
+
+#~ msgid ""
+#~ "Can't rename '%s' to '%s' there is already an entry with the same name in "
+#~ "our zone editing dialog."
+#~ msgstr ""
+#~ "Kon '%s' niet hernoemen naar '%s'. Er is al een invoer met dezelfde naam "
+#~ "in de zone bewerkings dialoog."
+
+#~ msgid "The record type '%s' is a unique type and can't be defined twice."
+#~ msgstr ""
+#~ "Het recordtype '%s' is een uniek type en kan dus ook niet tweemaal "
+#~ "gedefinieerd worden."
+
+#~ msgid "There is a duplicate entry in '%s' for '%s'."
+#~ msgstr "Er is een dubbele invoer in '%s' voor '%s'"

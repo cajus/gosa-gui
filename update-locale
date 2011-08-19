@@ -1,0 +1,199 @@
+#!/bin/bash
+
+generate_po() {
+  ORIG=`pwd`
+  TEMPDIR="/tmp/gosa-locale"
+  TRUE=`which true`
+
+  # Find core plugins if needed
+  core_plugins=""
+  if [ $plugin -eq 0 ]; then
+    ext_plugins=$(ls -1 plugins/*/plugin.dsc | cut -d/ -f2 | tr '\n' '_')
+    
+    for plugin in $(ls -1 plugins | cut -d/ -f2); do
+        if ! echo -n "_"${ext_plugins} | grep -q _$plugin\_; then
+            core_plugins="$core_plugins plugins/$plugin"
+        fi
+    done
+
+    dom="messages"
+  else
+    dom=$(echo -n $ORIG | sed 's!.*/!!')
+  fi
+
+  echo
+  echo "Creating temporary directory..."
+  [ -d $TEMPDIR ] && rm -rf $TEMPDIR
+  mkdir $TEMPDIR
+
+  echo "Creating copy of GOsa..."
+  tar c . | tar x -C $TEMPDIR
+
+  echo "Converting .tpl files..."
+  pushd . &> /dev/null
+  cd $TEMPDIR
+
+  for template in $(find . $core_plugins \( -not -path './plugins/*' \) -and -name '*.tpl'); do
+    echo "* converting .tpl files: $(basename $template)"
+    sed -ie 's/{td*}/<?php $t= _("/g;s!{/td*}!");?>!g' $template
+  done
+
+  for template in $(find . $core_plugins \( -not -path './plugins/*' \) -and -name '*.xml'); do
+    echo "* converting .xml files: $(basename $template)"
+    sed -ie 's/<label>/<?php $t= _("/g;s!</label>!");?>!g' $template
+  done
+
+  for class in $(find . $core_plugins \( -not -path './plugins/*' \) -and -name 'class_*.inc'); do
+    echo "* converting class_*.inc files: $(basename $class)"
+    sed -ie 's/\($pl[DH][^=]*\)= *"\([^"]*\)";$/\1= _("\2");/g' $class
+  done
+
+  echo "Extracting languages..."
+  [ -f locale/$dom.po ] && rm locale/$dom.po
+  find . $core_plugins \( -not -path './plugins/*' \) -and -name '*.[ctpix][mophn][nlpc]' | xgettext --debug -f - --keyword=tr -L PHP -n -o locale/$dom.po
+
+  echo "Merging po files with existing ones"
+  error=0
+  for f in locale/*/LC_MESSAGES; do
+    echo -n "* merging $f/$dom.po: "
+    [ ! -f $f/$dom.po ] && touch $f/$dom.po
+
+    # If we're in a plugin, core can be found on ../..
+    DICT_FILE_CORE="$ORIG/../../${f}/messages.po"
+    DICT=""
+    [ -r $DICT_FILE_CORE ] && DICT="-C $DICT_FILE_CORE"
+    msgmerge $DICT $f/$dom.po locale/$dom.po --output-file=$f/$dom.po.tmp &> /dev/null
+
+    # Filter out duplicates
+    msguniq $f/$dom.po.tmp --output-file=$f/$dom.po.new &> /dev/null
+    rm $f/$dom.po.tmp
+
+    # Do an extra check for dummy dir 'locale/en/LC_MESSAGES'
+    if [ $? -ne 0 ]; then
+      [ "$f" == "locale/en/LC_MESSAGES" ] && $TRUE
+    fi
+
+    if [ $? -eq 0 ]; then
+      echo "done";
+    else
+      echo "failed";
+      error=1
+    fi
+
+  done
+
+  echo "Copying new po files, making backups..."
+  find locale/ -name $dom.po | while read f; do
+
+    if [ -f $ORIG/$f ]; then
+      mv $ORIG/$f $ORIG/$f.orig
+    fi
+
+    echo $f | grep -q "locale/$dom.po"
+    if [ $? -ne 0 ]; then
+      echo "* replaced $ORIG/$f"
+      cp $f.new $ORIG/$f
+    else
+      cp $f $ORIG/$f
+    fi
+
+  done
+
+  rm -rf $TEMPDIR
+
+  echo
+  if [ $error -eq 0 ]; then
+    if [ $ASSUME_Y -eq 1 ]; then
+      find $ORIG/ -type f -name '$dom.po.orig' -exec rm -f {} \;
+    else
+      read -p "Do you want to erase the message.po.orig files? (y/n)" -n1 ans
+
+      if [ "$ans" == "y" -o "$ans" == "Y" ]; then
+        find $ORIG/ -type f -name '$dom.po.orig' -exec rm -f {} \;
+      fi
+    fi
+
+  else
+    echo "There were errors during the transition. Please fix!"
+    exit 1
+  fi
+
+cat <<-EOF
+
+---------------------------------------------------------------------
+
+Now edit all files that have been replaced above (i.e. using kbabel
+or gtranslator) and mail the changes to gosa@oss.gonicus.de to be 
+included in the next release.
+
+To see the changes you've made in GOsa, run "msgfmt {domain}.po" on
+your freshly edited files and restart your apache after that. Set
+the webbrowser to the language you've edited and go back to the
+login screen.
+
+---------------------------------------------------------------------
+
+EOF
+
+  popd &> /dev/null
+}
+
+
+generate_mo() {
+  # Find core plugins if needed
+  if [ $plugin -eq 0 ]; then
+    dom="messages"
+  else
+    dom=$(echo -n $ORIG | sed 's!.*/!!')
+  fi
+
+  echo "Compiling message catalogues:"
+  for po in $(find locale -path 'locale/*/*' -and -name '*.po'); do
+    mo=$(dirname $po)/$(basename $po .po)".mo"
+    echo "* compiling to $mo"
+    msgfmt -o $mo $po
+  done
+}
+
+
+#
+# MAIN
+#
+ASSUME_Y=0
+COMPILE=0
+while getopts ":yhc" opt
+do
+  case $opt in
+    y) ASSUME_Y=1;
+       ;;
+    c) COMPILE=1;
+       ;;
+    h|--help)
+       echo "Usage: $(basename $0) [-yc]"
+       echo "       -c compile catalogue"
+       echo "       -h this message"
+       echo "       -y assume yes"
+       exit 1
+       ;;
+  esac
+done
+shift $(($OPTIND - 1))
+
+# If there's a plugin.dsc in ., then assume "plugin"
+if [ -f plugin.dsc ]; then
+	plugin=1
+else
+	if [ ! -d plugins ]; then
+            echo "Failed: needs to be called either in GOsa root directory or in plugin directory!"
+            exit 1
+	fi
+	plugin=0
+fi
+
+if [ $COMPILE -eq 0 ]; then
+  generate_po
+else
+  generate_mo
+fi
+
+# vim:tabstop=2:expandtab:shiftwidth=2:syntax:ruler:

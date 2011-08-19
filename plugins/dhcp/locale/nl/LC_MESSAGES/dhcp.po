@@ -1,0 +1,716 @@
+# translation of messages.po to Dutch
+# GOsa2 Translations
+# Copyright (C) 2003 GONICUS GmbH, Germany
+# This file is distributed under the same license as the GOsa2 package.
+# Alfred Schroeder <schroeder@GONICUS.de>, 2004.
+# Cajus Pollmeier <pollmeier@gonicus.de>, 2004.
+#
+# Translator:
+# Niels Klomp (CareWorks ICT Services) <nk@careworks.nl>, 2005,2006,2007,2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: messages\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:31+0200\n"
+"PO-Revision-Date: 2008-06-09 18:26+0100\n"
+"Last-Translator: Niels Klomp (CareWorks ICT Services) <nk@careworks.nl>\n"
+"Language-Team: CareWorks ICT Services <info@careworks.nl>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:3 src/dhcpService/dhcp_host.tpl:7
+#: src/dhcpService/dhcp_service.tpl:2 src/dhcpService/dhcp_subnet.tpl:3
+#: src/dhcpService/dhcp_pool.tpl:3 src/dhcpService/dhcp_group.tpl:3
+msgid "Generic"
+msgstr "Algemeen"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:5
+#: src/dhcpService/dhcp_sharedNetwork.tpl:9
+#: src/dhcpService/dhcp_sharedNetwork.tpl:45
+#: src/dhcpService/dhcp_sharedNetwork.tpl:50
+#: src/dhcpService/dhcp_sharedNetwork.tpl:85
+#, fuzzy
+msgid "DHCP shared network"
+msgstr "Gedeeld netwerk"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:11 src/dhcpService/dhcp_host.tpl:10
+#: src/dhcpService/class_dhcpSubnet.inc:147
+#: src/dhcpService/class_dhcpHost.inc:130
+#: src/dhcpService/class_dhcpHost.inc:138
+#: src/dhcpService/class_dhcpPool.inc:101
+#: src/dhcpService/class_dhcpPool.inc:109 src/dhcpService/dhcp_pool.tpl:7
+#: src/dhcpService/class_dhcpDnsZone.inc:162
+#: src/dhcpService/class_dhcpSubClass.inc:84
+#: src/dhcpService/class_dhcpSubClass.inc:87
+#: src/dhcpService/class_dhcpSubClass.inc:95 src/dhcpService/dhcp_group.tpl:7
+#: src/dhcpService/class_dhcpNetwork.inc:51
+#: src/dhcpService/class_dhcpGroup.inc:84
+#: src/dhcpService/class_dhcpGroup.inc:87
+#: src/dhcpService/class_dhcpGroup.inc:95
+#: src/dhcpService/class_dhcpSharedNetwork.inc:150
+#: src/dhcpService/class_dhcpSharedNetwork.inc:168
+#: src/dhcpService/class_dhcpClass.inc:84
+#: src/dhcpService/class_dhcpClass.inc:87
+#: src/dhcpService/class_dhcpClass.inc:95
+msgid "Name"
+msgstr "Naam"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:15
+msgid "Name for shared network"
+msgstr "Naam voor gedeeld netwerk"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:20
+msgid "Server identifier"
+msgstr "Server identificatie"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:25
+msgid "Propagated server identifier for this shared network"
+msgstr "Gepropageerde server identiteit voor dit gedeeld netwerk"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:37
+msgid "Select if this server is authoritative for this shared network"
+msgstr "Selecteer of deze server authoritair is voor dit gedeeld netwerk"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:37
+msgid "Authoritative server"
+msgstr "Authoritative server"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:48
+msgid "Leases"
+msgstr "Leases"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:52
+#: src/dhcpService/dhcp_sharedNetwork.tpl:57
+#: src/dhcpService/class_dhcpService.inc:132
+#: src/dhcpService/class_dhcpSharedNetwork.inc:154
+msgid "Default lease time"
+msgstr "Standaard lease tijd"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:57
+#: src/dhcpService/dhcp_sharedNetwork.tpl:66
+#: src/dhcpService/dhcp_sharedNetwork.tpl:75
+msgid "seconds"
+msgstr "seconden"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:62
+#: src/dhcpService/class_dhcpSharedNetwork.inc:155
+msgid "Max. lease time"
+msgstr "Maximale leasetijd"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:66
+#: src/dhcpService/class_dhcpService.inc:132
+msgid "Maximum lease time"
+msgstr "Maximale leasetijd"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:71
+#: src/dhcpService/class_dhcpSharedNetwork.inc:156
+msgid "Min. lease time"
+msgstr "Minimale leasetijd"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:75
+msgid "Minimum lease time"
+msgstr "Minimale leasetijd"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:84
+msgid "Access control"
+msgstr "Toegangsbeheer"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:90
+msgid "Select if unknown clients should get dynamic IP addresses"
+msgstr "Geef op of onbekende clients een dynamisch IP adres moeten ontvangen"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:90
+msgid "Allow unknown clients"
+msgstr "Sta onbekende clients toe"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:98
+#, fuzzy
+msgid "Select if BOOTP clients should get dynamic IP addresses"
+msgstr "Geef op of bootp clients een dynamisch IP adres moeten ontvangen"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:98
+#, fuzzy
+msgid "Allow BOOTP clients"
+msgstr "bootp clients toestaan"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:106
+msgid "Select if clients are allowed to boot using this DHCP server"
+msgstr "Geeft op of clients op mogen starten m.b.v. deze DHCP server"
+
+#: src/dhcpService/dhcp_sharedNetwork.tpl:106
+msgid "Allow booting"
+msgstr "Opstarten toestaan"
+
+#: src/dhcpService/dhcp_host.tpl:3 src/dhcpService/dhcp_host.tpl:8
+#: src/dhcpService/dhcp_host.tpl:33
+#, fuzzy
+msgid "DHCP host configuration"
+msgstr "FAX database"
+
+#: src/dhcpService/dhcp_host.tpl:14
+msgid "Name of host"
+msgstr "Hostnaam"
+
+#: src/dhcpService/dhcp_host.tpl:19
+msgid "Fixed address"
+msgstr "Vast adres"
+
+#: src/dhcpService/dhcp_host.tpl:23
+#, fuzzy
+msgid "Use host name or IP-address to assign fixed address"
+msgstr "Gebruik hostnaam of IP adres om een vast adres toe te kennen"
+
+#: src/dhcpService/dhcp_host.tpl:31
+#, fuzzy
+msgid "Hardware"
+msgstr "Hardware type"
+
+#: src/dhcpService/dhcp_host.tpl:35
+msgid "Hardware type"
+msgstr "Hardware type"
+
+#: src/dhcpService/dhcp_host.tpl:45 src/dhcpService/class_dhcpHost.inc:147
+msgid "Hardware address"
+msgstr "Hardware adres"
+
+#: src/dhcpService/class_dhcpSubnet.inc:136
+#: src/dhcpService/class_dhcpSubnet.inc:156 src/dhcpService/dhcp_subnet.tpl:10
+msgid "Network address"
+msgstr "Netwerkadres"
+
+#: src/dhcpService/class_dhcpSubnet.inc:139
+#: src/dhcpService/class_dhcpSubnet.inc:155 src/dhcpService/dhcp_subnet.tpl:18
+#: src/dhcpService/dhcp_network.tpl:20
+#: src/dhcpService/class_dhcpNetwork.inc:200
+#, fuzzy
+msgid "Net mask"
+msgstr "Netmask"
+
+#: src/dhcpService/class_dhcpSubnet.inc:157
+#: src/dhcpService/class_dhcpSubnet.inc:158
+#: src/dhcpService/class_dhcpPool.inc:116
+#: src/dhcpService/class_dhcpPool.inc:120
+#: src/dhcpService/class_dhcpPool.inc:124 src/dhcpService/dhcp_pool.tpl:13
+msgid "Range"
+msgstr "Reeks"
+
+#: src/dhcpService/class_dhcpSubnet.inc:167
+msgid "Network range"
+msgstr "Netwerkreeks"
+
+#: src/dhcpService/class_dhcpSubnet.inc:173
+#: src/dhcpService/class_dhcpPool.inc:138
+msgid "'Range' is not inside the configured network."
+msgstr "De reeks ligt niet binnen het geconfigureerde netwerk."
+
+#: src/dhcpService/class_dhcpHost.inc:64
+msgid "Ethernet"
+msgstr "Ethernet"
+
+#: src/dhcpService/class_dhcpHost.inc:65
+msgid "FDDI"
+msgstr "FDDI"
+
+#: src/dhcpService/class_dhcpHost.inc:66
+msgid "Token Ring"
+msgstr "Token ring"
+
+#: src/dhcpService/dhcp_tsigkey.tpl:2
+#: src/dhcpService/class_dhcpNewSectionDialog.inc:40
+#: src/dhcpService/class_servDHCP.inc:48
+#, fuzzy
+msgid "DNS update key"
+msgstr "Dynamische DNS update stijl"
+
+#: src/dhcpService/dhcp_tsigkey.tpl:6
+#: src/dhcpService/class_dhcpTSigKey.inc:118
+#: src/dhcpService/class_dhcpTSigKey.inc:131
+#, fuzzy
+msgid "Key name"
+msgstr "Hernoemen"
+
+#: src/dhcpService/dhcp_tsigkey.tpl:9
+#, fuzzy
+msgid "Name of Key"
+msgstr "Hostnaam"
+
+#: src/dhcpService/dhcp_tsigkey.tpl:13
+msgid "Encryption method"
+msgstr ""
+
+#: src/dhcpService/dhcp_tsigkey.tpl:21
+#: src/dhcpService/class_dhcpTSigKey.inc:122
+msgid "Key"
+msgstr ""
+
+#: src/dhcpService/class_dhcpNewSectionDialog.inc:32
+#: src/dhcpService/class_servDHCP.inc:39
+#: src/dhcpService/class_servDHCP.inc:321
+#: src/dhcpService/class_servDHCP.inc:628
+msgid "Global options"
+msgstr "Globale opties"
+
+#: src/dhcpService/class_dhcpNewSectionDialog.inc:33
+#: src/dhcpService/class_servDHCP.inc:40
+msgid "Class"
+msgstr "Klasse"
+
+#: src/dhcpService/class_dhcpNewSectionDialog.inc:34
+#: src/dhcpService/class_servDHCP.inc:41
+msgid "Subclass"
+msgstr "Subklasse"
+
+#: src/dhcpService/class_dhcpNewSectionDialog.inc:35
+#: src/dhcpService/class_servDHCP.inc:42
+msgid "Host"
+msgstr "Host"
+
+#: src/dhcpService/class_dhcpNewSectionDialog.inc:36
+#: src/dhcpService/class_servDHCP.inc:43
+msgid "Group"
+msgstr "Groep"
+
+#: src/dhcpService/class_dhcpNewSectionDialog.inc:37
+#: src/dhcpService/class_servDHCP.inc:44
+msgid "Pool"
+msgstr "Pool"
+
+#: src/dhcpService/class_dhcpNewSectionDialog.inc:38
+#: src/dhcpService/class_servDHCP.inc:45
+msgid "Subnet"
+msgstr "Subnet"
+
+#: src/dhcpService/class_dhcpNewSectionDialog.inc:39
+#: src/dhcpService/class_servDHCP.inc:47
+msgid "Shared network"
+msgstr "Gedeeld netwerk"
+
+#: src/dhcpService/class_dhcpNewSectionDialog.inc:41
+#: src/dhcpService/dhcp_dnszone.tpl:2 src/dhcpService/class_servDHCP.inc:49
+#, fuzzy
+msgid "DNS update zone"
+msgstr "Dynamische DNS update stijl"
+
+#: src/dhcpService/dhcp_service.tpl:4 src/dhcpService/servdhcp.tpl:8
+#: src/dhcpService/class_servDHCP.inc:36
+#: src/dhcpService/class_servDHCP.inc:720
+#: src/dhcpService/class_servDHCP.inc:721
+#: src/dhcpService/class_servDHCP.inc:768
+msgid "DHCP service"
+msgstr "DHCP service"
+
+#: src/dhcpService/dhcp_service.tpl:9
+msgid "Authoritative service"
+msgstr "Authoritaire service"
+
+#: src/dhcpService/dhcp_service.tpl:13
+msgid "Dynamic DNS update"
+msgstr "Dynamsche DNS update"
+
+#: src/dhcpService/dhcp_service.tpl:15
+msgid "Dynamic DNS update style"
+msgstr "Dynamische DNS update stijl"
+
+#: src/dhcpService/dhcp_service.tpl:22
+#, fuzzy
+msgid "DHCP settings"
+msgstr "DHCP secties"
+
+#: src/dhcpService/dhcp_service.tpl:24
+msgid "Default lease time (s)"
+msgstr "Standaard lease tijd (s)"
+
+#: src/dhcpService/dhcp_service.tpl:28
+msgid "Enter default lease time in seconds."
+msgstr "Voer de standaard lease tijd in seconden in"
+
+#: src/dhcpService/dhcp_service.tpl:33
+msgid "Maximum lease time (s)"
+msgstr "Maximale leasetijd (s)"
+
+#: src/dhcpService/dhcp_service.tpl:37
+msgid "Enter maximum lease time in seconds."
+msgstr "Voer de maximale lease tijd in seconden in."
+
+#: src/dhcpService/dhcp_advanced.tpl:6
+msgid "Hide advanced settings"
+msgstr "Verberg geavanceerde instellingen"
+
+#: src/dhcpService/dhcp_advanced.tpl:8
+#, fuzzy
+msgid "DHCP advanced settings"
+msgstr "Verberg geavanceerde instellingen"
+
+#: src/dhcpService/dhcp_advanced.tpl:11
+msgid "DHCP statements"
+msgstr "DHCP regels"
+
+#: src/dhcpService/dhcp_advanced.tpl:30
+msgid "DHCP options"
+msgstr "DHCP opties"
+
+#: src/dhcpService/dhcp_advanced.tpl:50
+msgid "Show advanced settings"
+msgstr "Toon geavanceerde instellingen"
+
+#: src/dhcpService/dhcp_subnet.tpl:4 src/dhcpService/dhcp_subnet.tpl:8
+#: src/dhcpService/dhcp_subnet.tpl:29
+#, fuzzy
+msgid "DHCP subnet settings"
+msgstr "DHCP secties"
+
+#: src/dhcpService/dhcp_subnet.tpl:37
+msgid "Range for dynamic address assignment"
+msgstr "Reeks voor dynamische adres toekenning"
+
+#: src/dhcpService/dhcp_network.tpl:3 src/dhcpService/dhcp_network.tpl:7
+#: src/dhcpService/dhcp_network.tpl:9 src/dhcpService/dhcp_network.tpl:42
+#: src/dhcpService/dhcp_network.tpl:68
+msgid "Network configuration"
+msgstr "Netwerk configuratie"
+
+#: src/dhcpService/dhcp_network.tpl:11
+msgid "Router"
+msgstr "Router"
+
+#: src/dhcpService/dhcp_network.tpl:15
+msgid "Enter name or IP address of router to be used in this section"
+msgstr ""
+"Geeft de naam of het IP adres van de te gebruiken router op in deze sectie"
+
+#: src/dhcpService/dhcp_network.tpl:28
+#: src/dhcpService/class_dhcpNetwork.inc:200
+#, fuzzy
+msgid "Broadcast address"
+msgstr "Adres thuis"
+
+#: src/dhcpService/dhcp_network.tpl:40
+#, fuzzy
+msgid "Boot up"
+msgstr "Opstarten"
+
+#: src/dhcpService/dhcp_network.tpl:44
+msgid "Filename"
+msgstr "Bestandsnaam"
+
+#: src/dhcpService/dhcp_network.tpl:48
+#, fuzzy
+msgid ""
+"Enter name of file that will be loaded via TFTP after client has started"
+msgstr ""
+"Geef de bestandsnaam die geladen zal worden via tftp nadat de client "
+"opgestart is"
+
+#: src/dhcpService/dhcp_network.tpl:53
+msgid "Next server"
+msgstr "Volgende server"
+
+#: src/dhcpService/dhcp_network.tpl:57
+#, fuzzy
+msgid "Enter name of server to retrieve boot images from"
+msgstr "Geef de naam van de server waarvandaan opstart images geladen worden"
+
+#: src/dhcpService/dhcp_network.tpl:66
+msgid "Domain Name Service"
+msgstr "Domein Naam Service"
+
+#: src/dhcpService/dhcp_network.tpl:70
+msgid "Domain"
+msgstr "Domein"
+
+#: src/dhcpService/dhcp_network.tpl:73
+msgid "Name of domain"
+msgstr "Domeinnaam"
+
+#: src/dhcpService/dhcp_network.tpl:79
+#: src/dhcpService/class_dhcpDnsZone.inc:149
+#: src/dhcpService/dhcp_dnszone.tpl:13
+msgid "DNS server"
+msgstr "DNS server"
+
+#: src/dhcpService/dhcp_network.tpl:82
+msgid "List of DNS servers to be propagated"
+msgstr "Lijst met te propageren DNS servers"
+
+#: src/dhcpService/dhcp_network.tpl:89
+msgid "DNS server do be added"
+msgstr "Selecteer de toe te voegen DNS server"
+
+#: src/dhcpService/dhcp_network.tpl:92
+msgid "Click here add the selected server to the list"
+msgstr "Klik hier om de geselecteerde server aan de lijst toe te voegen"
+
+#: src/dhcpService/dhcp_network.tpl:97
+msgid "Click here remove the selected servers from the list"
+msgstr "Klik hier om de geselecteerde server uit de lijst te verwijderen"
+
+#: src/dhcpService/dhcp_network.tpl:102
+msgid "Domain Name Service options"
+msgstr "Domein Naam Service opties"
+
+#: src/dhcpService/dhcp_network.tpl:104
+#, fuzzy
+msgid "Assign host names found via reverse mapping"
+msgstr "Ken hostnamen toe, zoals ze via omgekeerde DNS mapping gevonden worden"
+
+#: src/dhcpService/dhcp_network.tpl:108
+#, fuzzy
+msgid "Assign host names from host declarations"
+msgstr "Ken hostnamen toe zoals ze opgegeven zijn binnen host declaraties"
+
+#: src/dhcpService/dhcp_pool.tpl:4
+#, fuzzy
+msgid "DHCP pool settings"
+msgstr "DHCP secties"
+
+#: src/dhcpService/dhcp_pool.tpl:10
+msgid "Name of pool"
+msgstr "Poolnaam"
+
+#: src/dhcpService/class_dhcpDnsZone.inc:145
+#: src/dhcpService/dhcp_dnszone.tpl:6
+msgid "DNS zone"
+msgstr ""
+
+#: src/dhcpService/class_dhcpDnsZone.inc:153
+#: src/dhcpService/dhcp_dnszone.tpl:21
+msgid "Key DN"
+msgstr ""
+
+#: src/dhcpService/class_dhcpService.inc:126
+msgid "Lease time"
+msgstr "Leasetijd"
+
+#: src/dhcpService/class_dhcpService.inc:129
+msgid "Max lease time"
+msgstr "Maximale leasetijd"
+
+#: src/dhcpService/dhcpNewSection.tpl:2
+msgid "Create new DHCP section"
+msgstr "Nieuwe DHCP sectie aanmaken"
+
+#: src/dhcpService/dhcpNewSection.tpl:6
+msgid "Please choose one of the following DHCP section types."
+msgstr "Selecteer a.u.b. een van de volgende DHCP sectie types."
+
+#: src/dhcpService/dhcpNewSection.tpl:9
+msgid "Section"
+msgstr "Sectie"
+
+#: src/dhcpService/dhcpNewSection.tpl:11
+msgid "Choose section type to create"
+msgstr "Selecteer het aan te maken sectie type"
+
+#: src/dhcpService/dhcpNewSection.tpl:18
+msgid "Create"
+msgstr "Aanmaken"
+
+#: src/dhcpService/dhcp_group.tpl:5
+#, fuzzy
+msgid "DHCP group settings"
+msgstr "Groep instellingen"
+
+#: src/dhcpService/dhcp_group.tpl:10
+msgid "Name of group"
+msgstr "Groepsnaam"
+
+#: src/dhcpService/servdhcp.tpl:4
+msgid ""
+"DHCP take over will take place when saving this entry. Choose 'Cancel' to "
+"abort."
+msgstr ""
+"Een DHCP overname zal plaatsvinden, zodra deze invoer opgeslagen wordt. "
+"Selecteer 'Annuleren' om de annuleren."
+
+#: src/dhcpService/servdhcp.tpl:13
+#, fuzzy
+msgid "Take over DHCP configuration from following server"
+msgstr "Neem DHCP configuratie over van de volgende server"
+
+#: src/dhcpService/servdhcp.tpl:24
+msgid "DHCP sections"
+msgstr "DHCP secties"
+
+#: src/dhcpService/class_dhcpNetwork.inc:51
+#: src/dhcpService/class_dhcpAdvanced.inc:65
+#: src/dhcpService/class_dhcpAdvanced.inc:79
+#: src/dhcpService/class_servDHCP.inc:709
+msgid "Error"
+msgstr "Fout"
+
+#: src/dhcpService/class_dhcpNetwork.inc:205
+#, php-format
+msgid "Error in definition of '%s'!"
+msgstr "Fout in definitie van '%s'!"
+
+#: src/dhcpService/class_dhcpTSigKey.inc:51
+msgid "HMAC-MD5"
+msgstr ""
+
+#: src/dhcpService/class_dhcpTSigKey.inc:52
+msgid "RSAMD5"
+msgstr ""
+
+#: src/dhcpService/class_dhcpTSigKey.inc:53
+msgid "RSASHA1"
+msgstr ""
+
+#: src/dhcpService/class_dhcpTSigKey.inc:54
+msgid "DSA"
+msgstr ""
+
+#: src/dhcpService/class_dhcpTSigKey.inc:55
+msgid "DH"
+msgstr ""
+
+#: src/dhcpService/remove_dhcp.tpl:3 src/dhcpService/class_servDHCP.inc:123
+msgid "Warning"
+msgstr "Waarschuwing"
+
+#: src/dhcpService/remove_dhcp.tpl:6
+msgid ""
+"This includes 'all' DHCP subsections that are located within this section. "
+"Please double check if your really want to do this since there is no way for "
+"GOsa to get your data back."
+msgstr ""
+"Dit omvat 'alle' DHCP subsecties die zich binnen deze locatie bevinden. "
+"Verzeker uzelf hiervan, aangezien er geen manier is voor GOsa om deze "
+"gegevens terug te halen."
+
+#: src/dhcpService/remove_dhcp.tpl:8
+msgid ""
+"Best thing to do before performing this action would be to save the current "
+"contents of your LDAP tree in a file. So - if you've done so - press "
+"'Delete' to continue or 'Cancel' to abort."
+msgstr ""
+"Het is aan te raden de huidige inhoud van uw LDAP database op te slaan "
+"alvorens u doorgaat. Indien u dat gedaan heeft drukt u op 'Verwijderen' om "
+"door te gaan of op 'Annuleren' om te annuleren."
+
+#: src/dhcpService/class_dhcpAdvanced.inc:65
+#: src/dhcpService/class_dhcpAdvanced.inc:79
+msgid "Cannot delete automatic statements!"
+msgstr "Kan automatische regels niet verwijderen!"
+
+#: src/dhcpService/class_dhcpAdvanced.inc:95
+#: src/dhcpService/class_dhcpAdvanced.inc:110
+msgid "automatic"
+msgstr "automatisch"
+
+#: src/dhcpService/class_servDHCP.inc:38
+msgid "Logging"
+msgstr "Loggen"
+
+#: src/dhcpService/class_servDHCP.inc:46
+#, fuzzy
+msgid "Fail-over peer"
+msgstr "Failover peer"
+
+#: src/dhcpService/class_servDHCP.inc:70
+msgid "Type"
+msgstr "Type"
+
+#: src/dhcpService/class_servDHCP.inc:70
+#, fuzzy
+msgid "Option"
+msgstr "Opties"
+
+#: src/dhcpService/class_servDHCP.inc:70
+msgid "Address"
+msgstr "Adres"
+
+#: src/dhcpService/class_servDHCP.inc:118
+#, php-format
+msgid ""
+"You have requested a migration of the DHCP setup from server '%s' to the "
+"current one."
+msgstr ""
+"U heeft een aanvraag gedaan om de DHCP instellingen te migreren van server "
+"'%s' naar de huidige server."
+
+#: src/dhcpService/class_servDHCP.inc:120
+msgid "The migration will be started when you save this system."
+msgstr "De migratie zal gestart worden, zodra u dit systeem bewaart."
+
+#: src/dhcpService/class_servDHCP.inc:237
+msgid "Permission error"
+msgstr "Permissiefout"
+
+#: src/dhcpService/class_servDHCP.inc:274
+msgid "DHCP section"
+msgstr "DHCP sectie"
+
+#: src/dhcpService/class_servDHCP.inc:338
+#: src/dhcpService/class_servDHCP.inc:342
+msgid "Insert new DHCP section"
+msgstr "Voer nieuwe DHCP sectie in"
+
+#: src/dhcpService/class_servDHCP.inc:339
+#: src/dhcpService/class_servDHCP.inc:343
+#: src/dhcpService/class_servDHCP.inc:345
+msgid "Edit DHCP section"
+msgstr "Bewerk DCHP sectie"
+
+#: src/dhcpService/class_servDHCP.inc:340
+#: src/dhcpService/class_servDHCP.inc:346
+msgid "Remove DHCP section"
+msgstr "Verwijder DHCP sectie"
+
+#: src/dhcpService/class_servDHCP.inc:402
+#: src/dhcpService/class_servDHCP.inc:419
+#: src/dhcpService/class_servDHCP.inc:474
+#: src/dhcpService/class_servDHCP.inc:550
+#: src/dhcpService/class_servDHCP.inc:558
+#: src/dhcpService/class_servDHCP.inc:585
+msgid "LDAP error"
+msgstr "LDAP fout"
+
+#: src/dhcpService/class_servDHCP.inc:709
+#, fuzzy
+msgid ""
+"The DHCP configuration set is unknown. Please contact your system "
+"administrator."
+msgstr ""
+"De ingestelde DHCP configuratie is onbekend. Neem contact op met uw "
+"systeembeheerder."
+
+#: src/dhcpService/class_servDHCP.inc:721
+msgid "Services"
+msgstr "Services"
+
+#: src/dhcpService/class_servDHCP.inc:729
+#, fuzzy
+msgid "DHCP entries"
+msgstr "DHCP service"
+
+#: src/dhcpService/class_servDHCP.inc:730
+#, fuzzy
+msgid "Start service"
+msgstr "Services"
+
+#: src/dhcpService/class_servDHCP.inc:731
+#, fuzzy
+msgid "Stop service"
+msgstr "Services"
+
+#: src/dhcpService/class_servDHCP.inc:732
+#, fuzzy
+msgid "Restart service"
+msgstr "Volgende server"
+
+#~ msgid "Broadcast"
+#~ msgstr "Broadcast"
+
+#, fuzzy
+#~ msgid "Service start"
+#~ msgstr "Services"
+
+#, fuzzy
+#~ msgid "Service stop"
+#~ msgstr "Services"
+
+#, fuzzy
+#~ msgid "Service restart"
+#~ msgstr "Zoek binnen subtree"

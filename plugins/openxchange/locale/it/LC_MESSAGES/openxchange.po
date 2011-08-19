@@ -1,0 +1,169 @@
+# translation of messages.po to Italian
+# Copyright (c) 2005 B-Open Solutions srl - http://www.bopen.it/
+# Copyright (c) 2005 Alessandro Amici <a.amici@bopen.it>
+# Alessandro Amici <a.amici@bopen.it>, 2005.
+msgid ""
+msgstr ""
+"Project-Id-Version: messages\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:31+0200\n"
+"PO-Revision-Date: 2005-11-18 15:26+0100\n"
+"Last-Translator: Alessandro Amici <a.amici@bopen.it>\n"
+"Language-Team: Italian\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.9.1\n"
+
+#: src/openxchangeExtension/class_oxchangeAccount.inc:24
+#: src/openxchangeExtension/class_oxchangeAccount.inc:188
+#: src/openxchangeExtension/class_oxchangeAccount.inc:301
+#: src/openxchangeExtension/class_oxchangeAccount.inc:437
+msgid "Open-Xchange"
+msgstr "Open-Xchange"
+
+#: src/openxchangeExtension/class_oxchangeAccount.inc:25
+#, fuzzy
+msgid "Manage Open-Xchange user settings"
+msgstr "Opzioni di posta dell'identità"
+
+#: src/openxchangeExtension/class_oxchangeAccount.inc:188
+#: src/openxchangeExtension/class_oxchangeAccount.inc:192
+#: src/openxchangeExtension/class_oxchangeAccount.inc:289
+#: src/openxchangeExtension/class_oxchangeAccount.inc:301
+#: src/openxchangeExtension/class_oxchangeAccount.inc:305
+#: src/openxchangeExtension/class_oxchangeAccount.inc:427
+msgid "Error"
+msgstr ""
+
+#: src/openxchangeExtension/class_oxchangeAccount.inc:192
+#: src/openxchangeExtension/class_oxchangeAccount.inc:305
+#, fuzzy
+msgid "Open-Xchange database"
+msgstr "Opzioni di posta dell'identità"
+
+#: src/openxchangeExtension/class_oxchangeAccount.inc:196
+#: src/openxchangeExtension/class_oxchangeAccount.inc:309
+#, fuzzy
+msgid "Configuration error"
+msgstr "File di configurazione"
+
+#: src/openxchangeExtension/class_oxchangeAccount.inc:206
+#: src/openxchangeExtension/class_oxchangeAccount.inc:219
+#: src/openxchangeExtension/class_oxchangeAccount.inc:329
+#: src/openxchangeExtension/class_oxchangeAccount.inc:338
+#, fuzzy
+msgid "LDAP error"
+msgstr "Errore LDAP"
+
+#: src/openxchangeExtension/class_oxchangeAccount.inc:289
+#, fuzzy
+msgid "Open-Xchange account name"
+msgstr "Opzioni di posta dell'identità"
+
+#: src/openxchangeExtension/class_oxchangeAccount.inc:427
+#, fuzzy
+msgid "Cannot save Open-Xchange account!"
+msgstr "Opzioni di posta dell'identità"
+
+#: src/openxchangeExtension/class_oxchangeAccount.inc:438
+#, fuzzy
+msgid "Open-Xchange account settings"
+msgstr "Opzioni di posta dell'identità"
+
+#: src/openxchangeExtension/class_oxchangeAccount.inc:438
+#, fuzzy
+msgid "Connectivity add-on"
+msgstr "Connettività"
+
+#: src/openxchangeExtension/class_oxchangeAccount.inc:442
+msgid "My account"
+msgstr "Identità"
+
+#: src/openxchangeExtension/class_oxchangeAccount.inc:451
+msgid "OXAppointmentDays"
+msgstr ""
+
+#: src/openxchangeExtension/class_oxchangeAccount.inc:452
+msgid "OXTaskDays"
+msgstr ""
+
+#: src/openxchangeExtension/class_oxchangeAccount.inc:453
+#, fuzzy
+msgid "OXTimeZone"
+msgstr "Cellulare"
+
+#: src/openxchangeExtension/oxchange.tpl:2
+#: src/openxchangeExtension/oxchange.tpl:18
+#, fuzzy
+msgid "Open-Xchange account"
+msgstr "Estenzioni FTP"
+
+#: src/openxchangeExtension/oxchange.tpl:2
+msgid ""
+"disabled, no PostgreSQL support detected or the specified database can't be "
+"reached."
+msgstr ""
+
+#: src/openxchangeExtension/oxchange.tpl:21
+#: src/openxchangeExtension/oxchange.tpl:28
+#: src/openxchangeExtension/oxchange.tpl:63
+#, fuzzy
+msgid "Open-Xchange configuration"
+msgstr "Estenzioni FTP"
+
+#: src/openxchangeExtension/oxchange.tpl:32
+#, fuzzy
+msgid "Remember"
+msgstr "Dicembre"
+
+#: src/openxchangeExtension/oxchange.tpl:36
+msgid "Appointment Days"
+msgstr ""
+
+#: src/openxchangeExtension/oxchange.tpl:42
+#: src/openxchangeExtension/oxchange.tpl:52
+msgid "days"
+msgstr "giorni"
+
+#: src/openxchangeExtension/oxchange.tpl:45
+msgid "Task Days"
+msgstr ""
+
+#: src/openxchangeExtension/oxchange.tpl:67
+#, fuzzy
+msgid "User Information"
+msgstr "Informazioni"
+
+#: src/openxchangeExtension/oxchange.tpl:71
+#, fuzzy
+msgid "User Timezone"
+msgstr "Cellulare"
+
+#~ msgid "This does something"
+#~ msgstr "Questo fa qualcosa"
+
+#, fuzzy
+#~ msgid "Cannot connect to %s database!"
+#~ msgstr "Impossibile connettersi al server del database!"
+
+#, fuzzy
+#~ msgid "%s database configuration is missing!"
+#~ msgstr "Scarica il file di  configurazione"
+
+#, fuzzy
+#~ msgid "Removing of user/oxchange addressbook account with dn '%s' failed."
+#~ msgstr "Elimina estensioni telefoniche"
+
+#, fuzzy
+#~ msgid "Saving of user/oxchange account with dn '%s' failed."
+#~ msgstr "Elimina estensioni telefoniche"
+
+#, fuzzy
+#~ msgid "Creating of user/oxchange account with dn '%s' failed."
+#~ msgstr "Elimina estensioni telefoniche"
+
+#, fuzzy
+#~ msgid "Open-Xchange account name is invalid!"
+#~ msgstr "Opzioni di posta dell'identità"

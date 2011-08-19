@@ -1,0 +1,177 @@
+# translation of messages.po to deutsch
+# translation of messages.po to
+# GOsa2 Translations
+# Copyright (C) 2003 GONICUS GmbH, Germany
+# This file is distributed under the same license as the GOsa2 package.
+#
+#
+# Alfred Schroeder <schroeder@GONICUS.de>, 2004.
+# Cajus Pollmeier <pollmeier@gonicus.de>, 2004, 2005, 2006, 2008, 2009.
+# Jan Wenzel <jan.wenzel@gonicus.de>, 2004,2005, 2008.
+# Stefan Koehler <stefan.koehler@GONICUS.de>, 2005.
+msgid ""
+msgstr ""
+"Project-Id-Version: messages\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:32+0200\n"
+"PO-Revision-Date: 2010-09-17 10:39+0100\n"
+"Last-Translator: Fabian Hickert <Fabian.Hickert@GONICUS.DE>\n"
+"Language-Team: de <kde-i18n-de@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: src/rolePlugin/class_roleManagement.inc:25
+#: src/rolePlugin/class_roleGeneric.inc:453
+msgid "Roles"
+msgstr "Rollen"
+
+#: src/rolePlugin/class_roleManagement.inc:26
+msgid "Assign and manage organizational roles"
+msgstr "Zuweisung und Verwaltung von organisationsbezogenen Rollen"
+
+#: src/rolePlugin/class_roleGeneric.inc:97
+msgid "Given name"
+msgstr "Vorname"
+
+#: src/rolePlugin/class_roleGeneric.inc:97
+msgid "Surname"
+msgstr "Nachname"
+
+#: src/rolePlugin/class_roleGeneric.inc:97
+msgid "UID"
+msgstr "UID"
+
+#: src/rolePlugin/class_roleGeneric.inc:223
+msgid "Unknown"
+msgstr "Unbekannt"
+
+#: src/rolePlugin/class_roleGeneric.inc:278
+#: src/rolePlugin/class_roleGeneric.inc:282
+#: src/rolePlugin/class_roleGeneric.inc:291
+#: src/rolePlugin/class_roleGeneric.inc:470 src/rolePlugin/role-list.xml:41
+#: src/rolePlugin/roleGeneric.tpl:12
+msgid "Name"
+msgstr "Name"
+
+#: src/rolePlugin/class_roleGeneric.inc:308
+#: src/rolePlugin/class_roleGeneric.inc:350
+msgid "LDAP error"
+msgstr "LDAP-Fehler"
+
+#: src/rolePlugin/class_roleGeneric.inc:393
+msgid "Error"
+msgstr "Fehler"
+
+#: src/rolePlugin/class_roleGeneric.inc:443 src/rolePlugin/roleGeneric.tpl:7
+msgid "Generic"
+msgstr "Allgemein"
+
+#: src/rolePlugin/class_roleGeneric.inc:444
+msgid "Role generic"
+msgstr "Allgemeine Rolleneinstellungen"
+
+#: src/rolePlugin/class_roleGeneric.inc:462
+msgid "RDN for role storage."
+msgstr "RDN zur Ablage von Rollen."
+
+#: src/rolePlugin/class_roleGeneric.inc:471 src/rolePlugin/role-list.xml:49
+#: src/rolePlugin/roleGeneric.tpl:20
+msgid "Description"
+msgstr "Beschreibung"
+
+#: src/rolePlugin/class_roleGeneric.inc:472 src/rolePlugin/role-list.tpl:12
+#: src/rolePlugin/roleGeneric.tpl:30
+msgid "Base"
+msgstr "Basis"
+
+#: src/rolePlugin/class_roleGeneric.inc:473
+msgid "Telephone number"
+msgstr "Telefonnummer"
+
+#: src/rolePlugin/class_roleGeneric.inc:474
+msgid "FAX number"
+msgstr "Faxnummer"
+
+#: src/rolePlugin/class_roleGeneric.inc:475 src/rolePlugin/roleGeneric.tpl:64
+msgid "Occupants"
+msgstr "Rollen-Inhaber"
+
+#: src/rolePlugin/paste_generic.tpl:1
+msgid "Paste role"
+msgstr "Rolle einfügen"
+
+#: src/rolePlugin/paste_generic.tpl:4
+msgid "Role name"
+msgstr "Rollen-Name"
+
+#: src/rolePlugin/paste_generic.tpl:7
+msgid "Please enter the new object role name"
+msgstr "Bitte geben Sie einen Namen für die neue Rolle ein"
+
+#: src/rolePlugin/role-list.xml:11
+msgid "List of roles"
+msgstr "Liste der Rollen"
+
+#: src/rolePlugin/role-list.xml:15 src/rolePlugin/role-list.xml:74
+msgid "Role"
+msgstr "Rolle"
+
+#: src/rolePlugin/role-list.xml:57
+msgid "Actions"
+msgstr "Aktionen"
+
+#: src/rolePlugin/role-list.xml:68
+msgid "Create"
+msgstr "Anlegen"
+
+#: src/rolePlugin/role-list.xml:86
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: src/rolePlugin/role-list.xml:93
+msgid "Remove"
+msgstr "Entfernen"
+
+#: src/rolePlugin/role-list.xml:125 src/rolePlugin/roleGeneric.tpl:1
+msgid "Edit role"
+msgstr "Rolle bearbeiten"
+
+#: src/rolePlugin/role-list.xml:138
+msgid "Remove role"
+msgstr "Rolle entfernen"
+
+#: src/rolePlugin/roleGeneric.tpl:10
+msgid "Generic settings"
+msgstr "Allgemeine Benutzereinstellungen"
+
+#: src/rolePlugin/roleGeneric.tpl:43
+msgid "Phone number"
+msgstr "Telefonnummer"
+
+#: src/rolePlugin/roleGeneric.tpl:51
+msgid "Fax number"
+msgstr "Faxnummer"
+
+#: src/rolePlugin/role-filter.xml:17
+msgid "Default filter"
+msgstr "Standard-Filter"
+
+#~ msgid "Surename"
+#~ msgstr "Nachname"
+
+#~ msgid ""
+#~ "The 'roleRDN' statement defines the location where new roles will be "
+#~ "created. The default is 'ou=roles,'."
+#~ msgstr ""
+#~ "Die Option 'roleRDN' definiert den Ablageort für neue Rollen. Der "
+#~ "Standard ist 'ou=roles,'."
+
+#~ msgid "Uid"
+#~ msgstr "Uid"
+
+#~ msgid "Telefon number"
+#~ msgstr "Telefonnummer"

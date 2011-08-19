@@ -1,0 +1,1052 @@
+# Translation of messages.po to Russian
+# Valia V. Vaneeva <fattie@altlinux.ru>, 2004.
+# $Id: messages.po,v 1.61 2005/04/18 10:37:13 migor-guest Exp $
+msgid ""
+msgstr ""
+"Project-Id-Version: messages\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:31+0200\n"
+"PO-Revision-Date: 2005-04-18 14:35+0300\n"
+"Last-Translator: Igor Muratov <migor@altlinux.org>\n"
+"Language-Team: ALT Linux Team\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: poEdit 1.3.1\n"
+
+#: html/getfax.php:51
+msgid "Could not connect to database server!"
+msgstr "Невозможно подключиться к серверу базы данных!"
+
+#: html/getfax.php:53
+msgid "Could not select database!"
+msgstr "Невозможно выбрать базу данных!"
+
+#: html/getfax.php:58 html/getfax.php:62
+msgid "Database query failed!"
+msgstr "Невозможно выполнить запрос к базе данных!"
+
+#: src/faxReportPlugin/class_faxreport.inc:6
+msgid "FAX Reports"
+msgstr "Отчеты о факсах"
+
+#: src/faxReportPlugin/class_faxreport.inc:7
+msgid "View the FAX report or single documents that have been received"
+msgstr ""
+
+#: src/faxReportPlugin/class_faxreport.inc:126
+#: src/faxReportPlugin/class_faxreport.inc:137
+#: src/faxReportPlugin/class_faxreport.inc:142
+#: src/faxReportPlugin/class_faxreport.inc:148
+#: src/faxReportPlugin/class_faxreport.inc:173
+#: src/faxReportPlugin/class_faxreport.inc:281
+#: src/faxAccountPlugin/class_gofaxAccount.inc:254
+#: src/blocklistPlugin/class_blocklistGeneric.inc:109
+#: src/blocklistPlugin/class_blocklistGeneric.inc:170
+msgid "Error"
+msgstr ""
+
+#: src/faxReportPlugin/class_faxreport.inc:126
+msgid "No FAX server found!"
+msgstr ""
+
+#: src/faxReportPlugin/class_faxreport.inc:129
+#, fuzzy
+msgid "Configuration error"
+msgstr "Настроить"
+
+#: src/faxReportPlugin/class_faxreport.inc:130
+#, fuzzy, php-format
+msgid "Missing %s PHP extension!"
+msgstr "Удалить параметры"
+
+#: src/faxReportPlugin/class_faxreport.inc:138
+#, fuzzy, php-format
+msgid "Cannot connect to %s database!"
+msgstr ""
+"Не удается подключиться к базе данных факсов, отчеты показаны не будут!"
+
+#: src/faxReportPlugin/class_faxreport.inc:143
+#, fuzzy, php-format
+msgid "Cannot select %s database!"
+msgstr "Невозможно выбрать базу данных!"
+
+#: src/faxReportPlugin/class_faxreport.inc:149
+#: src/faxReportPlugin/class_faxreport.inc:174
+#: src/faxReportPlugin/class_faxreport.inc:281
+#, fuzzy, php-format
+msgid "Cannot query %s database!"
+msgstr "Невозможно выбрать базу данных!"
+
+#: src/faxReportPlugin/class_faxreport.inc:192
+#, fuzzy
+msgid "Permission error"
+msgstr "Права для членов группы"
+
+#: src/faxReportPlugin/class_faxreport.inc:193
+#, fuzzy
+msgid "You have no permission to view this FAX id!"
+msgstr "У вас недостаточно прав для удаления этого стоп-листа."
+
+#: src/faxReportPlugin/class_faxreport.inc:209
+#: src/faxReportPlugin/class_faxreport.inc:316
+msgid "Y-M-D"
+msgstr "Г-М-Д"
+
+#: src/faxReportPlugin/class_faxreport.inc:287
+#, fuzzy
+msgid "Insufficient permissions to view this attribute"
+msgstr "У вас недостаточно прав для удаления этого подразделения."
+
+#: src/faxReportPlugin/class_faxreport.inc:443
+#: src/faxReportPlugin/class_faxreport.inc:444
+#, fuzzy
+msgid "View FAX reports"
+msgstr "Отчеты о факсах"
+
+#: src/faxReportPlugin/class_faxreport.inc:444
+#, fuzzy
+msgid "All entries are read-only"
+msgstr "Все поля доступны для записи"
+
+#: src/faxReportPlugin/class_faxreport.inc:458
+#, fuzzy
+msgid "Detailed view and download"
+msgstr "Клиентские устройства"
+
+#: src/faxReportPlugin/class_faxreport.inc:459
+#, fuzzy
+msgid "Fax ID"
+msgstr "Идентификатор факса"
+
+#: src/faxReportPlugin/class_faxreport.inc:460
+#, fuzzy
+msgid "The username"
+msgstr "Имя пользователя"
+
+#: src/faxReportPlugin/class_faxreport.inc:461
+#: src/faxReportPlugin/contents.tpl:9 src/faxReportPlugin/contents.tpl:38
+msgid "Date"
+msgstr "Дата"
+
+#: src/faxReportPlugin/class_faxreport.inc:461
+#, fuzzy
+msgid "Time"
+msgstr "Мобильный"
+
+#: src/faxReportPlugin/class_faxreport.inc:462
+#: src/faxReportPlugin/contents.tpl:39 src/faxReportPlugin/detail.tpl:44
+msgid "Status"
+msgstr "Состояние"
+
+#: src/faxReportPlugin/class_faxreport.inc:463
+#: src/faxReportPlugin/detail.tpl:32
+msgid "Sender ID"
+msgstr "Идентификатор отправителя"
+
+#: src/faxReportPlugin/class_faxreport.inc:464
+#: src/faxReportPlugin/detail.tpl:28
+msgid "Sender MSN"
+msgstr "MSN отправителя"
+
+#: src/faxReportPlugin/class_faxreport.inc:465
+#: src/faxReportPlugin/detail.tpl:40
+msgid "Receiver ID"
+msgstr "Идентификатор получателя"
+
+#: src/faxReportPlugin/class_faxreport.inc:466
+#: src/faxReportPlugin/detail.tpl:36
+msgid "Receiver MSN"
+msgstr "MSN получателя"
+
+#: src/faxReportPlugin/class_faxreport.inc:467
+#, fuzzy
+msgid "Number of pages"
+msgstr "Подразделение"
+
+#: src/faxReportPlugin/class_faxreport.inc:468
+#, fuzzy
+msgid "Status Message"
+msgstr "Сообщение о состоянии"
+
+#: src/faxReportPlugin/class_faxreport.inc:469
+#: src/faxReportPlugin/detail.tpl:52
+msgid "Transfer time"
+msgstr "Время передачи"
+
+#: src/faxReportPlugin/contents.tpl:3 src/faxReportPlugin/detail.tpl:1
+#, fuzzy
+msgid "Fax reports"
+msgstr "Отчеты о факсах"
+
+#: src/faxReportPlugin/contents.tpl:6
+msgid "Filter"
+msgstr "Фильтр"
+
+#: src/faxReportPlugin/contents.tpl:17
+msgid "Search for"
+msgstr "Поиск"
+
+#: src/faxReportPlugin/contents.tpl:19
+msgid "Enter user name to search for"
+msgstr "Введите искомое имя пользователя"
+
+#: src/faxReportPlugin/contents.tpl:23
+msgid "Search"
+msgstr "Поиск"
+
+#: src/faxReportPlugin/contents.tpl:34
+#, fuzzy
+msgid "Phone reports"
+msgstr "Отчеты о факсах"
+
+#: src/faxReportPlugin/contents.tpl:37 src/faxReportPlugin/detail.tpl:20
+#: src/faxNumberSelectDialog/faxNumberSelect-list.xml:14
+#: src/GofaxService/class_goFaxServer.inc:68
+msgid "User"
+msgstr "Пользователь"
+
+#: src/faxReportPlugin/contents.tpl:40
+msgid "Sender"
+msgstr "Отправитель"
+
+#: src/faxReportPlugin/contents.tpl:41
+msgid "Receiver"
+msgstr "Получатель"
+
+#: src/faxReportPlugin/contents.tpl:42 src/faxReportPlugin/detail.tpl:56
+msgid "# pages"
+msgstr "Число страниц"
+
+#: src/faxReportPlugin/contents.tpl:60
+#, fuzzy
+msgid "Page selector"
+msgstr "Настройки Samba"
+
+#: src/faxReportPlugin/contents.tpl:69
+msgid "Search returned no results..."
+msgstr "Не найдено..."
+
+#: src/faxReportPlugin/detail.tpl:5 src/faxReportPlugin/detail.tpl:6
+msgid "Click on fax to download"
+msgstr "Щелкните по факсу, чтобы загрузить его"
+
+#: src/faxReportPlugin/detail.tpl:14
+#, fuzzy
+msgid "Entry list"
+msgstr "Экспорт"
+
+#: src/faxReportPlugin/detail.tpl:16
+msgid "FAX ID"
+msgstr "Идентификатор факса"
+
+#: src/faxReportPlugin/detail.tpl:24
+msgid "Date / Time"
+msgstr "Дата / время"
+
+#: src/faxReportPlugin/detail.tpl:48
+msgid "Status message"
+msgstr "Сообщение о состоянии"
+
+#: src/faxAccountPlugin/paste_generic.tpl:1
+#, fuzzy
+msgid "Paste fax account settings"
+msgstr "Настройки Samba"
+
+#: src/faxAccountPlugin/paste_generic.tpl:6 src/faxAccountPlugin/generic.tpl:8
+#: src/blocklistPlugin/generic.tpl:1
+msgid "Generic"
+msgstr "Общее"
+
+#: src/faxAccountPlugin/paste_generic.tpl:7
+#: src/faxAccountPlugin/generic.tpl:10
+#, fuzzy
+msgid "Generic settings"
+msgstr "Общая информация о пользователе"
+
+#: src/faxAccountPlugin/paste_generic.tpl:10
+#: src/faxAccountPlugin/class_gofaxAccount.inc:809
+#: src/faxAccountPlugin/generic.tpl:12
+#: src/blocklistPlugin/class_blocklistGeneric.inc:373
+#: src/faxNumberSelectDialog/faxNumberSelect-list.xml:56
+msgid "Fax"
+msgstr "Факс"
+
+#: src/faxAccountPlugin/paste_generic.tpl:15
+#: src/faxAccountPlugin/generic.tpl:19
+msgid "Fax number for GOfax to trigger on"
+msgstr "Номер факса, для которого сработает GOfax"
+
+#: src/faxAccountPlugin/paste_generic.tpl:20
+#, fuzzy
+msgid "Alternate fax numbers will not be copied"
+msgstr "Альтернативные номера факсов"
+
+#: src/faxAccountPlugin/lists.tpl:2
+#, fuzzy
+msgid "Blocklist settings"
+msgstr "\"Черные списки\""
+
+#: src/faxAccountPlugin/lists.tpl:7
+msgid "Blocked numbers/lists"
+msgstr "Блокируемые номера/списки"
+
+#: src/faxAccountPlugin/lists.tpl:21
+#, fuzzy
+msgid "List of predefined blacklists"
+msgstr "Готовые \"черные списки\""
+
+#: src/faxAccountPlugin/lists.tpl:22
+#, fuzzy
+msgid "List of blocked numbers"
+msgstr "Блокируемые номера"
+
+#: src/faxAccountPlugin/lists.tpl:29
+#, fuzzy
+msgid "Add the list to the blacklists"
+msgstr "Стоп-листы"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:6
+msgid "FAX"
+msgstr "Факс"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:7
+#, fuzzy
+msgid "Manage personal facsimile settings"
+msgstr "Атрибуты UNIX"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:103
+#: src/blocklistPlugin/class_blocklistGeneric.inc:212
+#: src/blocklistPlugin/class_blocklistGeneric.inc:215
+#: src/blocklistPlugin/class_blocklistGeneric.inc:222
+#: src/blocklistPlugin/class_blocklistGeneric.inc:400
+#: src/blocklistPlugin/blocklist-list.xml:49
+msgid "Name"
+msgstr "Фамилия"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:161
+#: src/faxAccountPlugin/class_gofaxAccount.inc:171
+#: src/faxAccountPlugin/class_gofaxAccount.inc:174
+msgid "GOfax"
+msgstr ""
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:170
+#, fuzzy
+msgid "Remove FAX account"
+msgstr "Удалить настройки факса"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:173
+#, fuzzy
+msgid "Create FAX account"
+msgstr "Создать настройки факса"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:254
+#: src/blocklistPlugin/class_blocklistGeneric.inc:109
+#, fuzzy
+msgid "Phone number"
+msgstr "Блокируемые номера"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:394
+#: src/faxAccountPlugin/class_gofaxAccount.inc:477
+#, fuzzy
+msgid "back"
+msgstr "Назад"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:603
+#: src/faxAccountPlugin/class_gofaxAccount.inc:734
+#: src/blocklistPlugin/class_blocklistGeneric.inc:198
+#: src/blocklistPlugin/class_blocklistGeneric.inc:284
+#, fuzzy
+msgid "LDAP error"
+msgstr "Ошибка LDAP:"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:619
+#: src/faxAccountPlugin/class_gofaxAccount.inc:623
+#: src/faxAccountPlugin/class_gofaxAccount.inc:823
+#, fuzzy
+msgid "Fax number"
+msgstr "Терминал"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:630
+msgid "Mail delivery is requested without target address!"
+msgstr ""
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:632
+#, fuzzy
+msgid "Mail address"
+msgstr "Введенный вами адрес уже используется."
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:632
+msgid "your-name@your-domain.com"
+msgstr ""
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:638
+msgid "Printing is requested without a target printer!"
+msgstr ""
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:810
+#, fuzzy
+msgid "Fax account settings"
+msgstr "Настройки Samba"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:824
+#: src/faxAccountPlugin/generic.tpl:26
+msgid "Language"
+msgstr "Язык"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:825
+#: src/faxAccountPlugin/generic.tpl:39
+msgid "Delivery format"
+msgstr "Формат доставки"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:826
+#, fuzzy
+msgid "Alternate FAX number"
+msgstr "Альтернативные номера факсов"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:827
+msgid "Enable/Disable FAX"
+msgstr ""
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:828
+#: src/faxAccountPlugin/generic.tpl:77
+#, fuzzy
+msgid "Deliver FAX as mail"
+msgstr "Отправлять факсы по эл. почте"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:829
+#: src/faxAccountPlugin/generic.tpl:84
+#, fuzzy
+msgid "Deliver FAX to printer"
+msgstr "Отправлять факсы на принтер"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:830
+#: src/blocklistPlugin/blocklist-list.xml:23
+#, fuzzy
+msgid "Receive blacklist"
+msgstr "Показать стоп-листы получения"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:831
+#: src/blocklistPlugin/blocklist-list.xml:15
+#, fuzzy
+msgid "Send blacklist"
+msgstr "Показать стоп-листы отправки"
+
+#: src/faxAccountPlugin/generic.tpl:1
+#, fuzzy
+msgid "Fax account"
+msgstr "Моя учетная запись"
+
+#: src/faxAccountPlugin/generic.tpl:15
+msgid "Multiple edit"
+msgstr ""
+
+#: src/faxAccountPlugin/generic.tpl:31
+#, fuzzy
+msgid "Specify the GOfax communication language for FAX to mail gateway"
+msgstr ""
+"Укаэите предпочтительный язык для получения сообщений о факсах по эл. почте"
+
+#: src/faxAccountPlugin/generic.tpl:43
+#, fuzzy
+msgid "Specify delivery format for FAX to mail gateway"
+msgstr "Укажите в каком формате должны перенаправляться факсы"
+
+#: src/faxAccountPlugin/generic.tpl:58
+msgid "Delivery methods"
+msgstr "Способ доставки"
+
+#: src/faxAccountPlugin/generic.tpl:63
+#, fuzzy
+msgid "Temporary disable FAX usage"
+msgstr "Временно отключить использование факса"
+
+#: src/faxAccountPlugin/generic.tpl:69
+#, fuzzy
+msgid "Deliver FAX as mail to"
+msgstr "Отправлять факсы по эл. почте"
+
+#: src/faxAccountPlugin/generic.tpl:97
+#, fuzzy
+msgid "Alternative numbers"
+msgstr "Альтернативные номера факсов"
+
+#: src/faxAccountPlugin/generic.tpl:105
+#, fuzzy
+msgid "Alternate FAX numbers"
+msgstr "Альтернативные номера факсов"
+
+#: src/faxAccountPlugin/generic.tpl:121
+msgid "Add local"
+msgstr "Добавить локально"
+
+#: src/faxAccountPlugin/generic.tpl:132 src/faxAccountPlugin/generic.tpl:133
+#, fuzzy
+msgid "Blacklists"
+msgstr "\"Черные списки\""
+
+#: src/faxAccountPlugin/generic.tpl:135
+#, fuzzy
+msgid "Blacklists for incoming FAX"
+msgstr "\"Черные списки\" для входящих факсов"
+
+#: src/faxAccountPlugin/generic.tpl:138 src/faxAccountPlugin/generic.tpl:147
+#: src/blocklistPlugin/blocklist-list.xml:94
+#: src/blocklistPlugin/blocklist-list.xml:133
+msgid "Edit"
+msgstr "Изменить"
+
+#: src/faxAccountPlugin/generic.tpl:144
+#, fuzzy
+msgid "Blacklists for outgoing FAX"
+msgstr "\"Черные списки\" для исходящих факсов"
+
+#: src/blocklistPlugin/paste_generic.tpl:1
+#, fuzzy
+msgid "Paste blacklist"
+msgstr "Показать стоп-листы отправки"
+
+#: src/blocklistPlugin/paste_generic.tpl:3 src/blocklistPlugin/generic.tpl:8
+msgid "List name"
+msgstr "Список"
+
+#: src/blocklistPlugin/paste_generic.tpl:5 src/blocklistPlugin/generic.tpl:12
+#, fuzzy
+msgid "Name of blacklist"
+msgstr "Имя стоп-листа"
+
+#: src/blocklistPlugin/class_blocklistManagement.inc:25
+#, fuzzy
+msgid "FAX Blocklists"
+msgstr "Стоп-лист номеров (факсы)"
+
+#: src/blocklistPlugin/class_blocklistManagement.inc:26
+msgid "Manage FAX number blocklists for incoming and outgoing FAX calls"
+msgstr ""
+
+#: src/blocklistPlugin/blocklist-list.tpl:12
+#: src/blocklistPlugin/class_blocklistGeneric.inc:402
+#: src/blocklistPlugin/generic.tpl:17
+#: src/faxNumberSelectDialog/faxNumberSelect-list.tpl:12
+msgid "Base"
+msgstr "Ветка"
+
+#: src/blocklistPlugin/class_blocklistGeneric.inc:9
+#, fuzzy
+msgid "FAX blacklists"
+msgstr "Стоп-лист номеров (факсы)"
+
+#: src/blocklistPlugin/class_blocklistGeneric.inc:10
+msgid "This does something"
+msgstr "Что-то будет"
+
+#: src/blocklistPlugin/class_blocklistGeneric.inc:152
+msgid "send"
+msgstr "отправка"
+
+#: src/blocklistPlugin/class_blocklistGeneric.inc:152
+msgid "receive"
+msgstr "получение"
+
+#: src/blocklistPlugin/class_blocklistGeneric.inc:374
+#: src/blocklistPlugin/class_blocklistGeneric.inc:382
+#: src/blocklistPlugin/class_blocklistGeneric.inc:383
+#, fuzzy
+msgid "Fax blacklists"
+msgstr "Стоп-лист номеров (факсы)"
+
+#: src/blocklistPlugin/class_blocklistGeneric.inc:391
+msgid "RDN for facsimile blocklist storage."
+msgstr ""
+
+#: src/blocklistPlugin/class_blocklistGeneric.inc:401
+#: src/blocklistPlugin/blocklist-list.xml:57
+#: src/blocklistPlugin/generic.tpl:45
+msgid "Description"
+msgstr "Описание"
+
+#: src/blocklistPlugin/class_blocklistGeneric.inc:403
+#, fuzzy
+msgid "Send blacklist entries"
+msgstr "Показать стоп-листы отправки"
+
+#: src/blocklistPlugin/class_blocklistGeneric.inc:404
+#, fuzzy
+msgid "Receive blacklist entries"
+msgstr "Показать стоп-листы получения"
+
+#: src/blocklistPlugin/class_blocklistGeneric.inc:405
+#: src/blocklistPlugin/generic.tpl:32
+#, fuzzy
+msgid "Blacklist type"
+msgstr "Управление \"черными списками\""
+
+#: src/blocklistPlugin/blocklist-list.xml:11
+#, fuzzy
+msgid "List of blacklists"
+msgstr "Стоп-листы"
+
+#: src/blocklistPlugin/blocklist-list.xml:65
+msgid "Actions"
+msgstr "Действия"
+
+#: src/blocklistPlugin/blocklist-list.xml:76
+msgid "Create"
+msgstr "Создать"
+
+#: src/blocklistPlugin/blocklist-list.xml:82 src/blocklistPlugin/generic.tpl:2
+#, fuzzy
+msgid "Blacklist"
+msgstr "\"Черные списки\""
+
+#: src/blocklistPlugin/blocklist-list.xml:101
+#: src/blocklistPlugin/blocklist-list.xml:146
+msgid "Remove"
+msgstr "Удалить"
+
+#: src/blocklistPlugin/generic.tpl:6
+#, fuzzy
+msgid "Blacklist generic"
+msgstr "Управление \"черными списками\""
+
+#: src/blocklistPlugin/generic.tpl:34
+msgid "Type"
+msgstr "Тип"
+
+#: src/blocklistPlugin/generic.tpl:37
+#, fuzzy
+msgid "Select whether to filter incoming or outgoing calls"
+msgstr "Выберите, нужно ли фильтровать входящие или исходящие звонки"
+
+#: src/blocklistPlugin/generic.tpl:48
+#, fuzzy
+msgid "Descriptive text for this blacklist"
+msgstr "Описание стоп-листа"
+
+#: src/blocklistPlugin/generic.tpl:59 src/blocklistPlugin/generic.tpl:63
+msgid "Blocked numbers"
+msgstr "Блокируемые номера"
+
+#: src/blocklistPlugin/generic.tpl:87
+msgid "Information"
+msgstr "Информация"
+
+#: src/blocklistPlugin/generic.tpl:89
+msgid "Numbers can also contain wild cards."
+msgstr "Вместо точных номеров можно использовать шаблоны."
+
+#: src/blocklistPlugin/blocklist-filter.xml:19
+#: src/faxNumberSelectDialog/faxNumberSelect-filter.xml:21
+#, fuzzy
+msgid "Default filter"
+msgstr "Параметры загрузки"
+
+#: src/blocklistPlugin/blocklist-filter.xml:33
+#, fuzzy
+msgid "Receive"
+msgstr "Получатель"
+
+#: src/blocklistPlugin/blocklist-filter.xml:47
+#, fuzzy
+msgid "Send"
+msgstr "Отправитель"
+
+#: src/faxNumberSelectDialog/class_faxNumberSelect.inc:28
+#, fuzzy
+msgid "Fax number selection"
+msgstr "Настройки Samba"
+
+#: src/faxNumberSelectDialog/faxNumberSelect-list.xml:10
+#, fuzzy
+msgid "Please select the desired entries"
+msgstr "Язык по умолчанию"
+
+#: src/faxNumberSelectDialog/faxNumberSelect-list.xml:40
+msgid "Given name"
+msgstr "Имя"
+
+#: src/faxNumberSelectDialog/faxNumberSelect-list.xml:48
+#, fuzzy
+msgid "Surname"
+msgstr "Имя сервера"
+
+#: src/GofaxService/class_goFaxServer.inc:30
+#, fuzzy
+msgid "FAX database"
+msgstr "Базы данных"
+
+#: src/GofaxService/class_goFaxServer.inc:59
+#, fuzzy
+msgid "FAX database configuration"
+msgstr "Базы данных"
+
+#: src/GofaxService/class_goFaxServer.inc:71
+#: src/GofaxService/class_goFaxServer.inc:102
+#: src/GofaxService/goFaxServer.tpl:12
+msgid "Password"
+msgstr "Пароль"
+
+#: src/GofaxService/class_goFaxServer.inc:88
+#: src/GofaxService/class_goFaxServer.inc:89
+#: src/GofaxService/goFaxServer.tpl:2
+#, fuzzy
+msgid "Fax database"
+msgstr "Базы данных"
+
+#: src/GofaxService/class_goFaxServer.inc:89
+msgid "Services"
+msgstr "Сервисы"
+
+#: src/GofaxService/class_goFaxServer.inc:101
+#, fuzzy
+msgid "Login name"
+msgstr "Местоположение"
+
+#: src/GofaxService/class_goFaxServer.inc:104
+#, fuzzy
+msgid "Start"
+msgstr "Запуск"
+
+#: src/GofaxService/class_goFaxServer.inc:105
+msgid "Stop"
+msgstr ""
+
+#: src/GofaxService/class_goFaxServer.inc:106
+#, fuzzy
+msgid "Restart"
+msgstr "Повторить"
+
+#: src/GofaxService/goFaxServer.tpl:1
+#, fuzzy
+msgid "FAX database information"
+msgstr "Базы данных"
+
+#: src/GofaxService/goFaxServer.tpl:4
+#, fuzzy
+msgid "FAX DB user"
+msgstr "Показать пользователей факсов"
+
+#~ msgid "Click the 'Edit' button below to change informations in this dialog"
+#~ msgstr "Нажмите 'Изменить' чтобы отредактировать данные в этой форме."
+
+#~ msgid "FAX settings"
+#~ msgstr "Настройки факса"
+
+#, fuzzy
+#~ msgid "Alternate fax number"
+#~ msgstr "Альтернативные номера факсов"
+
+#~ msgid "Deliver fax as mail"
+#~ msgstr "Отправлять факсы по эл. почте"
+
+#~ msgid "Deliver fax to printer"
+#~ msgstr "Отправлять факсы на принтер"
+
+#~ msgid "FAX preview - please wait"
+#~ msgstr "Предварительный просмотр - пожалуйста, подождите"
+
+#~ msgid "in"
+#~ msgstr "в"
+
+#~ msgid "Select subtree to base search on"
+#~ msgstr "Выберите ветку для поиска"
+
+#~ msgid "during"
+#~ msgstr "в течение"
+
+#, fuzzy
+#~ msgid "Insufficient permissions"
+#~ msgstr "Права для членов группы"
+
+#, fuzzy
+#~ msgid "Fax report"
+#~ msgstr "Отчеты о факсах"
+
+#~ msgid "Warning"
+#~ msgstr "Предупреждение"
+
+#~ msgid ""
+#~ "Please double check if you really want to do this since there is no way "
+#~ "for GOsa to get your data back."
+#~ msgstr ""
+#~ "Подумайте еще раз, действительно ли вам нужно удаление, так как GOsa не "
+#~ "сможет восстановить эти данные."
+
+#, fuzzy
+#~ msgid ""
+#~ "So - if you're sure - press 'Delete' to continue or 'Cancel' to abort."
+#~ msgstr ""
+#~ "Если вы уверены в своих действиях, нажмите на кнопку <i>Удалить</i>, "
+#~ "иначе нажмите <i>Отмена</i>."
+
+#~ msgid "Choose subtree to place group in"
+#~ msgstr "Выберите ветку для группы"
+
+#, fuzzy
+#~ msgid "Select a base"
+#~ msgstr "Выберите, чтобы просмотреть серверы"
+
+#~ msgid "Blocklist management"
+#~ msgstr "Управление \"черными списками\""
+
+#~ msgid "Select numbers to add"
+#~ msgstr "Выбрать номера для добавления"
+
+#~ msgid "Filters"
+#~ msgstr "Фильтры"
+
+#~ msgid "Display numbers of department"
+#~ msgstr "Показать номера из подразделения"
+
+#~ msgid "Choose the department the search will be based on"
+#~ msgstr "Выбрать раздел, для которого будет осуществлен поиск"
+
+#~ msgid "Display numbers matching"
+#~ msgstr "Показать совпадения номеров"
+
+#~ msgid "Regular expression for matching numbers"
+#~ msgstr "Регулярное выражение, соответствующее номерам"
+
+#~ msgid "Display numbers of user"
+#~ msgstr "Показать номера пользователя"
+
+#~ msgid "User name of which numbers are shown"
+#~ msgstr "Имя пользователя, для которого перечисляются номера"
+
+#~ msgid ""
+#~ "Please double check if your really want to do this since there is no way "
+#~ "for GOsa to get your data back."
+#~ msgstr ""
+#~ "Подумайте еще раз, действительно ли вам нужно удаление, так как GOsa не "
+#~ "сможет отменить результаты этой операции."
+
+#, fuzzy
+#~ msgid "Select all"
+#~ msgstr "Удалить"
+
+#~ msgid "Department"
+#~ msgstr "Подразделение"
+
+#~ msgid "Show send blocklists"
+#~ msgstr "Показать стоп-листы отправки"
+
+#~ msgid "Show receive blocklists"
+#~ msgstr "Показать стоп-листы получения"
+
+#~ msgid "Regular expression for matching list names"
+#~ msgstr "Регулярное выражение, соответствующее именам списков"
+
+#, fuzzy
+#~ msgid "Submit department"
+#~ msgstr "Показать подразделения"
+
+#, fuzzy
+#~ msgid "edit"
+#~ msgstr "Изменить"
+
+#, fuzzy
+#~ msgid "Edit user"
+#~ msgstr "Пользователи домена"
+
+#, fuzzy
+#~ msgid "delete"
+#~ msgstr "Удалить"
+
+#, fuzzy
+#~ msgid "Delete user"
+#~ msgstr "Удалить"
+
+#, fuzzy
+#~ msgid "Number of listed '%s'"
+#~ msgstr "Имя стоп-листа"
+
+#, fuzzy
+#~ msgid "blocklists"
+#~ msgstr "\"Черные списки\""
+
+#, fuzzy
+#~ msgid "departments"
+#~ msgstr "Подразделение"
+
+#, fuzzy
+#~ msgid "Permission"
+#~ msgstr "Права для членов группы"
+
+#, fuzzy
+#~ msgid "blocklist"
+#~ msgstr "\"Черные списки\""
+
+#, fuzzy
+#~ msgid "Copy"
+#~ msgstr "Компания"
+
+#, fuzzy
+#~ msgid "Cut"
+#~ msgstr "Выполнить"
+
+#, fuzzy
+#~ msgid "Paste"
+#~ msgstr "Дата"
+
+#, fuzzy
+#~ msgid "cut"
+#~ msgstr "Выполнить"
+
+#, fuzzy
+#~ msgid "Cut this entry"
+#~ msgstr "Редактиовать объект"
+
+#, fuzzy
+#~ msgid "Copy this entry"
+#~ msgstr "Редактиовать объект"
+
+#, fuzzy
+#~ msgid "Faxi number"
+#~ msgstr "Терминал"
+
+#~ msgid "This account has no fax extensions."
+#~ msgstr "Для этой учетной записи нет расширений факса."
+
+#~ msgid ""
+#~ "This account has fax features enabled. You can disable them by clicking "
+#~ "below."
+#~ msgstr ""
+#~ "В этой учетной записи есть настройки факса. Вы можете удалить их, щелкнув "
+#~ "ниже."
+
+#~ msgid ""
+#~ "This account has fax features disabled. You can enable them by clicking "
+#~ "below."
+#~ msgstr ""
+#~ "В этой учетной записи нет настроек факса. Вы можете добавить их, щелкнув "
+#~ "ниже."
+
+#, fuzzy
+#~ msgid "Fax is empty!"
+#~ msgstr "Отчеты о факсах"
+
+#~ msgid "Select to see send blocklists"
+#~ msgstr "Выберите, чтобы просмотреть стоп-листы (отправка)"
+
+#~ msgid "Select to see receive blocklists"
+#~ msgstr "Выберите, чтобы просмотреть стоп-листы (получение)"
+
+#, fuzzy
+#~ msgid "Select to search within subtrees"
+#~ msgstr "Искать в поддеревьях"
+
+#, fuzzy
+#~ msgid "Search in subtrees"
+#~ msgstr "Искать в поддеревьях"
+
+#~ msgid "Save"
+#~ msgstr "Сохранить"
+
+#~ msgid "Cancel"
+#~ msgstr "Отмена"
+
+#, fuzzy
+#~ msgid "The attribute user is empty or contains invalid characters."
+#~ msgstr "Неправильное указание таймаута '%s'"
+
+#, fuzzy
+#~ msgid "The attribute password is empty or contains invalid characters."
+#~ msgstr "Неправильное указание таймаута '%s'"
+
+#~ msgid "Back"
+#~ msgstr "Назад"
+
+#~ msgid "Add"
+#~ msgstr "Добавить"
+
+#~ msgid "Delete"
+#~ msgstr "Удалить"
+
+#~ msgid "Apply"
+#~ msgstr "Применить"
+
+#, fuzzy
+#~ msgid "Name contains invalid characters!"
+#~ msgstr "Значение поля 'Имя' содержит недопустимые символы."
+
+#, fuzzy
+#~ msgid "Name is already in use!"
+#~ msgstr "Указанное имя уже используется."
+
+#, fuzzy
+#~ msgid ""
+#~ "This menu allows you to create, delete and edit selected blocklists. "
+#~ "Having a large size of lists, you might prefer the range selectors on top "
+#~ "of the select box."
+#~ msgstr ""
+#~ "С помощью этого меню вы можете добавлять, изменять и удалять выбранные "
+#~ "подразделения. Если у вас достаточно большое количество подразделений, вы "
+#~ "можете использовать групповое выделение."
+
+#, fuzzy
+#~ msgid "Number of listed departments"
+#~ msgstr "Подразделение"
+
+#, fuzzy
+#~ msgid "You're about to delete the following blocklists(s) %s"
+#~ msgstr "Вы собираетесь удалить стоп-лист '%s'."
+
+#, fuzzy
+#~ msgid "You have not permission to delete '%s'!"
+#~ msgstr "У вас недостаточно прав для удаления этого стоп-листа."
+
+#~ msgid "You're about to delete the blocklist '%s'."
+#~ msgstr "Вы собираетесь удалить стоп-лист '%s'."
+
+#, fuzzy
+#~ msgid "You have not permission to delete this entry!"
+#~ msgstr "У вас недостаточно прав для удаления этого стоп-листа."
+
+#, fuzzy
+#~ msgid "Removing of user/fax account with dn '%s' failed."
+#~ msgstr "Удалить учетную запись POSIX"
+
+#, fuzzy
+#~ msgid "Saving of user/fax account with dn '%s' failed."
+#~ msgstr "Аккаунт Proxy"
+
+#, fuzzy
+#~ msgid "Removing of blocklist with dn '%s' failed."
+#~ msgstr "Удалить приложения"
+
+#, fuzzy
+#~ msgid "Saving of blocklist with dn '%s' failed."
+#~ msgstr "Приложение"
+
+#~ msgid "You're trying to add an invalid phone number."
+#~ msgstr "Вы пытаетесь ввести некорректный номер телефона."
+
+#~ msgid "The required field 'Fax' is not set."
+#~ msgstr "Обязательное поле \"Факс\" не заполнено."
+
+#~ msgid "Please enter a valid telephone number in the 'Fax' field."
+#~ msgstr "Введите корректный номер телефона в поле \"Факс\"."
+
+#~ msgid "Can't select fax database for report generation!"
+#~ msgstr "Не удается выбрать базу данных факсов для создания отчетов!"
+
+#, fuzzy
+#~ msgid "Can't query fax table 'faxlog' for report generation!"
+#~ msgstr "Не удается выбрать базу данных факсов для создания отчетов!"
+
+#~ msgid "Query for fax database failed!"
+#~ msgstr "Невозможно выполнить запрос к базе данных факсов!"
+
+#~ msgid "You have no permission to retrieve informations about this fax id!"
+#~ msgstr "У вас недостаточно прав для получения информации об этом факсе!"
+
+#, fuzzy
+#~ msgid "You are not allowed to delete the blocklist '%s'!"
+#~ msgstr "У вас недостаточно прав для удаления этого пользователя!"
+
+#~ msgid "Please specify a valid phone number."
+#~ msgstr "Укажите корректный номер телефона."
+
+#~ msgid "Required field 'Name' is not set."
+#~ msgstr "Обязательное поле \"Имя\" не заполнено."

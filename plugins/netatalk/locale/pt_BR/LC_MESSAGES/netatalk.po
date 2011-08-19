@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GOsa plugins - netatalk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:31+0200\n"
+"PO-Revision-Date: 2010-03-11 20:34-0300\n"
+"Last-Translator: Marcos Amorim <marcosmamorim@gmail.com>\n"
+"Language-Team:  Marcos Amorim <marcosmamorim@gmail.com> Clever de Oliveira "
+"<clever@dri.cefetmg.br> <marcosmamorim@gmail.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+
+#: src/netatalkPlugin/class_netatalk.inc:36
+#: src/netatalkPlugin/class_netatalk.inc:173
+#: src/netatalkPlugin/class_netatalk.inc:181
+#: src/netatalkPlugin/class_netatalk.inc:182
+#: src/netatalkPlugin/class_netatalk.inc:187
+#: src/netatalkPlugin/class_netatalk.inc:188
+#: src/netatalkPlugin/class_netatalk.inc:190
+#: src/netatalkPlugin/class_netatalk.inc:191
+#: src/netatalkPlugin/class_netatalk.inc:193
+#: src/netatalkPlugin/class_netatalk.inc:194
+#: src/netatalkPlugin/class_netatalk.inc:368
+msgid "Netatalk"
+msgstr "Netatalk"
+
+#: src/netatalkPlugin/class_netatalk.inc:37
+#, fuzzy
+msgid "Manage Netatalk account"
+msgstr "Gerenciar conta netatalk"
+
+#: src/netatalkPlugin/class_netatalk.inc:188
+msgid "POSIX"
+msgstr "POSIX"
+
+#: src/netatalkPlugin/class_netatalk.inc:191
+#, fuzzy
+msgid "Netatalk or NFS share"
+msgstr "compartilhamento netatalk ou NFS"
+
+#: src/netatalkPlugin/class_netatalk.inc:224
+#: src/netatalkPlugin/class_netatalk.inc:380 src/netatalkPlugin/netatalk.tpl:4
+msgid "Share"
+msgstr "Compartilhamento"
+
+#: src/netatalkPlugin/class_netatalk.inc:288
+#: src/netatalkPlugin/class_netatalk.inc:353
+msgid "LDAP error"
+msgstr "Erro LDAP"
+
+#: src/netatalkPlugin/class_netatalk.inc:372
+msgid "My account"
+msgstr "Minha conta"
+
+#: src/netatalkPlugin/class_netatalk.inc:379
+msgid "User home path"
+msgstr "Diretório pessoal"
+
+#: src/netatalkPlugin/netatalk.tpl:1
+#, fuzzy
+msgid "Netatalk configuration"
+msgstr "Configuração do PHP"
+
+#: src/netatalkPlugin/netatalk.tpl:16
+msgid "Path"
+msgstr "Caminho"
+
+#~ msgid "netatalk"
+#~ msgstr "Netatalk"
+
+#~ msgid "Netatalk settings"
+#~ msgstr "Configurações Netatalk"

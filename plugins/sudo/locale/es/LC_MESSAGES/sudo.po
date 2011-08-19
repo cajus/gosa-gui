@@ -1,0 +1,422 @@
+# translation of admin.po to
+# translation of systems.po to
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# , 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: admin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:32+0200\n"
+"PO-Revision-Date: 2010-01-28 23:56+0100\n"
+"Last-Translator: \n"
+"Language-Team: Spanish <>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/sudoPlugin/sudo-list.xml:11
+#, fuzzy
+msgid "List of Sudo roles"
+msgstr "Lista de roles Sudo"
+
+#: src/sudoPlugin/sudo-list.xml:15 src/sudoPlugin/sudo-list.xml:65
+msgid "Role"
+msgstr "Rol"
+
+#: src/sudoPlugin/sudo-list.xml:32 src/sudoPlugin/class_sudoGeneric.inc:476
+#: src/sudoPlugin/class_sudoGeneric.inc:481
+#: src/sudoPlugin/class_sudoGeneric.inc:486
+#: src/sudoPlugin/class_sudoGeneric.inc:495
+#: src/sudoPlugin/class_sudoGeneric.inc:548 src/sudoPlugin/paste_generic.tpl:5
+#: src/sudoPlugin/generic.tpl:7 src/sudoPlugin/generic.tpl:34
+msgid "Name"
+msgstr "Nombre"
+
+#: src/sudoPlugin/sudo-list.xml:40 src/sudoPlugin/class_sudoGeneric.inc:549
+#: src/sudoPlugin/generic.tpl:15 src/sudoPlugin/generic.tpl:44
+msgid "Description"
+msgstr "Descripción"
+
+#: src/sudoPlugin/sudo-list.xml:48
+msgid "Actions"
+msgstr "Acciones"
+
+#: src/sudoPlugin/sudo-list.xml:59
+msgid "Create"
+msgstr "Crear"
+
+#: src/sudoPlugin/sudo-list.xml:72
+msgid "Default"
+msgstr "Por defecto"
+
+#: src/sudoPlugin/sudo-list.xml:85
+msgid "Remove"
+msgstr "Eliminar"
+
+#: src/sudoPlugin/sudo-list.xml:117
+#, fuzzy
+msgid "Edit Sudo role"
+msgstr "Editar rol Sudo"
+
+#: src/sudoPlugin/sudo-list.xml:130
+#, fuzzy
+msgid "Remove Sudo role"
+msgstr "Eliminar rol Sudo"
+
+#: src/sudoPlugin/class_sudoOption.inc:154
+msgid "Unknown option"
+msgstr "Opción desconocida"
+
+#: src/sudoPlugin/class_sudoOption.inc:155
+#, fuzzy, php-format
+msgid "The Sudo option '%s' is invalid!"
+msgstr "¡La opción Sudo %s no es válida!"
+
+#: src/sudoPlugin/class_sudoOption.inc:284
+#: src/sudoPlugin/class_sudoOption.inc:286
+msgid "string"
+msgstr "cadena de texto"
+
+#: src/sudoPlugin/class_sudoOption.inc:284
+#: src/sudoPlugin/class_sudoOption.inc:285
+#: src/sudoPlugin/class_sudoOption.inc:286
+#, fuzzy
+msgid "boolean"
+msgstr "Booleano"
+
+#: src/sudoPlugin/class_sudoOption.inc:285
+msgid "integer"
+msgstr "Entero"
+
+#: src/sudoPlugin/class_sudoOption.inc:286
+msgid "list"
+msgstr "lista"
+
+#: src/sudoPlugin/class_sudoOption.inc:538 src/sudoPlugin/options.tpl:8
+msgid "Options"
+msgstr "Opciones"
+
+#: src/sudoPlugin/class_sudoOption.inc:539
+#: src/sudoPlugin/class_sudoOption.inc:546 src/sudoPlugin/options.tpl:3
+msgid "Sudo options"
+msgstr "Opciones Sudo"
+
+#: src/sudoPlugin/class_sudoGeneric.inc:112
+msgid "Type"
+msgstr "Tipo"
+
+#: src/sudoPlugin/class_sudoGeneric.inc:112
+msgid "Member"
+msgstr "Miembro"
+
+#: src/sudoPlugin/class_sudoGeneric.inc:112
+#: src/sudoPlugin/class_sudoGeneric.inc:115
+#: src/sudoPlugin/class_sudoGeneric.inc:117
+#: src/sudoPlugin/class_sudoGeneric.inc:119
+#, fuzzy
+msgid "Option"
+msgstr "Opciones"
+
+#: src/sudoPlugin/class_sudoGeneric.inc:115
+#, fuzzy
+msgid "System"
+msgstr "Sistemas"
+
+#: src/sudoPlugin/class_sudoGeneric.inc:117
+#: src/sudoPlugin/class_sudoGeneric.inc:552
+msgid "Command"
+msgstr "Comando"
+
+#: src/sudoPlugin/class_sudoGeneric.inc:119
+#: src/sudoPlugin/class_sudoGeneric.inc:366
+msgid "User"
+msgstr "Usuario"
+
+#: src/sudoPlugin/class_sudoGeneric.inc:308
+msgid "Error"
+msgstr "Error"
+
+#: src/sudoPlugin/class_sudoGeneric.inc:367
+msgid "Group"
+msgstr "Grupo"
+
+#: src/sudoPlugin/class_sudoGeneric.inc:462
+msgid "LDAP error"
+msgstr "Error LDAP"
+
+#: src/sudoPlugin/class_sudoGeneric.inc:525
+msgid "Sudo"
+msgstr "Sudo"
+
+#: src/sudoPlugin/class_sudoGeneric.inc:526
+#: src/sudoPlugin/class_sudoGeneric.inc:531
+msgid "Sudo role"
+msgstr "Rol Sudo"
+
+#: src/sudoPlugin/class_sudoGeneric.inc:539
+#, fuzzy
+msgid "RDN for sudo rule storage."
+msgstr "Ruta del almacén de perfiles kiosk"
+
+#: src/sudoPlugin/class_sudoGeneric.inc:547
+msgid "System trust"
+msgstr "Sistema de seguridad"
+
+#: src/sudoPlugin/class_sudoGeneric.inc:550
+msgid "Users"
+msgstr "Usuarios"
+
+#: src/sudoPlugin/class_sudoGeneric.inc:551
+msgid "Host"
+msgstr "Nombre de equipo"
+
+#: src/sudoPlugin/class_sudoGeneric.inc:553
+msgid "Run as user"
+msgstr "Ejecutar como usuario"
+
+#: src/sudoPlugin/class_sudoGeneric.inc:554
+msgid "Access control list"
+msgstr "Lista de control de acceso"
+
+#: src/sudoPlugin/options.tpl:5
+msgid "Option name"
+msgstr "Nombre de la opción"
+
+#: src/sudoPlugin/options.tpl:7
+msgid "Value"
+msgstr "Valor"
+
+#: src/sudoPlugin/options.tpl:89
+msgid "Available options"
+msgstr "Opciones disponibles"
+
+#: src/sudoPlugin/paste_generic.tpl:1 src/sudoPlugin/generic.tpl:3
+#: src/sudoPlugin/generic.tpl:4 src/sudoPlugin/generic.tpl:27
+#: src/sudoPlugin/generic.tpl:29 src/sudoPlugin/generic.tpl:31
+msgid "Generic"
+msgstr "Genérico"
+
+#: src/sudoPlugin/paste_generic.tpl:1 src/sudoPlugin/generic.tpl:3
+#: src/sudoPlugin/generic.tpl:4
+msgid "global defaults"
+msgstr "Opciones predeterminadas"
+
+#: src/sudoPlugin/paste_generic.tpl:2
+#, fuzzy
+msgid "Paste sudo entry"
+msgstr "Pegar"
+
+#: src/sudoPlugin/sudo-filter.xml:22
+#, fuzzy
+msgid "Default filter"
+msgstr "Parámetro"
+
+#: src/sudoPlugin/sudo-filter.xml:36
+#, fuzzy
+msgid "By member"
+msgstr "Sin miembros"
+
+#: src/sudoPlugin/class_sudoManagement.inc:25
+#, fuzzy
+msgid "Sudo rules"
+msgstr "Roles Sudo"
+
+#: src/sudoPlugin/class_sudoManagement.inc:26
+msgid "Manage all aspects of system wide sudoers definitions"
+msgstr ""
+
+#: src/sudoPlugin/generic.tpl:61
+msgid "Users and groups"
+msgstr "Usuarios y grupos"
+
+#: src/sudoPlugin/generic.tpl:73 src/sudoPlugin/generic.tpl:91
+msgid "Add from list"
+msgstr "Añadir de la lista"
+
+#: src/sudoPlugin/generic.tpl:78
+msgid "Systems"
+msgstr "Sistemas"
+
+#: src/sudoPlugin/generic.tpl:99
+msgid "Commands"
+msgstr "Comandos"
+
+#: src/sudoPlugin/generic.tpl:112
+msgid "Run as"
+msgstr "Ejecutar como"
+
+#~ msgid "Filter"
+#~ msgstr "Filtro"
+
+#~ msgid "Warning"
+#~ msgstr "Aviso"
+
+#~ msgid ""
+#~ "Please double check if you really want to do this since there is no way "
+#~ "for GOsa to get your data back."
+#~ msgstr ""
+#~ "Si está seguro de lo que quiere hacer pulse dos veces, ya que no hay "
+#~ "forma de que GOsa pueda recuperar posteriormente esa información"
+
+#~ msgid ""
+#~ "So - if you're sure - press 'Delete' to continue or 'Cancel' to abort."
+#~ msgstr ""
+#~ "Entonces, si esta seguro, presione <i>Eliminar</i> para continuar o "
+#~ "<i>Cancelar</i> para Abortar."
+
+#~ msgid "disabled"
+#~ msgstr "desactivado"
+
+#~ msgid "full access"
+#~ msgstr "Acceso sin restricciones"
+
+#~ msgid "allow access to these hosts"
+#~ msgstr "Permitir el acceso a estos equipos"
+
+#~ msgid "Trust mode"
+#~ msgstr "Modo seguro"
+
+#~ msgid "Sudo management"
+#~ msgstr "Administración Sudo"
+
+#, fuzzy
+#~ msgid "List of users and groups"
+#~ msgstr "Usuarios y grupos"
+
+#, fuzzy
+#~ msgid "Description name"
+#~ msgstr "Descripción"
+
+#~ msgid "Add"
+#~ msgstr "Añadir"
+
+#~ msgid "Base"
+#~ msgstr "Base"
+
+#~ msgid "Update"
+#~ msgstr "Actualizar"
+
+#~ msgid "Submit"
+#~ msgstr "Enviar"
+
+#~ msgid "Select systems to add"
+#~ msgstr "Seleccione los sistemas a añadir"
+
+#~ msgid "Display systems of department"
+#~ msgstr "Mostrar los sistemas del departamento"
+
+#~ msgid "Choose the department the search will be based on"
+#~ msgstr "Escoja el departamento base de la búsqueda"
+
+#~ msgid "Display systems matching"
+#~ msgstr "Mostrar sistemas que coincidan con"
+
+#~ msgid "Regular expression for matching addresses"
+#~ msgstr "Expresiones regulares para buscar direcciones"
+
+#, fuzzy
+#~ msgid "List of systems"
+#~ msgstr "Lista de usuarios"
+
+#~ msgid "Server"
+#~ msgstr "Servidor"
+
+#~ msgid "Workstation"
+#~ msgstr "Estación de trabajo"
+
+#~ msgid "Terminal"
+#~ msgstr "Terminal"
+
+#~ msgid "Show users"
+#~ msgstr "Mostrar usuarios"
+
+#~ msgid "Show groups"
+#~ msgstr "Mostrar grupos"
+
+#~ msgid "Show servers"
+#~ msgstr "Mostrar servidores"
+
+#~ msgid "Show workstations"
+#~ msgstr "Mostrar estaciones de trabajo"
+
+#~ msgid "Show terminals"
+#~ msgstr "Mostrar terminales"
+
+#~ msgid "If you're sure, press 'Delete' to continue or 'Cancel' to abort."
+#~ msgstr ""
+#~ "Entonces, si esta seguro, presione <i>Eliminar</i> para continuar o "
+#~ "<i>Cancelar</i> para Abortar."
+
+#~ msgid "Select the target objects for your scheduled action."
+#~ msgstr "Seleccionar los objetos objetivos para su acción programada."
+
+#~ msgid "Available systems"
+#~ msgstr "Sistemas disponibles"
+
+#~ msgid "Object name"
+#~ msgstr "Nombre de objeto"
+
+#~ msgid "Select to see terminals"
+#~ msgstr "Seleccione para ver los terminales"
+
+#~ msgid "Select to see servers"
+#~ msgstr "Seleccione para mostrar los servidores"
+
+#~ msgid "Select to see workstations"
+#~ msgstr "Seleccione para mostrar las estaciones de trabajo"
+
+#~ msgid "Regular expression for matching group names"
+#~ msgstr "Expresión regular para buscar nombres de grupos"
+
+#~ msgid "Select the target objects"
+#~ msgstr "Seleccione los objetos"
+
+#~ msgid "Available members"
+#~ msgstr "Miembros disponibles"
+
+#~ msgid "Select to see users"
+#~ msgstr "Seleccione para mostrar los usuarios"
+
+#~ msgid "Select to see groups"
+#~ msgstr "Seleccione para mostrar grupos"
+
+#~ msgid "Apply"
+#~ msgstr "Aplicar"
+
+#~ msgid "Sudo role administration"
+#~ msgstr "Administración de rol Sudo"
+
+#~ msgid "Select all"
+#~ msgstr "Seleccione todos"
+
+#~ msgid "Department"
+#~ msgstr "Departamento"
+
+#~ msgid "Regular expression for matching role names"
+#~ msgstr "Expresión regular para buscar nombres de roles"
+
+#~ msgid "Regular expression for matching role member names"
+#~ msgstr "Expresión regular para buscar miembros de roles"
+
+#~ msgid "Edit this entry"
+#~ msgstr "Editar esta entrada"
+
+#~ msgid "Delete this entry"
+#~ msgstr "Eliminar esta entrada"
+
+#~ msgid "Number of listed roles"
+#~ msgstr "Número de roles mostrados"
+
+#~ msgid "Manage sudo roles"
+#~ msgstr "Administrar roles Sudo"
+
+#~ msgid "Permission"
+#~ msgstr "Permiso"
+
+#~ msgid "Permission error"
+#~ msgstr "Error de Permisos"

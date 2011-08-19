@@ -1,0 +1,1568 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: polski\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:32+0200\n"
+"PO-Revision-Date: 2007-07-14 21:45+0100\n"
+"Last-Translator: Piotr Rybicki <meritus@innervision.pl>\n"
+"Language-Team: Piotr Rybicki <meritus@innervision.pl>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: POLAND\n"
+"X-Poedit-SourceCharset: iso-8859-2\n"
+"X-Poedit-Basepath: tedst\n"
+
+#: src/servicesExtension/class_goService.inc:44
+#: src/servicesExtension/class_goService.inc:81
+#, fuzzy
+msgid "Empty service"
+msgstr "Edytuj usługę"
+
+#: src/servicesExtension/class_goService.inc:124
+#: src/servicesExtension/class_goService.inc:152
+#: src/servicesExtension/class_goService.inc:185
+#: src/systemsPlugin/class_termDNS.inc:515
+#: src/systemsPlugin/class_termDNS.inc:823
+#: src/systemsPlugin/class_termDNS.inc:842
+#: src/systemsPlugin/class_termDNS.inc:863
+#: src/systemsPlugin/class_termDNS.inc:868
+#: src/systemsPlugin/class_termDNS.inc:886
+#: src/systemsPlugin/class_termDNS.inc:962
+#: src/systemsPlugin/class_systemManagement.inc:327
+#: src/systemsPlugin/class_systemManagement.inc:1092
+#: src/systemsPlugin/class_servGeneric.inc:268
+#: src/systemsPlugin/class_servGeneric.inc:436
+#: src/systemsPlugin/class_componentGeneric.inc:134
+#: src/systemsPlugin/class_componentGeneric.inc:284
+#, fuzzy
+msgid "LDAP error"
+msgstr "błąd LDAP:"
+
+#: src/systemsPlugin/system-list.tpl:12 src/systemsPlugin/server.tpl:34
+#: src/systemsPlugin/component.tpl:18
+#: src/systemsPlugin/class_servGeneric.inc:535
+#: src/systemsPlugin/class_componentGeneric.inc:316
+#: src/systemSelectDialog/selectSystem-list.tpl:12
+msgid "Base"
+msgstr "Kontener"
+
+#: src/systemsPlugin/class_termDNS.inc:315
+#: src/systemsPlugin/class_termDNS.inc:362
+#: src/systemsPlugin/class_systemManagement.inc:274
+#: src/systemsPlugin/class_systemManagement.inc:714
+#: src/systemsPlugin/class_systemManagement.inc:720
+#: src/systemsPlugin/class_systemManagement.inc:840
+#: src/systemsPlugin/class_systemManagement.inc:855
+#: src/systemsPlugin/class_servGeneric.inc:302
+#: src/systemsPlugin/class_componentGeneric.inc:166
+#: src/systemsPlugin/class_filterOPSIHOSTS.inc:30
+#: src/systemsPlugin/class_serverService.inc:232
+#: src/systemsPlugin/class_serverService.inc:277
+#: src/systemsPlugin/class_serverService.inc:485
+msgid "Error"
+msgstr "Błąd"
+
+#: src/systemsPlugin/class_termDNS.inc:478
+#, fuzzy
+msgid "Not matching"
+msgstr "Nieaktywne"
+
+#: src/systemsPlugin/class_termDNS.inc:631
+#, fuzzy, php-format
+msgid "IP address %s"
+msgstr "adres IP"
+
+#: src/systemsPlugin/class_termDNS.inc:640
+#: src/systemsPlugin/class_termDNS.inc:652
+#: src/systemsPlugin/class_termDNS.inc:654
+#: src/systemsPlugin/class_termDNS.inc:1033
+#: src/systemsPlugin/class_componentGeneric.inc:197
+#: src/systemsPlugin/class_componentGeneric.inc:200
+msgid "IP address"
+msgstr "adres IP"
+
+#: src/systemsPlugin/class_termDNS.inc:645
+#: src/systemsPlugin/class_termDNS.inc:662
+#: src/systemsPlugin/class_termDNS.inc:664
+#: src/systemsPlugin/class_termDNS.inc:1034
+msgid "MAC address"
+msgstr "Adres MAC"
+
+#: src/systemsPlugin/class_termDNS.inc:679
+#, php-format
+msgid "The IP address '%s' is not part of the selected reverse zone '%s'!"
+msgstr ""
+
+#: src/systemsPlugin/class_termDNS.inc:691
+#, php-format
+msgid "Record type '%s' is duplicated!"
+msgstr ""
+
+#: src/systemsPlugin/class_termDNS.inc:699
+#, php-format
+msgid "Unique record type '%s' is duplicated!"
+msgstr ""
+
+#: src/systemsPlugin/class_termDNS.inc:711
+#, fuzzy, php-format
+msgid ""
+"The IP address '%s' will be added as 'A Record', this will be done "
+"automatically, please remove the record."
+msgstr ""
+"IP '%s' urządzenia jest dodane jako 'rekord A', to zostanie dodane "
+"automatycznie. Proszę usunąć rekord."
+
+#: src/systemsPlugin/class_termDNS.inc:719
+#, fuzzy, php-format
+msgid "Only lowercase records are allowed, please check your '%ss'."
+msgstr "Tylko małe litery są dozwolone, proszę sprawdzić '%s'."
+
+#: src/systemsPlugin/class_termDNS.inc:1024
+msgid "DNS"
+msgstr "DNS"
+
+#: src/systemsPlugin/class_termDNS.inc:1025
+msgid "DNS settings"
+msgstr "Ustawienia DNS"
+
+#: src/systemsPlugin/class_termDNS.inc:1040
+#, fuzzy
+msgid "DNS configuration"
+msgstr "Konfiguracja bazy FAX"
+
+#: src/systemsPlugin/class_termDNS.inc:1043
+#, fuzzy
+msgid "DHCP configuration"
+msgstr "Konfiguracja bazy FAX"
+
+#: src/systemsPlugin/server.tpl:1 src/systemsPlugin/class_servGeneric.inc:516
+#: src/systemsPlugin/system-list.xml:111 src/systemsPlugin/system-list.xml:226
+#: src/systemSelectDialog/selectSystem-list.xml:15
+msgid "Server"
+msgstr "Serwer"
+
+#: src/systemsPlugin/server.tpl:5 src/systemsPlugin/class_servGeneric.inc:506
+#: src/systemsPlugin/class_componentGeneric.inc:292
+msgid "Generic"
+msgstr "Ogólne"
+
+#: src/systemsPlugin/server.tpl:6
+#, fuzzy
+msgid "Server settings"
+msgstr "Ustawienia użytkownika"
+
+#: src/systemsPlugin/server.tpl:8 src/systemsPlugin/paste_generic.tpl:4
+#: src/systemsPlugin/class_servGeneric.inc:328
+#: src/systemsPlugin/class_servGeneric.inc:333
+#: src/systemsPlugin/class_servGeneric.inc:356
+msgid "Server name"
+msgstr "Nazwa serwera"
+
+#: src/systemsPlugin/server.tpl:16 src/systemsPlugin/component.tpl:29
+#: src/systemsPlugin/class_servGeneric.inc:534
+#: src/systemsPlugin/class_componentGeneric.inc:317
+#: src/systemsPlugin/serverService-list.xml:35
+#: src/systemsPlugin/system-list.xml:185
+#: src/systemSelectDialog/selectSystem-list.xml:65
+msgid "Description"
+msgstr "Opis"
+
+#: src/systemsPlugin/server.tpl:24
+msgid "Mode"
+msgstr "Tryb"
+
+#: src/systemsPlugin/server.tpl:27
+msgid "Select terminal mode"
+msgstr "Proszę wybrać tryb terminala"
+
+#: src/systemsPlugin/server.tpl:59
+msgid "Action"
+msgstr "Akcja"
+
+#: src/systemsPlugin/server.tpl:62
+msgid ""
+"System installation in progress, the FAI state cannot be changed right now."
+msgstr ""
+
+#: src/systemsPlugin/server.tpl:65
+msgid "Select action to execute for this server"
+msgstr "Proszę wybrać akcję do wykonania dla tego serwera"
+
+#: src/systemsPlugin/server.tpl:71
+msgid "Execute"
+msgstr "Uruchom"
+
+#: src/systemsPlugin/paste_generic.tpl:2
+#, fuzzy
+msgid "Paste server"
+msgstr "Wklej"
+
+#: src/systemsPlugin/paste_generic.tpl:12
+#, fuzzy
+msgid "Paste workstation"
+msgstr "Nowa stacja robocza"
+
+#: src/systemsPlugin/paste_generic.tpl:14
+#, fuzzy
+msgid "workstation name"
+msgstr "Nazwa stacji roboczej"
+
+#: src/systemsPlugin/paste_generic.tpl:22
+#, fuzzy
+msgid "Paste terminal"
+msgstr "Nowy terminal"
+
+#: src/systemsPlugin/paste_generic.tpl:24
+msgid "Terminal name"
+msgstr "Nazwa terminala"
+
+#: src/systemsPlugin/paste_generic.tpl:32
+#, fuzzy
+msgid "Paste printer"
+msgstr "Drukarka"
+
+#: src/systemsPlugin/paste_generic.tpl:34
+msgid "Printer name"
+msgstr "nazwa drukarki"
+
+#: src/systemsPlugin/paste_generic.tpl:42
+#, fuzzy
+msgid "Paste network component"
+msgstr "Inny element sieciowy"
+
+#: src/systemsPlugin/paste_generic.tpl:44
+#: src/systemsPlugin/class_componentGeneric.inc:187
+#: src/systemsPlugin/class_componentGeneric.inc:192
+#: src/systemsPlugin/class_componentGeneric.inc:214
+#, fuzzy
+msgid "Component name"
+msgstr "Nazwa potoczna"
+
+#: src/systemsPlugin/class_systemManagement.inc:60
+msgid "Systems"
+msgstr "Systemy"
+
+#: src/systemsPlugin/class_systemManagement.inc:61
+msgid "Manage systems, their services and prepare them for use with GOsa"
+msgstr ""
+
+#: src/systemsPlugin/class_systemManagement.inc:176
+#: src/systemsPlugin/class_systemManagement.inc:283
+#, fuzzy
+msgid "Permission error"
+msgstr "Uprawnienia"
+
+#: src/systemsPlugin/class_systemManagement.inc:176
+#: src/systemsPlugin/class_systemManagement.inc:283
+#, fuzzy
+msgid "You have no permission to change this password!"
+msgstr "Brak uprawnień do zmiany własnego hasła w tym momencie"
+
+#: src/systemsPlugin/class_systemManagement.inc:275
+#, fuzzy
+msgid ""
+"The passwords you've entered as 'New password' and 'Repeated password' do "
+"not   match!"
+msgstr "Hasła podane jako nowe i powtórzone nie zgadzają się!"
+
+#: src/systemsPlugin/class_systemManagement.inc:321
+#, fuzzy
+msgid "Password method"
+msgstr "Przechowywanie hasła"
+
+#: src/systemsPlugin/class_systemManagement.inc:321
+msgid "Password method crypt is missing. Cannot set system password."
+msgstr ""
+
+#: src/systemsPlugin/class_systemManagement.inc:376
+msgid "Back"
+msgstr "Wróć"
+
+#: src/systemsPlugin/class_systemManagement.inc:422
+msgid "Creating the image failed. Please see the report below."
+msgstr ""
+
+#: src/systemsPlugin/class_systemManagement.inc:427
+#, fuzzy, php-format
+msgid "Command '%s', specified for ISO creation doesn't seem to exist."
+msgstr "Polecenie '%s', podane jako POSTMODIFY dla dodatku '%s' nie istnieje."
+
+#: src/systemsPlugin/class_systemManagement.inc:519
+#: src/systemsPlugin/class_systemManagement.inc:548
+#: src/systemsPlugin/class_servGeneric.inc:175
+#: src/systemsPlugin/class_servGeneric.inc:456
+#, fuzzy
+msgid "Service infrastructure"
+msgstr "Nazwa usługi"
+
+#: src/systemsPlugin/class_systemManagement.inc:597
+#: src/systemsPlugin/class_systemManagement.inc:685
+#: src/systemsPlugin/class_systemManagement.inc:1137
+#: src/systemsPlugin/class_systemManagement.inc:1184
+#: src/systemsPlugin/class_systemManagement.inc:1205
+#, fuzzy
+msgid "Permission"
+msgstr "Uprawnienia"
+
+#: src/systemsPlugin/class_systemManagement.inc:706
+#: src/systemsPlugin/class_serverService.inc:473
+#, fuzzy
+msgid "Information"
+msgstr "Stacja robocza"
+
+#: src/systemsPlugin/class_systemManagement.inc:706
+#, php-format
+msgid ""
+"The object-type '%s' cannot be managed with your setup of GOsa, please "
+"install the required plugins!"
+msgstr ""
+
+#: src/systemsPlugin/class_systemManagement.inc:907
+#, fuzzy
+msgid "Internal error"
+msgstr "Terminal Server"
+
+#: src/systemsPlugin/class_systemManagement.inc:907
+#, fuzzy
+msgid "Cannot set mode to 'active'!"
+msgstr "Utwórz nowy departament"
+
+#: src/systemsPlugin/class_systemManagement.inc:1137
+#, fuzzy, php-format
+msgid "You are not allowed to create a snapshot for %s."
+msgstr "Brak uprawnień do zmiany przekazywania poczty"
+
+#: src/systemsPlugin/class_systemManagement.inc:1184
+#: src/systemsPlugin/class_systemManagement.inc:1205
+#, fuzzy, php-format
+msgid "You are not allowed to restore a snapshot for %s."
+msgstr "Brak uprawnień do zmiany przekazywania poczty"
+
+#: src/systemsPlugin/class_systemManagement.inc:1475
+#, fuzzy, php-format
+msgid "Inherited from %s"
+msgstr "Grupy obiektów"
+
+#: src/systemsPlugin/class_systemManagement.inc:1489
+#: src/systemsPlugin/class_systemManagement.inc:1490
+#: src/systemsPlugin/system-filter.xml:103
+#, fuzzy
+msgid "Incoming objects"
+msgstr "Przenieś obiekty"
+
+#: src/systemsPlugin/class_systemManagement.inc:1502
+#, fuzzy
+msgid "RDN for system storage."
+msgstr "Przechowywanie hasła"
+
+#: src/systemsPlugin/class_systemManagement.inc:1511
+#, fuzzy
+msgid "Incoming"
+msgstr "Ikona"
+
+#: src/systemsPlugin/component.tpl:1 src/systemsPlugin/system-list.xml:151
+#, fuzzy
+msgid "Component"
+msgstr "Nowy komponent"
+
+#: src/systemsPlugin/component.tpl:5
+#, fuzzy
+msgid "Generic settings"
+msgstr "Ogólne ustawienia użytkownika"
+
+#: src/systemsPlugin/component.tpl:7
+msgid "Device name"
+msgstr "Nazwa urządzenia"
+
+#: src/systemsPlugin/class_servGeneric.inc:79
+msgid "Activated"
+msgstr "Aktywne"
+
+#: src/systemsPlugin/class_servGeneric.inc:80
+msgid "Locked"
+msgstr "Zablokowane"
+
+#: src/systemsPlugin/class_servGeneric.inc:158
+#, fuzzy
+msgid "server"
+msgstr "Serwer"
+
+#: src/systemsPlugin/class_servGeneric.inc:179
+#, fuzzy
+msgid "Event error"
+msgstr "Ustaw status"
+
+#: src/systemsPlugin/class_servGeneric.inc:180
+#, fuzzy, php-format
+msgid "Event '%s' is not available!"
+msgstr "Brak uprawnień do zmiay hasła"
+
+#: src/systemsPlugin/class_servGeneric.inc:206
+msgid "Switch off"
+msgstr "Wyłącz"
+
+#: src/systemsPlugin/class_servGeneric.inc:207
+#: src/systemsPlugin/system-list.xml:301 src/systemsPlugin/system-list.xml:367
+msgid "Reboot"
+msgstr "Restartuj"
+
+#: src/systemsPlugin/class_servGeneric.inc:208
+#: src/systemsPlugin/class_servGeneric.inc:220
+#, fuzzy
+msgid "System update"
+msgstr "System / Departament"
+
+#: src/systemsPlugin/class_servGeneric.inc:209
+#: src/systemsPlugin/class_servGeneric.inc:219
+#: src/systemsPlugin/system-list.xml:341 src/systemsPlugin/system-list.xml:407
+msgid "Reinstall"
+msgstr "Przeinstaluj"
+
+#: src/systemsPlugin/class_servGeneric.inc:210
+msgid "Rescan hardware"
+msgstr "Przeskanuj sprzęt"
+
+#: src/systemsPlugin/class_servGeneric.inc:211
+#: src/systemsPlugin/class_servGeneric.inc:221
+msgid "Memory test"
+msgstr "Test pamięci"
+
+#: src/systemsPlugin/class_servGeneric.inc:212
+#: src/systemsPlugin/class_servGeneric.inc:222
+msgid "Force local boot"
+msgstr ""
+
+#: src/systemsPlugin/class_servGeneric.inc:213
+#: src/systemsPlugin/class_servGeneric.inc:223
+msgid "System analysis"
+msgstr "Analiza systemu"
+
+#: src/systemsPlugin/class_servGeneric.inc:218
+msgid "Wake up"
+msgstr "Zbudź"
+
+#: src/systemsPlugin/class_servGeneric.inc:372
+#, fuzzy
+msgid "Software deployment"
+msgstr "Zarządzanie systemem"
+
+#: src/systemsPlugin/class_servGeneric.inc:373
+msgid ""
+"This host is currently installing, if you really want to save it, press 'OK'."
+msgstr ""
+
+#: src/systemsPlugin/class_servGeneric.inc:507
+#, fuzzy
+msgid "Server generic"
+msgstr "Nazwa serwera"
+
+#: src/systemsPlugin/class_servGeneric.inc:524
+#, fuzzy
+msgid "RDN for server storage."
+msgstr "Przechowywanie hasła"
+
+#: src/systemsPlugin/class_servGeneric.inc:533
+#: src/systemsPlugin/class_componentGeneric.inc:315
+#: src/systemsPlugin/system-list.xml:177
+#: src/systemSelectDialog/selectSystem-list.xml:57
+msgid "Name"
+msgstr "Imię"
+
+#: src/systemsPlugin/class_servGeneric.inc:537
+#, fuzzy
+msgid "Goto mode"
+msgstr "do folferu"
+
+#: src/systemsPlugin/class_servGeneric.inc:538
+#: src/systemsPlugin/class_componentGeneric.inc:318
+#, fuzzy
+msgid "Root password"
+msgstr "Ustaw hasło"
+
+#: src/systemsPlugin/class_servGeneric.inc:539
+msgid "Action flag"
+msgstr "Flaga akcji"
+
+#: src/systemsPlugin/system-filter.xml:32
+#: src/systemsPlugin/serverService-filter.xml:17
+#: src/systemSelectDialog/selectSystem-filter.xml:19
+#, fuzzy
+msgid "Default filter"
+msgstr "Parametr"
+
+#: src/systemsPlugin/system-filter.xml:58
+#, fuzzy
+msgid "All systems"
+msgstr "użytkownicy"
+
+#: src/systemsPlugin/system-filter.xml:89
+#, fuzzy
+msgid "Opsi"
+msgstr "Cienki klient"
+
+#: src/systemsPlugin/class_componentGeneric.inc:84
+#, fuzzy
+msgid "component"
+msgstr "Nowy komponent"
+
+#: src/systemsPlugin/class_componentGeneric.inc:293
+#, fuzzy
+msgid "Component generic"
+msgstr "Nowy komponent"
+
+#: src/systemsPlugin/class_componentGeneric.inc:298
+#: src/systemsPlugin/system-list.xml:266
+msgid "Network device"
+msgstr "Urządzenia sieciowe"
+
+#: src/systemsPlugin/class_componentGeneric.inc:306
+#, fuzzy
+msgid "RDN for component storage."
+msgstr "Ustawienia profilu Kiosk"
+
+#: src/systemsPlugin/serverService-list.xml:9
+#, fuzzy
+msgid "List of services"
+msgstr "Lista użytkowników"
+
+#: src/systemsPlugin/serverService-list.xml:14
+#, fuzzy
+msgid "Service"
+msgstr "Usługi"
+
+#: src/systemsPlugin/serverService-list.xml:27
+msgid "!"
+msgstr ""
+
+#: src/systemsPlugin/serverService-list.xml:43
+#: src/systemsPlugin/system-list.xml:201
+msgid "Actions"
+msgstr "Akcje"
+
+#: src/systemsPlugin/serverService-list.xml:57
+#: src/systemsPlugin/system-list.xml:428
+msgid "Remove"
+msgstr "Usuń"
+
+#: src/systemsPlugin/serverService-list.xml:68
+#: src/systemsPlugin/serverService-list.xml:102
+#: src/systemsPlugin/class_serverService.inc:28
+msgid "Start"
+msgstr "Start"
+
+#: src/systemsPlugin/serverService-list.xml:75
+#: src/systemsPlugin/serverService-list.xml:110
+#: src/systemsPlugin/class_serverService.inc:27
+msgid "Stop"
+msgstr "Zatrzymaj"
+
+#: src/systemsPlugin/serverService-list.xml:82
+#: src/systemsPlugin/serverService-list.xml:118
+#: src/systemsPlugin/class_serverService.inc:29
+msgid "Restart"
+msgstr "Restart"
+
+#: src/systemsPlugin/serverService-list.xml:126
+msgid "Edit service"
+msgstr "Edytuj usługę"
+
+#: src/systemsPlugin/serverService-list.xml:134
+msgid "Remove service"
+msgstr "Usuń usługę"
+
+#: src/systemsPlugin/class_filterSYSTEMS.inc:23
+#: src/systemsPlugin/system-list.xml:30
+msgid "New workstation"
+msgstr "Nowa stacja robocza"
+
+#: src/systemsPlugin/class_filterSYSTEMS.inc:26
+#: src/systemsPlugin/system-list.xml:63
+msgid "New terminal"
+msgstr "Nowy terminal"
+
+#: src/systemsPlugin/class_filterSYSTEMS.inc:31
+#: src/systemsPlugin/system-list.xml:71
+#, fuzzy
+msgid "New unknown device"
+msgstr "Nieznane"
+
+#: src/systemsPlugin/class_filterSYSTEMS.inc:34
+#: src/systemsPlugin/system-list.xml:79
+#, fuzzy
+msgid "New device"
+msgstr "Nowe urządzenie"
+
+#: src/systemsPlugin/network.tpl:1
+msgid "Network\tsettings"
+msgstr "Ustawienia sieci"
+
+#: src/systemsPlugin/network.tpl:3
+#, fuzzy
+msgid "Network settings"
+msgstr "Ustawienia sieci"
+
+#: src/systemsPlugin/network.tpl:7
+#, fuzzy
+msgid "Address settings"
+msgstr "Ustawienia Aplikacji"
+
+#: src/systemsPlugin/network.tpl:10
+msgid "IP-address"
+msgstr "adres IP"
+
+#: src/systemsPlugin/network.tpl:18 src/systemsPlugin/network.tpl:20
+#, fuzzy
+msgid "Propose IP"
+msgstr "Właściwości"
+
+#: src/systemsPlugin/network.tpl:42
+msgid "MAC-address"
+msgstr "adres MAC"
+
+#: src/systemsPlugin/network.tpl:50
+#, fuzzy
+msgid "Auto detect"
+msgstr "Autowykrywanie"
+
+#: src/systemsPlugin/network.tpl:63
+#, fuzzy
+msgid "DHCP settings"
+msgstr "Ustawienia DNS"
+
+#: src/systemsPlugin/network.tpl:73 src/systemsPlugin/network.tpl:83
+#, fuzzy
+msgid "Enable DHCP for this device"
+msgstr "Włącz DNS dla tego urządzenia."
+
+#: src/systemsPlugin/network.tpl:83 src/systemsPlugin/network.tpl:171
+#, fuzzy
+msgid "not configured"
+msgstr "nieskonfigurowane"
+
+#: src/systemsPlugin/network.tpl:91
+#, fuzzy
+msgid "Parent node"
+msgstr "Nadrzędny serwer"
+
+#: src/systemsPlugin/network.tpl:99
+#, fuzzy
+msgid "Edit settings"
+msgstr "Ustawienia pocztowe"
+
+#: src/systemsPlugin/network.tpl:134 src/systemsPlugin/network.tpl:171
+msgid "Enable DNS for this device"
+msgstr "Włącz DNS dla tego urządzenia."
+
+#: src/systemsPlugin/network.tpl:140
+#, fuzzy
+msgid "DNS zone settings"
+msgstr "Ustawienia DNS"
+
+#: src/systemsPlugin/network.tpl:142
+msgid "Zone"
+msgstr "Strefa"
+
+#: src/systemsPlugin/network.tpl:152
+msgid "TTL"
+msgstr "TTL"
+
+#: src/systemsPlugin/network.tpl:160
+msgid "DNS records"
+msgstr "Rekordy DNS"
+
+#: src/systemsPlugin/system-list.xml:10
+msgid "List of systems"
+msgstr "Lista systemów"
+
+#: src/systemsPlugin/system-list.xml:14 src/systemsPlugin/system-list.xml:218
+#, fuzzy
+msgid "Device"
+msgstr "Urządzenia"
+
+#: src/systemsPlugin/system-list.xml:22
+#, fuzzy
+msgid "Opsi host"
+msgstr "Cienki klient"
+
+#: src/systemsPlugin/system-list.xml:38
+#, fuzzy
+msgid "Locked server"
+msgstr "Serwer Ldap"
+
+#: src/systemsPlugin/system-list.xml:46
+#, fuzzy
+msgid "Locked workstation"
+msgstr "Nowa stacja robocza"
+
+#: src/systemsPlugin/system-list.xml:54
+#, fuzzy
+msgid "Locked terminal"
+msgstr "Nowy terminal"
+
+#: src/systemsPlugin/system-list.xml:87
+#, fuzzy
+msgid "Workstation template"
+msgstr "Szablon stacji roboczej dla"
+
+#: src/systemsPlugin/system-list.xml:95
+#, fuzzy
+msgid "Terminal template"
+msgstr "Szablon terminala dla"
+
+#: src/systemsPlugin/system-list.xml:103
+#, fuzzy
+msgid "Windows workstation"
+msgstr "Pokaż stacje robocze"
+
+#: src/systemsPlugin/system-list.xml:119 src/systemsPlugin/system-list.xml:234
+#: src/systemSelectDialog/selectSystem-list.xml:23
+msgid "Workstation"
+msgstr "Stacja robocza"
+
+#: src/systemsPlugin/system-list.xml:127 src/systemsPlugin/system-list.xml:242
+#: src/systemSelectDialog/selectSystem-list.xml:31
+msgid "Terminal"
+msgstr "Terminal"
+
+#: src/systemsPlugin/system-list.xml:135
+msgid "Printer"
+msgstr "Drukarka"
+
+#: src/systemsPlugin/system-list.xml:143 src/systemsPlugin/system-list.xml:258
+msgid "Phone"
+msgstr "Telefon"
+
+#: src/systemsPlugin/system-list.xml:193
+#, fuzzy
+msgid "Release"
+msgstr "Usuń"
+
+#: src/systemsPlugin/system-list.xml:212
+msgid "Create"
+msgstr "Utwórz"
+
+#: src/systemsPlugin/system-list.xml:250
+#, fuzzy
+msgid "Network printer"
+msgstr "Pokaż drukarki sieciowe"
+
+#: src/systemsPlugin/system-list.xml:274
+#, fuzzy
+msgid "Opsi client"
+msgstr "Cienki klient"
+
+#: src/systemsPlugin/system-list.xml:286
+#, fuzzy
+msgid "Trigger action"
+msgstr "Przełącz informacje"
+
+#: src/systemsPlugin/system-list.xml:293
+msgid "Halt "
+msgstr ""
+
+#: src/systemsPlugin/system-list.xml:309 src/systemsPlugin/system-list.xml:375
+#, fuzzy
+msgid "Wakeup"
+msgstr "Zbudź"
+
+#: src/systemsPlugin/system-list.xml:317 src/systemsPlugin/system-list.xml:383
+msgid "Update"
+msgstr "Aktualizuj"
+
+#: src/systemsPlugin/system-list.xml:325 src/systemsPlugin/system-list.xml:391
+#, fuzzy
+msgid "Lock"
+msgstr "Zablokowane"
+
+#: src/systemsPlugin/system-list.xml:333 src/systemsPlugin/system-list.xml:399
+#, fuzzy
+msgid "Activate"
+msgstr "Aktywne"
+
+#: src/systemsPlugin/system-list.xml:352
+#, fuzzy
+msgid "Schedule action"
+msgstr "Zaplanowana aktualizacja"
+
+#: src/systemsPlugin/system-list.xml:359
+msgid "Halt"
+msgstr ""
+
+#: src/systemsPlugin/system-list.xml:421
+#, fuzzy
+msgid "Activate systems"
+msgstr "Edytuj system"
+
+#: src/systemsPlugin/system-list.xml:456
+msgid "Change password"
+msgstr "Zmień hasło"
+
+#: src/systemsPlugin/system-list.xml:467
+#, fuzzy
+msgid "Create ISO"
+msgstr "Utwórz"
+
+#: src/systemsPlugin/system-list.xml:479
+#, fuzzy
+msgid "Edit role"
+msgstr "Edytuj makro"
+
+#: src/systemsPlugin/system-list.xml:492
+#, fuzzy
+msgid "Remove system"
+msgstr "Usuń obrazek"
+
+#: src/systemsPlugin/class_serverService.inc:473
+#, fuzzy
+msgid "Cannot update service status until it has been saved!"
+msgstr "Nie można ustawić statusu podczas gdy nie zapisano tego serwera."
+
+#: src/systemsPlugin/class_serverService.inc:485
+#, fuzzy
+msgid "Cannot update service status!"
+msgstr "Nie można otworzyć wybranego certyfikatu!"
+
+#: src/systemsPlugin/password.tpl:3
+msgid ""
+"To change the terminal root password use the fields below. The changes take "
+"effect during the next reboot. Please memorize the new password, because you "
+"wouldn't be able to log in."
+msgstr ""
+"Aby zmienić hasło root'a dla terminala użyj pól poniżej. Zmiany wchodzą po "
+"następnym uruchomieniu. Proszę zapamiętać nowe hasło, gdyż bez niego "
+"logowanie będzie niemożliwe"
+
+#: src/systemsPlugin/password.tpl:6
+msgid "Leave fields blank for password inheritance from default entries."
+msgstr "Pozostaw pola puste aby dziedziczyć hasło z wpisów domyślnych."
+
+#: src/systemsPlugin/password.tpl:10
+#, fuzzy
+msgid "Changing the password impinges on authentication only."
+msgstr "Zmiana hasła wpływa tylko na autentykację."
+
+#: src/systemsPlugin/password.tpl:13
+#, fuzzy
+msgid "System password change"
+msgstr "Zmiana hasła"
+
+#: src/systemsPlugin/password.tpl:16
+msgid "New password"
+msgstr "Nowe hasło"
+
+#: src/systemsPlugin/password.tpl:23
+msgid "Repeat new password"
+msgstr "Powtórz nowe hasło"
+
+#: src/systemsPlugin/password.tpl:30
+#, fuzzy
+msgid "Password strength"
+msgstr "Przechowywanie hasła"
+
+#: src/systemsPlugin/password.tpl:41
+msgid "Set password"
+msgstr "Ustaw hasło"
+
+#: src/systemSelectDialog/selectSystem-list.xml:11
+#, fuzzy
+msgid "Please select the desired entries"
+msgstr "Preferowany język"
+
+#: src/systemSelectDialog/class_systemSelect.inc:29
+#, fuzzy
+msgid "System selection"
+msgstr "Ustawienia grupy"
+
+#~ msgid "Dns records"
+#~ msgstr "Rekordy DNS"
+
+#~ msgid "Winstation"
+#~ msgstr "Stacja Windows"
+
+#~ msgid "Adding a new service to the current server"
+#~ msgstr "Dodawania nowej usługi do tego serwera."
+
+#~ msgid ""
+#~ "This dialog allows you to add new services to the currenty edited server "
+#~ "object. The box below shows all available but not already used services."
+#~ msgstr ""
+#~ "Ten dialog umożliwia dodawanie nowych usługo do obecnie edytowaniego "
+#~ "serwera. Obszar poniżej pokazuje wszystkie dostępne lecz jescze nieużyte "
+#~ "usługi."
+
+#~ msgid "Service to add"
+#~ msgstr "Usługa dla dodania"
+
+#~ msgid "All available services are already in use."
+#~ msgstr "Wszystkie dostępne usługi są już w użyciu."
+
+#~ msgid "Continue"
+#~ msgstr "Kontynuuj"
+
+#~ msgid "Warning"
+#~ msgstr "Ostrzeżenie"
+
+#~ msgid ""
+#~ "This includes all account data, system access rules, imap settings, etc. "
+#~ "for this user. Please double check if your really want to do this since "
+#~ "there is no way for GOsa to get your data back."
+#~ msgstr ""
+#~ "Operacja odnosi się do wszystkich danych dotyczących konta, dostępu, "
+#~ "ustawień imap, etc dla tego użytkownika. Proszę upewnić się czy na pewno "
+#~ "kontynuować, gdyż nie ma możliwości powrotu."
+
+#~ msgid ""
+#~ "So - if you're sure - press 'Delete' to continue or 'Cancel' to abort."
+#~ msgstr ""
+#~ "Jeśli jesteś pewien - naciśnij 'Usuń' aby kontynuować lub 'Anuluj' aby "
+#~ "anulować."
+
+#, fuzzy
+#~ msgid "Configuration error"
+#~ msgstr "Plik konfiguracyjny"
+
+#, fuzzy
+#~ msgid "Filter error"
+#~ msgstr "Błąd krytyczny"
+
+#, fuzzy
+#~ msgid "Filter"
+#~ msgstr "Filtry"
+
+#~ msgid "Show servers"
+#~ msgstr "Pokaż serwery"
+
+#~ msgid "Show workstations"
+#~ msgstr "Pokaż stacje robocze"
+
+#~ msgid "Show terminals"
+#~ msgstr "Pokaż terminale"
+
+#, fuzzy
+#~ msgid "Show network printer"
+#~ msgstr "Pokaż drukarki sieciowe"
+
+#~ msgid "Show phones"
+#~ msgstr "Pokaż telefony"
+
+#, fuzzy
+#~ msgid "Show windows based workstations"
+#~ msgstr "Pokaż stacje robocze windows"
+
+#~ msgid "Show network devices"
+#~ msgstr "Pokaż urządzenia sieciowe"
+
+#, fuzzy
+#~ msgid "Show incoming devices"
+#~ msgstr "Pokaż urządzenia sieciowe"
+
+#, fuzzy
+#~ msgid ""
+#~ "The passwords you've entered as 'New password' and 'Repeated password' do "
+#~ "not match!"
+#~ msgstr "Hasła podane jako nowe i powtórzone nie zgadzają się!"
+
+#, fuzzy
+#~ msgid "Cannot determine object to change password!"
+#~ msgstr "Nie można wykryć nazwy obiektu."
+
+#, fuzzy
+#~ msgid "Unknown device"
+#~ msgstr "Nieznane"
+
+#~ msgid "New Device"
+#~ msgstr "Nowe urządzenie"
+
+#~ msgid "Terminal template for"
+#~ msgstr "Szablon terminala dla"
+
+#~ msgid "Workstation template for"
+#~ msgstr "Szablon stacji roboczej dla"
+
+#~ msgid "Template"
+#~ msgstr "Szablon"
+
+#, fuzzy
+#~ msgid "Workstation error"
+#~ msgstr "Stacja robocza"
+
+#, fuzzy
+#~ msgid "Server error"
+#~ msgstr "Nazwa serwera"
+
+#, fuzzy
+#~ msgid "Terminal error"
+#~ msgstr "Terminal Server"
+
+#, fuzzy
+#~ msgid "Workstation busy"
+#~ msgstr "Stacja robocza"
+
+#, fuzzy
+#~ msgid "Server busy"
+#~ msgstr "Serwery"
+
+#, fuzzy
+#~ msgid "New system from incoming"
+#~ msgstr "Nowy system dla nadchodzących"
+
+#, fuzzy
+#~ msgid "Choose subtree to place server in"
+#~ msgstr "Wybierz poddrzewo do umieszczenia konta."
+
+#~ msgid "Select a base"
+#~ msgstr "Wybierz bazę"
+
+#~ msgid "Add"
+#~ msgstr "Dodaj"
+
+#~ msgid "Delete"
+#~ msgstr "Usuń"
+
+#, fuzzy
+#~ msgid "Choose subtree to place component in"
+#~ msgstr "Wybierz poddrzewo do umieszczenia grupy"
+
+#~ msgid "Submit"
+#~ msgstr "Wyślij"
+
+#, fuzzy
+#~ msgid "Select all"
+#~ msgstr "Wybierz"
+
+#, fuzzy
+#~ msgid "Department"
+#~ msgstr "System / Departament"
+
+#, fuzzy
+#~ msgid "servers"
+#~ msgstr "Serwer"
+
+#, fuzzy
+#~ msgid "Show %s"
+#~ msgstr "Pokaż telefony"
+
+#, fuzzy
+#~ msgid "Linux terminals"
+#~ msgstr "Pokaż terminale"
+
+#, fuzzy
+#~ msgid "terminals"
+#~ msgstr "Terminal"
+
+#, fuzzy
+#~ msgid "Linux workstations"
+#~ msgstr "Pokaż stacje robocze"
+
+#, fuzzy
+#~ msgid "workstations"
+#~ msgstr "Stacja robocza"
+
+#, fuzzy
+#~ msgid "MicroSoft Windows based workstations"
+#~ msgstr "Zaznacz aby zobaczyć stacje robocze windows"
+
+#, fuzzy
+#~ msgid "windows based workstations"
+#~ msgstr "Pokaż stacje robocze windows"
+
+#, fuzzy
+#~ msgid "Display objects of type '%s'."
+#~ msgstr "Wybierz obiekty do dodania"
+
+#, fuzzy
+#~ msgid "OPSI installed client"
+#~ msgstr "Zainstalowane usługi"
+
+#, fuzzy
+#~ msgid "network printers"
+#~ msgstr "Pokaż drukarki sieciowe"
+
+#, fuzzy
+#~ msgid "VoIP phones"
+#~ msgstr "Pokaż telefony"
+
+#, fuzzy
+#~ msgid "phones"
+#~ msgstr "Telefon"
+
+#, fuzzy
+#~ msgid "network devices"
+#~ msgstr "Urządzenia sieciowe"
+
+#~ msgid "Display systems matching"
+#~ msgstr "Wyświetl systemy pasujące"
+
+#~ msgid "Display systems of user"
+#~ msgstr "Wyświetl systemy użytkownika"
+
+#~ msgid "Submit department"
+#~ msgstr "Zatwierdź departament"
+
+#~ msgid "edit"
+#~ msgstr "edytuj"
+
+#~ msgid "Edit system"
+#~ msgstr "Edytuj system"
+
+#~ msgid "delete"
+#~ msgstr "Usuń"
+
+#~ msgid "Delete system"
+#~ msgstr "Usuń system"
+
+#~ msgid "Password"
+#~ msgstr "Hasło"
+
+#, fuzzy
+#~ msgid "Create CD"
+#~ msgstr "Utwórz"
+
+#, fuzzy
+#~ msgid "Create FAI CD"
+#~ msgstr "Utwórz nowy obiekt FAI"
+
+#, fuzzy
+#~ msgid "Number of listed '%s'"
+#~ msgstr "Nazwa departamentu"
+
+#, fuzzy
+#~ msgid "printers"
+#~ msgstr "Drukarka"
+
+#, fuzzy
+#~ msgid "new devices"
+#~ msgstr "Nowe urządzenie"
+
+#, fuzzy
+#~ msgid "windows workstations"
+#~ msgstr "Pokaż stacje robocze"
+
+#, fuzzy
+#~ msgid "departments"
+#~ msgstr "Zatwierdź departament"
+
+#~ msgid "Installed services"
+#~ msgstr "Zainstalowane usługi"
+
+#, fuzzy
+#~ msgid "Add, remove and configure the properties of system services here."
+#~ msgstr ""
+#~ "To menu umożliwia tworzenie, usuwanie oraz edycję właściwości usług."
+
+#~ msgid "Add service"
+#~ msgstr "Dodaj usługę"
+
+#~ msgid "Add new service"
+#~ msgstr "Dodan nową usługę"
+
+#~ msgid "Start all"
+#~ msgstr "Uruchom wszystko"
+
+#~ msgid "Start all services"
+#~ msgstr "Uruchom wszystkie usługi"
+
+#~ msgid "Stop service"
+#~ msgstr "Zatrzymaj usługę"
+
+#~ msgid "Stop all services"
+#~ msgstr "Zatrzymaj wszystike usługi"
+
+#~ msgid "Restart service"
+#~ msgstr "Restartuj usługę"
+
+#~ msgid "Restart all services"
+#~ msgstr "Restartuj wszystkie usługi"
+
+#~ msgid "Stopped"
+#~ msgstr "Zatrzymano"
+
+#~ msgid "Started"
+#~ msgstr "Wystartowano"
+
+#~ msgid "Restarting"
+#~ msgstr "Restartuję"
+
+#~ msgid "User status"
+#~ msgstr "Status użytkownika"
+
+#~ msgid "Start service"
+#~ msgstr "Uruchom usługę"
+
+#, fuzzy
+#~ msgid "Remove role"
+#~ msgstr "Usuń obiekt"
+
+#~ msgid ""
+#~ "This includes all system and setup informations. Please double check if "
+#~ "your really want to do this since there is no way for GOsa to get your "
+#~ "data back."
+#~ msgstr ""
+#~ "To zawiera cały system i informacje instalacyjne. Proszę upewnić się, że "
+#~ "faktycznie chcesz wykonać tą operację. Nie ma możliwości odwrócenia tego "
+#~ "procesu."
+
+#~ msgid ""
+#~ "Best thing to do before performing this action would be to save the "
+#~ "current contents of your LDAP tree in a file. So - if you've done so - "
+#~ "press 'Delete' to continue or 'Cancel' to abort."
+#~ msgstr ""
+#~ "Przed wykonaniem tej operacji zaleca się wykonanie kopii bezpieczeństwa "
+#~ "drzewa LDAP. Naciśnij 'Usuń' aby kontynuować, lub 'Anuluj' aby przerwać."
+
+#~ msgid "This does something"
+#~ msgstr "To robi coś"
+
+#~ msgid "System management"
+#~ msgstr "Zarządzanie systemem"
+
+#, fuzzy
+#~ msgid "Win workstation"
+#~ msgstr "Stacja robocza"
+
+#~ msgid "Cups Server"
+#~ msgstr "Serwer Cups"
+
+#~ msgid "Log Db"
+#~ msgstr "baza danych Log"
+
+#~ msgid "Syslog Server"
+#~ msgstr "Serwer syslog"
+
+#~ msgid "Mail Server"
+#~ msgstr "Serwer poczty"
+
+#~ msgid "Imap Server"
+#~ msgstr "Serwer imap"
+
+#~ msgid "Nfs Server"
+#~ msgstr "Serwer Nfs"
+
+#~ msgid "Kerberos Server"
+#~ msgstr "Serwer Kerberos"
+
+#~ msgid "Asterisk Server"
+#~ msgstr "Serwer Asterisk"
+
+#~ msgid "Fax Server"
+#~ msgstr "Serwer Fax"
+
+#~ msgid "Ldap Server"
+#~ msgstr "Serwer Ldap"
+
+#~ msgid "Zone name"
+#~ msgstr "Nazwa strefy"
+
+#, fuzzy
+#~ msgid "Copy"
+#~ msgstr "kopiuj"
+
+#, fuzzy
+#~ msgid "Cut"
+#~ msgstr "wytnij"
+
+#~ msgid "Paste"
+#~ msgstr "Wklej"
+
+#~ msgid "cut"
+#~ msgstr "wytnij"
+
+#~ msgid "Cut this entry"
+#~ msgstr "Wytnij ten obiekt"
+
+#~ msgid "copy"
+#~ msgstr "kopiuj"
+
+#~ msgid "Copy this entry"
+#~ msgstr "Kopiuj ten obiekt"
+
+#, fuzzy
+#~ msgid "Set root password"
+#~ msgstr "Ustaw hasło roota"
+
+#~ msgid "Choose a base"
+#~ msgstr "Wybierz bazę"
+
+#~ msgid "Go to root department"
+#~ msgstr "Idź do głównego departamentu"
+
+#~ msgid "Root"
+#~ msgstr "Główny"
+
+#~ msgid "Go up one department"
+#~ msgstr "Idź jeden departament wyżej"
+
+#~ msgid "Up"
+#~ msgstr "Góra"
+
+#~ msgid "Go to users department"
+#~ msgstr "Przejdź do departamentu użytkowników"
+
+#~ msgid "Home"
+#~ msgstr "Katalog domowy"
+
+#~ msgid "Reload list"
+#~ msgstr "Przeładuj listę"
+
+#~ msgid ""
+#~ "Step in the prefered tree and click save to use the current subtree as "
+#~ "base. Or click the image at the end of each entry."
+#~ msgstr ""
+#~ "Przejdź do preferowanego drzewa i kliknij zapisz aby użyć obecnego "
+#~ "poddrzewa jako podstawy. Można też kliknąc obrazek na końcu każdego  "
+#~ "elementu."
+
+#~ msgid "Use"
+#~ msgstr "Użyj"
+
+#~ msgid "Cancel"
+#~ msgstr "Anuluj"
+
+#~ msgid "Filter entries with this syntax"
+#~ msgstr "Filtruj elementy z tą składnią"
+
+#~ msgid "Select this base"
+#~ msgstr "Wybierz tą bazę"
+
+#~ msgid "Phone name"
+#~ msgstr "Nazwa telefonu"
+
+#~ msgid "Workstation is installing"
+#~ msgstr "Stacja robocza jest instalowana"
+
+#~ msgid "Workstation is waiting for action"
+#~ msgstr "Stacja robocza czeka na użycie"
+
+#~ msgid "Workstation installation failed"
+#~ msgstr "Instalacja stacji roboczej nieudana"
+
+#~ msgid "Server is installing"
+#~ msgstr "Serwer jest instalowany"
+
+#~ msgid "Server is waiting for action"
+#~ msgstr "Serwer czeka na użycie"
+
+#~ msgid "Server installation failed"
+#~ msgstr "Instalacja serwera nieudana"
+
+#~ msgid "Select to search within subtrees"
+#~ msgstr "Zaznacz aby wyszukiwać wewnątrz poddrzew"
+
+#, fuzzy
+#~ msgid "Search in subtrees"
+#~ msgstr "Szukaj wewnątrz tego poddrzewa"
+
+#~ msgid "The specified method '%s' can't executed for services."
+#~ msgstr "Podana metoda '%s' nie może zostać uruchmiona dla usług."
+
+#~ msgid "You can't edit this object type yet!"
+#~ msgstr "Nie można edytować tego typu obiektów (jeszcze)!"
+
+#~ msgid "Save"
+#~ msgstr "Zapisz"
+
+#, fuzzy
+#~ msgid "You are not allowed to create a new object of this type."
+#~ msgstr "Brak uprawnień do usunięcia grupy obiektowej."
+
+#, fuzzy
+#~ msgid "You're about to delete the following entry %s"
+#~ msgstr "Zamierzasz usunąć element %s."
+
+#, fuzzy
+#~ msgid "You're about to delete the following entries %s"
+#~ msgstr "Zamierzasz usunąć element %s."
+
+#~ msgid "You are not allowed to delete this component!"
+#~ msgstr "Brak uprawnień do usunięcia tego elementu!"
+
+#~ msgid "You're about to delete all information about the component at '%s'."
+#~ msgstr "Zamierzasz usunąć wszystkie informacje o komponencie w '%s'."
+
+#~ msgid "Ok"
+#~ msgstr "Ok"
+
+#~ msgid "Apply"
+#~ msgstr "Zastosuj"
+
+#~ msgid "Network Device"
+#~ msgstr "Urządzenie sieciowe"
+
+#~ msgid "New Terminal"
+#~ msgstr "Nowy terminal"
+
+#~ msgid "New Workstation"
+#~ msgstr "Nowa stacja robocza"
+
+#~ msgid ""
+#~ "This menu allows you to add, remove and change the properties of specific "
+#~ "systems. You can only add systems which have already been started once."
+#~ msgstr ""
+#~ "To menu umożliwia tworzenie, usuwanie oraz edycję odpowiednich systemów. "
+#~ "Można tylko dodawać systemy które już raz były uruchomione."
+
+#~ msgid "Select to see servers"
+#~ msgstr "Proszę aby zobaczyć serwery"
+
+#~ msgid "Select to see Linux terminals"
+#~ msgstr "Wybierz aby zobaczyć terminale Linux"
+
+#~ msgid "Select to see Linux workstations"
+#~ msgstr "Wybierz aby zobaczyć stacje robocze Linux"
+
+#~ msgid "Select to see network printers"
+#~ msgstr "Wybierz aby zobaczyć drukarki sieciowe"
+
+#~ msgid "Select to see VOIP phones"
+#~ msgstr "Wybierz aby zobaczyć telefony VOIP"
+
+#~ msgid "Select to see network devices"
+#~ msgstr "Wybierz aby zobaczyć urządzenia sieciowe"
+
+#, fuzzy
+#~ msgid "Number of listed servers"
+#~ msgstr "Serwer profili"
+
+#, fuzzy
+#~ msgid "Number of listed workstations"
+#~ msgstr "Wybierz aby zobaczyc stacje robocze"
+
+#, fuzzy
+#~ msgid "Number of listed terminals"
+#~ msgstr "Wybierz aby zobaczyć terminale"
+
+#, fuzzy
+#~ msgid "Number of listed printers"
+#~ msgstr "Nazwa departamentu"
+
+#, fuzzy
+#~ msgid "Number of listed new devices"
+#~ msgstr "Wybierz aby zobaczyć urządzenia sieciowe"
+
+#, fuzzy
+#~ msgid "Number of listed windows workstations"
+#~ msgstr "Pokaż stacje robocze windows"
+
+#, fuzzy
+#~ msgid "Number of listed departments"
+#~ msgstr "Nazwa departamentu"
+
+#~ msgid "This 'dn' has no server features."
+#~ msgstr "Ten 'dn' nie posiada cech serwera."
+
+#~ msgid "This 'dn' has no network features."
+#~ msgstr "Ten 'dn' nie posiada cech sieciowych."
+
+#, fuzzy
+#~ msgid "Removing dhcp entry for this object failed."
+#~ msgstr "Usuwanie wpisów DNS nieudane"
+
+#, fuzzy
+#~ msgid "Removing old dhcp entry failed."
+#~ msgstr "Usuwanie wpisu hosta kolab nieudane"
+
+#, fuzzy
+#~ msgid "Modifying dhcp entry failed."
+#~ msgstr "Usuwanie wpisu hosta kolab nieudane"
+
+#, fuzzy
+#~ msgid "Saving of terminal/dns account with dn '%s' failed."
+#~ msgstr "Zapisywanie konta pocztowego nieudane"
+
+#~ msgid "Instant update"
+#~ msgstr "Natychmiastowe uaktualnienie"
+
+#~ msgid "Scheduled update"
+#~ msgstr "Zaplanowana aktualizacja"
+
+#, fuzzy
+#~ msgid "Removing of system server/generic with dn '%s' failed."
+#~ msgstr "Usuwanie referencji makra telefonicznego nieudane"
+
+#, fuzzy
+#~ msgid "Removing of server services/"
+#~ msgstr "Usługa serwer GoFon"
+
+#, fuzzy
+#~ msgid "Saving of server services/"
+#~ msgstr "Usługa serwera Fax"
+
+#, fuzzy
+#~ msgid "Set status flag for server services/"
+#~ msgstr "Zapisywanie usługi serwera nieudane"
+
+#, fuzzy
+#~ msgid "Removing of system component/generic with dn '%s' failed."
+#~ msgstr "Usuwanie ogólnego komponentu nieudane"
+
+#~ msgid ""
+#~ "Can't execute specified AUTO_NETWORK_HOOK '%s'. Please check your gosa."
+#~ "conf."
+#~ msgstr ""
+#~ "Nie można wykonać podanego AUTO_NETWORK_HOOK '%s' proszę sprawdzić gosa."
+#~ "conf."
+
+#, fuzzy
+#~ msgid "The specified IP address is already in use."
+#~ msgstr "Wybrana nazwie już jest w użyciu."
+
+#, fuzzy
+#~ msgid ""
+#~ "The specified MAC address '%s' for this system '%s' is already in use."
+#~ msgstr "Wybrana nazwie już jest w użyciu."
+
+#~ msgid "The required field 'IP-address' is not set."
+#~ msgstr "Wymagane pole 'adres-IP' nie jest wypełnione"
+
+#~ msgid "Wrong IP format in field IP-address."
+#~ msgstr "Zły format danych w polu 'adres-IP'"
+
+#~ msgid "The required field 'MAC-address' is not set."
+#~ msgstr "Wymagane pole 'MAC-adres' nie jest wypełnione"
+
+#~ msgid ""
+#~ "The given macaddress is invalid. There must be 6 2byte segments seperated "
+#~ "by ':'."
+#~ msgstr ""
+#~ "Podany MAC-adres jest nieprawidłowy. Musi być w formacie 6 2bajtowych "
+#~ "segmentów oddzielonych ':'."
+
+#~ msgid "Found duplicate value for record type '%s'."
+#~ msgstr "Znaleziono powtórzoną wartość dla typu rekordu '%s'."
+
+#~ msgid "Found more than one entry for the uniqe record type '%s'."
+#~ msgstr "Znaleziono więcej niż jeden wpis dla unikalnego typu rekordu '%s'."
+
+#~ msgid "No ACTIONCMD definition found in your gosa.conf"
+#~ msgstr "Brak definicji ACTIONCMD w pliku gosa.conf"
+
+#~ msgid "Execution of '%s' failed!"
+#~ msgstr "Wykonanie '%s' nieudane"
+
+#~ msgid "The required field 'Server name' is not set."
+#~ msgstr "Wymagane pole 'Nazwa serwera' jest puste."
+
+#, fuzzy
+#~ msgid "Please specify a valid name for this object."
+#~ msgstr "Proszę podać prawidłową nazwę dla tego typu mime."
+
+#~ msgid "There is already an entry '%s' in the base choosen by you"
+#~ msgstr "Już istnieje wpis '%s' w wybranym elemencie"
+
+#~ msgid ""
+#~ "Command '%s', specified as ACTION_HOOK for plugin '%s' doesn't seem to "
+#~ "exist."
+#~ msgstr ""
+#~ "Polecenie '%s' podane jako ACTION_HOOK dla dodatku '%s' nie istnieje."
+
+#~ msgid "The required field 'Component name' is not set."
+#~ msgstr "Wymagane pole 'Nazwa komponentu' jest puste."
+
+#~ msgid "The required field IP address is empty."
+#~ msgstr "Wymagane pole adres IP jest puste."
+
+#~ msgid "The field IP address contains an invalid address."
+#~ msgstr "Pole adres IP zawiera nieprawidłowy adres."

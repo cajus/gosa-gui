@@ -1,0 +1,1578 @@
+# translation of messages.po to
+# Benoit Mortier <benoit.mortier@opensides.be>, 2005, 2006, 2007, 2008, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: messages\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:31+0200\n"
+"PO-Revision-Date: 2010-01-18 22:54+0100\n"
+"Last-Translator: Benoit Mortier <benoit.mortier@opensides.be>\n"
+"Language-Team:  <fr@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n > 1);\n"
+
+#: src/goFonService/class_goFonServer.inc:34
+#: src/goFonService/class_goFonServer.inc:65
+#: src/goFonService/class_goFonServer.inc:165
+msgid "VoIP service"
+msgstr "Service VOIP"
+
+#: src/goFonService/class_goFonServer.inc:65
+msgid "Asterisk management"
+msgstr "Gestion Asterisk"
+
+#: src/goFonService/class_goFonServer.inc:74
+msgid "User"
+msgstr "Utilisateur"
+
+#: src/goFonService/class_goFonServer.inc:77
+#: src/goFonService/class_goFonServer.inc:184
+#: src/goFonService/goFonServer.tpl:12
+msgid "Password"
+msgstr "Mot de passe"
+
+#: src/goFonService/class_goFonServer.inc:80
+#: src/goFonService/goFonServer.tpl:28
+msgid "Local dial prefix"
+msgstr "Préfixe local"
+
+#: src/goFonService/class_goFonServer.inc:83
+msgid "Country prefix"
+msgstr "Préfixe du pays"
+
+#: src/goFonService/class_goFonServer.inc:120
+#, php-format
+msgid ""
+"You can't remove the asterisk database extension, it is still in use by "
+"these objects '%s'."
+msgstr ""
+"Impossible d'enlever l'extension de la base de données asterisk ,elle est "
+"utilisé par ce(s) objets '%s'."
+
+#: src/goFonService/class_goFonServer.inc:146
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1585
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1764
+#: src/macroPlugin/class_gofonMacro.inc:489
+#: src/macroPlugin/class_gofonMacro.inc:500
+#: src/macroPlugin/class_gofonMacro.inc:537
+#: src/macroPlugin/class_gofonMacroParameters.inc:405
+#: src/groupsExtension/class_phonequeue.inc:838
+#: src/groupsExtension/class_phonequeue.inc:893
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:767
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:255
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:414
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:428
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:445
+msgid "LDAP error"
+msgstr "Erreur LDAP"
+
+#: src/goFonService/class_goFonServer.inc:166
+msgid "VoIP - asterisk management"
+msgstr "VOIP - Gestion d'asterisk"
+
+#: src/goFonService/class_goFonServer.inc:166
+msgid "Services"
+msgstr "Services"
+
+#: src/goFonService/class_goFonServer.inc:179
+msgid "Start"
+msgstr "Démarrage"
+
+#: src/goFonService/class_goFonServer.inc:180
+msgid "Stop"
+msgstr "Arrêter"
+
+#: src/goFonService/class_goFonServer.inc:181
+msgid "Restart"
+msgstr "Réessayer"
+
+#: src/goFonService/class_goFonServer.inc:183
+#, fuzzy
+msgid "Administrator"
+msgstr "Gestion d'asterisk"
+
+#: src/goFonService/class_goFonServer.inc:185
+msgid "Area code"
+msgstr "Préfixe local"
+
+#: src/goFonService/class_goFonServer.inc:186
+msgid "Country code"
+msgstr "Préfixe national"
+
+#: src/goFonService/goFonServer.tpl:1 src/goFonService/goFonServer.tpl:2
+msgid "VoIP database information"
+msgstr "Information sur la base de données VOIP"
+
+#: src/goFonService/goFonServer.tpl:4
+msgid "Asterisk DB user"
+msgstr "Utilisateur de la base de données Asterisk"
+
+#: src/goFonService/goFonServer.tpl:20
+msgid "Country dial prefix"
+msgstr "Préfixe du pays"
+
+#: src/phoneAccountPlugin/paste_generic.tpl:1
+msgid "Phone settings"
+msgstr "Configuration du téléphone"
+
+#: src/phoneAccountPlugin/paste_generic.tpl:2
+#: src/phoneAccountPlugin/paste_generic.tpl:5
+#: src/phoneAccountPlugin/generic.tpl:1 src/phoneAccountPlugin/generic.tpl:4
+#: src/groupsExtension/phonequeue.tpl:10 src/groupsExtension/phonequeue.tpl:11
+msgid "Phone numbers"
+msgstr "Numéros de téléphones"
+
+#: src/phoneAccountPlugin/paste_generic.tpl:23
+#: src/phoneAccountPlugin/generic.tpl:39
+msgid "Telephone hardware"
+msgstr "Matériel téléphonique"
+
+#: src/phoneAccountPlugin/paste_generic.tpl:24
+#: src/phoneAccountPlugin/generic.tpl:41 src/phoneAccountPlugin/generic.tpl:45
+msgid "Telephone"
+msgstr "Téléphone"
+
+#: src/phoneAccountPlugin/paste_generic.tpl:27
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1463
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1466
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1871
+#: src/phoneAccountPlugin/generic.tpl:90
+#, fuzzy
+msgid "Voice mail PIN"
+msgstr "Code PIN de la boite vocale"
+
+#: src/phoneAccountPlugin/paste_generic.tpl:35
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1471
+#: src/phoneAccountPlugin/generic.tpl:100
+msgid "Phone PIN"
+msgstr "Code PIN du téléphone"
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:6
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1087
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1100
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1112
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1116
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1119
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1848
+#: src/groupsExtension/class_phonequeue.inc:918
+#: src/phoneHardwarePlugin/phone.tpl:1
+msgid "Phone"
+msgstr "Téléphone"
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:7
+#, fuzzy
+msgid "Manage personal phone settings"
+msgstr "Editer les paramètres personnels"
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:140
+#: src/groupsExtension/class_phonequeue.inc:91
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:102
+msgid "Obsolete entry"
+msgstr "Entrée obsolète"
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:140
+#: src/groupsExtension/class_phonequeue.inc:91
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:102
+#, php-format
+msgid ""
+"The current home server is not available anymore. It will be moved to '%s' "
+"if you save this entry!"
+msgstr ""
+"Le serveur home n'est plus disponible. Il sera bougé vers '%s' si vous "
+"sauvez cette entrée !"
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:178
+msgid "automatic"
+msgstr "automatique"
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:214
+msgid "no macro"
+msgstr "pas de macros"
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:242
+msgid "undefined"
+msgstr "non défini"
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:354
+#: src/phoneAccountPlugin/class_phoneAccount.inc:368
+#: src/phoneAccountPlugin/class_phoneAccount.inc:651
+#: src/phoneAccountPlugin/class_phoneAccount.inc:717
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1643
+#: src/phoneAccountPlugin/class_phoneAccount.inc:2017
+#: src/macroPlugin/remove.tpl:2
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:442
+msgid "Warning"
+msgstr "Avertissement"
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:368
+#, php-format
+msgid ""
+"Cannot identify telephone extension in database, please try to save again."
+msgstr ""
+"Impossible d'identifier l'extension téléphonique dans la base de données, "
+"veuillez essayer de sauver à nouveau."
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:468
+#: src/phoneAccountPlugin/class_phoneAccount.inc:476
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1149
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1621
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1627
+#: src/macroPlugin/class_gofonMacro.inc:481
+#: src/phoneReportsPlugin/class_fonreport.inc:180
+#: src/phoneReportsPlugin/class_fonreport.inc:184
+msgid "Configuration error"
+msgstr "Erreur de configuration"
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:468
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1149
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1627
+#: src/macroPlugin/class_gofonMacro.inc:397
+#: src/macroPlugin/class_gofonMacro.inc:481
+#: src/groupsExtension/class_phonequeue.inc:378
+#: src/groupsExtension/class_phonequeue.inc:732
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:409
+#: src/phoneReportsPlugin/class_fonreport.inc:181
+#: src/phoneReportsPlugin/class_fonreport.inc:202
+#: src/phoneReportsPlugin/class_fonreport.inc:207
+#: src/phoneReportsPlugin/class_fonreport.inc:224
+msgid "GOfon"
+msgstr "Gofon"
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:597
+#: src/phoneAccountPlugin/class_phoneAccount.inc:604
+#: src/phoneAccountPlugin/class_phoneAccount.inc:622
+#: src/phoneAccountPlugin/class_phoneAccount.inc:629
+msgid "Abort saving entries to keep the database consistent."
+msgstr ""
+"Abandon de la sauvegarde des données pour garder la base de données "
+"consistante."
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:652
+#: src/phoneAccountPlugin/class_phoneAccount.inc:718
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1644
+#, php-format
+msgid "GOsa identified problems with your MySQL table definition!"
+msgstr ""
+"GOsa à identifié des problèmes dans les définitions de vos tables MySQL !"
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:689
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1011
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1134
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1257
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1263
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1477
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1559
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1653
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1663
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1710
+#: src/macroPlugin/class_gofonMacro.inc:359
+#: src/macroPlugin/class_gofonMacro.inc:468
+#: src/macroPlugin/class_gofonMacro.inc:477
+#: src/macroPlugin/class_gofonMacro.inc:515
+#: src/groupsExtension/class_phonequeue.inc:823
+#: src/groupsExtension/class_phonequeue.inc:865
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:227
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:231
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:267
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:596
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:245
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:290
+#: src/phoneReportsPlugin/class_fonreport.inc:201
+#: src/phoneReportsPlugin/class_fonreport.inc:206
+#: src/phoneReportsPlugin/class_fonreport.inc:223
+msgid "Error"
+msgstr "Erreur"
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:691
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1013
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1712
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:598
+msgid "Please activate debugging for details!"
+msgstr "Veuillez activer le mode debug pour plus de détail !"
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1111
+msgid "Remove phone account"
+msgstr "Supprimer l'extension téléphonique"
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1115
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1118
+msgid "Create phone account"
+msgstr "Créer un compte téléphone"
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1116
+#, fuzzy
+msgid "User UID"
+msgstr "ID de l'utilisateur"
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1134
+msgid "Selected macro is not available anymore!"
+msgstr "la macro sélectionnée n'est plus disponible !"
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1159
+msgid "Parameter"
+msgstr "Paramètres"
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1312
+msgid "Choose your private phone"
+msgstr "Choisissez votre téléphone privé"
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1455
+msgid ""
+"There must be at least one server with an asterisk database to create a "
+"phone account."
+msgstr ""
+"Il doit y avoir au moins un serveur avec une base de données asterisk pour "
+"créer un compte téléphonique."
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1459
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1867
+#: src/phoneAccountPlugin/generic.tpl:55 src/groupsExtension/phonequeue.tpl:57
+#: src/groupsExtension/class_phonequeue.inc:305
+#: src/groupsExtension/class_phonequeue.inc:934
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:849
+#: src/conferencePlugin/generic.tpl:57
+msgid "Home server"
+msgstr "Serveur Primaire"
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1463
+#, fuzzy
+msgid "Between 1-4 characters"
+msgstr "Entre 1-4 caractères."
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1503
+#: src/groupsExtension/class_phonequeue.inc:901
+#: src/conferencePlugin/conf-filter.xml:32
+#: src/conferencePlugin/paste_generic.tpl:15
+#: src/conferencePlugin/generic.tpl:109
+msgid "Phone number"
+msgstr "Numéro de téléphone"
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1511
+#, php-format
+msgid "macro parameter %s"
+msgstr "paramètre de la macro %s"
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1559
+#, fuzzy
+msgid "An error occurred while updating the database entries!"
+msgstr "Une erreur est survenue lors de la mise à jour de la base de données !"
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1755
+#: src/macroPlugin/class_gofonMacroParameters.inc:378
+msgid "Information"
+msgstr "Information"
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1755
+#, php-format
+msgid "User '%s' has been removed from phone queue '%s'."
+msgstr "L'utilisateur '%s' à été enlevé de la queue '%s'."
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1792
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1794
+#, fuzzy, php-format
+msgid "The specified telephone number '%s' is already assigned to '%s'."
+msgstr "Le numéro de téléphone %s est déjà utilisé par '%s'."
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1840
+#, php-format
+msgid ""
+"The previously selected asterisk home server (%s) is no longer available. "
+"Remove aborted."
+msgstr ""
+"Le serveur asterisk primaire précédemment sélectionné n'existe plus (%s). "
+"Effacement interrompu."
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1849
+msgid "Phone account settings"
+msgstr "Paramètres compte téléphonique"
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1853
+msgid "My account"
+msgstr "Mon Compte"
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1864
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:860
+msgid "Telephone number"
+msgstr "Numéro de téléphone"
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1865
+msgid "Macro settings"
+msgstr "Paramètres des macros"
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1866
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:503
+msgid "Phone hardware"
+msgstr "Matériel téléphonique"
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1868
+msgid "Phone context"
+msgstr "Contexte téléphonique"
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1869
+#: src/phoneAccountPlugin/generic.tpl:77
+msgid "Voice mail context"
+msgstr "Contexte de la boite vocale"
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1870
+#, fuzzy
+msgid "Telephone PIN"
+msgstr "Téléphone"
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1953
+msgid "There is currently no asterisk server defined!"
+msgstr "Il n'y a pas de serveur asterisk défini !"
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1957
+msgid "Asterisk server is invalid!"
+msgstr "Le serveur Asterisk est non valide !"
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1963
+#, fuzzy
+msgid "Voice mail PIN must be 4 characters long!"
+msgstr "Le code pin de la boîte vocale doit être long de 4 caractères."
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1966
+#, fuzzy
+msgid "Voice mail PIN contains invalid characters!"
+msgstr "Le code pin de la boîte vocale contient des caractères non valides !"
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1971
+#, fuzzy
+msgid "Phone PIN contains invalid characters!"
+msgstr "Le mot de passe contient des caractères invalides."
+
+#: src/phoneAccountPlugin/class_phoneAccount.inc:1978
+#, php-format
+msgid "The parameter %s contains invalid char. '!,#' is used as delimiter"
+msgstr ""
+"Le paramètre %s contient des caractères invalides. '!#' est utilisé comme "
+"séparateur"
+
+#: src/phoneAccountPlugin/generic.tpl:59
+msgid "Select the accounts home server"
+msgstr "Sélectionnez le serveur primaire"
+
+#: src/phoneAccountPlugin/generic.tpl:66
+msgid "Context"
+msgstr "Contexte"
+
+#: src/phoneAccountPlugin/generic.tpl:70 src/phoneAccountPlugin/generic.tpl:81
+msgid "Select the accounts context"
+msgstr "Sélectionnez le contexte du compte"
+
+#: src/phoneAccountPlugin/generic.tpl:120
+#: src/phoneAccountPlugin/generic.tpl:121
+#: src/macroPlugin/class_gofonMacroParameters.inc:199
+msgid "Phone macro"
+msgstr "Macro téléphoniques"
+
+#: src/phoneAccountPlugin/generic.tpl:132
+msgid "Refresh"
+msgstr "Rafraîchir"
+
+#: src/macroPlugin/class_gofonMacro.inc:214
+#, php-format
+msgid ""
+"Macro could not be removed from server '%s', please check database "
+"consistency!"
+msgstr ""
+
+#: src/macroPlugin/class_gofonMacro.inc:287
+#, php-format
+msgid "Application missing in line %s!"
+msgstr "Il y a pas d'application indiquée à la ligne '%s' !"
+
+#: src/macroPlugin/class_gofonMacro.inc:290
+#, fuzzy, php-format
+msgid "Priority missing in line %s!"
+msgstr "Extension manquante à la ligne %s !"
+
+#: src/macroPlugin/class_gofonMacro.inc:294
+#, php-format
+msgid "Extension missing in line %s!"
+msgstr "Extension manquante à la ligne %s !"
+
+#: src/macroPlugin/class_gofonMacro.inc:304
+#, php-format
+msgid "Duplicate combination of 'extension' and 'priority' in line %s!"
+msgstr ""
+
+#: src/macroPlugin/class_gofonMacro.inc:333
+#, php-format
+msgid ""
+"Macro could not be added to server '%s', please check database consistency!"
+msgstr ""
+
+#: src/macroPlugin/class_gofonMacro.inc:411
+#: src/macroPlugin/class_gofonMacro.inc:422 src/macroPlugin/macro-list.xml:41
+#: src/macroPlugin/parameter.tpl:6
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:367
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:389
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:842
+#: src/conferencePlugin/conf-list.xml:41
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:326
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:330
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:333
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:348
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:520
+msgid "Name"
+msgstr "Nom"
+
+#: src/macroPlugin/class_gofonMacro.inc:426
+msgid "Name can be 20 characters at maximum!"
+msgstr "Les noms ne peuvent pas dépasser 20 caractères !"
+
+#: src/macroPlugin/class_gofonMacro.inc:435
+msgid "Macro is still in use!"
+msgstr "Macro encore en utilisation !"
+
+#: src/macroPlugin/class_gofonMacro.inc:442
+msgid "Macro is empty!"
+msgstr "La macro est vide !"
+
+#: src/macroPlugin/class_gofonMacro.inc:468
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:245
+#, php-format
+msgid "Cannot delete entry because it is still in use by '%s'!"
+msgstr ""
+"Impossible d'éffacer l'entrée parcequ'elle est encore utilisée par '%s' !"
+
+#: src/macroPlugin/class_gofonMacro.inc:572
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:493
+msgid "Generic"
+msgstr "Informations"
+
+#: src/macroPlugin/class_gofonMacro.inc:573
+msgid "Asterisk macro management"
+msgstr "Gestion des macros d'Asterisk"
+
+#: src/macroPlugin/class_gofonMacro.inc:582
+msgid "GOfon macro"
+msgstr "Macro GOfon"
+
+#: src/macroPlugin/class_gofonMacro.inc:591
+msgid "RDN for macro storage."
+msgstr ""
+
+#: src/macroPlugin/class_gofonMacro.inc:602
+#: src/macroPlugin/paste_generic.tpl:4 src/macroPlugin/paste_generic.tpl:6
+#: src/macroPlugin/generic.tpl:6 src/macroPlugin/generic.tpl:9
+msgid "Macro name"
+msgstr "Nom de la macro"
+
+#: src/macroPlugin/class_gofonMacro.inc:603 src/macroPlugin/macro-list.tpl:12
+#: src/macroPlugin/generic.tpl:27
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:843
+#: src/conferencePlugin/conf-list.tpl:12 src/conferencePlugin/generic.tpl:44
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:521
+#: src/phoneHardwarePlugin/phone.tpl:18
+msgid "Base"
+msgstr "Base"
+
+#: src/macroPlugin/class_gofonMacro.inc:604 src/macroPlugin/macro-list.xml:49
+#: src/macroPlugin/generic.tpl:42
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:844
+#: src/conferencePlugin/conf-list.xml:49 src/conferencePlugin/generic.tpl:87
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:522
+#: src/phoneHardwarePlugin/phone.tpl:29
+msgid "Description"
+msgstr "Description"
+
+#: src/macroPlugin/class_gofonMacro.inc:605 src/macroPlugin/generic.tpl:14
+msgid "Display name"
+msgstr "Nom à afficher"
+
+#: src/macroPlugin/class_gofonMacro.inc:606
+msgid "Macro content and parameter"
+msgstr "Contenu et paramètre des macros"
+
+#: src/macroPlugin/class_gofonMacro.inc:607
+msgid "Visibility flag"
+msgstr "Etat de visibilité"
+
+#: src/macroPlugin/paste_generic.tpl:1
+#, fuzzy
+msgid "Paste macro"
+msgstr "Macro téléphoniques"
+
+#: src/macroPlugin/macro-list.xml:11
+msgid "List of macros"
+msgstr "Liste des macros"
+
+#: src/macroPlugin/macro-list.xml:15 src/macroPlugin/macro-list.xml:74
+#: src/macroPlugin/generic.tpl:1
+msgid "Macro"
+msgstr "Macro"
+
+#: src/macroPlugin/macro-list.xml:57 src/conferencePlugin/conf-list.xml:57
+msgid "Actions"
+msgstr "Actions"
+
+#: src/macroPlugin/macro-list.xml:68 src/conferencePlugin/conf-list.xml:68
+msgid "Create"
+msgstr "Créer"
+
+#: src/macroPlugin/macro-list.xml:86 src/macroPlugin/macro-list.xml:125
+#: src/conferencePlugin/conf-list.xml:86
+#: src/conferencePlugin/conf-list.xml:125
+msgid "Edit"
+msgstr "Editer"
+
+#: src/macroPlugin/macro-list.xml:93 src/macroPlugin/macro-list.xml:138
+#: src/conferencePlugin/conf-list.xml:93
+#: src/conferencePlugin/conf-list.xml:138
+msgid "Remove"
+msgstr "Supprimer"
+
+#: src/macroPlugin/parameter.tpl:2
+#, fuzzy
+msgid "Macro parameter"
+msgstr "paramètre de la macro %s"
+
+#: src/macroPlugin/parameter.tpl:4
+msgid "Argument"
+msgstr "Argument"
+
+#: src/macroPlugin/parameter.tpl:8
+msgid "type"
+msgstr "type"
+
+#: src/macroPlugin/parameter.tpl:10
+msgid "Default value"
+msgstr "Valeur par défaut"
+
+#: src/macroPlugin/parameter.tpl:19
+msgid "You are not allowed to view the macro parameter settings"
+msgstr "Vous n'êtes pas autorisé à voir les paramètres de cette macro."
+
+#: src/macroPlugin/class_gofonMacroParameters.inc:255
+msgid "String"
+msgstr "Chaîne de caractère"
+
+#: src/macroPlugin/class_gofonMacroParameters.inc:256
+#, fuzzy
+msgid "Select box"
+msgstr "Sélectionner tout"
+
+#: src/macroPlugin/class_gofonMacroParameters.inc:257
+#, fuzzy
+msgid "Boolean"
+msgstr "Booléen"
+
+#: src/macroPlugin/class_gofonMacroParameters.inc:263
+msgid "Delete unused"
+msgstr "Supprimer les paramètres inutilisés"
+
+#: src/macroPlugin/class_gofonMacroParameters.inc:343
+#, fuzzy, php-format
+msgid "Parameter %s contains invalid character!"
+msgstr "Le champ '%s' contient des caractères invalides !"
+
+#: src/macroPlugin/class_gofonMacroParameters.inc:349
+#, php-format
+msgid "Parameter %s is invalid!"
+msgstr "Le paramètre %s est non valide !"
+
+#: src/macroPlugin/class_gofonMacroParameters.inc:378
+msgid ""
+"Number of parameters for this macro has changed. Please update all users "
+"using it!"
+msgstr ""
+"Le nombre de paramètres de cette macro à changé. Veuillez mettre à jour tout "
+"les utilisateurs qui l'utilisent !"
+
+#: src/macroPlugin/macro-filter.xml:17
+#, fuzzy
+msgid "Default filter"
+msgstr "Imprimante"
+
+#: src/macroPlugin/macro-filter.xml:31
+msgid "Enabled"
+msgstr "Activé"
+
+#: src/macroPlugin/remove.tpl:7
+msgid ""
+"Please double check if you really want to do this since there is no way for "
+"GOsa to get your data back."
+msgstr ""
+"Veuillez vérifier que vous voulez effectuer cette action. Toutes les données "
+"seront perdues étant donné qu'il est impossible pour GOsa de récupérer vos "
+"données."
+
+#: src/macroPlugin/remove.tpl:11
+msgid "So - if you're sure - press 'Delete' to continue or 'Cancel' to abort."
+msgstr ""
+"D'accord - si vous êtes sur - cliquez sur 'Supprimer' pour continuer ou sur "
+"'Annuler' pour abandonner."
+
+#: src/macroPlugin/class_gofonMacroManagement.inc:25
+#, fuzzy
+msgid "Phone Macros"
+msgstr "Macro téléphoniques"
+
+#: src/macroPlugin/class_gofonMacroManagement.inc:26
+msgid "Manage phone macros for setups using the Asterisk VoIP service"
+msgstr ""
+
+#: src/macroPlugin/generic.tpl:4
+#, fuzzy
+msgid "Macro generic"
+msgstr "Nom de la macro"
+
+#: src/macroPlugin/generic.tpl:18
+msgid "Macro name to be displayed"
+msgstr "Nom d'affichage de la macro"
+
+#: src/macroPlugin/generic.tpl:40
+#, fuzzy
+msgid "Visibility"
+msgstr "Etat de visibilité"
+
+#: src/macroPlugin/generic.tpl:53
+msgid "Visible for user"
+msgstr "Visible pour l'utilisateur"
+
+#: src/macroPlugin/generic.tpl:63
+msgid "Macro text"
+msgstr "Texte de la macro"
+
+#: src/groupsExtension/phonequeue.tpl:3
+msgid ""
+"Only users with the same asterisk home server will be included to this queue."
+msgstr ""
+"Seulement les utilisateurs du même serveur asterisk seront inclus dans cette "
+"queue."
+
+#: src/groupsExtension/phonequeue.tpl:6
+msgid "Queue Settings"
+msgstr "Préférences des queues"
+
+#: src/groupsExtension/phonequeue.tpl:14
+#: src/groupsExtension/phonequeue.tpl:144
+msgid "Generic queue Settings"
+msgstr "Paramètres par défaut des queues"
+
+#: src/groupsExtension/phonequeue.tpl:27
+msgid "Up"
+msgstr "Au dessus"
+
+#: src/groupsExtension/phonequeue.tpl:31
+msgid "Down"
+msgstr "En bas"
+
+#: src/groupsExtension/phonequeue.tpl:54 src/conferencePlugin/generic.tpl:129
+#: src/conferencePlugin/generic.tpl:135
+msgid "Options"
+msgstr "Options"
+
+#: src/groupsExtension/phonequeue.tpl:69
+#: src/groupsExtension/class_phonequeue.inc:953
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:847
+#: src/conferencePlugin/generic.tpl:67
+msgid "Language"
+msgstr "Langue"
+
+#: src/groupsExtension/phonequeue.tpl:82
+#: src/groupsExtension/class_phonequeue.inc:311
+#: src/groupsExtension/class_phonequeue.inc:932
+msgid "Timeout"
+msgstr "Temps d'attente maximum"
+
+#: src/groupsExtension/phonequeue.tpl:92
+#: src/groupsExtension/class_phonequeue.inc:314
+#: src/groupsExtension/class_phonequeue.inc:957
+msgid "Retry"
+msgstr "Réessayer"
+
+#: src/groupsExtension/phonequeue.tpl:102
+msgid "Strategy"
+msgstr "Stratégie"
+
+#: src/groupsExtension/phonequeue.tpl:116
+#: src/groupsExtension/class_phonequeue.inc:933
+msgid "Max queue length"
+msgstr "Taille maximale de la queue"
+
+#: src/groupsExtension/phonequeue.tpl:126
+#: src/groupsExtension/class_phonequeue.inc:320
+#: src/groupsExtension/class_phonequeue.inc:935
+msgid "Announce frequency"
+msgstr "Fréquence du message d'annonce"
+
+#: src/groupsExtension/phonequeue.tpl:132
+msgid "(in seconds)"
+msgstr "(en secondes)"
+
+#: src/groupsExtension/phonequeue.tpl:142
+msgid "Queue sound setup"
+msgstr "Configuration de la queue d'attente du son"
+
+#: src/groupsExtension/phonequeue.tpl:147
+msgid "Use music on hold instead of ringing"
+msgstr "Mettre de la musique lorsqu'on est en attente plutôt que la sonnerie"
+
+#: src/groupsExtension/phonequeue.tpl:158
+#: src/groupsExtension/class_phonequeue.inc:942
+msgid "Music on hold"
+msgstr "Musique d'attente"
+
+#: src/groupsExtension/phonequeue.tpl:168
+msgid "Welcome sound file"
+msgstr "Fichier son de bienvenue"
+
+#: src/groupsExtension/phonequeue.tpl:178
+msgid "Announce message"
+msgstr "Message de présentation"
+
+#: src/groupsExtension/phonequeue.tpl:188
+msgid "Sound file for 'You are next ...'"
+msgstr "Fichier son pour 'Vous êtes le suivant ...'"
+
+#: src/groupsExtension/phonequeue.tpl:198
+msgid "'There are ...'"
+msgstr "'Il y a ...'"
+
+#: src/groupsExtension/phonequeue.tpl:208
+msgid "'... calls waiting'"
+msgstr "'... appels en attente'"
+
+#: src/groupsExtension/phonequeue.tpl:218
+msgid "'Thank you' message"
+msgstr "Message 'Merci'"
+
+#: src/groupsExtension/phonequeue.tpl:228
+msgid "'minutes' sound file"
+msgstr "'minutes' du fichier son"
+
+#: src/groupsExtension/phonequeue.tpl:238
+msgid "'seconds' sound file"
+msgstr "'secondes' du fichier son"
+
+#: src/groupsExtension/phonequeue.tpl:248
+msgid "Hold sound file"
+msgstr "Fichier son du message d'attente"
+
+#: src/groupsExtension/phonequeue.tpl:258
+msgid "Less Than sound file"
+msgstr "Fichier son, moins de"
+
+#: src/groupsExtension/phonequeue.tpl:276
+msgid "Phone attributes "
+msgstr "Propriétés du téléphone"
+
+#: src/groupsExtension/phonequeue.tpl:281
+#, fuzzy
+msgid "Additional queue settings"
+msgstr "Paramètres supplémentaire de GOsa"
+
+#: src/groupsExtension/phonequeue.tpl:288
+#: src/groupsExtension/class_phonequeue.inc:955
+#, fuzzy
+msgid "Announce hold time"
+msgstr "Annonce de la durée de mise en attente"
+
+#: src/groupsExtension/phonequeue.tpl:296
+#: src/groupsExtension/class_phonequeue.inc:936
+msgid "Allow the called user to transfer his call"
+msgstr "Permettre à l'utilisateur appelé de transférer son appel"
+
+#: src/groupsExtension/phonequeue.tpl:304
+#: src/groupsExtension/class_phonequeue.inc:937
+msgid "Allows calling user to transfer call"
+msgstr "Permettre à l'utilisateur qui appelle de transférer son appel"
+
+#: src/groupsExtension/phonequeue.tpl:311
+#, fuzzy
+msgid "Dial options"
+msgstr "Paramètres supplémentaire pour le filtre"
+
+#: src/groupsExtension/phonequeue.tpl:318
+#: src/groupsExtension/class_phonequeue.inc:938
+msgid "Allow the called to hangup by pressing *"
+msgstr "Permettre à la personne qui appelle de raccrocher en appuyant sur *"
+
+#: src/groupsExtension/phonequeue.tpl:326
+#: src/groupsExtension/class_phonequeue.inc:940
+msgid "Allows calling to hangup by pressing *"
+msgstr "Permettre à la personne qui appelle de raccrocher en appuyant sur *"
+
+#: src/groupsExtension/phonequeue.tpl:334
+#: src/groupsExtension/class_phonequeue.inc:939
+msgid "Ring instead of playing background music"
+msgstr "Sonner au lieu de mettre une musique d'ambiance"
+
+#: src/groupsExtension/class_phonequeue.inc:121
+msgid "ring all"
+msgstr "Tout faire sonner"
+
+#: src/groupsExtension/class_phonequeue.inc:122
+msgid "round robin"
+msgstr "les un après les autres"
+
+#: src/groupsExtension/class_phonequeue.inc:123
+msgid "least recently called"
+msgstr "le moins appelé "
+
+#: src/groupsExtension/class_phonequeue.inc:124
+msgid "fewest completed calls"
+msgstr "le plus petit nombre d'appel réussi"
+
+#: src/groupsExtension/class_phonequeue.inc:125
+msgid "random"
+msgstr "au hasard"
+
+#: src/groupsExtension/class_phonequeue.inc:126
+msgid "round robin with memory"
+msgstr "les un après les autres avec mémorisation du dernier utilisé"
+
+#: src/groupsExtension/class_phonequeue.inc:210
+msgid "Remove the phone queue from this Account"
+msgstr "Supprimer la queue téléphonique de ce compte"
+
+#: src/groupsExtension/class_phonequeue.inc:211
+#: src/groupsExtension/class_phonequeue.inc:214
+msgid "phone queue"
+msgstr "queue téléphonique"
+
+#: src/groupsExtension/class_phonequeue.inc:213
+msgid "Create phone queue"
+msgstr "Créer une queue téléphonique"
+
+#: src/groupsExtension/class_phonequeue.inc:302
+msgid ""
+"There must be at least one server with an asterisk database to create a "
+"phone queue."
+msgstr ""
+"Il doit y avoir au moins un serveur avec une base de données asterisk pour "
+"créer un queue téléphonique."
+
+#: src/groupsExtension/class_phonequeue.inc:317
+msgid "Queue length"
+msgstr "taille de la queue"
+
+#: src/groupsExtension/class_phonequeue.inc:323
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:371
+msgid "Number"
+msgstr "Numéro"
+
+#: src/groupsExtension/class_phonequeue.inc:346
+#: src/groupsExtension/class_phonequeue.inc:394
+msgid "asterisk"
+msgstr "asterisk"
+
+#: src/groupsExtension/class_phonequeue.inc:437
+msgid "Cannot find old queue entry!"
+msgstr "Impossible de trouver l'entrée dans l'ancienne queue !"
+
+#: src/groupsExtension/class_phonequeue.inc:523
+#, php-format
+msgid ""
+"Found more than one entry named '%s' in queue table. Please inform your "
+"system administrator!"
+msgstr ""
+"J'ai trouvé plus d'une entrée nommée '%s' dans la queue. Veuillez informer "
+"votre administrateur système !"
+
+#: src/groupsExtension/class_phonequeue.inc:764
+#: src/groupsExtension/class_phonequeue.inc:766
+msgid "telephone number"
+msgstr "numéro de téléphone"
+
+#: src/groupsExtension/class_phonequeue.inc:919
+msgid "Phone group"
+msgstr "Groupe téléphonique"
+
+#: src/groupsExtension/class_phonequeue.inc:943
+msgid "Welcome music"
+msgstr "Musique de bienvenue"
+
+#: src/groupsExtension/class_phonequeue.inc:944
+msgid "Report hold time"
+msgstr "Annonce de la durée de mise en attente"
+
+#: src/groupsExtension/class_phonequeue.inc:945
+msgid "'You are next' sound"
+msgstr "son 'Vous êtes le suivant'"
+
+#: src/groupsExtension/class_phonequeue.inc:946
+msgid "'There are' sound"
+msgstr "son 'Il y a ...'"
+
+#: src/groupsExtension/class_phonequeue.inc:947
+msgid "'Call waiting' sound"
+msgstr "son '... appels en attente'"
+
+#: src/groupsExtension/class_phonequeue.inc:948
+msgid "'Thank you' sound"
+msgstr "son 'Merci'"
+
+#: src/groupsExtension/class_phonequeue.inc:949
+msgid "'Minutes' sound"
+msgstr "'minutes' du fichier son"
+
+#: src/groupsExtension/class_phonequeue.inc:950
+msgid "'Seconds' sound"
+msgstr "'secondes' du fichier son"
+
+#: src/groupsExtension/class_phonequeue.inc:951
+msgid "'Less than' sound"
+msgstr "Fichier son, 'moins de'"
+
+#: src/groupsExtension/class_phonequeue.inc:952
+msgid "Queue phone number"
+msgstr "Numéro de la queue téléphonique"
+
+#: src/groupsExtension/class_phonequeue.inc:954
+msgid "Method"
+msgstr "Méthode"
+
+#: src/groupsExtension/class_phonequeue.inc:956
+msgid "Announce"
+msgstr "Annonce"
+
+#: src/conferencePlugin/conf-filter.xml:18
+#, fuzzy
+msgid "Default"
+msgstr "Adresse ip par défaut"
+
+#: src/conferencePlugin/paste_generic.tpl:1
+#, fuzzy
+msgid "Paste confernece"
+msgstr "Conférences"
+
+#: src/conferencePlugin/paste_generic.tpl:5
+#: src/conferencePlugin/generic.tpl:10
+msgid "Conference name"
+msgstr "Nom de la conférence"
+
+#: src/conferencePlugin/paste_generic.tpl:10
+#: src/conferencePlugin/generic.tpl:16
+msgid "Name of conference to create"
+msgstr "Nom de la conférence à créer"
+
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:231
+#, php-format
+msgid "Cannot delete entry from server '%s' because it seems to be removed!"
+msgstr ""
+"Impossible d'effacer l'entrée du serveur '%s' parceque l'entrée semble avoir "
+"déjà été effacée !"
+
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:353
+#, php-format
+msgid ""
+"The previously selected asterisk home server '%s' is no longer available!"
+msgstr ""
+"Le serveur asterisk primaire (%s) précédemment sélectionné n'est plus "
+"disponible !"
+
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:358
+#: src/conferencePlugin/generic.tpl:152
+msgid "PIN"
+msgstr "Code PIN"
+
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:375
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:859
+msgid "Lifetime"
+msgstr "Durée"
+
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:443
+#, php-format
+msgid ""
+"GOsa identified problems with your MySQL table definition, please activate "
+"debugging for details."
+msgstr ""
+"GOsa à identifié des problèmes dans les définitions de vos tables MySQL, "
+"veuillez activer le mode debug pour plus de détail."
+
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:690
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:692
+#, php-format
+msgid "'%s' is already assigned to '%s'!"
+msgstr "'%s' est déjà utilisé par '%s' !"
+
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:813
+#: src/conferencePlugin/conf-list.xml:15 src/conferencePlugin/conf-list.xml:74
+#: src/conferencePlugin/generic.tpl:3
+msgid "Conference"
+msgstr "Conférence"
+
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:814
+msgid "Phone conference management"
+msgstr "Gestion des conférences téléphoniques"
+
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:823
+msgid "GOfon conference"
+msgstr "Conférences téléphoniques"
+
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:832
+#, fuzzy
+msgid "RDN for phone conference storage."
+msgstr "Nom de la conférence à créer"
+
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:845
+msgid "Conference PIN"
+msgstr "Code Pin de la conférence"
+
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:850
+#: src/conferencePlugin/generic.tpl:144
+msgid "Preset PIN"
+msgstr "Code PIN préselectionné"
+
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:851
+#: src/conferencePlugin/generic.tpl:164
+msgid "Record conference"
+msgstr "Enregistrer la conférence"
+
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:852
+#: src/conferencePlugin/generic.tpl:195
+msgid "Play music on hold"
+msgstr "Musique d'attente"
+
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:853
+msgid "Activate menu"
+msgstr "Activer le menu"
+
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:854
+msgid "Announce user activity"
+msgstr "Annoncer l'activité utilisateur"
+
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:855
+msgid "Count user"
+msgstr "Compter les utilisateurs"
+
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:856
+msgid "Conference type"
+msgstr "Type de conférence"
+
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:858
+msgid "Format"
+msgstr "Format"
+
+#: src/conferencePlugin/class_phoneConferenceGeneric.inc:861
+msgid "Owner"
+msgstr "Propriétaire"
+
+#: src/conferencePlugin/conf-list.xml:11
+msgid "List of conference rooms"
+msgstr "Liste des salles de conférence"
+
+#: src/conferencePlugin/class_phoneConferenceManagment.inc:25
+#, fuzzy
+msgid "Phone Conferences"
+msgstr "Conférence"
+
+#: src/conferencePlugin/class_phoneConferenceManagment.inc:26
+msgid "Manage phone conference rooms in setups using the Asterisk VoIP service"
+msgstr ""
+
+#: src/conferencePlugin/generic.tpl:1
+msgid "Properties"
+msgstr "Propriétés"
+
+#: src/conferencePlugin/generic.tpl:6
+#: src/phoneHardwarePlugin/phonesettings.tpl:24
+#: src/phoneHardwarePlugin/phone.tpl:5
+#, fuzzy
+msgid "Generic settings"
+msgstr "Paramètres par défaut des utilisateurs"
+
+#: src/conferencePlugin/generic.tpl:23
+msgid "Type"
+msgstr "Type"
+
+#: src/conferencePlugin/generic.tpl:30
+msgid "Choose subtree to place conference in"
+msgstr "Sélectionnez la branche où sera enregistrée la conférence"
+
+#: src/conferencePlugin/generic.tpl:71
+msgid "Select language"
+msgstr "Sélectionnez la langue"
+
+#: src/conferencePlugin/generic.tpl:83
+#: src/phoneHardwarePlugin/phonesettings.tpl:53
+#, fuzzy
+msgid "Additional settings"
+msgstr "Paramètres supplémentaire de GOsa"
+
+#: src/conferencePlugin/generic.tpl:93
+msgid "Descriptive text for department"
+msgstr "Description du département"
+
+#: src/conferencePlugin/generic.tpl:99
+msgid "Lifetime (in days)"
+msgstr "Durée (en jours)"
+
+#: src/conferencePlugin/generic.tpl:172
+msgid "Sound file format"
+msgstr "Format du fichier son "
+
+#: src/conferencePlugin/generic.tpl:175
+msgid "Choose subtree to place department in"
+msgstr ""
+"Sélectionnez la branche de l'annuaire dans laquelle sera placée le "
+"département"
+
+#: src/conferencePlugin/generic.tpl:189
+msgid "Flags"
+msgstr ""
+
+#: src/conferencePlugin/generic.tpl:203
+msgid "Activate session menu"
+msgstr "Activer le menu de session"
+
+#: src/conferencePlugin/generic.tpl:211
+msgid "Announce users joining or leaving the conference"
+msgstr "Annoncer les nouveaux utilisateurs et ceux qui quittent"
+
+#: src/conferencePlugin/generic.tpl:219
+msgid "Count users"
+msgstr "Compter les utilisateurs"
+
+#: src/phoneHardwarePlugin/paste_generic.tpl:1
+#, fuzzy
+msgid "Paste phone"
+msgstr "Numéro de téléphone privé"
+
+#: src/phoneHardwarePlugin/paste_generic.tpl:3
+#: src/phoneHardwarePlugin/phone.tpl:7
+msgid "Phone name"
+msgstr "Nom du téléphone"
+
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:131
+msgid "phone"
+msgstr "téléphone"
+
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:208
+msgid "yes"
+msgstr "oui"
+
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:208
+msgid "no"
+msgstr "non"
+
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:225
+msgid "dynamic"
+msgstr "dynamique"
+
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:225
+#, fuzzy
+msgid "Network settings"
+msgstr "Configuration réseau"
+
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:312
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:315
+msgid "IP address"
+msgstr "Adresse ip"
+
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:494
+msgid "Phone generic"
+msgstr "Téléphone générique"
+
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:511
+msgid "RDN for phone storage."
+msgstr ""
+
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:523
+msgid "SIP Mode"
+msgstr "Mode SIP"
+
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:524
+msgid "SIP DTMF mode"
+msgstr "Mode DTMF"
+
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:525
+#, fuzzy
+msgid "SIP Default IP"
+msgstr "SIP Adresse ip par défaut"
+
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:526
+msgid "SIP Qualify"
+msgstr "Qualification SIP"
+
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:527
+msgid "IAX authentication type"
+msgstr "Type d'authentification IAX"
+
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:528
+msgid "IAX secret"
+msgstr "Secret IAX"
+
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:529
+msgid "IAX account code"
+msgstr "Code du compte IAX"
+
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:530
+msgid "IAX trunk lines"
+msgstr "Trunk IAX"
+
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:531
+msgid "IAX permit settings"
+msgstr "Paramètres de permissions IAX"
+
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:532
+msgid "IAX deny settings"
+msgstr "Paramètres d'interdiction IAX"
+
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:533
+msgid "CAPI MSN"
+msgstr "MSN CAPI"
+
+#: src/phoneHardwarePlugin/class_phoneGeneric.inc:534
+msgid "Hardware type"
+msgstr "Type de matériel"
+
+#: src/phoneHardwarePlugin/phonesettings.tpl:1
+#: src/phoneHardwarePlugin/phonesettings.tpl:3
+#: src/phoneHardwarePlugin/phonesettings.tpl:87
+#: src/phoneHardwarePlugin/phonesettings.tpl:254
+msgid "Advanced phone settings"
+msgstr "Configuration avancée du téléphone"
+
+#: src/phoneHardwarePlugin/phonesettings.tpl:6
+msgid "Phone type"
+msgstr "Type de téléphone"
+
+#: src/phoneHardwarePlugin/phonesettings.tpl:8
+#: src/phoneHardwarePlugin/phonesettings.tpl:32
+#: src/phoneHardwarePlugin/phonesettings.tpl:44
+#: src/phoneHardwarePlugin/phonesettings.tpl:60
+#: src/phoneHardwarePlugin/phonesettings.tpl:94
+#: src/phoneHardwarePlugin/phonesettings.tpl:131
+#: src/phoneHardwarePlugin/phonesettings.tpl:184
+msgid "Choose a phone type"
+msgstr "Sélectionnez un type de téléphone"
+
+#: src/phoneHardwarePlugin/phonesettings.tpl:13
+msgid "refresh"
+msgstr "Rafraîchir"
+
+#: src/phoneHardwarePlugin/phonesettings.tpl:27
+msgid "Mode"
+msgstr "Mode"
+
+#: src/phoneHardwarePlugin/phonesettings.tpl:40
+msgid "DTMF mode"
+msgstr "Mode DTMF"
+
+#: src/phoneHardwarePlugin/phonesettings.tpl:56
+#: src/phoneHardwarePlugin/phonesettings.tpl:102
+msgid "Default IP"
+msgstr "Adresse ip par défaut"
+
+#: src/phoneHardwarePlugin/phonesettings.tpl:68
+#: src/phoneHardwarePlugin/phonesettings.tpl:112
+msgid "Response timeout"
+msgstr "Temps de réponse maximum"
+
+#: src/phoneHardwarePlugin/phonesettings.tpl:90
+msgid "Modus"
+msgstr "Mode"
+
+#: src/phoneHardwarePlugin/phonesettings.tpl:127
+#, fuzzy
+msgid "Authentication type"
+msgstr "Type d'authentification IAX"
+
+#: src/phoneHardwarePlugin/phonesettings.tpl:139
+msgid "Secret"
+msgstr "Secret"
+
+#: src/phoneHardwarePlugin/phonesettings.tpl:170
+msgid "Account code"
+msgstr "Code du compte téléphonique"
+
+#: src/phoneHardwarePlugin/phonesettings.tpl:180
+msgid "Trunk lines"
+msgstr "Regrouper des lignes"
+
+#: src/phoneHardwarePlugin/phonesettings.tpl:195
+msgid "Permissions"
+msgstr "Permissions"
+
+#: src/phoneHardwarePlugin/phonesettings.tpl:199
+msgid "Hosts that are allowed to connect"
+msgstr "Machines qui peuvent se connecter"
+
+#: src/phoneHardwarePlugin/phonesettings.tpl:202
+#: src/phoneHardwarePlugin/phonesettings.tpl:228
+msgid "List of alternative mail addresses"
+msgstr "Liste des adresses de messagerie alternatives"
+
+#: src/phoneHardwarePlugin/phonesettings.tpl:225
+msgid "Hosts that are not allowed to connect"
+msgstr "Machines qui ne peuvent pas se connecter"
+
+#: src/phoneHardwarePlugin/phonesettings.tpl:257
+msgid "MSN"
+msgstr "MSN"
+
+#: src/phoneReportsPlugin/contents.tpl:3
+#: src/phoneReportsPlugin/contents.tpl:40
+msgid "Phone reports"
+msgstr "Rapports téléphoniques"
+
+#: src/phoneReportsPlugin/contents.tpl:6
+msgid "Filter"
+msgstr "Filtre"
+
+#: src/phoneReportsPlugin/contents.tpl:9
+msgid "Server"
+msgstr "Serveur"
+
+#: src/phoneReportsPlugin/contents.tpl:10
+msgid "Select server to search on"
+msgstr "Sélectionnez le serveur où sera effectuée la recherche"
+
+#: src/phoneReportsPlugin/contents.tpl:14
+#: src/phoneReportsPlugin/contents.tpl:43
+#: src/phoneReportsPlugin/class_fonreport.inc:438
+msgid "Date"
+msgstr "Date"
+
+#: src/phoneReportsPlugin/contents.tpl:22
+msgid "Search for"
+msgstr "Recherche de"
+
+#: src/phoneReportsPlugin/contents.tpl:24
+msgid "Enter user name to search for"
+msgstr "Entrez le nom recherché"
+
+#: src/phoneReportsPlugin/contents.tpl:28
+msgid "Search"
+msgstr "Recherche"
+
+#: src/phoneReportsPlugin/contents.tpl:44
+#: src/phoneReportsPlugin/class_fonreport.inc:439
+msgid "Source"
+msgstr "Emetteur"
+
+#: src/phoneReportsPlugin/contents.tpl:45
+#: src/phoneReportsPlugin/class_fonreport.inc:440
+msgid "Destination"
+msgstr "Destinataire"
+
+#: src/phoneReportsPlugin/contents.tpl:46
+#: src/phoneReportsPlugin/class_fonreport.inc:441
+msgid "Channel"
+msgstr "Canal"
+
+#: src/phoneReportsPlugin/contents.tpl:47
+msgid "Application"
+msgstr "Applications"
+
+#: src/phoneReportsPlugin/contents.tpl:48
+msgid "Status"
+msgstr "Statut"
+
+#: src/phoneReportsPlugin/contents.tpl:49
+#: src/phoneReportsPlugin/class_fonreport.inc:444
+msgid "Duration"
+msgstr "Durée"
+
+#: src/phoneReportsPlugin/contents.tpl:74
+msgid "Search returned no results..."
+msgstr "La recherche n'a renvoyé aucun résultat..."
+
+#: src/phoneReportsPlugin/class_fonreport.inc:6
+msgid "Phone Reports"
+msgstr "Rapports téléphoniques"
+
+#: src/phoneReportsPlugin/class_fonreport.inc:7
+msgid "View the phone report for incoming and outgoing calls"
+msgstr ""
+
+#: src/phoneReportsPlugin/class_fonreport.inc:237
+msgid "Insufficient permissions"
+msgstr "Permission insuffisantes"
+
+#: src/phoneReportsPlugin/class_fonreport.inc:269
+msgid "Y-M-D"
+msgstr "A-M-J"
+
+#: src/phoneReportsPlugin/class_fonreport.inc:429
+#: src/phoneReportsPlugin/class_fonreport.inc:430
+#, fuzzy
+msgid "View phone reports"
+msgstr "Rapports téléphoniques"
+
+#: src/phoneReportsPlugin/class_fonreport.inc:430
+#, fuzzy
+msgid "All entries are read-only"
+msgstr "Tous les champs sont en lecture seule"
+
+#: src/phoneReportsPlugin/class_fonreport.inc:442
+msgid "Application called"
+msgstr "Application appelée"
+
+#: src/phoneReportsPlugin/class_fonreport.inc:443
+msgid "Disposition"
+msgstr "Disposition"
+
+#~ msgid "This does something"
+#~ msgstr "Ceci fait quelque chose"
+
+#~ msgid "Click the 'Edit' button below to change informations in this dialog"
+#~ msgstr ""
+#~ "Cliquez sur le bouton 'Editer' ci-dessous pour changer les informations "
+#~ "dans cette boite de dialogue"
+
+#~ msgid "Admin"
+#~ msgstr "Administrateur"
+
+#~ msgid "Authtype"
+#~ msgstr "Type d'authentification"
+
+#~ msgid "Combobox"
+#~ msgstr "Boite à choix multiple"
+
+#~ msgid "Voicemail context"
+#~ msgstr "Contexte de la boite vocale"
+
+#~ msgid "User uid"
+#~ msgstr "id utilisateur"
+
+#~ msgid "Telephone pin"
+#~ msgstr "Code PIN du téléphone"
+
+#~ msgid "Voicemail pin"
+#~ msgstr "Code PIN de la boite vocale"
+
+#~ msgid "Choose subtree to place group in"
+#~ msgstr "Sélectionnez la branche où sera placée le groupe"
+
+#~ msgid "Select a base"
+#~ msgstr "Sélectionnez une base"
+
+#~ msgid "Parameter %s contains invalid character. '!,#' is used as delimiter!"
+#~ msgstr ""
+#~ "Le paramètre %s contient des caractères invalides. '!,#' est utilisé "
+#~ "comme séparateur !"
+
+#~ msgid "Phone macro management"
+#~ msgstr "Administration des macros téléphoniques"
+
+#~ msgid "Conference management"
+#~ msgstr "Gestion des conférences"
+
+#~ msgid "in"
+#~ msgstr "dans"
+
+#~ msgid "Select subtree to base search on"
+#~ msgstr ""
+#~ "Sélectionnez la branche de l'annuaire où sera effectuée la recherche"
+
+#~ msgid "on"
+#~ msgstr "Activé"
+
+#~ msgid "during"
+#~ msgstr "pendant"
+
+#~ msgid "Update"
+#~ msgstr "Mise à jour"
+
+#~ msgid "Submit"
+#~ msgstr "Soumettre"

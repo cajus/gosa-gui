@@ -1,0 +1,662 @@
+# translation of messages.po to Deutsch
+# GOsa2 Translations
+# Copyright (C) 2003 GONICUS GmbH, Germany
+# This file is distributed under the same license as the GOsa2 package.
+#
+#
+# Alfred Schroeder <schroeder@GONICUS.de>, 2004.
+# Cajus Pollmeier <pollmeier@gonicus.de>, 2004, 2005, 2006.
+# Jan Wenzel <jan.wenzel@gonicus.de>, 2004,2005, 2008.
+# Stefan Koehler <stefan.koehler@GONICUS.de>, 2005.
+msgid ""
+msgstr ""
+"Project-Id-Version: messages\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:31+0200\n"
+"PO-Revision-Date: 2010-09-15 09:02+0100\n"
+"Last-Translator: Fabian Hickert <Fabian.Hickert@GONICUS.DE>\n"
+"Language-Team: German <de@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: html/getfax.php:51
+msgid "Could not connect to database server!"
+msgstr "Konnte nicht zum Datenbankserver verbinden!"
+
+#: html/getfax.php:53
+msgid "Could not select database!"
+msgstr "Konnte die Datenbank nicht auswählen!"
+
+#: html/getfax.php:58 html/getfax.php:62
+msgid "Database query failed!"
+msgstr "Die Datenbank-Abfrage ist fehlgeschlagen!"
+
+#: src/faxReportPlugin/class_faxreport.inc:6
+msgid "FAX Reports"
+msgstr "Fax-Berichte"
+
+#: src/faxReportPlugin/class_faxreport.inc:7
+msgid "View the FAX report or single documents that have been received"
+msgstr "Betrachten von Fax-Reports oder einzelne empfangen Dokumente"
+
+#: src/faxReportPlugin/class_faxreport.inc:126
+#: src/faxReportPlugin/class_faxreport.inc:137
+#: src/faxReportPlugin/class_faxreport.inc:142
+#: src/faxReportPlugin/class_faxreport.inc:148
+#: src/faxReportPlugin/class_faxreport.inc:173
+#: src/faxReportPlugin/class_faxreport.inc:281
+#: src/faxAccountPlugin/class_gofaxAccount.inc:254
+#: src/blocklistPlugin/class_blocklistGeneric.inc:109
+#: src/blocklistPlugin/class_blocklistGeneric.inc:170
+msgid "Error"
+msgstr "Fehler"
+
+#: src/faxReportPlugin/class_faxreport.inc:126
+msgid "No FAX server found!"
+msgstr "Kein Fax-Server gefunden!"
+
+#: src/faxReportPlugin/class_faxreport.inc:129
+msgid "Configuration error"
+msgstr "Konfigurationsfehler"
+
+#: src/faxReportPlugin/class_faxreport.inc:130
+#, php-format
+msgid "Missing %s PHP extension!"
+msgstr "Fehlende %s PHP-Erweiterung"
+
+#: src/faxReportPlugin/class_faxreport.inc:138
+#, php-format
+msgid "Cannot connect to %s database!"
+msgstr "Konnte nicht zur %s Datenbank verbinden!"
+
+#: src/faxReportPlugin/class_faxreport.inc:143
+#, php-format
+msgid "Cannot select %s database!"
+msgstr "Konnte keine Auswahl auf %s Datenbank durchführen!"
+
+#: src/faxReportPlugin/class_faxreport.inc:149
+#: src/faxReportPlugin/class_faxreport.inc:174
+#: src/faxReportPlugin/class_faxreport.inc:281
+#, php-format
+msgid "Cannot query %s database!"
+msgstr "Konnte %s Datenbank nicht abfragen!"
+
+#: src/faxReportPlugin/class_faxreport.inc:192
+msgid "Permission error"
+msgstr "Berechtigungsfehler"
+
+#: src/faxReportPlugin/class_faxreport.inc:193
+msgid "You have no permission to view this FAX id!"
+msgstr "Sie haben keine Berechtigung um diese Fax-ID anzusehen!"
+
+#: src/faxReportPlugin/class_faxreport.inc:209
+#: src/faxReportPlugin/class_faxreport.inc:316
+msgid "Y-M-D"
+msgstr "D.M.Y"
+
+#: src/faxReportPlugin/class_faxreport.inc:287
+msgid "Insufficient permissions to view this attribute"
+msgstr "Zugriffsrechte nicht ausreichend um das Attribut anzuzeigen"
+
+#: src/faxReportPlugin/class_faxreport.inc:443
+#: src/faxReportPlugin/class_faxreport.inc:444
+msgid "View FAX reports"
+msgstr "Fax-Berichte"
+
+#: src/faxReportPlugin/class_faxreport.inc:444
+msgid "All entries are read-only"
+msgstr "Alle Einträge sind nur lesbar"
+
+#: src/faxReportPlugin/class_faxreport.inc:458
+msgid "Detailed view and download"
+msgstr "Detaillierte Ansicht und Download"
+
+#: src/faxReportPlugin/class_faxreport.inc:459
+msgid "Fax ID"
+msgstr "Fax-ID"
+
+#: src/faxReportPlugin/class_faxreport.inc:460
+#, fuzzy
+msgid "The username"
+msgstr "Nachname"
+
+#: src/faxReportPlugin/class_faxreport.inc:461
+#: src/faxReportPlugin/contents.tpl:9 src/faxReportPlugin/contents.tpl:38
+msgid "Date"
+msgstr "Datum"
+
+#: src/faxReportPlugin/class_faxreport.inc:461
+msgid "Time"
+msgstr "Zeit"
+
+#: src/faxReportPlugin/class_faxreport.inc:462
+#: src/faxReportPlugin/contents.tpl:39 src/faxReportPlugin/detail.tpl:44
+msgid "Status"
+msgstr "Status"
+
+#: src/faxReportPlugin/class_faxreport.inc:463
+#: src/faxReportPlugin/detail.tpl:32
+msgid "Sender ID"
+msgstr "Absender-ID"
+
+#: src/faxReportPlugin/class_faxreport.inc:464
+#: src/faxReportPlugin/detail.tpl:28
+msgid "Sender MSN"
+msgstr "Absender-MSN"
+
+#: src/faxReportPlugin/class_faxreport.inc:465
+#: src/faxReportPlugin/detail.tpl:40
+msgid "Receiver ID"
+msgstr "Empfänger-ID"
+
+#: src/faxReportPlugin/class_faxreport.inc:466
+#: src/faxReportPlugin/detail.tpl:36
+msgid "Receiver MSN"
+msgstr "Empfänger-MSN"
+
+#: src/faxReportPlugin/class_faxreport.inc:467
+msgid "Number of pages"
+msgstr "Anzahl der Seiten"
+
+#: src/faxReportPlugin/class_faxreport.inc:468
+msgid "Status Message"
+msgstr "Status-Nachricht"
+
+#: src/faxReportPlugin/class_faxreport.inc:469
+#: src/faxReportPlugin/detail.tpl:52
+msgid "Transfer time"
+msgstr "Übertragungszeit"
+
+#: src/faxReportPlugin/contents.tpl:3 src/faxReportPlugin/detail.tpl:1
+msgid "Fax reports"
+msgstr "Fax-Berichte"
+
+#: src/faxReportPlugin/contents.tpl:6
+msgid "Filter"
+msgstr "Filter"
+
+#: src/faxReportPlugin/contents.tpl:17
+msgid "Search for"
+msgstr "Suche nach"
+
+#: src/faxReportPlugin/contents.tpl:19
+msgid "Enter user name to search for"
+msgstr "Benutzername, nach dem gesucht werden soll"
+
+#: src/faxReportPlugin/contents.tpl:23
+msgid "Search"
+msgstr "Suchen"
+
+#: src/faxReportPlugin/contents.tpl:34
+msgid "Phone reports"
+msgstr "Fax-Berichte"
+
+#: src/faxReportPlugin/contents.tpl:37 src/faxReportPlugin/detail.tpl:20
+#: src/faxNumberSelectDialog/faxNumberSelect-list.xml:14
+#: src/GofaxService/class_goFaxServer.inc:68
+msgid "User"
+msgstr "Benutzer"
+
+#: src/faxReportPlugin/contents.tpl:40
+msgid "Sender"
+msgstr "Absender"
+
+#: src/faxReportPlugin/contents.tpl:41
+msgid "Receiver"
+msgstr "Empfänger"
+
+#: src/faxReportPlugin/contents.tpl:42 src/faxReportPlugin/detail.tpl:56
+msgid "# pages"
+msgstr "# Seiten"
+
+#: src/faxReportPlugin/contents.tpl:60
+msgid "Page selector"
+msgstr "Seitenauswahl"
+
+#: src/faxReportPlugin/contents.tpl:69
+msgid "Search returned no results..."
+msgstr "Die Suche verlief ergebnislos..."
+
+#: src/faxReportPlugin/detail.tpl:5 src/faxReportPlugin/detail.tpl:6
+msgid "Click on fax to download"
+msgstr "Klicken Sie auf das Fax, um es herunterzuladen"
+
+#: src/faxReportPlugin/detail.tpl:14
+msgid "Entry list"
+msgstr "Eintrags-Liste"
+
+#: src/faxReportPlugin/detail.tpl:16
+msgid "FAX ID"
+msgstr "Fax-ID"
+
+#: src/faxReportPlugin/detail.tpl:24
+msgid "Date / Time"
+msgstr "Datum / Zeit"
+
+#: src/faxReportPlugin/detail.tpl:48
+msgid "Status message"
+msgstr "Status-Nachricht"
+
+#: src/faxAccountPlugin/paste_generic.tpl:1
+msgid "Paste fax account settings"
+msgstr "Fax-Konto einfügen"
+
+#: src/faxAccountPlugin/paste_generic.tpl:6 src/faxAccountPlugin/generic.tpl:8
+#: src/blocklistPlugin/generic.tpl:1
+msgid "Generic"
+msgstr "Allgemein"
+
+#: src/faxAccountPlugin/paste_generic.tpl:7
+#: src/faxAccountPlugin/generic.tpl:10
+msgid "Generic settings"
+msgstr "Allgemeine Benutzereinstellungen"
+
+#: src/faxAccountPlugin/paste_generic.tpl:10
+#: src/faxAccountPlugin/class_gofaxAccount.inc:809
+#: src/faxAccountPlugin/generic.tpl:12
+#: src/blocklistPlugin/class_blocklistGeneric.inc:373
+#: src/faxNumberSelectDialog/faxNumberSelect-list.xml:56
+msgid "Fax"
+msgstr "Fax"
+
+#: src/faxAccountPlugin/paste_generic.tpl:15
+#: src/faxAccountPlugin/generic.tpl:19
+msgid "Fax number for GOfax to trigger on"
+msgstr "Fax-Nummer, auf die GOfax ansprechen soll"
+
+#: src/faxAccountPlugin/paste_generic.tpl:20
+msgid "Alternate fax numbers will not be copied"
+msgstr "Alternative Fax-Nummern werden nicht kopiert"
+
+#: src/faxAccountPlugin/lists.tpl:2
+msgid "Blocklist settings"
+msgstr "Sperrlisten"
+
+#: src/faxAccountPlugin/lists.tpl:7
+msgid "Blocked numbers/lists"
+msgstr "Gesperrte Nummern/Listen"
+
+#: src/faxAccountPlugin/lists.tpl:21
+msgid "List of predefined blacklists"
+msgstr "Liste von vordefinierten Sperrlisten"
+
+#: src/faxAccountPlugin/lists.tpl:22
+msgid "List of blocked numbers"
+msgstr "Liste der gesperrten Nummern"
+
+#: src/faxAccountPlugin/lists.tpl:29
+msgid "Add the list to the blacklists"
+msgstr "Liste zu den Sperrlisten hinzufügen"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:6
+msgid "FAX"
+msgstr "Fax"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:7
+#, fuzzy
+msgid "Manage personal facsimile settings"
+msgstr "Persönliche Filtereinstellungen bearbeiten"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:103
+#: src/blocklistPlugin/class_blocklistGeneric.inc:212
+#: src/blocklistPlugin/class_blocklistGeneric.inc:215
+#: src/blocklistPlugin/class_blocklistGeneric.inc:222
+#: src/blocklistPlugin/class_blocklistGeneric.inc:400
+#: src/blocklistPlugin/blocklist-list.xml:49
+msgid "Name"
+msgstr "Name"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:161
+#: src/faxAccountPlugin/class_gofaxAccount.inc:171
+#: src/faxAccountPlugin/class_gofaxAccount.inc:174
+msgid "GOfax"
+msgstr "GOfax"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:170
+msgid "Remove FAX account"
+msgstr "Fax-Konto entfernen"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:173
+msgid "Create FAX account"
+msgstr "Fax-Konto erzeugen"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:254
+#: src/blocklistPlugin/class_blocklistGeneric.inc:109
+msgid "Phone number"
+msgstr "Telefonnummer"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:394
+#: src/faxAccountPlugin/class_gofaxAccount.inc:477
+msgid "back"
+msgstr "zurück"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:603
+#: src/faxAccountPlugin/class_gofaxAccount.inc:734
+#: src/blocklistPlugin/class_blocklistGeneric.inc:198
+#: src/blocklistPlugin/class_blocklistGeneric.inc:284
+msgid "LDAP error"
+msgstr "LDAP-Fehler"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:619
+#: src/faxAccountPlugin/class_gofaxAccount.inc:623
+#: src/faxAccountPlugin/class_gofaxAccount.inc:823
+msgid "Fax number"
+msgstr "Faxnummer"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:630
+msgid "Mail delivery is requested without target address!"
+msgstr "Die Mailzustellung wurde ohne Zieladresse angefordert!"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:632
+msgid "Mail address"
+msgstr "Mail-Adresse"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:632
+msgid "your-name@your-domain.com"
+msgstr "ihr-name@ihre-domain.com"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:638
+msgid "Printing is requested without a target printer!"
+msgstr "Ausdruck wurden ohne Zieldrucker angefordert!"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:810
+msgid "Fax account settings"
+msgstr "Fax-Konto-Einstellungen"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:824
+#: src/faxAccountPlugin/generic.tpl:26
+msgid "Language"
+msgstr "Sprache"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:825
+#: src/faxAccountPlugin/generic.tpl:39
+msgid "Delivery format"
+msgstr "Auslieferungsformat"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:826
+msgid "Alternate FAX number"
+msgstr "Alternative Fax-Nummern"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:827
+msgid "Enable/Disable FAX"
+msgstr "FAX aktivieren/deaktivieren"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:828
+#: src/faxAccountPlugin/generic.tpl:77
+msgid "Deliver FAX as mail"
+msgstr "Als Mail ausliefern"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:829
+#: src/faxAccountPlugin/generic.tpl:84
+msgid "Deliver FAX to printer"
+msgstr "Fax an Drucker weiterleiten"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:830
+#: src/blocklistPlugin/blocklist-list.xml:23
+msgid "Receive blacklist"
+msgstr "Emfangs-Sperrliste"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:831
+#: src/blocklistPlugin/blocklist-list.xml:15
+msgid "Send blacklist"
+msgstr "Sende-Sperrliste"
+
+#: src/faxAccountPlugin/generic.tpl:1
+msgid "Fax account"
+msgstr "Fax Konto"
+
+#: src/faxAccountPlugin/generic.tpl:15
+msgid "Multiple edit"
+msgstr "Mehrfaches Bearbeiten"
+
+#: src/faxAccountPlugin/generic.tpl:31
+msgid "Specify the GOfax communication language for FAX to mail gateway"
+msgstr "Geben Sie die Kommunikations-Sprache für das Fax to Mail-Gateway an"
+
+#: src/faxAccountPlugin/generic.tpl:43
+msgid "Specify delivery format for FAX to mail gateway"
+msgstr "Geben Sie das Auslieferungsformat des Fax to Mailgateways an"
+
+#: src/faxAccountPlugin/generic.tpl:58
+msgid "Delivery methods"
+msgstr "Auslieferungsmethode"
+
+#: src/faxAccountPlugin/generic.tpl:63
+msgid "Temporary disable FAX usage"
+msgstr "Temporäres Abschalten der Fax-Benutzung"
+
+#: src/faxAccountPlugin/generic.tpl:69
+msgid "Deliver FAX as mail to"
+msgstr "Fax als Mail ausliefern an"
+
+#: src/faxAccountPlugin/generic.tpl:97
+msgid "Alternative numbers"
+msgstr "Alternative Fax-Nummern"
+
+#: src/faxAccountPlugin/generic.tpl:105
+msgid "Alternate FAX numbers"
+msgstr "Alternative Fax-Nummern"
+
+#: src/faxAccountPlugin/generic.tpl:121
+msgid "Add local"
+msgstr "Lokale hinzufügen"
+
+#: src/faxAccountPlugin/generic.tpl:132 src/faxAccountPlugin/generic.tpl:133
+msgid "Blacklists"
+msgstr "Sperrlisten"
+
+#: src/faxAccountPlugin/generic.tpl:135
+msgid "Blacklists for incoming FAX"
+msgstr "Sperrlisten für eingehendes Fax"
+
+#: src/faxAccountPlugin/generic.tpl:138 src/faxAccountPlugin/generic.tpl:147
+#: src/blocklistPlugin/blocklist-list.xml:94
+#: src/blocklistPlugin/blocklist-list.xml:133
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: src/faxAccountPlugin/generic.tpl:144
+msgid "Blacklists for outgoing FAX"
+msgstr "Sperrlisten für abgehendes Fax"
+
+#: src/blocklistPlugin/paste_generic.tpl:1
+msgid "Paste blacklist"
+msgstr "Sperrliste einfügen"
+
+#: src/blocklistPlugin/paste_generic.tpl:3 src/blocklistPlugin/generic.tpl:8
+msgid "List name"
+msgstr "Listenname"
+
+#: src/blocklistPlugin/paste_generic.tpl:5 src/blocklistPlugin/generic.tpl:12
+msgid "Name of blacklist"
+msgstr "Name der Sperrliste"
+
+#: src/blocklistPlugin/class_blocklistManagement.inc:25
+msgid "FAX Blocklists"
+msgstr "Fax-Sperrlisten"
+
+#: src/blocklistPlugin/class_blocklistManagement.inc:26
+msgid "Manage FAX number blocklists for incoming and outgoing FAX calls"
+msgstr ""
+"Fax-Nummer Blocklisten für eingehende und ausgehende Fax Übertragungen "
+"verwalten"
+
+#: src/blocklistPlugin/blocklist-list.tpl:12
+#: src/blocklistPlugin/class_blocklistGeneric.inc:402
+#: src/blocklistPlugin/generic.tpl:17
+#: src/faxNumberSelectDialog/faxNumberSelect-list.tpl:12
+msgid "Base"
+msgstr "Basis"
+
+#: src/blocklistPlugin/class_blocklistGeneric.inc:9
+msgid "FAX blacklists"
+msgstr "Fax-Sperrlisten"
+
+#: src/blocklistPlugin/class_blocklistGeneric.inc:10
+msgid "This does something"
+msgstr "Dies tut etwas"
+
+#: src/blocklistPlugin/class_blocklistGeneric.inc:152
+msgid "send"
+msgstr "senden"
+
+#: src/blocklistPlugin/class_blocklistGeneric.inc:152
+msgid "receive"
+msgstr "empfangen"
+
+#: src/blocklistPlugin/class_blocklistGeneric.inc:374
+#: src/blocklistPlugin/class_blocklistGeneric.inc:382
+#: src/blocklistPlugin/class_blocklistGeneric.inc:383
+msgid "Fax blacklists"
+msgstr "Fax-Sperrlisten"
+
+#: src/blocklistPlugin/class_blocklistGeneric.inc:391
+msgid "RDN for facsimile blocklist storage."
+msgstr "RDN für die FAX-Blocklisten Ablage"
+
+#: src/blocklistPlugin/class_blocklistGeneric.inc:401
+#: src/blocklistPlugin/blocklist-list.xml:57
+#: src/blocklistPlugin/generic.tpl:45
+msgid "Description"
+msgstr "Beschreibung"
+
+#: src/blocklistPlugin/class_blocklistGeneric.inc:403
+msgid "Send blacklist entries"
+msgstr "Sende-Sperrliste"
+
+#: src/blocklistPlugin/class_blocklistGeneric.inc:404
+msgid "Receive blacklist entries"
+msgstr "Emfangs-Sperrliste"
+
+#: src/blocklistPlugin/class_blocklistGeneric.inc:405
+#: src/blocklistPlugin/generic.tpl:32
+msgid "Blacklist type"
+msgstr "Typ der Sperrliste"
+
+#: src/blocklistPlugin/blocklist-list.xml:11
+msgid "List of blacklists"
+msgstr "Liste der Sperrlisten"
+
+#: src/blocklistPlugin/blocklist-list.xml:65
+msgid "Actions"
+msgstr "Aktionen"
+
+#: src/blocklistPlugin/blocklist-list.xml:76
+msgid "Create"
+msgstr "Anlegen"
+
+#: src/blocklistPlugin/blocklist-list.xml:82 src/blocklistPlugin/generic.tpl:2
+msgid "Blacklist"
+msgstr "Sperrliste"
+
+#: src/blocklistPlugin/blocklist-list.xml:101
+#: src/blocklistPlugin/blocklist-list.xml:146
+msgid "Remove"
+msgstr "Entfernen"
+
+#: src/blocklistPlugin/generic.tpl:6
+msgid "Blacklist generic"
+msgstr "Sperrliste allgemein"
+
+#: src/blocklistPlugin/generic.tpl:34
+msgid "Type"
+msgstr "Typ"
+
+#: src/blocklistPlugin/generic.tpl:37
+msgid "Select whether to filter incoming or outgoing calls"
+msgstr "Wählen Sie, ob ein- oder abgehende Rufe gefiltert werden sollen"
+
+#: src/blocklistPlugin/generic.tpl:48
+msgid "Descriptive text for this blacklist"
+msgstr "Beschreibender Text zu dieser Sperrliste"
+
+#: src/blocklistPlugin/generic.tpl:59 src/blocklistPlugin/generic.tpl:63
+msgid "Blocked numbers"
+msgstr "Gesperrte Nummern"
+
+#: src/blocklistPlugin/generic.tpl:87
+msgid "Information"
+msgstr "Information"
+
+#: src/blocklistPlugin/generic.tpl:89
+msgid "Numbers can also contain wild cards."
+msgstr "Nummern können auch Platzhalter enthalten."
+
+#: src/blocklistPlugin/blocklist-filter.xml:19
+#: src/faxNumberSelectDialog/faxNumberSelect-filter.xml:21
+msgid "Default filter"
+msgstr "Standard-Filter"
+
+#: src/blocklistPlugin/blocklist-filter.xml:33
+msgid "Receive"
+msgstr "Empfänger"
+
+#: src/blocklistPlugin/blocklist-filter.xml:47
+msgid "Send"
+msgstr "Absender"
+
+#: src/faxNumberSelectDialog/class_faxNumberSelect.inc:28
+msgid "Fax number selection"
+msgstr "Fax-Nummern Auswahl"
+
+#: src/faxNumberSelectDialog/faxNumberSelect-list.xml:10
+msgid "Please select the desired entries"
+msgstr "Bitte wählen Sie die gewünschten Einträge"
+
+#: src/faxNumberSelectDialog/faxNumberSelect-list.xml:40
+msgid "Given name"
+msgstr "Vorname"
+
+#: src/faxNumberSelectDialog/faxNumberSelect-list.xml:48
+msgid "Surname"
+msgstr "Nachname"
+
+#: src/GofaxService/class_goFaxServer.inc:30
+msgid "FAX database"
+msgstr "Fax-Datenbank"
+
+#: src/GofaxService/class_goFaxServer.inc:59
+msgid "FAX database configuration"
+msgstr "Konfiguration der Fax-Datenbank"
+
+#: src/GofaxService/class_goFaxServer.inc:71
+#: src/GofaxService/class_goFaxServer.inc:102
+#: src/GofaxService/goFaxServer.tpl:12
+msgid "Password"
+msgstr "Passwort"
+
+#: src/GofaxService/class_goFaxServer.inc:88
+#: src/GofaxService/class_goFaxServer.inc:89
+#: src/GofaxService/goFaxServer.tpl:2
+msgid "Fax database"
+msgstr "Fax-Datenbank"
+
+#: src/GofaxService/class_goFaxServer.inc:89
+msgid "Services"
+msgstr "Dienste"
+
+#: src/GofaxService/class_goFaxServer.inc:101
+msgid "Login name"
+msgstr "Anmeldename"
+
+#: src/GofaxService/class_goFaxServer.inc:104
+msgid "Start"
+msgstr "Start"
+
+#: src/GofaxService/class_goFaxServer.inc:105
+msgid "Stop"
+msgstr "Stopp"
+
+#: src/GofaxService/class_goFaxServer.inc:106
+msgid "Restart"
+msgstr "Neustart"
+
+#: src/GofaxService/goFaxServer.tpl:1
+msgid "FAX database information"
+msgstr "Informationen der Fax-Datenbank"
+
+#: src/GofaxService/goFaxServer.tpl:4
+msgid "FAX DB user"
+msgstr "Fax-DB Benutzer"

@@ -1,0 +1,648 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GOsa plugins - samba\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:32+0200\n"
+"PO-Revision-Date: 2010-03-12 17:38-0300\n"
+"Last-Translator: Marcos Amorim <marcosmamorim@gmail.com>\n"
+"Language-Team: Marcos Amorim <marcosmamorim@gmail.com> Clever de Oliveira "
+"<clever@dri.cefetmg.br>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+
+#: src/sambaPlugin/class_sambaAccount.inc:24
+#: src/sambaPlugin/class_sambaAccount.inc:242
+#: src/sambaPlugin/class_sambaAccount.inc:254
+#: src/sambaPlugin/class_sambaAccount.inc:255
+#: src/sambaPlugin/class_sambaAccount.inc:262
+#: src/sambaPlugin/class_sambaAccount.inc:263
+#: src/sambaPlugin/class_sambaAccount.inc:265
+#: src/sambaPlugin/class_sambaAccount.inc:266
+#: src/sambaPlugin/class_sambaAccount.inc:1174
+msgid "Samba"
+msgstr "Samba"
+
+#: src/sambaPlugin/class_sambaAccount.inc:25
+#, fuzzy
+msgid "Manage personal Samba settings"
+msgstr "Editar configurações POSIX dos usuários"
+
+#: src/sambaPlugin/class_sambaAccount.inc:266
+msgid "POSIX"
+msgstr "POSIX"
+
+#: src/sambaPlugin/class_sambaAccount.inc:413
+#: src/sambaPlugin/class_sambaAccount.inc:658
+#: src/sambaPlugin/class_sambaAccount.inc:666
+#: src/sambaPlugin/class_sambaAccount.inc:684
+msgid "disabled"
+msgstr "desabilitado"
+
+#: src/sambaPlugin/class_sambaAccount.inc:414
+msgid "input on, notify on"
+msgstr "entrada ligada, notificação ligada"
+
+#: src/sambaPlugin/class_sambaAccount.inc:415
+msgid "input on, notify off"
+msgstr "entrada ligada, notificação desligada"
+
+#: src/sambaPlugin/class_sambaAccount.inc:416
+msgid "input off, notify on"
+msgstr "entrada desligada, notificação ligada"
+
+#: src/sambaPlugin/class_sambaAccount.inc:417
+#, fuzzy
+msgid "input off, notify off"
+msgstr "entrada desligada, notificação desligada"
+
+#: src/sambaPlugin/class_sambaAccount.inc:419
+msgid "disconnect"
+msgstr "desconectar"
+
+#: src/sambaPlugin/class_sambaAccount.inc:420
+msgid "reset"
+msgstr "reiniciar"
+
+#: src/sambaPlugin/class_sambaAccount.inc:421
+msgid "from any client"
+msgstr "de qualquer cliente"
+
+#: src/sambaPlugin/class_sambaAccount.inc:422
+msgid "from previous client only"
+msgstr "somente do cliente anterior"
+
+#: src/sambaPlugin/class_sambaAccount.inc:522
+#, php-format
+msgid "The password is outdated since %s, by domain policy."
+msgstr "A senha está desatualizada desde %s, por uma política de domínio."
+
+#: src/sambaPlugin/class_sambaAccount.inc:525
+#, fuzzy, php-format
+msgid "The password is valid till %s."
+msgstr "A senha é válida até %s, pela política de usuário."
+
+#: src/sambaPlugin/class_sambaAccount.inc:638
+#: src/sambaPlugin/class_sambaAccount.inc:644
+#: src/sambaPlugin/class_sambaAccount.inc:650
+#: src/sambaPlugin/class_sambaAccount.inc:658
+#: src/sambaPlugin/class_sambaAccount.inc:666
+#: src/sambaPlugin/class_sambaAccount.inc:674
+#: src/sambaPlugin/class_sambaAccount.inc:684
+#: src/sambaPlugin/class_sambaAccount.inc:690
+#: src/sambaPlugin/class_sambaAccount.inc:698
+msgid "default"
+msgstr "padrão"
+
+#: src/sambaPlugin/class_sambaAccount.inc:644
+#: src/sambaPlugin/class_sambaAccount.inc:650
+msgid "Off"
+msgstr "Desligado"
+
+#: src/sambaPlugin/class_sambaAccount.inc:652
+msgid "On"
+msgstr "Ligado"
+
+#: src/sambaPlugin/class_sambaAccount.inc:660
+#: src/sambaPlugin/class_sambaAccount.inc:668
+msgid "seconds"
+msgstr "segundos"
+
+#: src/sambaPlugin/class_sambaAccount.inc:674
+#: src/sambaPlugin/class_sambaAccount.inc:678
+#: src/sambaPlugin/class_sambaAccount.inc:770
+msgid "minutes"
+msgstr "minutos"
+
+#: src/sambaPlugin/class_sambaAccount.inc:676
+msgid "forever"
+msgstr "sempre"
+
+#: src/sambaPlugin/class_sambaAccount.inc:690
+#: src/sambaPlugin/class_sambaAccount.inc:698
+msgid "off"
+msgstr "Desligado"
+
+#: src/sambaPlugin/class_sambaAccount.inc:692
+#: src/sambaPlugin/class_sambaAccount.inc:700
+msgid "on"
+msgstr "Ligado"
+
+#: src/sambaPlugin/class_sambaAccount.inc:708
+#: src/sambaPlugin/class_sambaAccount.inc:716
+#: src/sambaPlugin/class_sambaAccount.inc:724
+#: src/sambaPlugin/class_sambaAccount.inc:732
+#: src/sambaPlugin/class_sambaAccount.inc:740
+#: src/sambaPlugin/class_sambaAccount.inc:748
+#: src/sambaPlugin/class_sambaAccount.inc:754
+#: src/sambaPlugin/class_sambaAccount.inc:760
+msgid "unset"
+msgstr "remover"
+
+#: src/sambaPlugin/class_sambaAccount.inc:762
+msgid "immediately"
+msgstr "imediatamente"
+
+#: src/sambaPlugin/class_sambaAccount.inc:768
+msgid "days"
+msgstr "dias"
+
+#: src/sambaPlugin/class_sambaAccount.inc:769
+msgid "hours"
+msgstr "horas"
+
+#: src/sambaPlugin/class_sambaAccount.inc:776
+msgid "Domain attributes"
+msgstr "Atributo domínio"
+
+#: src/sambaPlugin/class_sambaAccount.inc:777
+#: src/sambaPlugin/class_sambaAccount.inc:778
+msgid "Min password length"
+msgstr "Tamanho minimo da senha"
+
+#: src/sambaPlugin/class_sambaAccount.inc:779
+msgid "Password history"
+msgstr "Histórico de senha"
+
+#: src/sambaPlugin/class_sambaAccount.inc:780
+msgid "Force password change"
+msgstr "Forçar alterar senha"
+
+#: src/sambaPlugin/class_sambaAccount.inc:781
+msgid "Maximum password age"
+msgstr "Tempo máximo de vida da senha"
+
+#: src/sambaPlugin/class_sambaAccount.inc:782
+msgid "Minimum password age"
+msgstr "Tempo mínimo de vida da senha"
+
+#: src/sambaPlugin/class_sambaAccount.inc:783
+msgid "Lockout duration"
+msgstr "Tempo de bloqueio"
+
+#: src/sambaPlugin/class_sambaAccount.inc:784
+msgid "Bad lockout attempt"
+msgstr "Tentativas para bloqueio"
+
+#: src/sambaPlugin/class_sambaAccount.inc:785
+msgid "Disconnect time"
+msgstr "Hora desconectada"
+
+#: src/sambaPlugin/class_sambaAccount.inc:786
+msgid "Refuse machine password change"
+msgstr "Recusar alteração de senha por máquina"
+
+#: src/sambaPlugin/class_sambaAccount.inc:788
+msgid "User attributes"
+msgstr "Atributos do usuário"
+
+#: src/sambaPlugin/class_sambaAccount.inc:789
+msgid "SID"
+msgstr "SID"
+
+#: src/sambaPlugin/class_sambaAccount.inc:790
+msgid "Last failed login"
+msgstr "Última falha no logon"
+
+#: src/sambaPlugin/class_sambaAccount.inc:791
+#, fuzzy
+msgid "Log on attempts"
+msgstr "Tentativas de logon"
+
+#: src/sambaPlugin/class_sambaAccount.inc:792
+msgid "Last password update"
+msgstr "Última atualização de senha"
+
+#: src/sambaPlugin/class_sambaAccount.inc:793
+#, fuzzy
+msgid "Last log on"
+msgstr "Último logon"
+
+#: src/sambaPlugin/class_sambaAccount.inc:794
+#, fuzzy
+msgid "Last log off"
+msgstr "Último logoff"
+
+#: src/sambaPlugin/class_sambaAccount.inc:795
+#, fuzzy
+msgid "Automatic log off"
+msgstr "Logoff automáticos"
+
+#: src/sambaPlugin/class_sambaAccount.inc:798
+#: src/sambaPlugin/class_sambaAccount.inc:803
+msgid "Password expires"
+msgstr "A senha expira em"
+
+#: src/sambaPlugin/class_sambaAccount.inc:798
+msgid "No"
+msgstr "Não"
+
+#: src/sambaPlugin/class_sambaAccount.inc:800
+#, php-format
+msgid "The password would expire on %s, but the password expiry is disabled."
+msgstr "A senha iria expirar em %s, mas a expiração de senha está desativada."
+
+#: src/sambaPlugin/class_sambaAccount.inc:806
+msgid "Password change available"
+msgstr "Alteração de senha disponível"
+
+#: src/sambaPlugin/class_sambaAccount.inc:848
+#: src/sambaPlugin/class_sambaAccount.inc:1110
+#: src/sambaMachinePlugin/class_winGeneric.inc:156
+#: src/sambaMachinePlugin/class_winGeneric.inc:305
+msgid "LDAP error"
+msgstr "Erro LDAP"
+
+#: src/sambaPlugin/class_sambaAccount.inc:864
+#: src/sambaPlugin/class_sambaAccount.inc:866
+#: src/sambaPlugin/class_sambaAccount.inc:1264
+#: src/sambaPlugin/class_sambaAccount.inc:1266 src/sambaPlugin/samba3.tpl:388
+#: src/sambaPlugin/samba3.tpl:434
+msgid "Account expires after"
+msgstr "Conta expira após"
+
+#: src/sambaPlugin/class_sambaAccount.inc:872
+msgid "Home drive"
+msgstr "Diretório pessoal"
+
+#: src/sambaPlugin/class_sambaAccount.inc:875
+msgid "Home path"
+msgstr "Diretório pessoal"
+
+#: src/sambaPlugin/class_sambaAccount.inc:879
+#: src/sambaPlugin/class_sambaAccount.inc:1238 src/sambaPlugin/samba3.tpl:16
+#: src/sambaPlugin/samba3.tpl:116
+msgid "Home directory"
+msgstr "Diretório pessoal"
+
+#: src/sambaPlugin/class_sambaAccount.inc:880
+#: src/sambaPlugin/class_sambaAccount.inc:1239 src/sambaPlugin/samba3.tpl:61
+#: src/sambaPlugin/samba3.tpl:129
+msgid "Profile path"
+msgstr "Perfil"
+
+#: src/sambaPlugin/class_sambaAccount.inc:887
+#: src/sambaPlugin/class_sambaAccount.inc:1246 src/sambaPlugin/samba3.tpl:198
+msgid "Connection"
+msgstr "Conexão"
+
+#: src/sambaPlugin/class_sambaAccount.inc:888
+#: src/sambaPlugin/class_sambaAccount.inc:1247 src/sambaPlugin/samba3.tpl:212
+msgid "Disconnection"
+msgstr "Desconexão"
+
+#: src/sambaPlugin/class_sambaAccount.inc:889
+#: src/sambaPlugin/class_sambaAccount.inc:1248 src/sambaPlugin/samba3.tpl:226
+msgid "IDLE"
+msgstr "Inativo"
+
+#: src/sambaPlugin/class_sambaAccount.inc:898
+#, fuzzy
+msgid "The windows user manager allows eight clients at maximum!"
+msgstr ""
+"O gerenciamento de usuários Windows permite até oito clientes no máximo!"
+
+#: src/sambaPlugin/class_sambaAccount.inc:917
+msgid "Information"
+msgstr "Informação"
+
+#: src/sambaPlugin/class_sambaAccount.inc:1051
+#: src/sambaPlugin/class_sambaAccount.inc:1075
+msgid "Warning"
+msgstr "Aviso"
+
+#: src/sambaPlugin/class_sambaAccount.inc:1051
+msgid "Undefined Samba SID detected. Please fix this problem manually!"
+msgstr "Samba SID não informado. Por favor corrija esse problema manualmente!"
+
+#: src/sambaPlugin/class_sambaAccount.inc:1076
+msgid ""
+"Cannot convert primary group to samba group: group cannot be identified!"
+msgstr ""
+"Não é possível converter o grupo principal para grupo samba: o grupo não "
+"pode ser identificado!"
+
+#: src/sambaPlugin/class_sambaAccount.inc:1175
+msgid "Samba settings"
+msgstr "Configurações do Samba"
+
+#: src/sambaPlugin/class_sambaAccount.inc:1179
+msgid "My account"
+msgstr "Minha conta"
+
+#: src/sambaPlugin/class_sambaAccount.inc:1186
+msgid "Generic home directory"
+msgstr "Diretório pessoal geral"
+
+#: src/sambaPlugin/class_sambaAccount.inc:1187
+msgid "Generic samba home drive"
+msgstr "Driver de diretório pessoal do Samba"
+
+#: src/sambaPlugin/class_sambaAccount.inc:1188 src/sambaPlugin/samba3.tpl:29
+msgid "Domain"
+msgstr "Domínio"
+
+#: src/sambaPlugin/class_sambaAccount.inc:1189
+msgid "Generic script path"
+msgstr "Caminho do script geral"
+
+#: src/sambaPlugin/class_sambaAccount.inc:1190
+msgid "Generic profile path"
+msgstr "Caminho do perfil geral"
+
+#: src/sambaPlugin/class_sambaAccount.inc:1191 src/sambaPlugin/samba3.tpl:113
+msgid "Allow login on terminal server"
+msgstr "Permitir acesso ao serviço de terminal"
+
+#: src/sambaPlugin/class_sambaAccount.inc:1192 src/sambaPlugin/samba3.tpl:152
+#, fuzzy
+msgid "Inherit client configuration"
+msgstr "Herdar configurações do cliente"
+
+#: src/sambaPlugin/class_sambaAccount.inc:1193
+msgid "Account expires"
+msgstr "A conta expira"
+
+#: src/sambaPlugin/class_sambaAccount.inc:1194 src/sambaPlugin/samba3.tpl:339
+#, fuzzy
+msgid "Enforce password change"
+msgstr "Forçar alterar senha"
+
+#: src/sambaPlugin/class_sambaAccount.inc:1195
+#, fuzzy
+msgid "Disallow password change"
+msgstr "Forçar alterar senha"
+
+#: src/sambaPlugin/class_sambaAccount.inc:1196 src/sambaPlugin/samba3.tpl:361
+msgid "Login from windows client requires no password"
+msgstr "Acesso por cliente Windows não requer senha"
+
+#: src/sambaPlugin/class_sambaAccount.inc:1197
+msgid "Password never expires"
+msgstr "A senha nunca expira"
+
+#: src/sambaPlugin/class_sambaAccount.inc:1198 src/sambaPlugin/samba3.tpl:372
+msgid "Lock samba account"
+msgstr "Conta samba bloqueada"
+
+#: src/sambaPlugin/class_sambaAccount.inc:1200
+#, fuzzy
+msgid "Log on hours"
+msgstr "Hora de logon"
+
+#: src/sambaPlugin/class_sambaAccount.inc:1201
+msgid "Allow connection from"
+msgstr "Permitir conexões de"
+
+#: src/sambaPlugin/class_sambaAccount.inc:1258
+msgid ""
+"The windows user manager only allows eight clients. You've specified more "
+"than eight."
+msgstr ""
+"O gerenciador de usuários windows só permite oito clientes. Você especificou "
+"mais do que isso."
+
+#: src/sambaPlugin/sambaLogonHours.tpl:22
+msgid "Specify the hours this user is allowed to log in"
+msgstr "Especifique o horário que os usuários poderão entrar"
+
+#: src/sambaPlugin/sambaLogonHours.tpl:24
+#, fuzzy
+msgid "Samba logon hours"
+msgstr "Tempo limite para logon"
+
+#: src/sambaPlugin/sambaLogonHours.tpl:28
+msgid "Hour"
+msgstr "Hora"
+
+#: src/sambaPlugin/samba3.tpl:1
+#, fuzzy
+msgid "Samba configuration"
+msgstr "Configuração do PHP"
+
+#: src/sambaPlugin/samba3.tpl:8
+msgid "Generic"
+msgstr "Geral"
+
+#: src/sambaPlugin/samba3.tpl:14
+#, fuzzy
+msgid "Path configuration"
+msgstr "Configuração do PHP"
+
+#: src/sambaPlugin/samba3.tpl:38
+msgid "Show information"
+msgstr "Exibir informações"
+
+#: src/sambaPlugin/samba3.tpl:51
+msgid "Profile and script path settings"
+msgstr ""
+
+#: src/sambaPlugin/samba3.tpl:53
+msgid "Script path"
+msgstr "Script de logon"
+
+#: src/sambaPlugin/samba3.tpl:75
+msgid "Terminal Server"
+msgstr "Serviço de terminal"
+
+#: src/sambaPlugin/samba3.tpl:77
+#, fuzzy
+msgid "Terminal server settings"
+msgstr "Serviço de terminal"
+
+#: src/sambaPlugin/samba3.tpl:114
+msgid "Terminal server connection settings"
+msgstr ""
+
+#: src/sambaPlugin/samba3.tpl:153
+#, fuzzy
+msgid "Client configuration"
+msgstr "Configuração"
+
+#: src/sambaPlugin/samba3.tpl:155
+msgid "Initial program"
+msgstr "Programa inicial"
+
+#: src/sambaPlugin/samba3.tpl:163
+msgid "Working directory"
+msgstr "Diretório inicial"
+
+#: src/sambaPlugin/samba3.tpl:177 src/sambaPlugin/samba3.tpl:183
+#, fuzzy
+msgid "Connection timeout settings"
+msgstr "Informação de conexão"
+
+#: src/sambaPlugin/samba3.tpl:182
+msgid "Timeout settings (in minutes)"
+msgstr "Configurações de limite de tempo (em minutos)"
+
+#: src/sambaPlugin/samba3.tpl:244 src/sambaPlugin/samba3.tpl:245
+msgid "Client devices"
+msgstr "Dispositivos cliente"
+
+#: src/sambaPlugin/samba3.tpl:251
+#, fuzzy
+msgid "Connect client drives at log on"
+msgstr "Conectar drivers no logon"
+
+#: src/sambaPlugin/samba3.tpl:259
+#, fuzzy
+msgid "Connect client printers at log on"
+msgstr "Conectar impressoras no logon"
+
+#: src/sambaPlugin/samba3.tpl:267
+msgid "Default to main client printer"
+msgstr "Impressora padrão do cliente como padrão"
+
+#: src/sambaPlugin/samba3.tpl:279 src/sambaPlugin/samba3.tpl:280
+msgid "Miscellaneous"
+msgstr "Diversos"
+
+#: src/sambaPlugin/samba3.tpl:283
+msgid "Shadowing"
+msgstr "Sombreamento"
+
+#: src/sambaPlugin/samba3.tpl:294
+msgid "On broken or timed out"
+msgstr "Com problema ou tempo esgotado"
+
+#: src/sambaPlugin/samba3.tpl:304
+msgid "Reconnect if disconnected"
+msgstr "Reconectar se desconectado"
+
+#: src/sambaPlugin/samba3.tpl:321 src/sambaPlugin/samba3.tpl:324
+msgid "Access options"
+msgstr "Opções de acesso"
+
+#: src/sambaPlugin/samba3.tpl:350
+msgid "The password never expires"
+msgstr "A senha expira em"
+
+#: src/sambaPlugin/samba3.tpl:411
+#, fuzzy
+msgid "Cannot change password"
+msgstr "alterar senha"
+
+#: src/sambaPlugin/samba3.tpl:461
+#, fuzzy
+msgid "Samba log on times"
+msgstr "Tempo limite para logon"
+
+#: src/sambaPlugin/samba3.tpl:461
+msgid "Edit settings..."
+msgstr "Editar configurações..."
+
+#: src/sambaPlugin/samba3.tpl:472
+msgid "Allow connection from these workstations only"
+msgstr "Permitir somente conexões destas estações de trabalho"
+
+#: src/sambaPlugin/samba3.tpl:483
+msgid "Used by all users"
+msgstr "Usado por todos os usuários"
+
+#: src/sambaPlugin/samba3.tpl:486
+msgid "Used by some users"
+msgstr "Usado por alguns usuários"
+
+#: src/sambaMachinePlugin/wingeneric.tpl:1
+#, fuzzy
+msgid "Windows workstation"
+msgstr "grupo de estações windows"
+
+#: src/sambaMachinePlugin/wingeneric.tpl:5
+#, fuzzy
+msgid "Generic settings"
+msgstr "Configurações gerais do usuário"
+
+#: src/sambaMachinePlugin/wingeneric.tpl:7
+msgid "Machine name"
+msgstr "Nome da máquina"
+
+#: src/sambaMachinePlugin/wingeneric.tpl:18
+#: src/sambaMachinePlugin/class_winGeneric.inc:366
+msgid "Base"
+msgstr "Base"
+
+#: src/sambaMachinePlugin/wingeneric.tpl:29
+#: src/sambaMachinePlugin/class_winGeneric.inc:367
+msgid "Description"
+msgstr "Descrição"
+
+#: src/sambaMachinePlugin/class_winGeneric.inc:120
+msgid "network"
+msgstr "rede"
+
+#: src/sambaMachinePlugin/class_winGeneric.inc:186
+msgid "Error"
+msgstr "Erro"
+
+#: src/sambaMachinePlugin/class_winGeneric.inc:219
+#: src/sambaMachinePlugin/class_winGeneric.inc:365
+msgid "Name"
+msgstr "Nome"
+
+#: src/sambaMachinePlugin/class_winGeneric.inc:327
+msgid "Win generic"
+msgstr "Win"
+
+#: src/sambaMachinePlugin/class_winGeneric.inc:328
+msgid "Windows workstation generic"
+msgstr "Estação Windows"
+
+#: src/sambaMachinePlugin/class_winGeneric.inc:333
+msgid "Win workstation"
+msgstr "Estação Windows"
+
+#: src/sambaMachinePlugin/class_winGeneric.inc:356
+msgid "RDN for samba machine account storage."
+msgstr ""
+
+#~ msgid "This does something"
+#~ msgstr "Isto faz algo"
+
+#~ msgid "Choose subtree to place group in"
+#~ msgstr "Escolha a subárvore para adicionar o usuário"
+
+#~ msgid "Select a base"
+#~ msgstr "Selecione a base"
+
+#~ msgid "Allow user to change password from client"
+#~ msgstr "Permitir ao usuário trocar sua senha pelo cliente"
+
+#~ msgid "Password expires on"
+#~ msgstr "A senha expira em"
+
+#~ msgid "The password is valid till %s, by domain policy."
+#~ msgstr "A senha é válida até %s, por uma política de domínio."
+
+#~ msgid "Allow user to change password"
+#~ msgstr "Permitir ao usuário trocar senha"
+
+#~ msgid "Limit Logon Time"
+#~ msgstr "Tempo limite para logon"
+
+#~ msgid "Limit Logoff Time"
+#~ msgstr "Tempo limite para logoff"
+
+#~ msgid "Select workstations to add"
+#~ msgstr "Selecione estações de trabalho para adicionar"
+
+#~ msgid "Filters"
+#~ msgstr "Filtros"
+
+#~ msgid "Display workstations of department"
+#~ msgstr "Exibir estações de trabalho do departamento"
+
+#~ msgid "Choose the department the search will be based on"
+#~ msgstr "Escolha o departamento na qual a pesquisa sera baseada"
+
+#~ msgid "Regular expression for matching addresses"
+#~ msgstr "Expressão regular para conferência de endereços"

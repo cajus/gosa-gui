@@ -1,0 +1,919 @@
+# translation of admin.po to
+# translation of systems.po to
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# , 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: admin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:31+0200\n"
+"PO-Revision-Date: 2010-01-28 23:35+0100\n"
+"Last-Translator: \n"
+"Language-Team: Spanish <>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: html/getfax.php:51
+msgid "Could not connect to database server!"
+msgstr "¡No puedo conectar al servidor de base de datos!"
+
+#: html/getfax.php:53
+msgid "Could not select database!"
+msgstr "¡No puedo seleccionar la base de datos.!"
+
+#: html/getfax.php:58 html/getfax.php:62
+msgid "Database query failed!"
+msgstr "¡La consulta a la base de datos ha fallado.!"
+
+#: src/faxReportPlugin/class_faxreport.inc:6
+msgid "FAX Reports"
+msgstr "Informes de FAX"
+
+#: src/faxReportPlugin/class_faxreport.inc:7
+msgid "View the FAX report or single documents that have been received"
+msgstr ""
+
+#: src/faxReportPlugin/class_faxreport.inc:126
+#: src/faxReportPlugin/class_faxreport.inc:137
+#: src/faxReportPlugin/class_faxreport.inc:142
+#: src/faxReportPlugin/class_faxreport.inc:148
+#: src/faxReportPlugin/class_faxreport.inc:173
+#: src/faxReportPlugin/class_faxreport.inc:281
+#: src/faxAccountPlugin/class_gofaxAccount.inc:254
+#: src/blocklistPlugin/class_blocklistGeneric.inc:109
+#: src/blocklistPlugin/class_blocklistGeneric.inc:170
+msgid "Error"
+msgstr "Error"
+
+#: src/faxReportPlugin/class_faxreport.inc:126
+#, fuzzy
+msgid "No FAX server found!"
+msgstr "¡No se ha definido el servidor de FAX!"
+
+#: src/faxReportPlugin/class_faxreport.inc:129
+msgid "Configuration error"
+msgstr "Error en la configuración"
+
+#: src/faxReportPlugin/class_faxreport.inc:130
+#, php-format
+msgid "Missing %s PHP extension!"
+msgstr "¡Extensión PHP %s no encontrada!"
+
+#: src/faxReportPlugin/class_faxreport.inc:138
+#, php-format
+msgid "Cannot connect to %s database!"
+msgstr "¡No se puede conectar a la base de datos %s!"
+
+#: src/faxReportPlugin/class_faxreport.inc:143
+#, php-format
+msgid "Cannot select %s database!"
+msgstr "¡No se puede seleccionar la base de datos %s!"
+
+#: src/faxReportPlugin/class_faxreport.inc:149
+#: src/faxReportPlugin/class_faxreport.inc:174
+#: src/faxReportPlugin/class_faxreport.inc:281
+#, php-format
+msgid "Cannot query %s database!"
+msgstr "¡No se ha podido ejecutar la consulta %s!"
+
+#: src/faxReportPlugin/class_faxreport.inc:192
+msgid "Permission error"
+msgstr "Error de permisos"
+
+#: src/faxReportPlugin/class_faxreport.inc:193
+#, fuzzy
+msgid "You have no permission to view this FAX id!"
+msgstr "¡No tiene permisos para ver este identificador de FAX!"
+
+#: src/faxReportPlugin/class_faxreport.inc:209
+#: src/faxReportPlugin/class_faxreport.inc:316
+msgid "Y-M-D"
+msgstr "Y-M-D"
+
+#: src/faxReportPlugin/class_faxreport.inc:287
+msgid "Insufficient permissions to view this attribute"
+msgstr "No tiene permisos suficientes para ver este atributo"
+
+#: src/faxReportPlugin/class_faxreport.inc:443
+#: src/faxReportPlugin/class_faxreport.inc:444
+#, fuzzy
+msgid "View FAX reports"
+msgstr "Informes de Fax"
+
+#: src/faxReportPlugin/class_faxreport.inc:444
+#, fuzzy
+msgid "All entries are read-only"
+msgstr "Todas las entradas son solo lectura"
+
+#: src/faxReportPlugin/class_faxreport.inc:458
+#, fuzzy
+msgid "Detailed view and download"
+msgstr "Vista detallada"
+
+#: src/faxReportPlugin/class_faxreport.inc:459
+msgid "Fax ID"
+msgstr "Fax ID"
+
+#: src/faxReportPlugin/class_faxreport.inc:460
+#, fuzzy
+msgid "The username"
+msgstr "Nombre de Usuario"
+
+#: src/faxReportPlugin/class_faxreport.inc:461
+#: src/faxReportPlugin/contents.tpl:9 src/faxReportPlugin/contents.tpl:38
+msgid "Date"
+msgstr "Fecha"
+
+#: src/faxReportPlugin/class_faxreport.inc:461
+msgid "Time"
+msgstr "Tiempo"
+
+#: src/faxReportPlugin/class_faxreport.inc:462
+#: src/faxReportPlugin/contents.tpl:39 src/faxReportPlugin/detail.tpl:44
+msgid "Status"
+msgstr "Estado"
+
+#: src/faxReportPlugin/class_faxreport.inc:463
+#: src/faxReportPlugin/detail.tpl:32
+msgid "Sender ID"
+msgstr "ID del Remitente"
+
+#: src/faxReportPlugin/class_faxreport.inc:464
+#: src/faxReportPlugin/detail.tpl:28
+msgid "Sender MSN"
+msgstr "MSN del Remitente"
+
+#: src/faxReportPlugin/class_faxreport.inc:465
+#: src/faxReportPlugin/detail.tpl:40
+msgid "Receiver ID"
+msgstr "ID del Receptor"
+
+#: src/faxReportPlugin/class_faxreport.inc:466
+#: src/faxReportPlugin/detail.tpl:36
+msgid "Receiver MSN"
+msgstr "MSN del Receptor"
+
+#: src/faxReportPlugin/class_faxreport.inc:467
+msgid "Number of pages"
+msgstr "Número de páginas"
+
+#: src/faxReportPlugin/class_faxreport.inc:468
+msgid "Status Message"
+msgstr "Mensaje de estado"
+
+#: src/faxReportPlugin/class_faxreport.inc:469
+#: src/faxReportPlugin/detail.tpl:52
+msgid "Transfer time"
+msgstr "Tiempo de envío"
+
+#: src/faxReportPlugin/contents.tpl:3 src/faxReportPlugin/detail.tpl:1
+msgid "Fax reports"
+msgstr "Informes de Fax"
+
+#: src/faxReportPlugin/contents.tpl:6
+msgid "Filter"
+msgstr "Filtro"
+
+#: src/faxReportPlugin/contents.tpl:17
+msgid "Search for"
+msgstr "Buscar por"
+
+#: src/faxReportPlugin/contents.tpl:19
+msgid "Enter user name to search for"
+msgstr "Introduzca el nombre de usuario para la búsqueda"
+
+#: src/faxReportPlugin/contents.tpl:23
+msgid "Search"
+msgstr "Buscar"
+
+#: src/faxReportPlugin/contents.tpl:34
+#, fuzzy
+msgid "Phone reports"
+msgstr "Informes de FAX"
+
+#: src/faxReportPlugin/contents.tpl:37 src/faxReportPlugin/detail.tpl:20
+#: src/faxNumberSelectDialog/faxNumberSelect-list.xml:14
+#: src/GofaxService/class_goFaxServer.inc:68
+msgid "User"
+msgstr "Usuario"
+
+#: src/faxReportPlugin/contents.tpl:40
+msgid "Sender"
+msgstr "Remitente"
+
+#: src/faxReportPlugin/contents.tpl:41
+msgid "Receiver"
+msgstr "Receptor"
+
+#: src/faxReportPlugin/contents.tpl:42 src/faxReportPlugin/detail.tpl:56
+msgid "# pages"
+msgstr "# páginas"
+
+#: src/faxReportPlugin/contents.tpl:60
+#, fuzzy
+msgid "Page selector"
+msgstr "Parametros de grupos"
+
+#: src/faxReportPlugin/contents.tpl:69
+msgid "Search returned no results..."
+msgstr "La búsqueda no ha encontrado resultados..."
+
+#: src/faxReportPlugin/detail.tpl:5 src/faxReportPlugin/detail.tpl:6
+msgid "Click on fax to download"
+msgstr "Pulse en 'Fax' para descargar"
+
+#: src/faxReportPlugin/detail.tpl:14
+#, fuzzy
+msgid "Entry list"
+msgstr "Exportar lista"
+
+#: src/faxReportPlugin/detail.tpl:16
+msgid "FAX ID"
+msgstr "FAX ID"
+
+#: src/faxReportPlugin/detail.tpl:24
+msgid "Date / Time"
+msgstr "Fecha / Hora"
+
+#: src/faxReportPlugin/detail.tpl:48
+msgid "Status message"
+msgstr "Estado del mensaje"
+
+#: src/faxAccountPlugin/paste_generic.tpl:1
+#, fuzzy
+msgid "Paste fax account settings"
+msgstr "Configuración cuenta de FAX"
+
+#: src/faxAccountPlugin/paste_generic.tpl:6 src/faxAccountPlugin/generic.tpl:8
+#: src/blocklistPlugin/generic.tpl:1
+msgid "Generic"
+msgstr "Genérico"
+
+#: src/faxAccountPlugin/paste_generic.tpl:7
+#: src/faxAccountPlugin/generic.tpl:10
+#, fuzzy
+msgid "Generic settings"
+msgstr "Parámetros genéricos del usuario"
+
+#: src/faxAccountPlugin/paste_generic.tpl:10
+#: src/faxAccountPlugin/class_gofaxAccount.inc:809
+#: src/faxAccountPlugin/generic.tpl:12
+#: src/blocklistPlugin/class_blocklistGeneric.inc:373
+#: src/faxNumberSelectDialog/faxNumberSelect-list.xml:56
+msgid "Fax"
+msgstr "Fax"
+
+#: src/faxAccountPlugin/paste_generic.tpl:15
+#: src/faxAccountPlugin/generic.tpl:19
+msgid "Fax number for GOfax to trigger on"
+msgstr "Numero de fax para activar GOfax"
+
+#: src/faxAccountPlugin/paste_generic.tpl:20
+msgid "Alternate fax numbers will not be copied"
+msgstr "Los números de fax alternativos no serán copiados"
+
+#: src/faxAccountPlugin/lists.tpl:2
+#, fuzzy
+msgid "Blocklist settings"
+msgstr "Listas de bloqueo"
+
+#: src/faxAccountPlugin/lists.tpl:7
+msgid "Blocked numbers/lists"
+msgstr "Listas/Números bloqueados"
+
+#: src/faxAccountPlugin/lists.tpl:21
+#, fuzzy
+msgid "List of predefined blacklists"
+msgstr "Listas de bloqueos predefinidas"
+
+#: src/faxAccountPlugin/lists.tpl:22
+#, fuzzy
+msgid "List of blocked numbers"
+msgstr "Números bloqueados"
+
+#: src/faxAccountPlugin/lists.tpl:29
+#, fuzzy
+msgid "Add the list to the blacklists"
+msgstr "Añadir a la lista de bloqueos"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:6
+msgid "FAX"
+msgstr "FAX"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:7
+#, fuzzy
+msgid "Manage personal facsimile settings"
+msgstr "Editar parametros de usuarios POSIX"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:103
+#: src/blocklistPlugin/class_blocklistGeneric.inc:212
+#: src/blocklistPlugin/class_blocklistGeneric.inc:215
+#: src/blocklistPlugin/class_blocklistGeneric.inc:222
+#: src/blocklistPlugin/class_blocklistGeneric.inc:400
+#: src/blocklistPlugin/blocklist-list.xml:49
+msgid "Name"
+msgstr "Nombre"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:161
+#: src/faxAccountPlugin/class_gofaxAccount.inc:171
+#: src/faxAccountPlugin/class_gofaxAccount.inc:174
+msgid "GOfax"
+msgstr "GOfax"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:170
+#, fuzzy
+msgid "Remove FAX account"
+msgstr "Eliminar cuenta de fax"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:173
+#, fuzzy
+msgid "Create FAX account"
+msgstr "Crear cuenta de fax"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:254
+#: src/blocklistPlugin/class_blocklistGeneric.inc:109
+msgid "Phone number"
+msgstr "Número de teléfono"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:394
+#: src/faxAccountPlugin/class_gofaxAccount.inc:477
+msgid "back"
+msgstr "atrás"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:603
+#: src/faxAccountPlugin/class_gofaxAccount.inc:734
+#: src/blocklistPlugin/class_blocklistGeneric.inc:198
+#: src/blocklistPlugin/class_blocklistGeneric.inc:284
+msgid "LDAP error"
+msgstr "Error LDAP"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:619
+#: src/faxAccountPlugin/class_gofaxAccount.inc:623
+#: src/faxAccountPlugin/class_gofaxAccount.inc:823
+msgid "Fax number"
+msgstr "Número de Fax"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:630
+msgid "Mail delivery is requested without target address!"
+msgstr ""
+"¡Ha seleccionado envío de correo, pero no se ha introducido ninguna "
+"dirección de correo!"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:632
+msgid "Mail address"
+msgstr "Dirección correo electrónico"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:632
+msgid "your-name@your-domain.com"
+msgstr "your-name@your-domain.com"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:638
+msgid "Printing is requested without a target printer!"
+msgstr ""
+"¡Ha seleccionado impresión, pero no se ha introducido ninguna impresora!"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:810
+msgid "Fax account settings"
+msgstr "Configuración cuenta de FAX"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:824
+#: src/faxAccountPlugin/generic.tpl:26
+msgid "Language"
+msgstr "Idioma"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:825
+#: src/faxAccountPlugin/generic.tpl:39
+msgid "Delivery format"
+msgstr "Formato de envío"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:826
+#, fuzzy
+msgid "Alternate FAX number"
+msgstr "Intercambiar los números de fax"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:827
+#, fuzzy
+msgid "Enable/Disable FAX"
+msgstr "Activar/desactivar FAX"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:828
+#: src/faxAccountPlugin/generic.tpl:77
+#, fuzzy
+msgid "Deliver FAX as mail"
+msgstr "Enviar fax como correo electrónico"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:829
+#: src/faxAccountPlugin/generic.tpl:84
+#, fuzzy
+msgid "Deliver FAX to printer"
+msgstr "Enviar fax a la impresora"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:830
+#: src/blocklistPlugin/blocklist-list.xml:23
+#, fuzzy
+msgid "Receive blacklist"
+msgstr "Listas de bloqueos entrantes"
+
+#: src/faxAccountPlugin/class_gofaxAccount.inc:831
+#: src/blocklistPlugin/blocklist-list.xml:15
+#, fuzzy
+msgid "Send blacklist"
+msgstr "Lista de bloqueo salientes"
+
+#: src/faxAccountPlugin/generic.tpl:1
+#, fuzzy
+msgid "Fax account"
+msgstr "Mi cuenta"
+
+#: src/faxAccountPlugin/generic.tpl:15
+msgid "Multiple edit"
+msgstr "Edición multiple"
+
+#: src/faxAccountPlugin/generic.tpl:31
+#, fuzzy
+msgid "Specify the GOfax communication language for FAX to mail gateway"
+msgstr ""
+"Especificar el lenguaje de comunicación de GOfax para la pasarela de fax a "
+"correo"
+
+#: src/faxAccountPlugin/generic.tpl:43
+#, fuzzy
+msgid "Specify delivery format for FAX to mail gateway"
+msgstr "Especificar el formato de envío para la pasarela de fax a correo"
+
+#: src/faxAccountPlugin/generic.tpl:58
+msgid "Delivery methods"
+msgstr "Métodos de envío"
+
+#: src/faxAccountPlugin/generic.tpl:63
+#, fuzzy
+msgid "Temporary disable FAX usage"
+msgstr "Desactivación temporal del uso del fax"
+
+#: src/faxAccountPlugin/generic.tpl:69
+#, fuzzy
+msgid "Deliver FAX as mail to"
+msgstr "Enviar fax como correo electrónico a"
+
+#: src/faxAccountPlugin/generic.tpl:97
+#, fuzzy
+msgid "Alternative numbers"
+msgstr "Intercambiar los números de fax"
+
+#: src/faxAccountPlugin/generic.tpl:105
+#, fuzzy
+msgid "Alternate FAX numbers"
+msgstr "Intercambiar los números de fax"
+
+#: src/faxAccountPlugin/generic.tpl:121
+msgid "Add local"
+msgstr "Añadir Cuenta Local"
+
+#: src/faxAccountPlugin/generic.tpl:132 src/faxAccountPlugin/generic.tpl:133
+#, fuzzy
+msgid "Blacklists"
+msgstr "Listas de bloqueo"
+
+#: src/faxAccountPlugin/generic.tpl:135
+#, fuzzy
+msgid "Blacklists for incoming FAX"
+msgstr "Listas de bloqueo para fax entrante"
+
+#: src/faxAccountPlugin/generic.tpl:138 src/faxAccountPlugin/generic.tpl:147
+#: src/blocklistPlugin/blocklist-list.xml:94
+#: src/blocklistPlugin/blocklist-list.xml:133
+msgid "Edit"
+msgstr "Editar"
+
+#: src/faxAccountPlugin/generic.tpl:144
+#, fuzzy
+msgid "Blacklists for outgoing FAX"
+msgstr "Listas de bloqueo para fax saliente"
+
+#: src/blocklistPlugin/paste_generic.tpl:1
+#, fuzzy
+msgid "Paste blacklist"
+msgstr "Lista de bloqueo salientes"
+
+#: src/blocklistPlugin/paste_generic.tpl:3 src/blocklistPlugin/generic.tpl:8
+msgid "List name"
+msgstr "Nombre de la lista"
+
+#: src/blocklistPlugin/paste_generic.tpl:5 src/blocklistPlugin/generic.tpl:12
+#, fuzzy
+msgid "Name of blacklist"
+msgstr "Nombre de la lista de bloqueos"
+
+#: src/blocklistPlugin/class_blocklistManagement.inc:25
+#, fuzzy
+msgid "FAX Blocklists"
+msgstr "Lista de bloqueos de FAX"
+
+#: src/blocklistPlugin/class_blocklistManagement.inc:26
+msgid "Manage FAX number blocklists for incoming and outgoing FAX calls"
+msgstr ""
+
+#: src/blocklistPlugin/blocklist-list.tpl:12
+#: src/blocklistPlugin/class_blocklistGeneric.inc:402
+#: src/blocklistPlugin/generic.tpl:17
+#: src/faxNumberSelectDialog/faxNumberSelect-list.tpl:12
+msgid "Base"
+msgstr "Base"
+
+#: src/blocklistPlugin/class_blocklistGeneric.inc:9
+#, fuzzy
+msgid "FAX blacklists"
+msgstr "Lista de bloqueos de FAX"
+
+#: src/blocklistPlugin/class_blocklistGeneric.inc:10
+msgid "This does something"
+msgstr "Esto hace algo"
+
+#: src/blocklistPlugin/class_blocklistGeneric.inc:152
+msgid "send"
+msgstr "enviar"
+
+#: src/blocklistPlugin/class_blocklistGeneric.inc:152
+msgid "receive"
+msgstr "recibir"
+
+#: src/blocklistPlugin/class_blocklistGeneric.inc:374
+#: src/blocklistPlugin/class_blocklistGeneric.inc:382
+#: src/blocklistPlugin/class_blocklistGeneric.inc:383
+#, fuzzy
+msgid "Fax blacklists"
+msgstr "Lista de bloqueos de Fax"
+
+#: src/blocklistPlugin/class_blocklistGeneric.inc:391
+msgid "RDN for facsimile blocklist storage."
+msgstr ""
+
+#: src/blocklistPlugin/class_blocklistGeneric.inc:401
+#: src/blocklistPlugin/blocklist-list.xml:57
+#: src/blocklistPlugin/generic.tpl:45
+msgid "Description"
+msgstr "Descripción"
+
+#: src/blocklistPlugin/class_blocklistGeneric.inc:403
+#, fuzzy
+msgid "Send blacklist entries"
+msgstr "Lista de bloqueo salientes"
+
+#: src/blocklistPlugin/class_blocklistGeneric.inc:404
+#, fuzzy
+msgid "Receive blacklist entries"
+msgstr "Listas de bloqueos entrantes"
+
+#: src/blocklistPlugin/class_blocklistGeneric.inc:405
+#: src/blocklistPlugin/generic.tpl:32
+#, fuzzy
+msgid "Blacklist type"
+msgstr "Tipo de lista de bloqueo"
+
+#: src/blocklistPlugin/blocklist-list.xml:11
+#, fuzzy
+msgid "List of blacklists"
+msgstr "Lista de listas de bloqueos"
+
+#: src/blocklistPlugin/blocklist-list.xml:65
+msgid "Actions"
+msgstr "Acciones"
+
+#: src/blocklistPlugin/blocklist-list.xml:76
+msgid "Create"
+msgstr "Crear"
+
+#: src/blocklistPlugin/blocklist-list.xml:82 src/blocklistPlugin/generic.tpl:2
+#, fuzzy
+msgid "Blacklist"
+msgstr "Lista de bloqueo"
+
+#: src/blocklistPlugin/blocklist-list.xml:101
+#: src/blocklistPlugin/blocklist-list.xml:146
+msgid "Remove"
+msgstr "Eliminar"
+
+#: src/blocklistPlugin/generic.tpl:6
+#, fuzzy
+msgid "Blacklist generic"
+msgstr "Tipo de lista de bloqueo"
+
+#: src/blocklistPlugin/generic.tpl:34
+msgid "Type"
+msgstr "Tipo"
+
+#: src/blocklistPlugin/generic.tpl:37
+#, fuzzy
+msgid "Select whether to filter incoming or outgoing calls"
+msgstr "Seleccione la manera de filtrar llamadas entrantes o salientes"
+
+#: src/blocklistPlugin/generic.tpl:48
+#, fuzzy
+msgid "Descriptive text for this blacklist"
+msgstr "Descripción de esta lista de bloqueos"
+
+#: src/blocklistPlugin/generic.tpl:59 src/blocklistPlugin/generic.tpl:63
+msgid "Blocked numbers"
+msgstr "Números bloqueados"
+
+#: src/blocklistPlugin/generic.tpl:87
+msgid "Information"
+msgstr "Información"
+
+#: src/blocklistPlugin/generic.tpl:89
+msgid "Numbers can also contain wild cards."
+msgstr "Los números también pueden contener comodines."
+
+#: src/blocklistPlugin/blocklist-filter.xml:19
+#: src/faxNumberSelectDialog/faxNumberSelect-filter.xml:21
+#, fuzzy
+msgid "Default filter"
+msgstr "Parámetro"
+
+#: src/blocklistPlugin/blocklist-filter.xml:33
+#, fuzzy
+msgid "Receive"
+msgstr "Receptor"
+
+#: src/blocklistPlugin/blocklist-filter.xml:47
+#, fuzzy
+msgid "Send"
+msgstr "Remitente"
+
+#: src/faxNumberSelectDialog/class_faxNumberSelect.inc:28
+#, fuzzy
+msgid "Fax number selection"
+msgstr "Parametros de grupos"
+
+#: src/faxNumberSelectDialog/faxNumberSelect-list.xml:10
+msgid "Please select the desired entries"
+msgstr "Por favor seleccione las entradas que desee"
+
+#: src/faxNumberSelectDialog/faxNumberSelect-list.xml:40
+msgid "Given name"
+msgstr "Nombre de pila"
+
+#: src/faxNumberSelectDialog/faxNumberSelect-list.xml:48
+msgid "Surname"
+msgstr "Apellido"
+
+#: src/GofaxService/class_goFaxServer.inc:30
+msgid "FAX database"
+msgstr "Base de datos de FAX"
+
+#: src/GofaxService/class_goFaxServer.inc:59
+msgid "FAX database configuration"
+msgstr "Configuración de la base de datos de FAX"
+
+#: src/GofaxService/class_goFaxServer.inc:71
+#: src/GofaxService/class_goFaxServer.inc:102
+#: src/GofaxService/goFaxServer.tpl:12
+msgid "Password"
+msgstr "Contraseña"
+
+#: src/GofaxService/class_goFaxServer.inc:88
+#: src/GofaxService/class_goFaxServer.inc:89
+#: src/GofaxService/goFaxServer.tpl:2
+msgid "Fax database"
+msgstr "Base de datos de Fax"
+
+#: src/GofaxService/class_goFaxServer.inc:89
+msgid "Services"
+msgstr "Servicios"
+
+#: src/GofaxService/class_goFaxServer.inc:101
+msgid "Login name"
+msgstr "Nombre de acceso"
+
+#: src/GofaxService/class_goFaxServer.inc:104
+#, fuzzy
+msgid "Start"
+msgstr "Inicio"
+
+#: src/GofaxService/class_goFaxServer.inc:105
+msgid "Stop"
+msgstr ""
+
+#: src/GofaxService/class_goFaxServer.inc:106
+#, fuzzy
+msgid "Restart"
+msgstr "Recuperar"
+
+#: src/GofaxService/goFaxServer.tpl:1
+msgid "FAX database information"
+msgstr "Información de la base de datos del FAX"
+
+#: src/GofaxService/goFaxServer.tpl:4
+msgid "FAX DB user"
+msgstr "Base de datos de usuarios de FAX"
+
+#~ msgid "Click the 'Edit' button below to change informations in this dialog"
+#~ msgstr ""
+#~ "Pulse en el botón - Editar - para cambiar la información en esta ventana"
+
+#~ msgid "FAX settings"
+#~ msgstr "Configuración del Fax"
+
+#~ msgid "Alternate fax number"
+#~ msgstr "Número de FAX alternativo"
+
+#~ msgid "Deliver fax as mail"
+#~ msgstr "Enviar fax como correo electrónico"
+
+#~ msgid "Deliver fax to printer"
+#~ msgstr "Enviar fax a la impresora"
+
+#~ msgid "FAX preview - please wait"
+#~ msgstr "Visualización del Fax - Por favor espere"
+
+#~ msgid "in"
+#~ msgstr "en"
+
+#~ msgid "Select subtree to base search on"
+#~ msgstr "Seleccione el subárbol como base de la búsqueda"
+
+#~ msgid "during"
+#~ msgstr "durante"
+
+#~ msgid "Insufficient permissions"
+#~ msgstr "Permisos insuficientes"
+
+#~ msgid "Fax report"
+#~ msgstr "Informe de FAX"
+
+#~ msgid "Warning"
+#~ msgstr "Aviso"
+
+#~ msgid ""
+#~ "Please double check if you really want to do this since there is no way "
+#~ "for GOsa to get your data back."
+#~ msgstr ""
+#~ "Si está seguro de lo que quiere hacer pulse dos veces, ya que no hay "
+#~ "forma de que GOsa pueda recuperar posteriormente esa información"
+
+#~ msgid ""
+#~ "So - if you're sure - press 'Delete' to continue or 'Cancel' to abort."
+#~ msgstr ""
+#~ "Entonces, si esta seguro, presione <i>Eliminar</i> para continuar o "
+#~ "<i>Cancelar</i> para Abortar."
+
+#~ msgid "Choose subtree to place group in"
+#~ msgstr "Elija el subárbol donde colocar el grupo"
+
+#~ msgid "Select a base"
+#~ msgstr "Seleccione una base"
+
+#~ msgid "Blocklist management"
+#~ msgstr "Administración de listas de bloqueo"
+
+#~ msgid "Select numbers to add"
+#~ msgstr "Seleccione números para añadir"
+
+#~ msgid "Filters"
+#~ msgstr "Filtros"
+
+#~ msgid "Display numbers of department"
+#~ msgstr "Mostrar número de Departamentos"
+
+#~ msgid "Choose the department the search will be based on"
+#~ msgstr "Escoja el departamento base de la búsqueda"
+
+#~ msgid "Display numbers matching"
+#~ msgstr "Mostrar números que coincidan con"
+
+#~ msgid "Regular expression for matching numbers"
+#~ msgstr "Expresiones regulares que coincidan con números"
+
+#~ msgid "Display numbers of user"
+#~ msgstr "Mostrar números de usuario"
+
+#~ msgid "User name of which numbers are shown"
+#~ msgstr "Nombre de usuario cuyos números están siendo mostrados"
+
+#~ msgid "Update"
+#~ msgstr "Actualizar"
+
+#~ msgid "Submit"
+#~ msgstr "Enviar"
+
+#~ msgid ""
+#~ "Please double check if your really want to do this since there is no way "
+#~ "for GOsa to get your data back."
+#~ msgstr ""
+#~ "Si está seguro de lo que quiere hacer pulse dos veces, ya que no hay "
+#~ "manera de que GOsa recupere posteriormente la información."
+
+#~ msgid "Select all"
+#~ msgstr "Seleccione todos"
+
+#~ msgid "Department"
+#~ msgstr "Departamento"
+
+#~ msgid "Show send blocklists"
+#~ msgstr "Mostrar listas de bloqueos salientes"
+
+#~ msgid "Show receive blocklists"
+#~ msgstr "Mostrar listas de bloqueos entrantes"
+
+#~ msgid "Regular expression for matching list names"
+#~ msgstr "Expresión regular para encontrar nombres de listas"
+
+#~ msgid "Submit department"
+#~ msgstr "Enviar departamento"
+
+#~ msgid "edit"
+#~ msgstr "editar"
+
+#~ msgid "Edit user"
+#~ msgstr "Editar usuario"
+
+#~ msgid "delete"
+#~ msgstr "eliminar"
+
+#~ msgid "Delete user"
+#~ msgstr "Eliminar usuario"
+
+#~ msgid "Number of listed '%s'"
+#~ msgstr "Número de mostrados '%s'"
+
+#~ msgid "blocklists"
+#~ msgstr "listas de bloqueo"
+
+#~ msgid "departments"
+#~ msgstr "departamentos"
+
+#~ msgid "Permission"
+#~ msgstr "Permisos"
+
+#~ msgid "blocklist"
+#~ msgstr "lista de bloqueo"
+
+#, fuzzy
+#~ msgid "Copy"
+#~ msgstr "copiar"
+
+#, fuzzy
+#~ msgid "Cut"
+#~ msgstr "mover"
+
+#~ msgid "cut"
+#~ msgstr "mover"
+
+#~ msgid "Cut this entry"
+#~ msgstr "Mover esta entrada"
+
+#~ msgid "copy"
+#~ msgstr "copiar"
+
+#~ msgid "Copy this entry"
+#~ msgstr "Copiar esta entrada"
+
+#, fuzzy
+#~ msgid "Faxi number"
+#~ msgstr "Número de Fax"
+
+#~ msgid "Select to search within subtrees"
+#~ msgstr "Seleccione para buscar dentro de los subárboles"
+
+#~ msgid "Search in subtrees"
+#~ msgstr "Buscar en subárboles"
+
+#~ msgid "Save"
+#~ msgstr "Guardar"
+
+#~ msgid "Cancel"
+#~ msgstr "Cancelar"
+
+#~ msgid "The attribute user is empty or contains invalid characters."
+#~ msgstr "El atributo usuario está vacío o tiene caracteres no validos"
+
+#~ msgid "The attribute password is empty or contains invalid characters."
+#~ msgstr "El atributo contraseña está vacío o tiene caracteres no validos"
+
+#~ msgid "Back"
+#~ msgstr "Atrás"
+
+#~ msgid "Add"
+#~ msgstr "Añadir"
+
+#~ msgid "Delete"
+#~ msgstr "Eliminar"
+
+#~ msgid "Apply"
+#~ msgstr "Aplicar"
+
+#~ msgid "Ok"
+#~ msgstr "Ok"
+
+#, fuzzy
+#~ msgid "Name contains invalid characters!"
+#~ msgstr "El atributo usuario está vacío o tiene caracteres no validos"
+
+#~ msgid "Required field 'Name' is not set."
+#~ msgstr "No ha introducido el campo obligatorio 'Nombre'."

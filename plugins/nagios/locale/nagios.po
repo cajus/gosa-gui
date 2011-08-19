@@ -1,0 +1,160 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:31+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/nagiosPlugin/nagios.tpl:1 src/nagiosPlugin/nagios.tpl:7
+#: src/nagiosPlugin/nagios.tpl:8
+msgid "Nagios Account"
+msgstr ""
+
+#: src/nagiosPlugin/nagios.tpl:10 src/nagiosPlugin/class_nagiosAccount.inc:193
+#: src/nagiosPlugin/class_nagiosAccount.inc:287
+msgid "Alias"
+msgstr ""
+
+#: src/nagiosPlugin/nagios.tpl:19 src/nagiosPlugin/class_nagiosAccount.inc:288
+msgid "Mail address"
+msgstr ""
+
+#: src/nagiosPlugin/nagios.tpl:29 src/nagiosPlugin/class_nagiosAccount.inc:289
+msgid "Host notification period"
+msgstr ""
+
+#: src/nagiosPlugin/nagios.tpl:42 src/nagiosPlugin/class_nagiosAccount.inc:290
+msgid "Service notification period"
+msgstr ""
+
+#: src/nagiosPlugin/nagios.tpl:55 src/nagiosPlugin/class_nagiosAccount.inc:292
+msgid "Service notification options"
+msgstr ""
+
+#: src/nagiosPlugin/nagios.tpl:68 src/nagiosPlugin/class_nagiosAccount.inc:291
+msgid "Host notification options"
+msgstr ""
+
+#: src/nagiosPlugin/nagios.tpl:81
+msgid "Pager"
+msgstr ""
+
+#: src/nagiosPlugin/nagios.tpl:92 src/nagiosPlugin/class_nagiosAccount.inc:295
+msgid "Service notification commands"
+msgstr ""
+
+#: src/nagiosPlugin/nagios.tpl:102
+#: src/nagiosPlugin/class_nagiosAccount.inc:296
+msgid "Host notification commands"
+msgstr ""
+
+#: src/nagiosPlugin/nagios.tpl:120
+msgid "Nagios authentication"
+msgstr ""
+
+#: src/nagiosPlugin/nagios.tpl:121
+msgid "Nagios account"
+msgstr ""
+
+#: src/nagiosPlugin/nagios.tpl:125
+msgid "view system informations"
+msgstr ""
+
+#: src/nagiosPlugin/nagios.tpl:134
+msgid "view configuration information"
+msgstr ""
+
+#: src/nagiosPlugin/nagios.tpl:143
+msgid "trigger system commands"
+msgstr ""
+
+#: src/nagiosPlugin/nagios.tpl:152
+msgid "view all services"
+msgstr ""
+
+#: src/nagiosPlugin/nagios.tpl:161
+msgid "view all hosts"
+msgstr ""
+
+#: src/nagiosPlugin/nagios.tpl:170
+msgid "trigger all service commands"
+msgstr ""
+
+#: src/nagiosPlugin/nagios.tpl:179
+msgid "trigger all host commands"
+msgstr ""
+
+#: src/nagiosPlugin/class_nagiosAccount.inc:18
+#: src/nagiosPlugin/class_nagiosAccount.inc:105
+#: src/nagiosPlugin/class_nagiosAccount.inc:114
+#: src/nagiosPlugin/class_nagiosAccount.inc:116
+#: src/nagiosPlugin/class_nagiosAccount.inc:272
+msgid "Nagios"
+msgstr ""
+
+#: src/nagiosPlugin/class_nagiosAccount.inc:19
+msgid "Manage personal Nagios settings"
+msgstr ""
+
+#: src/nagiosPlugin/class_nagiosAccount.inc:172
+#: src/nagiosPlugin/class_nagiosAccount.inc:257
+msgid "LDAP error"
+msgstr ""
+
+#: src/nagiosPlugin/class_nagiosAccount.inc:196
+#: src/nagiosPlugin/class_nagiosAccount.inc:200
+#: src/nagiosPlugin/class_nagiosAccount.inc:204
+msgid "Mail"
+msgstr ""
+
+#: src/nagiosPlugin/class_nagiosAccount.inc:273
+msgid "Nagios account settings"
+msgstr ""
+
+#: src/nagiosPlugin/class_nagiosAccount.inc:277
+msgid "My account"
+msgstr ""
+
+#: src/nagiosPlugin/class_nagiosAccount.inc:293
+msgid "Pager number"
+msgstr ""
+
+#: src/nagiosPlugin/class_nagiosAccount.inc:297
+msgid "View system informations"
+msgstr ""
+
+#: src/nagiosPlugin/class_nagiosAccount.inc:298
+msgid "View configuration information"
+msgstr ""
+
+#: src/nagiosPlugin/class_nagiosAccount.inc:299
+msgid "Trigger system commands"
+msgstr ""
+
+#: src/nagiosPlugin/class_nagiosAccount.inc:300
+msgid "View all services"
+msgstr ""
+
+#: src/nagiosPlugin/class_nagiosAccount.inc:301
+msgid "View all hosts"
+msgstr ""
+
+#: src/nagiosPlugin/class_nagiosAccount.inc:302
+msgid "Trigger all service commands"
+msgstr ""
+
+#: src/nagiosPlugin/class_nagiosAccount.inc:303
+msgid "Trigger all host commands"
+msgstr ""

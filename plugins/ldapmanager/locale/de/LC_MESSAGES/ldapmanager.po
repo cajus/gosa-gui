@@ -1,0 +1,558 @@
+# translation of messages.po to deutsch
+# GOsa2 Translations
+# Copyright (C) 2003 GONICUS GmbH, Germany
+# This file is distributed under the same license as the GOsa2 package.
+#
+#
+# Alfred Schroeder <schroeder@GONICUS.de>, 2004.
+# Cajus Pollmeier <pollmeier@gonicus.de>, 2004, 2005, 2006, 2008.
+# Jan Wenzel <jan.wenzel@gonicus.de>, 2004,2005, 2008.
+# Stefan Koehler <stefan.koehler@GONICUS.de>, 2005.
+msgid ""
+msgstr ""
+"Project-Id-Version: messages\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:31+0200\n"
+"PO-Revision-Date: 2010-09-16 15:45+0100\n"
+"Last-Translator: Fabian Hickert <Fabian.Hickert@GONICUS.DE>\n"
+"Language-Team: deutsch <de@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: html/getxls.php:88
+msgid "Birthday"
+msgstr "Geburtstag"
+
+#: html/getxls.php:88 html/getxls.php:283
+msgid "Sex"
+msgstr "Geschlecht"
+
+#: html/getxls.php:88 html/getxls.php:229 html/getxls.php:283
+#: html/getxls.php:299 html/getxls.php:303
+msgid "Surname"
+msgstr "Nachname"
+
+#: html/getxls.php:88 html/getxls.php:225 html/getxls.php:283
+#: html/getxls.php:299
+msgid "Given name"
+msgstr "Vorname"
+
+#: html/getxls.php:88 html/getxls.php:283
+msgid "Language"
+msgstr "Sprache"
+
+#: html/getxls.php:91 html/getxls.php:92 html/getxls.php:310
+msgid "Users"
+msgstr "Benutzer"
+
+#: html/getxls.php:96 html/getxls.php:343
+#, php-format
+msgid "User list of %s on %s"
+msgstr "Benutzerliste von %s auf %s"
+
+#: html/getxls.php:102 html/getxls.php:137 html/getxls.php:160
+#: html/getxls.php:349 html/getxls.php:366
+msgid "User ID"
+msgstr "Benutzer-ID"
+
+#: html/getxls.php:123 html/getxls.php:286
+msgid "Members"
+msgstr "Mitglieder"
+
+#: html/getxls.php:126 html/getxls.php:128 html/getxls.php:311
+msgid "Groups"
+msgstr "Gruppen"
+
+#: html/getxls.php:133 html/getxls.php:362
+#, php-format
+msgid "Groups of %s on %s"
+msgstr "Gruppen von %s auf %s"
+
+#: html/getxls.php:157 html/getxls.php:190 html/getxls.php:192
+#: html/getxls.php:199 html/getxls.php:235 html/getxls.php:312
+#: html/getxls.php:383
+msgid "Servers"
+msgstr "Server"
+
+#: html/getxls.php:160 html/getxls.php:289
+msgid "Description"
+msgstr "Beschreibung"
+
+#: html/getxls.php:161 html/getxls.php:313
+msgid "Computers"
+msgstr "Computer"
+
+#: html/getxls.php:171 html/getxls.php:224 html/getxls.php:403
+#: html/getxls.php:423
+msgid "Common name"
+msgstr "Allgemeiner Name"
+
+#: html/getxls.php:187
+msgid "Server name"
+msgstr "Servername"
+
+#: html/getxls.php:197 html/getxls.php:381
+#, php-format
+msgid "Servers of %s on %s"
+msgstr "Server von %s auf %s"
+
+#: html/getxls.php:224 html/getxls.php:299
+msgid "Display name"
+msgstr "Anzeigename"
+
+#: html/getxls.php:224 html/getxls.php:299
+msgid "Fax"
+msgstr "Fax"
+
+#: html/getxls.php:225 html/getxls.php:292
+msgid "Name"
+msgstr "Name"
+
+#: html/getxls.php:225
+msgid "Home phone"
+msgstr "Telefonnummer (privat)"
+
+#: html/getxls.php:226
+msgid "Home postal address"
+msgstr "Private Adresse"
+
+#: html/getxls.php:226 html/getxls.php:300
+msgid "Initials"
+msgstr "Initialen"
+
+#: html/getxls.php:226
+msgid "Location"
+msgstr "Ort"
+
+#: html/getxls.php:227
+msgid "Mail address"
+msgstr "Mail-Adresse"
+
+#: html/getxls.php:227
+msgid "Mobile phone"
+msgstr "Mobiltelefon"
+
+#: html/getxls.php:227 html/getxls.php:300
+msgid "City"
+msgstr "Stadt"
+
+#: html/getxls.php:228 html/getxls.php:300 html/getxls.php:302
+msgid "Postal address"
+msgstr "Adresse"
+
+#: html/getxls.php:228 html/getxls.php:302
+msgid "Pager"
+msgstr "Pager"
+
+#: html/getxls.php:228 html/getxls.php:300 html/getxls.php:302
+msgid "Phone number"
+msgstr "Telefonnummer"
+
+#: html/getxls.php:229
+msgid "Address"
+msgstr "Adresse"
+
+#: html/getxls.php:229
+msgid "Postal code"
+msgstr "Postleitzahl"
+
+#: html/getxls.php:230 html/getxls.php:303
+msgid "State"
+msgstr "Land"
+
+#: html/getxls.php:230
+msgid "Function"
+msgstr "Funktion"
+
+#: html/getxls.php:233 html/getxls.php:314
+msgid "Address book"
+msgstr "Adressbuch"
+
+#: html/getxls.php:240 html/getxls.php:416
+#, php-format
+msgid "Address book of %s on %s"
+msgstr "Adressbuch von %s auf %s"
+
+#: html/getxls.php:246
+msgid "Common Name"
+msgstr "Allgemeiner Name"
+
+#: html/getxls.php:283
+msgid "Day of birth"
+msgstr "Geburtsdatum"
+
+#: html/getxls.php:289
+msgid "UID"
+msgstr "UID"
+
+#: html/getxls.php:301
+msgid "Email address"
+msgstr "Email-Adresse"
+
+#: html/getxls.php:301
+msgid "Mobile"
+msgstr "Mobiltelefon"
+
+#: html/getxls.php:301
+msgid "Organization"
+msgstr "Organisation"
+
+#: html/getxls.php:301
+msgid "Organizational unit"
+msgstr "Organisationseinheit"
+
+#: html/getxls.php:302
+msgid "Postal Code"
+msgstr "Postleitzahl"
+
+#: html/getxls.php:303
+msgid "Title"
+msgstr "Titel"
+
+#: html/getxls.php:306
+msgid "Full"
+msgstr "Voll"
+
+#: html/getxls.php:397
+#, php-format
+msgid "Computers of %s on %s"
+msgstr "Computer von %s auf %s"
+
+#: html/getxls.php:480 src/ldapManagerPlugin/class_exportxls.inc:124
+#: src/ldapManagerPlugin/class_import.inc:57
+#: src/ldapManagerPlugin/class_export.inc:90
+#: src/ldapManagerPlugin/class_export.inc:97
+#: src/ldapManagerPlugin/class_csvimport.inc:109
+msgid "Permission error"
+msgstr "Berechtigungsfehler"
+
+#: html/getxls.php:480
+msgid "You have no permission to do LDAP exports!"
+msgstr "Sie haben keine Berechtigung, um aus dem LDAP zu exportieren!"
+
+#: src/ldapManagerPlugin/class_ldif.inc:6
+msgid "LDAP tools"
+msgstr "LDAP-Tools"
+
+#: src/ldapManagerPlugin/class_ldif.inc:7
+msgid "Export LDIF or Excel snapshots of the LDAP tree"
+msgstr "Exportiert LDIF oder Excel Schnapshüsse des LDAP Baumes"
+
+#: src/ldapManagerPlugin/class_ldif.inc:42
+#: src/ldapManagerPlugin/class_ldif.inc:43
+#: src/ldapManagerPlugin/class_ldif.inc:48
+msgid "LDAP manager"
+msgstr "LDAP-Manager"
+
+#: src/ldapManagerPlugin/class_ldif.inc:43
+msgid "import"
+msgstr "Import"
+
+#: src/ldapManagerPlugin/class_ldif.inc:43
+msgid "export"
+msgstr "Export"
+
+#: src/ldapManagerPlugin/contentexport.tpl:2
+msgid ""
+"The LDIF export plug-in provides methods to download a complete snapshot of "
+"the running LDAP directory as LDIF. You may save these files for backup "
+"purpose or when initializing a new server."
+msgstr ""
+"Dieses Modul ermöglicht Ihnen den Download der kompletten momentan "
+"verwendeten LDAP-Datenbank. Die übertragenen Dateien können beispielsweise "
+"zur Datensicherung oder zur Einrichtung eines neuen Servers benutzt werden."
+
+#: src/ldapManagerPlugin/contentexport.tpl:9
+#: src/ldapManagerPlugin/contentexportxls.tpl:10
+msgid "Export single entry"
+msgstr "Exportiere einzelnen Eintrag"
+
+#: src/ldapManagerPlugin/contentexport.tpl:15
+#: src/ldapManagerPlugin/contentexport.tpl:27
+#: src/ldapManagerPlugin/contentexportxls.tpl:19
+#: src/ldapManagerPlugin/contentexportxls.tpl:31
+#: src/ldapManagerPlugin/contentexportxls.tpl:47
+msgid "Export"
+msgstr "Export"
+
+#: src/ldapManagerPlugin/contentexport.tpl:21
+msgid "Export complete LDIF for"
+msgstr "Exportiere vollständige LDIF-Datei für"
+
+#: src/ldapManagerPlugin/class_exportxls.inc:6
+msgid "XLS import"
+msgstr "XLS-Import"
+
+#: src/ldapManagerPlugin/class_exportxls.inc:7
+#: src/ldapManagerPlugin/class_import.inc:7
+#: src/ldapManagerPlugin/class_export.inc:7
+#: src/ldapManagerPlugin/class_csvimport.inc:7
+msgid "This does something"
+msgstr "Dies tut etwas"
+
+#: src/ldapManagerPlugin/class_exportxls.inc:56
+#: src/ldapManagerPlugin/class_exportxls.inc:111
+#: src/ldapManagerPlugin/class_import.inc:68
+#: src/ldapManagerPlugin/class_import.inc:75
+#: src/ldapManagerPlugin/class_import.inc:83
+#: src/ldapManagerPlugin/class_export.inc:46
+#: src/ldapManagerPlugin/class_export.inc:103
+#: src/ldapManagerPlugin/class_csvimport.inc:169
+#: src/ldapManagerPlugin/class_csvimport.inc:291
+#: src/ldapManagerPlugin/class_csvimport.inc:343
+#: src/ldapManagerPlugin/class_csvimport.inc:348
+#: src/ldapManagerPlugin/class_csvimport.inc:354
+#: src/ldapManagerPlugin/class_csvimport.inc:359
+#: src/ldapManagerPlugin/class_csvimport.inc:502
+msgid "Error"
+msgstr "Fehler"
+
+#: src/ldapManagerPlugin/class_exportxls.inc:111
+msgid "Cannot export selected entries!"
+msgstr "Kann die gewählten Einträge nicht exportieren!"
+
+#: src/ldapManagerPlugin/class_exportxls.inc:124
+#: src/ldapManagerPlugin/class_export.inc:91
+#: src/ldapManagerPlugin/class_export.inc:98
+#, php-format
+msgid "You have no permission to export %s!"
+msgstr "Sie haben keine Berechtigung, um '%s' zu exportieren!"
+
+#: src/ldapManagerPlugin/class_import.inc:6
+#: src/ldapManagerPlugin/class_csvimport.inc:6
+msgid "LDIF export"
+msgstr "LDIF exportieren"
+
+#: src/ldapManagerPlugin/class_import.inc:57
+msgid "You need full write access to the LDAP tree to import data!"
+msgstr "Sie benötigen Vollzugriff auf den LDAP-Baum, um Daten zu importieren!"
+
+#: src/ldapManagerPlugin/class_import.inc:68
+#: src/ldapManagerPlugin/class_import.inc:75
+#: src/ldapManagerPlugin/class_import.inc:83
+#: src/ldapManagerPlugin/class_csvimport.inc:343
+#: src/ldapManagerPlugin/class_csvimport.inc:348
+#: src/ldapManagerPlugin/class_csvimport.inc:354
+#: src/ldapManagerPlugin/class_csvimport.inc:359
+#, php-format
+msgid "Cannot read uploaded file: %s"
+msgstr "Kann hochgeladene Datei nicht lesen: %s"
+
+#: src/ldapManagerPlugin/class_import.inc:68
+#: src/ldapManagerPlugin/class_csvimport.inc:348
+msgid "file is empty"
+msgstr "Die Datei ist leer"
+
+#: src/ldapManagerPlugin/class_import.inc:75
+#: src/ldapManagerPlugin/class_csvimport.inc:343
+#: src/ldapManagerPlugin/class_csvimport.inc:354
+msgid "file not found"
+msgstr "Die Datei wurde nicht gefunden"
+
+#: src/ldapManagerPlugin/class_import.inc:83
+#: src/ldapManagerPlugin/class_csvimport.inc:359
+msgid "file not readable"
+msgstr "Die Datei ist nicht lesbar"
+
+#: src/ldapManagerPlugin/class_import.inc:117
+#: src/ldapManagerPlugin/class_import.inc:121
+#: src/ldapManagerPlugin/class_export.inc:73
+msgid "LDAP error"
+msgstr "LDAP-Fehler"
+
+#: src/ldapManagerPlugin/class_import.inc:125
+msgid "Internal error"
+msgstr "Interner Fehler"
+
+#: src/ldapManagerPlugin/class_import.inc:125
+#, php-format
+msgid "Undefined flag %s!"
+msgstr "Undefiniertes Flag '%s'!"
+
+#: src/ldapManagerPlugin/contentexportxls.tpl:3
+msgid ""
+"The XLS export plug-in provides methods to download a complete snapshot of "
+"the running LDAP directory as XLS. You may save these files for "
+"documentation."
+msgstr ""
+"Dieses Modul ermöglicht Ihnen den Download der kompletten momentan "
+"verwendeten LDAP-Datenbank als xls-Datei. Die übertragenen Dateien können "
+"beispielsweise zur Dokumentation/Übersicht verwendet werden."
+
+#: src/ldapManagerPlugin/contentexportxls.tpl:14
+msgid "Choose the data you want to export"
+msgstr "Wählen Sie die Daten, die exportiert werden sollen"
+
+#: src/ldapManagerPlugin/contentexportxls.tpl:25
+msgid "Export complete XLS for"
+msgstr "Exportiere vollständige XLS-Datei für"
+
+#: src/ldapManagerPlugin/contentexportxls.tpl:39
+msgid "Export IVBB LDIF for"
+msgstr "Exportiere IVBB LDIF für"
+
+#: src/ldapManagerPlugin/contentexportxls.tpl:42
+msgid "Choose the department you want to export"
+msgstr "Wählen Sie die Abteilung, die exportiert werden soll"
+
+#: src/ldapManagerPlugin/contentexportxls.tpl:59
+msgid "Export successful"
+msgstr "Export erfolgreich"
+
+#: src/ldapManagerPlugin/contentexportxls.tpl:64
+msgid "Click here to save the complete LDAP database to a XLS file"
+msgstr ""
+"Hier klicken, um die gesamte LDAP-Datenbank in eine Datei zu exportieren."
+
+#: src/ldapManagerPlugin/contentexportxls.tpl:64
+msgid "Click here to save the LDAP export to a XLS file"
+msgstr "Hier klicken, um die exportierten Daten in eine xls-Datei zu speichern"
+
+#: src/ldapManagerPlugin/contentimport.tpl:10
+msgid ""
+"The LDIF import plug-in provides methods to upload a set of entries to your "
+"running LDAP directory as LDIF. You may use this to add new or modify "
+"existing entries. Remember that GOsa will not check your LDIF for GOsa "
+"conformance."
+msgstr ""
+"Dieses Modul ermöglicht es Ihnen, einen Satz von Einträgen als LDIF in Ihre "
+"laufende LDAP-Datenbank zu importieren. Sie können diese Funktion "
+"beispielsweise zum Hinzufügen oder Aktualisieren existierender Einträge "
+"nutzen. Beachten Sie dabei bitte, dass GOsa die LDIF-Datei nicht auf "
+"Konformität prüft."
+
+#: src/ldapManagerPlugin/contentimport.tpl:17
+msgid "Import LDIF File"
+msgstr "Importiere LDIF Datei"
+
+#: src/ldapManagerPlugin/contentimport.tpl:22
+#: src/ldapManagerPlugin/contentcsv.tpl:16
+msgid "Browse"
+msgstr "Durchsuchen"
+
+#: src/ldapManagerPlugin/contentimport.tpl:31
+msgid "Modify existing objects, keep untouched attributes"
+msgstr "Überschreibe vorhandene Objekte, behalte unbetroffene Attribute"
+
+#: src/ldapManagerPlugin/contentimport.tpl:32
+msgid "Overwrite existing objects, all not listed attributes will be removed"
+msgstr ""
+"Überschreibe vorhandene Objekte, entferne dabei alle nicht aufgeführten "
+"Attribute"
+
+#: src/ldapManagerPlugin/contentimport.tpl:41
+msgid "Remove existing entries first"
+msgstr "Enferne zunächst bereits existierende Einträge"
+
+#: src/ldapManagerPlugin/contentimport.tpl:48
+msgid "Import successful"
+msgstr "Import erfolgreich"
+
+#: src/ldapManagerPlugin/contentimport.tpl:60
+#: src/ldapManagerPlugin/contentcsv.tpl:113
+#: src/ldapManagerPlugin/contentcsv.tpl:117
+msgid "Import"
+msgstr "Importieren"
+
+#: src/ldapManagerPlugin/class_export.inc:6
+msgid "CSV import"
+msgstr "CSV-Import"
+
+#: src/ldapManagerPlugin/class_export.inc:74
+#, php-format
+msgid "No such object %s!"
+msgstr "Kein solches Objekt: %s!"
+
+#: src/ldapManagerPlugin/class_export.inc:104
+#, php-format
+msgid "Failed to generate LDAP export: %s"
+msgstr ""
+
+#: src/ldapManagerPlugin/contentcsv.tpl:4
+msgid ""
+"The CSV import plug-in provides methods to generate user accounts from a "
+"file containing Comma Separated Values. The administrator can decide which "
+"columns should be transfered to which attribute. Note that you must have at "
+"least the UID, GIVENNAME and SURNAME set."
+msgstr ""
+"Das CSV Import Plugin stellt Methoden bereit, um Benutzerkonten aus einer "
+"CSV Datei zu generieren. Der Administrator kann die Zuordnung zwischen "
+"Spalte und Benutzerattribut frei wählen. Es müssen jedoch mindestens die "
+"Attribute UID, GIVENNAME und SURNAME gesetzt sein."
+
+#: src/ldapManagerPlugin/contentcsv.tpl:9
+msgid "CSV export"
+msgstr "CSV-Export"
+
+#: src/ldapManagerPlugin/contentcsv.tpl:12
+msgid "Select CSV file to import"
+msgstr "Auswahl der zu importierenden CSV Datei"
+
+#: src/ldapManagerPlugin/contentcsv.tpl:21
+msgid "Select template"
+msgstr "Auswahl der Vorlage"
+
+#: src/ldapManagerPlugin/contentcsv.tpl:36
+msgid "All entries have been written to the LDAP database successfully."
+msgstr "Alle Einträge wurden erfolgreich in die LDAP-Datenbank geschrieben."
+
+#: src/ldapManagerPlugin/contentcsv.tpl:38
+msgid "There was an error during the import of your data."
+msgstr "Es gab einen Fehler während des Importvorgangs Ihrer Daten."
+
+#: src/ldapManagerPlugin/contentcsv.tpl:41
+msgid "Here is the status report for the import:"
+msgstr "Statusreport des Imports:"
+
+#: src/ldapManagerPlugin/contentcsv.tpl:46
+msgid "Status report"
+msgstr "Status-Bericht"
+
+#: src/ldapManagerPlugin/contentcsv.tpl:82
+msgid "Selected Template"
+msgstr "Gewählte Vorlage"
+
+#: src/ldapManagerPlugin/contentcsv.tpl:85
+msgid "Template selection"
+msgstr "Vorlagen-Auswahl"
+
+#: src/ldapManagerPlugin/class_csvimport.inc:109
+msgid "You've no permission to import CSV files!"
+msgstr "Sie haben keine Berechtigung, um CSV Dateien zu importieren."
+
+#: src/ldapManagerPlugin/class_csvimport.inc:169
+#, php-format
+msgid "Need at least %s, %s and %s to create users!"
+msgstr "Benötige mindestens '%s', '%s' und '%s' um Benutzer anzulegen!"
+
+#: src/ldapManagerPlugin/class_csvimport.inc:217
+msgid "failed"
+msgstr "Fehlgeschlagen"
+
+#: src/ldapManagerPlugin/class_csvimport.inc:221
+msgid "OK"
+msgstr "Ok"
+
+#: src/ldapManagerPlugin/class_csvimport.inc:287
+msgid "status"
+msgstr "Status"
+
+#: src/ldapManagerPlugin/class_csvimport.inc:291
+#, php-format
+msgid "Cannot add entry %s!"
+msgstr "Kann Eintrag %s nicht hinzufügen!"
+
+#: src/ldapManagerPlugin/class_csvimport.inc:329
+msgid "Information"
+msgstr "Information"
+
+#: src/ldapManagerPlugin/class_csvimport.inc:329
+msgid "Nothing to import!"
+msgstr "Nichts zu importieren!"
+
+#: src/ldapManagerPlugin/class_csvimport.inc:502
+msgid "Cannot find CSV data in the selected file!"
+msgstr "Kann keine CSV-Daten in der gewählten Datei finden!"

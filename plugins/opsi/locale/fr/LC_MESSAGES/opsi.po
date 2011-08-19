@@ -1,0 +1,482 @@
+# translation of messages.po to
+# GOsa2 Translations
+# Copyright (C) 2003 GONICUS GmbH, Germany
+# This file is distributed under the same license as the GOsa2 package.
+#
+#
+# Alfred Schroeder <schroeder@GONICUS.de>, 2004.
+# Cajus Pollmeier <pollmeier@gonicus.de>, 2004, 2005, 2006, 2008.
+# Jan Wenzel <jan.wenzel@gonicus.de>, 2004,2005, 2008.
+# Stefan Koehler <stefan.koehler@GONICUS.de>, 2005.
+# Benoit Mortier <benoit.mortier@opensides.be>, 2008, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: messages\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:31+0200\n"
+"PO-Revision-Date: 2010-11-26 23:36+0100\n"
+"Last-Translator: Benoit Mortier <benoit.mortier@opensides.be>\n"
+"Language-Team:  <fr@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n > 1);\n"
+
+#: src/opsiPlugin/class_opsi.inc:74 src/opsiPlugin/class_opsigeneric.inc:753
+msgid "Opsi"
+msgstr ""
+
+#: src/opsiPlugin/class_opsi.inc:74
+#, php-format
+msgid "More than one Opsi server were found, using the first result '%s'."
+msgstr "Plus d'un serveur Opsi on été trouvés, j'utilise le premier '%s'."
+
+#: src/opsiPlugin/class_opsi.inc:150
+msgid "Service infrastructure"
+msgstr "Infrastructure de service"
+
+#: src/opsiPlugin/opsiware.tpl:4
+msgid "Information"
+msgstr "Information"
+
+#: src/opsiPlugin/opsiware.tpl:7 src/opsiPlugin/generic.tpl:7
+#: src/opsiLicensesPlugin/licenseByProduct.tpl:5
+#: src/opsiLicensesPlugin/licenseUsage.tpl:5
+#: src/opsiLicensesPlugin/licensePoolGeneric.tpl:6
+#: src/opsiLicensesPlugin/licenseUsageByHost.tpl:5
+#: src/opsiLicensesPlugin/licenseGeneric.tpl:6
+msgid "Retry"
+msgstr "Réessayer"
+
+#: src/opsiPlugin/opsiware.tpl:11
+msgid "Hardware information"
+msgstr "Information Hardware"
+
+#: src/opsiPlugin/opsiware.tpl:14
+msgid "Software information"
+msgstr "Informations Logiciels"
+
+#: src/opsiPlugin/opsiware.tpl:19
+msgid "Device"
+msgstr "Périphériques"
+
+#: src/opsiPlugin/properties.tpl:2
+msgid "OPSI product properties"
+msgstr "Propriétés des produits OPSI"
+
+#: src/opsiPlugin/properties.tpl:6
+msgid "This OPSI product has no options."
+msgstr "Ce produit OPSI n'a pas d'options."
+
+#: src/opsiPlugin/properties.tpl:9 src/opsiPlugin/generic.tpl:84
+msgid "Package settings"
+msgstr "Configuration du paquet"
+
+#: src/opsiPlugin/class_opsigeneric.inc:91
+#: src/opsiPlugin/class_opsigeneric.inc:102
+#: src/opsiPlugin/class_opsigeneric.inc:251
+#: src/opsiPlugin/class_opsigeneric.inc:256
+#: src/opsiPlugin/class_opsigeneric.inc:259
+#: src/opsiPlugin/class_opsigeneric.inc:756 src/opsiPlugin/generic.tpl:18
+#: src/opsiPlugin/generic.tpl:29
+#: src/opsiLicensesPlugin/licensePoolGeneric.tpl:20
+#: src/opsiLicensesPlugin/class_licensePoolGeneric.inc:525
+#: src/opsiLicensesPlugin/class_licenseGeneric.inc:242
+#: src/opsiLicensesPlugin/class_licenseGeneric.inc:288
+#: src/opsiLicensesPlugin/licenseGeneric.tpl:21
+#: src/opsiLicensesPlugin/opsiLicense-list.xml:41
+msgid "Name"
+msgstr "Nom"
+
+#: src/opsiPlugin/class_opsigeneric.inc:91
+#: src/opsiPlugin/class_opsigeneric.inc:102
+#: src/opsiPlugin/class_opsigeneric.inc:758 src/opsiPlugin/generic.tpl:62
+#: src/opsiLicensesPlugin/licensePoolGeneric.tpl:32
+#: src/opsiLicensesPlugin/class_licensePoolGeneric.inc:92
+#: src/opsiLicensesPlugin/class_licensePoolGeneric.inc:526
+#: src/opsiLicensesPlugin/class_licenseGeneric.inc:299
+#: src/opsiLicensesPlugin/licenseGeneric.tpl:45
+#: src/opsiLicensesPlugin/opsiLicense-list.xml:49
+msgid "Description"
+msgstr ""
+
+#: src/opsiPlugin/class_opsigeneric.inc:257
+msgid "The field 'Name' must contain a domain part!"
+msgstr "Le champ 'nom' doit contenir le nom complet incluant le domaine !"
+
+#: src/opsiPlugin/class_opsigeneric.inc:265
+#: src/opsiPlugin/class_opsigeneric.inc:757
+msgid "MAC address"
+msgstr "Adresse MAC"
+
+#: src/opsiPlugin/class_opsigeneric.inc:306
+#: src/opsiPlugin/class_opsigeneric.inc:307
+#: src/opsiPlugin/class_opsigeneric.inc:309
+#: src/opsiPlugin/class_opsigeneric.inc:310
+msgid "OPSI"
+msgstr ""
+
+#: src/opsiPlugin/class_opsigeneric.inc:410
+#: src/opsiPlugin/class_opsigeneric.inc:423
+#: src/opsiPlugin/class_opsigeneric.inc:447
+#: src/opsiPlugin/class_opsigeneric.inc:458
+#: src/opsiPlugin/class_opsigeneric.inc:464
+#: src/opsiPlugin/class_opsigeneric.inc:481
+#: src/opsiPlugin/class_opsigeneric.inc:499
+#: src/opsiPlugin/class_opsigeneric.inc:505
+#: src/opsiPlugin/class_opsigeneric.inc:534
+#: src/opsiPlugin/class_opsigeneric.inc:574
+#: src/opsiPlugin/class_opsigeneric.inc:721
+#: src/opsiLicensesPlugin/class_licenseUsage.inc:76
+#: src/opsiLicensesPlugin/class_filterOpsiLicense.inc:45
+#: src/opsiLicensesPlugin/class_licensePoolGeneric.inc:107
+#: src/opsiLicensesPlugin/class_licensePoolGeneric.inc:117
+#: src/opsiLicensesPlugin/class_licensePoolGeneric.inc:130
+#: src/opsiLicensesPlugin/class_licensePoolGeneric.inc:412
+#: src/opsiLicensesPlugin/class_licensePoolGeneric.inc:438
+#: src/opsiLicensesPlugin/class_licensePoolGeneric.inc:452
+#: src/opsiLicensesPlugin/class_licensePoolGeneric.inc:473
+#: src/opsiLicensesPlugin/class_licensePoolGeneric.inc:500
+#: src/opsiLicensesPlugin/class_licenseByProduct.inc:78
+#: src/opsiLicensesPlugin/class_licenseUsageByHost.inc:91
+#: src/opsiLicensesPlugin/class_licenseUsageByHost.inc:100
+#: src/opsiLicensesPlugin/class_licenseUsageByHost.inc:113
+#: src/opsiLicensesPlugin/class_licenseUsageByHost.inc:240
+#: src/opsiLicensesPlugin/class_licenseUsageByHost.inc:247
+msgid "Error"
+msgstr "Erreur"
+
+#: src/opsiPlugin/class_opsigeneric.inc:747 src/opsiPlugin/generic.tpl:14
+#: src/opsiPlugin/generic.tpl:60
+#: src/opsiLicensesPlugin/licensePoolGeneric.tpl:17
+#: src/opsiLicensesPlugin/class_licenseGeneric.inc:280
+msgid "Generic"
+msgstr "Informations"
+
+#: src/opsiPlugin/class_opsigeneric.inc:748
+msgid "OPSI generic"
+msgstr "Informations OPSI"
+
+#: src/opsiPlugin/class_opsigeneric.inc:759
+msgid "Note"
+msgstr ""
+
+#: src/opsiPlugin/class_opsigeneric.inc:760 src/opsiPlugin/generic.tpl:39
+msgid "Net boot product"
+msgstr "Produit Netboot"
+
+#: src/opsiPlugin/class_opsigeneric.inc:761
+msgid "Local boot product"
+msgstr "Produit localboot"
+
+#: src/opsiPlugin/class_opsigeneric.inc:762 src/opsiPlugin/generic.tpl:105
+#, fuzzy
+msgid "Action"
+msgstr "fonction"
+
+#: src/opsiPlugin/class_opsiProperties.inc:113
+msgid "Products"
+msgstr "Produits"
+
+#: src/opsiPlugin/class_opsiProperties.inc:114
+msgid "Product properties"
+msgstr "Propriétés du produit"
+
+#: src/opsiPlugin/generic.tpl:2 src/opsiPlugin/generic.tpl:11
+msgid "OPSI host"
+msgstr "Client OPSI"
+
+#: src/opsiPlugin/generic.tpl:51
+msgid "Configure product"
+msgstr "Configurer le produit"
+
+#: src/opsiPlugin/generic.tpl:70
+msgid "Notes"
+msgstr ""
+
+#: src/opsiPlugin/generic.tpl:87
+msgid "Installed products"
+msgstr "Produits installés"
+
+#: src/opsiPlugin/generic.tpl:93
+msgid "Available products"
+msgstr "Produits disponibles"
+
+#: src/opsiPlugin/generic.tpl:109
+msgid "Reinstall"
+msgstr "Réinstaller"
+
+#: src/opsiPlugin/generic.tpl:111
+msgid "Install"
+msgstr "Installer"
+
+#: src/opsiPlugin/generic.tpl:113
+msgid "Wake"
+msgstr "Réveiller"
+
+#: src/opsiPlugin/generic.tpl:117
+msgid "Execute"
+msgstr "Exécuter"
+
+#: src/opsiLicensesPlugin/class_opsiLicenses.inc:25
+msgid "Software licenses"
+msgstr "Licences logicielles"
+
+#: src/opsiLicensesPlugin/class_opsiLicenses.inc:26
+msgid "Manage software licenses for Windows system deployments"
+msgstr "Gère les licences pour les déploiement Windows"
+
+#: src/opsiLicensesPlugin/class_licenseUsage.inc:56
+#: src/opsiLicensesPlugin/class_licenseByProduct.inc:58
+msgid "Host"
+msgstr "Hôte"
+
+#: src/opsiLicensesPlugin/class_licenseUsage.inc:56
+#: src/opsiLicensesPlugin/class_licenseByProduct.inc:58
+#: src/opsiLicensesPlugin/class_licenseUsageByHost.inc:69
+msgid "Key"
+msgstr "Clef"
+
+#: src/opsiLicensesPlugin/class_licenseUsage.inc:56
+#: src/opsiLicensesPlugin/class_licenseByProduct.inc:58
+#: src/opsiLicensesPlugin/class_licenseUsageByHost.inc:59
+#: src/opsiLicensesPlugin/class_licenseUsageByHost.inc:69
+msgid "Pool"
+msgstr "Réservoir"
+
+#: src/opsiLicensesPlugin/class_licenseUsage.inc:56
+#: src/opsiLicensesPlugin/class_licenseByProduct.inc:58
+#: src/opsiLicensesPlugin/licenseGeneric.tpl:11
+#: src/opsiLicensesPlugin/opsiLicense-list.xml:15
+#: src/opsiLicensesPlugin/opsiLicense-list.xml:74
+msgid "License"
+msgstr "licence"
+
+#: src/opsiLicensesPlugin/class_licenseUsage.inc:160
+#: src/opsiLicensesPlugin/class_licenseUsage.inc:161
+#: src/opsiLicensesPlugin/licenseByProduct.tpl:12
+#: src/opsiLicensesPlugin/licenseUsage.tpl:12
+#: src/opsiLicensesPlugin/licenseUsageByHost.tpl:12
+msgid "License usage"
+msgstr "Utilisation des Licences"
+
+#: src/opsiLicensesPlugin/licenseByProduct.tpl:4
+#: src/opsiLicensesPlugin/licenseUsage.tpl:4
+#: src/opsiLicensesPlugin/licensePoolGeneric.tpl:5
+#: src/opsiLicensesPlugin/licenseUsageByHost.tpl:4
+#: src/opsiLicensesPlugin/licenseGeneric.tpl:5
+msgid "Check if the GOsa support daemon (gosa-si) is running."
+msgstr "Veuillez vérifier si le service Gosa (gosa-si) fonctionne."
+
+#: src/opsiLicensesPlugin/licensePoolGeneric.tpl:12
+msgid "Lincense settings"
+msgstr "Configuration des licences"
+
+#: src/opsiLicensesPlugin/licensePoolGeneric.tpl:18
+#: src/opsiLicensesPlugin/licenseGeneric.tpl:18
+msgid "Generic settings"
+msgstr "Paramètres par défaut"
+
+#: src/opsiLicensesPlugin/licensePoolGeneric.tpl:43
+#: src/opsiLicensesPlugin/class_licensePoolGeneric.inc:529
+msgid "Licenses"
+msgstr "licences"
+
+#: src/opsiLicensesPlugin/licensePoolGeneric.tpl:58
+#: src/opsiLicensesPlugin/class_licensePoolGeneric.inc:527
+msgid "Applications"
+msgstr "Applications"
+
+#: src/opsiLicensesPlugin/licensePoolGeneric.tpl:79
+#: src/opsiLicensesPlugin/class_licensePoolGeneric.inc:528
+msgid "Windows software IDs"
+msgstr "IDs logiciel Windows"
+
+#: src/opsiLicensesPlugin/opsiLicense-filter.xml:18
+msgid "Default filter"
+msgstr "Filtre par défaut"
+
+#: src/opsiLicensesPlugin/opsiLicense-filter.xml:33
+msgid "By product"
+msgstr "Par produit"
+
+#: src/opsiLicensesPlugin/licenseUsageByHost.tpl:14
+#: src/opsiLicensesPlugin/licenseGeneric.tpl:189
+msgid "Reserved for"
+msgstr "Réservé pour"
+
+#: src/opsiLicensesPlugin/licenseUsageByHost.tpl:28
+msgid "Licenses used"
+msgstr "Licences utilisées"
+
+#: src/opsiLicensesPlugin/class_licensePoolGeneric.inc:92
+msgid "Section"
+msgstr ""
+
+#: src/opsiLicensesPlugin/class_licensePoolGeneric.inc:271
+msgid "unlimited"
+msgstr "illimité"
+
+#: src/opsiLicensesPlugin/class_licensePoolGeneric.inc:277
+#, php-format
+msgid "Volume license (#%s)"
+msgstr "Licence en volume (#%s)"
+
+#: src/opsiLicensesPlugin/class_licensePoolGeneric.inc:278
+#: src/opsiLicensesPlugin/class_licenseGeneric.inc:133
+msgid "OEM"
+msgstr ""
+
+#: src/opsiLicensesPlugin/class_licensePoolGeneric.inc:279
+#: src/opsiLicensesPlugin/class_licenseGeneric.inc:132
+msgid "Retail"
+msgstr "Vente au détail"
+
+#: src/opsiLicensesPlugin/class_licensePoolGeneric.inc:280
+msgid "Concurrent"
+msgstr "Simultané"
+
+#: src/opsiLicensesPlugin/class_licensePoolGeneric.inc:517
+msgid "Pool generic"
+msgstr "Réservoir par défaut"
+
+#: src/opsiLicensesPlugin/class_licensePoolGeneric.inc:518
+msgid "License pool generic"
+msgstr "Réservoir de licences par défaut"
+
+#: src/opsiLicensesPlugin/class_licenseByProduct.inc:149
+msgid "Usage by product"
+msgstr "Utilisation par produit"
+
+#: src/opsiLicensesPlugin/class_licenseByProduct.inc:150
+msgid "License usage by product"
+msgstr "Utilisation des licences par produit"
+
+#: src/opsiLicensesPlugin/class_licenseUsageByHost.inc:59
+#: src/opsiLicensesPlugin/class_licenseUsageByHost.inc:69
+msgid "License ID"
+msgstr "Numéro de licence"
+
+#: src/opsiLicensesPlugin/class_licenseUsageByHost.inc:259
+msgid "Usage by host"
+msgstr "Utilisation par hôte"
+
+#: src/opsiLicensesPlugin/class_licenseUsageByHost.inc:260
+msgid "License usage by host"
+msgstr "Utilisation des licences par hôte"
+
+#: src/opsiLicensesPlugin/class_licenseUsageByHost.inc:267
+#: src/opsiLicensesPlugin/licenseGeneric.tpl:205
+msgid "Used by"
+msgstr "Utilisé par"
+
+#: src/opsiLicensesPlugin/class_licenseUsageByHost.inc:268
+msgid "License reservation"
+msgstr "Réservation de licence"
+
+#: src/opsiLicensesPlugin/class_licenseGeneric.inc:134
+msgid "Volume"
+msgstr ""
+
+#: src/opsiLicensesPlugin/class_licenseGeneric.inc:230
+#: src/opsiLicensesPlugin/class_licenseGeneric.inc:234
+#: src/opsiLicensesPlugin/class_licenseGeneric.inc:238
+#: src/opsiLicensesPlugin/class_licenseGeneric.inc:298
+#: src/opsiLicensesPlugin/licenseGeneric.tpl:103
+msgid "Expiration date"
+msgstr "Date d'expiration"
+
+#: src/opsiLicensesPlugin/class_licenseGeneric.inc:246
+#: src/opsiLicensesPlugin/class_licenseGeneric.inc:290
+#: src/opsiLicensesPlugin/licenseGeneric.tpl:166
+msgid "License key"
+msgstr "Clef de licence"
+
+#: src/opsiLicensesPlugin/class_licenseGeneric.inc:281
+msgid "License generic"
+msgstr "Licence par défaut"
+
+#: src/opsiLicensesPlugin/class_licenseGeneric.inc:289
+#: src/opsiLicensesPlugin/licenseGeneric.tpl:35
+msgid "Partner"
+msgstr "Partenaire"
+
+#: src/opsiLicensesPlugin/class_licenseGeneric.inc:291
+#: src/opsiLicensesPlugin/licenseGeneric.tpl:55
+msgid "License model"
+msgstr "Modèle de licence"
+
+#: src/opsiLicensesPlugin/class_licenseGeneric.inc:292
+msgid "License pool id"
+msgstr "Réservoir de licences"
+
+#: src/opsiLicensesPlugin/class_licenseGeneric.inc:293
+#: src/opsiLicensesPlugin/licenseGeneric.tpl:177
+msgid "Maximum installations"
+msgstr "Nombre maximum d'installations"
+
+#: src/opsiLicensesPlugin/class_licenseGeneric.inc:294
+msgid "Reserved for host"
+msgstr "Réservé pour l'hôte"
+
+#: src/opsiLicensesPlugin/class_licenseGeneric.inc:295
+msgid "Usage"
+msgstr "Utilisation"
+
+#: src/opsiLicensesPlugin/class_licenseGeneric.inc:296
+#: src/opsiLicensesPlugin/licenseGeneric.tpl:128
+msgid "Notification date"
+msgstr "Date de notification"
+
+#: src/opsiLicensesPlugin/class_licenseGeneric.inc:297
+#: src/opsiLicensesPlugin/licenseGeneric.tpl:78
+msgid "Conclusion date"
+msgstr "Date de fin"
+
+#: src/opsiLicensesPlugin/licenseGeneric.tpl:13
+msgid "License settings"
+msgstr "Configuration des licences"
+
+#: src/opsiLicensesPlugin/licenseGeneric.tpl:75
+msgid "Additional settings"
+msgstr "Paramètres supplémentaire"
+
+#: src/opsiLicensesPlugin/licenseGeneric.tpl:158
+#: src/opsiLicensesPlugin/licenseGeneric.tpl:160
+#: src/opsiLicensesPlugin/licenseGeneric.tpl:163
+msgid "License key settings"
+msgstr "Paramètres de la clef de licence"
+
+#: src/opsiLicensesPlugin/licenseGeneric.tpl:194
+msgid "none"
+msgstr "aucun"
+
+#: src/opsiLicensesPlugin/opsiLicense-list.xml:11
+msgid "List of license pools"
+msgstr "Liste des réservoir de licences"
+
+#: src/opsiLicensesPlugin/opsiLicense-list.xml:57
+msgid "Actions"
+msgstr ""
+
+#: src/opsiLicensesPlugin/opsiLicense-list.xml:68
+msgid "Create"
+msgstr "Créer"
+
+#: src/opsiLicensesPlugin/opsiLicense-list.xml:86
+msgid "Edit"
+msgstr "Editer"
+
+#: src/opsiLicensesPlugin/opsiLicense-list.xml:93
+msgid "Remove"
+msgstr "Supprimer"
+
+#: src/opsiLicensesPlugin/opsiLicense-list.xml:108
+msgid "Edit license"
+msgstr "Editer la license"
+
+#: src/opsiLicensesPlugin/opsiLicense-list.xml:116
+msgid "Remove license"
+msgstr "Suppression de la licence"

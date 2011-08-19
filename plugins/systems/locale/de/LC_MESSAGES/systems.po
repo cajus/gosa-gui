@@ -1,0 +1,818 @@
+# translation of messages.po to deutsch
+# translation of messages.po to
+# GOsa2 Translations
+# Copyright (C) 2003 GONICUS GmbH, Germany
+# This file is distributed under the same license as the GOsa2 package.
+#
+#
+# Alfred Schroeder <schroeder@GONICUS.de>, 2004.
+# Cajus Pollmeier <pollmeier@gonicus.de>, 2004, 2005, 2006, 2008.
+# Jan Wenzel <jan.wenzel@gonicus.de>, 2004,2005, 2008.
+# Stefan Koehler <stefan.koehler@GONICUS.de>, 2005.
+msgid ""
+msgstr ""
+"Project-Id-Version: messages\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:32+0200\n"
+"PO-Revision-Date: 2010-09-17 11:08+0100\n"
+"Last-Translator: Fabian Hickert <Fabian.Hickert@GONICUS.DE>\n"
+"Language-Team: deutsch <de@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: src/servicesExtension/class_goService.inc:44
+#: src/servicesExtension/class_goService.inc:81
+msgid "Empty service"
+msgstr "Leerer Dienst"
+
+#: src/servicesExtension/class_goService.inc:124
+#: src/servicesExtension/class_goService.inc:152
+#: src/servicesExtension/class_goService.inc:185
+#: src/systemsPlugin/class_termDNS.inc:515
+#: src/systemsPlugin/class_termDNS.inc:823
+#: src/systemsPlugin/class_termDNS.inc:842
+#: src/systemsPlugin/class_termDNS.inc:863
+#: src/systemsPlugin/class_termDNS.inc:868
+#: src/systemsPlugin/class_termDNS.inc:886
+#: src/systemsPlugin/class_termDNS.inc:962
+#: src/systemsPlugin/class_systemManagement.inc:327
+#: src/systemsPlugin/class_systemManagement.inc:1092
+#: src/systemsPlugin/class_servGeneric.inc:268
+#: src/systemsPlugin/class_servGeneric.inc:436
+#: src/systemsPlugin/class_componentGeneric.inc:134
+#: src/systemsPlugin/class_componentGeneric.inc:284
+msgid "LDAP error"
+msgstr "LDAP-Fehler"
+
+#: src/systemsPlugin/system-list.tpl:12 src/systemsPlugin/server.tpl:34
+#: src/systemsPlugin/component.tpl:18
+#: src/systemsPlugin/class_servGeneric.inc:535
+#: src/systemsPlugin/class_componentGeneric.inc:316
+#: src/systemSelectDialog/selectSystem-list.tpl:12
+msgid "Base"
+msgstr "Basis"
+
+#: src/systemsPlugin/class_termDNS.inc:315
+#: src/systemsPlugin/class_termDNS.inc:362
+#: src/systemsPlugin/class_systemManagement.inc:274
+#: src/systemsPlugin/class_systemManagement.inc:714
+#: src/systemsPlugin/class_systemManagement.inc:720
+#: src/systemsPlugin/class_systemManagement.inc:840
+#: src/systemsPlugin/class_systemManagement.inc:855
+#: src/systemsPlugin/class_servGeneric.inc:302
+#: src/systemsPlugin/class_componentGeneric.inc:166
+#: src/systemsPlugin/class_filterOPSIHOSTS.inc:30
+#: src/systemsPlugin/class_serverService.inc:232
+#: src/systemsPlugin/class_serverService.inc:277
+#: src/systemsPlugin/class_serverService.inc:485
+msgid "Error"
+msgstr "Fehler"
+
+#: src/systemsPlugin/class_termDNS.inc:478
+msgid "Not matching"
+msgstr "Nicht zutreffend"
+
+#: src/systemsPlugin/class_termDNS.inc:631
+#, php-format
+msgid "IP address %s"
+msgstr "IP-Adresse %s"
+
+#: src/systemsPlugin/class_termDNS.inc:640
+#: src/systemsPlugin/class_termDNS.inc:652
+#: src/systemsPlugin/class_termDNS.inc:654
+#: src/systemsPlugin/class_termDNS.inc:1033
+#: src/systemsPlugin/class_componentGeneric.inc:197
+#: src/systemsPlugin/class_componentGeneric.inc:200
+msgid "IP address"
+msgstr "IP-Adresse"
+
+#: src/systemsPlugin/class_termDNS.inc:645
+#: src/systemsPlugin/class_termDNS.inc:662
+#: src/systemsPlugin/class_termDNS.inc:664
+#: src/systemsPlugin/class_termDNS.inc:1034
+msgid "MAC address"
+msgstr "MAC-Adresse"
+
+#: src/systemsPlugin/class_termDNS.inc:679
+#, php-format
+msgid "The IP address '%s' is not part of the selected reverse zone '%s'!"
+msgstr "Die IP-Adresse '%s' passt nicht in die gewählte Reverse-Zone '%s'!"
+
+#: src/systemsPlugin/class_termDNS.inc:691
+#, php-format
+msgid "Record type '%s' is duplicated!"
+msgstr "Datensatz-Typ '%s' ist doppelt vorhanden!"
+
+#: src/systemsPlugin/class_termDNS.inc:699
+#, php-format
+msgid "Unique record type '%s' is duplicated!"
+msgstr "Eindeutiger Datensatz-Typ '%s' ist doppelt vorhanden!"
+
+#: src/systemsPlugin/class_termDNS.inc:711
+#, php-format
+msgid ""
+"The IP address '%s' will be added as 'A Record', this will be done "
+"automatically, please remove the record."
+msgstr ""
+"Die IP-Adresse '%s' wird automatisch als 'A'-Datensatz eingefügt. Bitte "
+"entfernen Sie den Eintrag."
+
+#: src/systemsPlugin/class_termDNS.inc:719
+#, php-format
+msgid "Only lowercase records are allowed, please check your '%ss'."
+msgstr ""
+"Es sind nur Kleinbuchstaben in Datensätzen erlaubt, bitte prüfen Sie '%ss'."
+
+#: src/systemsPlugin/class_termDNS.inc:1024
+msgid "DNS"
+msgstr "DNS"
+
+#: src/systemsPlugin/class_termDNS.inc:1025
+msgid "DNS settings"
+msgstr "DNS-Einstellungen"
+
+#: src/systemsPlugin/class_termDNS.inc:1040
+msgid "DNS configuration"
+msgstr "DNS-Konfiguration"
+
+#: src/systemsPlugin/class_termDNS.inc:1043
+msgid "DHCP configuration"
+msgstr "DHCP-Konfiguration"
+
+#: src/systemsPlugin/server.tpl:1 src/systemsPlugin/class_servGeneric.inc:516
+#: src/systemsPlugin/system-list.xml:111 src/systemsPlugin/system-list.xml:226
+#: src/systemSelectDialog/selectSystem-list.xml:15
+msgid "Server"
+msgstr "Server"
+
+#: src/systemsPlugin/server.tpl:5 src/systemsPlugin/class_servGeneric.inc:506
+#: src/systemsPlugin/class_componentGeneric.inc:292
+msgid "Generic"
+msgstr "Allgemein"
+
+#: src/systemsPlugin/server.tpl:6
+msgid "Server settings"
+msgstr "Server-Einstellungen"
+
+#: src/systemsPlugin/server.tpl:8 src/systemsPlugin/paste_generic.tpl:4
+#: src/systemsPlugin/class_servGeneric.inc:328
+#: src/systemsPlugin/class_servGeneric.inc:333
+#: src/systemsPlugin/class_servGeneric.inc:356
+msgid "Server name"
+msgstr "Server-Name"
+
+#: src/systemsPlugin/server.tpl:16 src/systemsPlugin/component.tpl:29
+#: src/systemsPlugin/class_servGeneric.inc:534
+#: src/systemsPlugin/class_componentGeneric.inc:317
+#: src/systemsPlugin/serverService-list.xml:35
+#: src/systemsPlugin/system-list.xml:185
+#: src/systemSelectDialog/selectSystem-list.xml:65
+msgid "Description"
+msgstr "Beschreibung"
+
+#: src/systemsPlugin/server.tpl:24
+msgid "Mode"
+msgstr "Modus"
+
+#: src/systemsPlugin/server.tpl:27
+msgid "Select terminal mode"
+msgstr "Wählen Sie den Terminal-Modus"
+
+#: src/systemsPlugin/server.tpl:59
+msgid "Action"
+msgstr "Aktion"
+
+#: src/systemsPlugin/server.tpl:62
+msgid ""
+"System installation in progress, the FAI state cannot be changed right now."
+msgstr ""
+"Eine Systeminstallation läuft gerade, der FAI state kann momentan nicht "
+"geändert werden."
+
+#: src/systemsPlugin/server.tpl:65
+msgid "Select action to execute for this server"
+msgstr "Wählen Sie die auszuführende Aktion für diesen Server"
+
+#: src/systemsPlugin/server.tpl:71
+msgid "Execute"
+msgstr "Ausführen"
+
+#: src/systemsPlugin/paste_generic.tpl:2
+msgid "Paste server"
+msgstr "Server einfügen"
+
+#: src/systemsPlugin/paste_generic.tpl:12
+msgid "Paste workstation"
+msgstr "Arbeitsstation einfügen"
+
+#: src/systemsPlugin/paste_generic.tpl:14
+msgid "workstation name"
+msgstr "Name der Arbeitsstation"
+
+#: src/systemsPlugin/paste_generic.tpl:22
+msgid "Paste terminal"
+msgstr "Terminal einfügen"
+
+#: src/systemsPlugin/paste_generic.tpl:24
+msgid "Terminal name"
+msgstr "Terminal-Name"
+
+#: src/systemsPlugin/paste_generic.tpl:32
+msgid "Paste printer"
+msgstr "Drucker einfügen"
+
+#: src/systemsPlugin/paste_generic.tpl:34
+msgid "Printer name"
+msgstr "Druckername"
+
+#: src/systemsPlugin/paste_generic.tpl:42
+msgid "Paste network component"
+msgstr "Netzwerk-Komponente einfügen"
+
+#: src/systemsPlugin/paste_generic.tpl:44
+#: src/systemsPlugin/class_componentGeneric.inc:187
+#: src/systemsPlugin/class_componentGeneric.inc:192
+#: src/systemsPlugin/class_componentGeneric.inc:214
+msgid "Component name"
+msgstr "Komponenten-Name"
+
+#: src/systemsPlugin/class_systemManagement.inc:60
+msgid "Systems"
+msgstr "Systeme"
+
+#: src/systemsPlugin/class_systemManagement.inc:61
+msgid "Manage systems, their services and prepare them for use with GOsa"
+msgstr "Verwalten von Systemen, deren Diensten und der Einbindung in GOsa"
+
+#: src/systemsPlugin/class_systemManagement.inc:176
+#: src/systemsPlugin/class_systemManagement.inc:283
+msgid "Permission error"
+msgstr "Berechtigungsfehler"
+
+#: src/systemsPlugin/class_systemManagement.inc:176
+#: src/systemsPlugin/class_systemManagement.inc:283
+msgid "You have no permission to change this password!"
+msgstr "Sie haben keine Berechtigung, um das Passwort zu ändern!"
+
+#: src/systemsPlugin/class_systemManagement.inc:275
+msgid ""
+"The passwords you've entered as 'New password' and 'Repeated password' do "
+"not   match!"
+msgstr ""
+"Die Passworte, die Sie als 'Neues Passwort' und 'Wiederholung des neuen "
+"Passworts' eingegeben haben sind nicht identisch!"
+
+#: src/systemsPlugin/class_systemManagement.inc:321
+msgid "Password method"
+msgstr "Passwort-Methode"
+
+#: src/systemsPlugin/class_systemManagement.inc:321
+msgid "Password method crypt is missing. Cannot set system password."
+msgstr ""
+"Die Password-Methode CRYPT fehlt. Kann das System-Passwort nicht setzen."
+
+#: src/systemsPlugin/class_systemManagement.inc:376
+msgid "Back"
+msgstr "Zurück"
+
+#: src/systemsPlugin/class_systemManagement.inc:422
+msgid "Creating the image failed. Please see the report below."
+msgstr ""
+"Erstellen des Abbilds fehlgeschlagen. Bitte überprüfen Sie den Fehlerbericht "
+"unterhalb."
+
+#: src/systemsPlugin/class_systemManagement.inc:427
+#, php-format
+msgid "Command '%s', specified for ISO creation doesn't seem to exist."
+msgstr ""
+"Das Kommando '%s', angegeben für die ISO-Erstellung, scheint nicht zu "
+"existieren."
+
+#: src/systemsPlugin/class_systemManagement.inc:519
+#: src/systemsPlugin/class_systemManagement.inc:548
+#: src/systemsPlugin/class_servGeneric.inc:175
+#: src/systemsPlugin/class_servGeneric.inc:456
+msgid "Service infrastructure"
+msgstr "Dienst-Infrastruktur"
+
+#: src/systemsPlugin/class_systemManagement.inc:597
+#: src/systemsPlugin/class_systemManagement.inc:685
+#: src/systemsPlugin/class_systemManagement.inc:1137
+#: src/systemsPlugin/class_systemManagement.inc:1184
+#: src/systemsPlugin/class_systemManagement.inc:1205
+msgid "Permission"
+msgstr "Berechtigung"
+
+#: src/systemsPlugin/class_systemManagement.inc:706
+#: src/systemsPlugin/class_serverService.inc:473
+msgid "Information"
+msgstr "Information"
+
+#: src/systemsPlugin/class_systemManagement.inc:706
+#, php-format
+msgid ""
+"The object-type '%s' cannot be managed with your setup of GOsa, please "
+"install the required plugins!"
+msgstr ""
+
+#: src/systemsPlugin/class_systemManagement.inc:907
+msgid "Internal error"
+msgstr "Interner Fehler"
+
+#: src/systemsPlugin/class_systemManagement.inc:907
+msgid "Cannot set mode to 'active'!"
+msgstr "Kann Modus nicht auf 'aktiv' setzen!"
+
+#: src/systemsPlugin/class_systemManagement.inc:1137
+#, php-format
+msgid "You are not allowed to create a snapshot for %s."
+msgstr "Ihnen ist es nicht erlaubt, einen Snapshot für %s zu erstellen."
+
+#: src/systemsPlugin/class_systemManagement.inc:1184
+#: src/systemsPlugin/class_systemManagement.inc:1205
+#, php-format
+msgid "You are not allowed to restore a snapshot for %s."
+msgstr "Ihnen ist es nicht erlaubt, einen Snapshot für %s wiederherzustellen."
+
+#: src/systemsPlugin/class_systemManagement.inc:1475
+#, php-format
+msgid "Inherited from %s"
+msgstr "Geerbt von %s"
+
+#: src/systemsPlugin/class_systemManagement.inc:1489
+#: src/systemsPlugin/class_systemManagement.inc:1490
+#: src/systemsPlugin/system-filter.xml:103
+msgid "Incoming objects"
+msgstr "Eingehende Objekte"
+
+#: src/systemsPlugin/class_systemManagement.inc:1502
+msgid "RDN for system storage."
+msgstr "RDN zur Ablage von Systemen."
+
+#: src/systemsPlugin/class_systemManagement.inc:1511
+msgid "Incoming"
+msgstr "Eingehend"
+
+#: src/systemsPlugin/component.tpl:1 src/systemsPlugin/system-list.xml:151
+msgid "Component"
+msgstr "Komponente"
+
+#: src/systemsPlugin/component.tpl:5
+msgid "Generic settings"
+msgstr "Allgemeine Benutzereinstellungen"
+
+#: src/systemsPlugin/component.tpl:7
+msgid "Device name"
+msgstr "Gerätename"
+
+#: src/systemsPlugin/class_servGeneric.inc:79
+msgid "Activated"
+msgstr "Aktiv"
+
+#: src/systemsPlugin/class_servGeneric.inc:80
+msgid "Locked"
+msgstr "Gesperrt"
+
+#: src/systemsPlugin/class_servGeneric.inc:158
+msgid "server"
+msgstr "Server"
+
+#: src/systemsPlugin/class_servGeneric.inc:179
+msgid "Event error"
+msgstr "Ereignisfehler"
+
+#: src/systemsPlugin/class_servGeneric.inc:180
+#, php-format
+msgid "Event '%s' is not available!"
+msgstr "Das Ereignis '%s' ist nicht verfügbar!"
+
+#: src/systemsPlugin/class_servGeneric.inc:206
+msgid "Switch off"
+msgstr "Ausschalten"
+
+#: src/systemsPlugin/class_servGeneric.inc:207
+#: src/systemsPlugin/system-list.xml:301 src/systemsPlugin/system-list.xml:367
+msgid "Reboot"
+msgstr "Neustarten"
+
+#: src/systemsPlugin/class_servGeneric.inc:208
+#: src/systemsPlugin/class_servGeneric.inc:220
+msgid "System update"
+msgstr "Systemaktualisierung"
+
+#: src/systemsPlugin/class_servGeneric.inc:209
+#: src/systemsPlugin/class_servGeneric.inc:219
+#: src/systemsPlugin/system-list.xml:341 src/systemsPlugin/system-list.xml:407
+msgid "Reinstall"
+msgstr "Neu-Installation"
+
+#: src/systemsPlugin/class_servGeneric.inc:210
+msgid "Rescan hardware"
+msgstr "Hardware neu erkennen"
+
+#: src/systemsPlugin/class_servGeneric.inc:211
+#: src/systemsPlugin/class_servGeneric.inc:221
+msgid "Memory test"
+msgstr "Speichertest"
+
+#: src/systemsPlugin/class_servGeneric.inc:212
+#: src/systemsPlugin/class_servGeneric.inc:222
+msgid "Force local boot"
+msgstr "Erzwinge lokalen Systemstart"
+
+#: src/systemsPlugin/class_servGeneric.inc:213
+#: src/systemsPlugin/class_servGeneric.inc:223
+msgid "System analysis"
+msgstr "Systemanalyse"
+
+#: src/systemsPlugin/class_servGeneric.inc:218
+msgid "Wake up"
+msgstr "Aufwecken"
+
+#: src/systemsPlugin/class_servGeneric.inc:372
+msgid "Software deployment"
+msgstr "Softwareverteilung"
+
+#: src/systemsPlugin/class_servGeneric.inc:373
+msgid ""
+"This host is currently installing, if you really want to save it, press 'OK'."
+msgstr ""
+"Der Host ist gerade mitten in der Installation - wenn Sie dennoch speichern "
+"möchten, drücken Sie auf 'OK'."
+
+#: src/systemsPlugin/class_servGeneric.inc:507
+msgid "Server generic"
+msgstr "Server (Allgemein)"
+
+#: src/systemsPlugin/class_servGeneric.inc:524
+msgid "RDN for server storage."
+msgstr "RDN zur Ablage von Servern."
+
+#: src/systemsPlugin/class_servGeneric.inc:533
+#: src/systemsPlugin/class_componentGeneric.inc:315
+#: src/systemsPlugin/system-list.xml:177
+#: src/systemSelectDialog/selectSystem-list.xml:57
+msgid "Name"
+msgstr "Name"
+
+#: src/systemsPlugin/class_servGeneric.inc:537
+msgid "Goto mode"
+msgstr "GOto-Modus"
+
+#: src/systemsPlugin/class_servGeneric.inc:538
+#: src/systemsPlugin/class_componentGeneric.inc:318
+msgid "Root password"
+msgstr "Root-Passwort"
+
+#: src/systemsPlugin/class_servGeneric.inc:539
+msgid "Action flag"
+msgstr "Ablaufstatus"
+
+#: src/systemsPlugin/system-filter.xml:32
+#: src/systemsPlugin/serverService-filter.xml:17
+#: src/systemSelectDialog/selectSystem-filter.xml:19
+msgid "Default filter"
+msgstr "Standard-Filter"
+
+#: src/systemsPlugin/system-filter.xml:58
+msgid "All systems"
+msgstr "Alle Systeme"
+
+#: src/systemsPlugin/system-filter.xml:89
+msgid "Opsi"
+msgstr "OPSI"
+
+#: src/systemsPlugin/class_componentGeneric.inc:84
+msgid "component"
+msgstr "Komponente"
+
+#: src/systemsPlugin/class_componentGeneric.inc:293
+msgid "Component generic"
+msgstr "Netzwerk-Komponente (Allgemein)"
+
+#: src/systemsPlugin/class_componentGeneric.inc:298
+#: src/systemsPlugin/system-list.xml:266
+msgid "Network device"
+msgstr "Netzwerk-Gerät"
+
+#: src/systemsPlugin/class_componentGeneric.inc:306
+msgid "RDN for component storage."
+msgstr "RDN zur Ablage von Komponenten."
+
+#: src/systemsPlugin/serverService-list.xml:9
+msgid "List of services"
+msgstr "Liste der Dienste"
+
+#: src/systemsPlugin/serverService-list.xml:14
+msgid "Service"
+msgstr "Dienst"
+
+#: src/systemsPlugin/serverService-list.xml:27
+msgid "!"
+msgstr "!"
+
+#: src/systemsPlugin/serverService-list.xml:43
+#: src/systemsPlugin/system-list.xml:201
+msgid "Actions"
+msgstr "Aktionen"
+
+#: src/systemsPlugin/serverService-list.xml:57
+#: src/systemsPlugin/system-list.xml:428
+msgid "Remove"
+msgstr "Entfernen"
+
+#: src/systemsPlugin/serverService-list.xml:68
+#: src/systemsPlugin/serverService-list.xml:102
+#: src/systemsPlugin/class_serverService.inc:28
+msgid "Start"
+msgstr "Start"
+
+#: src/systemsPlugin/serverService-list.xml:75
+#: src/systemsPlugin/serverService-list.xml:110
+#: src/systemsPlugin/class_serverService.inc:27
+msgid "Stop"
+msgstr "Beenden"
+
+#: src/systemsPlugin/serverService-list.xml:82
+#: src/systemsPlugin/serverService-list.xml:118
+#: src/systemsPlugin/class_serverService.inc:29
+msgid "Restart"
+msgstr "Neustart"
+
+#: src/systemsPlugin/serverService-list.xml:126
+msgid "Edit service"
+msgstr "Dienst bearbeiten"
+
+#: src/systemsPlugin/serverService-list.xml:134
+msgid "Remove service"
+msgstr "Dienst entfernen"
+
+#: src/systemsPlugin/class_filterSYSTEMS.inc:23
+#: src/systemsPlugin/system-list.xml:30
+msgid "New workstation"
+msgstr "Neue Arbeitsstation"
+
+#: src/systemsPlugin/class_filterSYSTEMS.inc:26
+#: src/systemsPlugin/system-list.xml:63
+msgid "New terminal"
+msgstr "Neues Terminal"
+
+#: src/systemsPlugin/class_filterSYSTEMS.inc:31
+#: src/systemsPlugin/system-list.xml:71
+msgid "New unknown device"
+msgstr "Unbekanntes neues Gerät"
+
+#: src/systemsPlugin/class_filterSYSTEMS.inc:34
+#: src/systemsPlugin/system-list.xml:79
+msgid "New device"
+msgstr "Neues Gerät"
+
+#: src/systemsPlugin/network.tpl:1
+msgid "Network\tsettings"
+msgstr "Netzwerk-Einstellungen"
+
+#: src/systemsPlugin/network.tpl:3
+msgid "Network settings"
+msgstr "Netzwerk-Einstellungen"
+
+#: src/systemsPlugin/network.tpl:7
+msgid "Address settings"
+msgstr "Addresseinstellungen"
+
+#: src/systemsPlugin/network.tpl:10
+msgid "IP-address"
+msgstr "IP-Adresse"
+
+#: src/systemsPlugin/network.tpl:18 src/systemsPlugin/network.tpl:20
+msgid "Propose IP"
+msgstr "Schlage IP vor"
+
+#: src/systemsPlugin/network.tpl:42
+msgid "MAC-address"
+msgstr "MAC-Adresse"
+
+#: src/systemsPlugin/network.tpl:50
+msgid "Auto detect"
+msgstr "Automatisch feststellen"
+
+#: src/systemsPlugin/network.tpl:63
+msgid "DHCP settings"
+msgstr "DHCP-Einstellungen"
+
+#: src/systemsPlugin/network.tpl:73 src/systemsPlugin/network.tpl:83
+msgid "Enable DHCP for this device"
+msgstr "DHCP für dieses Gerät aktivieren"
+
+#: src/systemsPlugin/network.tpl:83 src/systemsPlugin/network.tpl:171
+msgid "not configured"
+msgstr "unkonfiguriert"
+
+#: src/systemsPlugin/network.tpl:91
+msgid "Parent node"
+msgstr "Parent-Node"
+
+#: src/systemsPlugin/network.tpl:99
+msgid "Edit settings"
+msgstr "Einstellungen bearbeiten"
+
+#: src/systemsPlugin/network.tpl:134 src/systemsPlugin/network.tpl:171
+msgid "Enable DNS for this device"
+msgstr "DNS für dieses Gerät aktivieren"
+
+#: src/systemsPlugin/network.tpl:140
+msgid "DNS zone settings"
+msgstr "DNS Zonen-Einstellungen"
+
+#: src/systemsPlugin/network.tpl:142
+msgid "Zone"
+msgstr "Zone"
+
+#: src/systemsPlugin/network.tpl:152
+msgid "TTL"
+msgstr "TTL"
+
+#: src/systemsPlugin/network.tpl:160
+msgid "DNS records"
+msgstr "DNS-Einträge"
+
+#: src/systemsPlugin/system-list.xml:10
+msgid "List of systems"
+msgstr "Liste der Systeme"
+
+#: src/systemsPlugin/system-list.xml:14 src/systemsPlugin/system-list.xml:218
+msgid "Device"
+msgstr "Geräte"
+
+#: src/systemsPlugin/system-list.xml:22
+msgid "Opsi host"
+msgstr "OPSI Client"
+
+#: src/systemsPlugin/system-list.xml:38
+msgid "Locked server"
+msgstr "Gesperrter Server"
+
+#: src/systemsPlugin/system-list.xml:46
+msgid "Locked workstation"
+msgstr "Gesperrte Arbeitsstation"
+
+#: src/systemsPlugin/system-list.xml:54
+msgid "Locked terminal"
+msgstr "Gesperrtes Terminal"
+
+#: src/systemsPlugin/system-list.xml:87
+msgid "Workstation template"
+msgstr "Arbeitsstations-Vorlage"
+
+#: src/systemsPlugin/system-list.xml:95
+msgid "Terminal template"
+msgstr "Terminal-Vorlage"
+
+#: src/systemsPlugin/system-list.xml:103
+msgid "Windows workstation"
+msgstr "Windows-Arbeitsstation"
+
+#: src/systemsPlugin/system-list.xml:119 src/systemsPlugin/system-list.xml:234
+#: src/systemSelectDialog/selectSystem-list.xml:23
+msgid "Workstation"
+msgstr "Arbeitsstation"
+
+#: src/systemsPlugin/system-list.xml:127 src/systemsPlugin/system-list.xml:242
+#: src/systemSelectDialog/selectSystem-list.xml:31
+msgid "Terminal"
+msgstr "Terminal"
+
+#: src/systemsPlugin/system-list.xml:135
+msgid "Printer"
+msgstr "Drucker"
+
+#: src/systemsPlugin/system-list.xml:143 src/systemsPlugin/system-list.xml:258
+msgid "Phone"
+msgstr "Telefon"
+
+#: src/systemsPlugin/system-list.xml:193
+msgid "Release"
+msgstr "Release"
+
+#: src/systemsPlugin/system-list.xml:212
+msgid "Create"
+msgstr "Anlegen"
+
+#: src/systemsPlugin/system-list.xml:250
+msgid "Network printer"
+msgstr "Netzwerk-Drucker"
+
+#: src/systemsPlugin/system-list.xml:274
+msgid "Opsi client"
+msgstr "OPSI Client"
+
+#: src/systemsPlugin/system-list.xml:286
+msgid "Trigger action"
+msgstr "Aktion auslösen"
+
+#: src/systemsPlugin/system-list.xml:293
+msgid "Halt "
+msgstr "Anhalten"
+
+#: src/systemsPlugin/system-list.xml:309 src/systemsPlugin/system-list.xml:375
+msgid "Wakeup"
+msgstr "Aufwecken"
+
+#: src/systemsPlugin/system-list.xml:317 src/systemsPlugin/system-list.xml:383
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: src/systemsPlugin/system-list.xml:325 src/systemsPlugin/system-list.xml:391
+msgid "Lock"
+msgstr "Sperren"
+
+#: src/systemsPlugin/system-list.xml:333 src/systemsPlugin/system-list.xml:399
+msgid "Activate"
+msgstr "Aktivieren"
+
+#: src/systemsPlugin/system-list.xml:352
+msgid "Schedule action"
+msgstr "Aktion planen"
+
+#: src/systemsPlugin/system-list.xml:359
+msgid "Halt"
+msgstr "Anhalten"
+
+#: src/systemsPlugin/system-list.xml:421
+msgid "Activate systems"
+msgstr "Aktiviere Systeme"
+
+#: src/systemsPlugin/system-list.xml:456
+msgid "Change password"
+msgstr "Passwort ändern"
+
+#: src/systemsPlugin/system-list.xml:467
+msgid "Create ISO"
+msgstr "DVD-ISO anlegen"
+
+#: src/systemsPlugin/system-list.xml:479
+msgid "Edit role"
+msgstr "Rolle bearbeiten"
+
+#: src/systemsPlugin/system-list.xml:492
+msgid "Remove system"
+msgstr "System entfernen"
+
+#: src/systemsPlugin/class_serverService.inc:473
+msgid "Cannot update service status until it has been saved!"
+msgstr "Kann den Dienst-Status nicht setzen bis der Server gespeichert wurde."
+
+#: src/systemsPlugin/class_serverService.inc:485
+msgid "Cannot update service status!"
+msgstr "Kann Dienst-Status nicht aktualisieren!"
+
+#: src/systemsPlugin/password.tpl:3
+msgid ""
+"To change the terminal root password use the fields below. The changes take "
+"effect during the next reboot. Please memorize the new password, because you "
+"wouldn't be able to log in."
+msgstr ""
+"Um das root-Passwort des Terminals zu ändern, nutzen Sie die Felder unten. "
+"Die Änderungen werden beim nächsten Neustart wirksam. Merken Sie sich das "
+"Passwort, da eine Anmeldung ohne dieses Passwort nicht möglich ist."
+
+#: src/systemsPlugin/password.tpl:6
+msgid "Leave fields blank for password inheritance from default entries."
+msgstr ""
+"Lassen Sie die Felder leer, um das Passwort aus den Standard-Einträgen zu "
+"übernehmen."
+
+#: src/systemsPlugin/password.tpl:10
+msgid "Changing the password impinges on authentication only."
+msgstr ""
+"Das Ändern des Passwortes wirkt sich nur auf die Authentifizierung aus."
+
+#: src/systemsPlugin/password.tpl:13
+msgid "System password change"
+msgstr "System Passwort-Änderung"
+
+#: src/systemsPlugin/password.tpl:16
+msgid "New password"
+msgstr "Neues Passwort"
+
+#: src/systemsPlugin/password.tpl:23
+msgid "Repeat new password"
+msgstr "Neues Passwort (Wiederholung)"
+
+#: src/systemsPlugin/password.tpl:30
+msgid "Password strength"
+msgstr "Passwort-Stärke"
+
+#: src/systemsPlugin/password.tpl:41
+msgid "Set password"
+msgstr "Passwort setzen"
+
+#: src/systemSelectDialog/selectSystem-list.xml:11
+msgid "Please select the desired entries"
+msgstr "Bitte wählen Sie die gewünschten Einträge"
+
+#: src/systemSelectDialog/class_systemSelect.inc:29
+msgid "System selection"
+msgstr "Systemauswahl"

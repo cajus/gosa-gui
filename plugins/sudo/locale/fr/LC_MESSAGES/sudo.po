@@ -1,0 +1,238 @@
+# translation of messages.po to
+# Header entry was created by KBabel!
+#
+# Benoit Mortier <benoit.mortier@opensides.be>, 2008, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: messages\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 12:32+0200\n"
+"PO-Revision-Date: 2010-11-25 23:28+0100\n"
+"Last-Translator: Benoit Mortier <benoit.mortier@opensides.be>\n"
+"Language-Team:  <fr@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n > 1);\n"
+
+#: src/sudoPlugin/sudo-list.xml:11
+msgid "List of Sudo roles"
+msgstr "Liste des rôles sudo"
+
+#: src/sudoPlugin/sudo-list.xml:15 src/sudoPlugin/sudo-list.xml:65
+msgid "Role"
+msgstr "Rôle"
+
+#: src/sudoPlugin/sudo-list.xml:32 src/sudoPlugin/class_sudoGeneric.inc:476
+#: src/sudoPlugin/class_sudoGeneric.inc:481
+#: src/sudoPlugin/class_sudoGeneric.inc:486
+#: src/sudoPlugin/class_sudoGeneric.inc:495
+#: src/sudoPlugin/class_sudoGeneric.inc:548 src/sudoPlugin/paste_generic.tpl:5
+#: src/sudoPlugin/generic.tpl:7 src/sudoPlugin/generic.tpl:34
+msgid "Name"
+msgstr "Nom"
+
+#: src/sudoPlugin/sudo-list.xml:40 src/sudoPlugin/class_sudoGeneric.inc:549
+#: src/sudoPlugin/generic.tpl:15 src/sudoPlugin/generic.tpl:44
+msgid "Description"
+msgstr ""
+
+#: src/sudoPlugin/sudo-list.xml:48
+msgid "Actions"
+msgstr ""
+
+#: src/sudoPlugin/sudo-list.xml:59
+msgid "Create"
+msgstr "Créer"
+
+#: src/sudoPlugin/sudo-list.xml:72
+msgid "Default"
+msgstr "Défaut"
+
+#: src/sudoPlugin/sudo-list.xml:85
+msgid "Remove"
+msgstr "Supprimer"
+
+#: src/sudoPlugin/sudo-list.xml:117
+msgid "Edit Sudo role"
+msgstr "Editer le rôle sudo"
+
+#: src/sudoPlugin/sudo-list.xml:130
+msgid "Remove Sudo role"
+msgstr "Supprimer le rôle sudo"
+
+#: src/sudoPlugin/class_sudoOption.inc:154
+msgid "Unknown option"
+msgstr "Option inconnue"
+
+#: src/sudoPlugin/class_sudoOption.inc:155
+#, fuzzy, php-format
+msgid "The Sudo option '%s' is invalid!"
+msgstr "L'option sudo '%s' est non valide !"
+
+#: src/sudoPlugin/class_sudoOption.inc:284
+#: src/sudoPlugin/class_sudoOption.inc:286
+msgid "string"
+msgstr "chaîne"
+
+#: src/sudoPlugin/class_sudoOption.inc:284
+#: src/sudoPlugin/class_sudoOption.inc:285
+#: src/sudoPlugin/class_sudoOption.inc:286
+msgid "boolean"
+msgstr "booléen"
+
+#: src/sudoPlugin/class_sudoOption.inc:285
+msgid "integer"
+msgstr "entier"
+
+#: src/sudoPlugin/class_sudoOption.inc:286
+msgid "list"
+msgstr "liste"
+
+#: src/sudoPlugin/class_sudoOption.inc:538 src/sudoPlugin/options.tpl:8
+msgid "Options"
+msgstr ""
+
+#: src/sudoPlugin/class_sudoOption.inc:539
+#: src/sudoPlugin/class_sudoOption.inc:546 src/sudoPlugin/options.tpl:3
+msgid "Sudo options"
+msgstr "Options Sudo"
+
+#: src/sudoPlugin/class_sudoGeneric.inc:112
+msgid "Type"
+msgstr "Type"
+
+#: src/sudoPlugin/class_sudoGeneric.inc:112
+msgid "Member"
+msgstr "Membres"
+
+#: src/sudoPlugin/class_sudoGeneric.inc:112
+#: src/sudoPlugin/class_sudoGeneric.inc:115
+#: src/sudoPlugin/class_sudoGeneric.inc:117
+#: src/sudoPlugin/class_sudoGeneric.inc:119
+msgid "Option"
+msgstr ""
+
+#: src/sudoPlugin/class_sudoGeneric.inc:115
+msgid "System"
+msgstr "Système"
+
+#: src/sudoPlugin/class_sudoGeneric.inc:117
+#: src/sudoPlugin/class_sudoGeneric.inc:552
+msgid "Command"
+msgstr "Commande"
+
+#: src/sudoPlugin/class_sudoGeneric.inc:119
+#: src/sudoPlugin/class_sudoGeneric.inc:366
+msgid "User"
+msgstr "Utilisateur"
+
+#: src/sudoPlugin/class_sudoGeneric.inc:308
+msgid "Error"
+msgstr "Erreur"
+
+#: src/sudoPlugin/class_sudoGeneric.inc:367
+msgid "Group"
+msgstr "Groupes"
+
+#: src/sudoPlugin/class_sudoGeneric.inc:462
+msgid "LDAP error"
+msgstr "Erreur LDAP"
+
+#: src/sudoPlugin/class_sudoGeneric.inc:525
+msgid "Sudo"
+msgstr ""
+
+#: src/sudoPlugin/class_sudoGeneric.inc:526
+#: src/sudoPlugin/class_sudoGeneric.inc:531
+msgid "Sudo role"
+msgstr "Rôle sudo"
+
+#: src/sudoPlugin/class_sudoGeneric.inc:539
+msgid "RDN for sudo rule storage."
+msgstr ""
+
+#: src/sudoPlugin/class_sudoGeneric.inc:547
+msgid "System trust"
+msgstr "Système de Confiance"
+
+#: src/sudoPlugin/class_sudoGeneric.inc:550
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: src/sudoPlugin/class_sudoGeneric.inc:551
+msgid "Host"
+msgstr "Hôte"
+
+#: src/sudoPlugin/class_sudoGeneric.inc:553
+msgid "Run as user"
+msgstr "Exécuter comme un utilisateur"
+
+#: src/sudoPlugin/class_sudoGeneric.inc:554
+msgid "Access control list"
+msgstr "Contrôle d'accès (ACL)"
+
+#: src/sudoPlugin/options.tpl:5
+msgid "Option name"
+msgstr "Nom de l'option"
+
+#: src/sudoPlugin/options.tpl:7
+msgid "Value"
+msgstr "Valeur"
+
+#: src/sudoPlugin/options.tpl:89
+msgid "Available options"
+msgstr "Options disponibles"
+
+#: src/sudoPlugin/paste_generic.tpl:1 src/sudoPlugin/generic.tpl:3
+#: src/sudoPlugin/generic.tpl:4 src/sudoPlugin/generic.tpl:27
+#: src/sudoPlugin/generic.tpl:29 src/sudoPlugin/generic.tpl:31
+msgid "Generic"
+msgstr "Informations"
+
+#: src/sudoPlugin/paste_generic.tpl:1 src/sudoPlugin/generic.tpl:3
+#: src/sudoPlugin/generic.tpl:4
+msgid "global defaults"
+msgstr "Paramètres globaux par défaut"
+
+#: src/sudoPlugin/paste_generic.tpl:2
+msgid "Paste sudo entry"
+msgstr "Coller un entrée sudo"
+
+#: src/sudoPlugin/sudo-filter.xml:22
+msgid "Default filter"
+msgstr "Filtre par défaut"
+
+#: src/sudoPlugin/sudo-filter.xml:36
+msgid "By member"
+msgstr "Par membre"
+
+#: src/sudoPlugin/class_sudoManagement.inc:25
+msgid "Sudo rules"
+msgstr "Rôle sudo"
+
+#: src/sudoPlugin/class_sudoManagement.inc:26
+msgid "Manage all aspects of system wide sudoers definitions"
+msgstr "Gère tout les aspects de sudo sur tout les systèmes"
+
+#: src/sudoPlugin/generic.tpl:61
+msgid "Users and groups"
+msgstr "Utilisateurs et groupes"
+
+#: src/sudoPlugin/generic.tpl:73 src/sudoPlugin/generic.tpl:91
+msgid "Add from list"
+msgstr "Ajouter à la liste"
+
+#: src/sudoPlugin/generic.tpl:78
+msgid "Systems"
+msgstr "Systèmes"
+
+#: src/sudoPlugin/generic.tpl:99
+msgid "Commands"
+msgstr "Commandes"
+
+#: src/sudoPlugin/generic.tpl:112
+msgid "Run as"
+msgstr "Exécuter comme"
