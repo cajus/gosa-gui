@@ -32,6 +32,31 @@ if(!isset($_SESSION['class_mapping'])){
     $class_mapping = $_SESSION['class_mapping'];
 }
 
+/*! \brief  A special gettext method which respects the plugins translation-catalog.
+ *          Call to tr("") will translate the given string using the plugins messages.po 
+ *          instead of the core message.po.
+ */
+function tr($str, $domain = NULL)
+{   
+    global $BASE_DIR;
+    if($domain == NULL){
+        $trace = debug_backtrace();
+        if(preg_match("/^".preg_quote($BASE_DIR,'/')."\/plugins\//", $trace[0]['file'])){
+            $domain = preg_replace("/^".preg_quote($BASE_DIR,'/')."\/plugins\/([^\/]*).*$/", "\\1", $trace[0]['file']);
+            if($domain){
+                return("*".dgettext($domain, $str));
+            }
+        }
+        return("*".gettext($str));
+    }else{
+        return("*".dgettext($domain, $str));
+    }
+    
+    return(tr($str));
+}
+
+
+
 function gosaRaiseError($errno, $errstr, $errfile, $errline)
 {
   global $error_collector,$config, $error_collector_mailto;
@@ -387,6 +412,7 @@ $smarty->registerPlugin("block", "tr", "smarty_block_tr");
 $smarty->registerPlugin("block", "render", "smarty_block_render");
 $smarty->registerPlugin("function", "msgPool", "smarty_function_msgPool");
 $smarty->registerPlugin("function", "image", "smarty_function_image");
+$smarty->registerPlugin("function", "factory", "smarty_function_factory");
 
 /* Global FPDF define */
 define('FPDF_FONTPATH', '/usr/share/php/fpdf/font/');

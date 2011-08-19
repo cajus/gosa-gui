@@ -1,5 +1,4 @@
 <?php
-require_once(SMARTY_PLUGINS_DIR . 'block.t.php');
 function smarty_block_tr($params, $text, &$smarty)
 {
     $plugin = "";
@@ -15,11 +14,12 @@ function smarty_block_tr($params, $text, &$smarty)
             }
         }
     }
-   
+  
+ 
     if($plugin != ""){ 
-        $params['domain'] = $plugin;
+        return(dgettext($plugin, $text));
     }
-    return("*".smarty_block_t($params, $text, $smarty));
+    return(gettext($text));
 }
 
 ?>

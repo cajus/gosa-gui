@@ -3958,30 +3958,6 @@ function in_array_strict($needle, $haystack, $strict = TRUE)
 }
 
 
-/*! \brief  A special gettext method which respects the plugins translation-catalog.
- *          Call to tr("") will translate the given string using the plugins messages.po 
- *          instead of the core message.po.
- */
-function tr($str, $domain = NULL)
-{   
-    global $BASE_DIR;
-    if($domain == NULL){
-        $trace = debug_backtrace();
-        if(preg_match("/^".preg_quote($BASE_DIR,'/')."\/plugins\//", $trace[0]['file'])){
-            $domain = preg_replace("/^".preg_quote($BASE_DIR,'/')."\/plugins\/([^\/]*).*$/", "\\1", $trace[0]['file']);
-            if($domain){
-                return("*".dgettext($domain, $str));
-            }
-        }
-        return("*".gettext($str));
-    }else{
-        return("*".dgettext($domain, $str));
-    }
-    
-    return(tr($str));
-}
-
-
 /* \brief   Regenerates the GOsa image sprites on demand.
  *          If images were added, removed or modified to 
  *           the GOsa-sources, the image sprites will be 
