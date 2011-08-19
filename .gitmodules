@@ -1,0 +1,3 @@
+[submodule "include/smarty"]
+	path = include/smarty
+	url = git@labs.intranet.gonicus.de:smarty/smarty.git
