@@ -89,30 +89,6 @@ Description: Dutch online help for GOsa
  GOsa² is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based setups.
 
-Package: smarty3-gosa
-Architecture: all
-Depends: ${misc:Depends}, smarty3
-Suggests: gosa
-Description: Provide ACL based rendering for Smarty
- smarty3-gosa provides acl based rendering support for Smarty,
- the popular PHP templating engine (http://smarty.php.net/). This
- module is mainly used by GOsa².
- .
- GOsa² is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based setups.
-
-Package: smarty3-gettext
-Architecture: all
-Depends: ${misc:Depends}, smarty3
-Suggests: gosa
-Description: Provide gettext support for Smarty
- smarty3-gettext provides getext based rendering support for Smarty,
- the popular PHP templating engine (http://smarty.php.net/). This
- module is mainly used by GOsa².
- .
- GOsa² is a combination of system-administrator and end-user web
- interface, designed to handle LDAP based setups.
-
 Package: gosa-plugin-connectivity
 Architecture: all
 Depends: ${misc:Depends}, gosa
@@ -556,17 +532,3 @@ Description: webdav plugin for GOsa²
  .
  GOsa² is a combination of system-administrator and end-user web
  interface, designed to handle LDAP based setups.
-
-Package: smarty3
-Architecture: all
-Depends: php5 | php5-cgi | php5-cli, ${misc:Depends}
-Description: Template engine for PHP
- Smarty is a template engine for PHP. More specifically, it
- facilitates a manageable way to separate application logic and content
- from its presentation.
- .
- The Smarty 3 API has been refactored to a syntax geared for consistency 
- and modularity. The Smarty 2 API syntax is still supported, but will 
- throw a deprecation notice. You can disable the notices, but it is highly
- recommended to adjust your syntax to Smarty 3, as the Smarty 2 syntax 
- must run through an extra rerouting wrapper.

@@ -1,4 +1,3 @@
-gosa-core/update-gosa			/usr/sbin
 gosa-core/bin/gosa-encrypt-passwords	/usr/sbin
 gosa-core/html				/usr/share/gosa
 gosa-core/ihtml				/usr/share/gosa
