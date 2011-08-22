@@ -12,7 +12,7 @@
 
     <objectType>
       <label>Device</label>
-      <objectClass>device</objectClass>
+      <objectClass>registeredDevice</objectClass>
       <category>Device</category>
       <class>Device</class>
       <image>images/lists/edit.png</image>
