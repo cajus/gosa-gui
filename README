@@ -45,7 +45,7 @@ In case of spain this will be
 and put the freshly translated messages.po in this directory.
 
 To test this, you've deploy the messages.po file in your running copy
-of GOsa and run the "update-gosa" command, to let GOsa merge the
+of GOsa and run the "update-locale" command, to let GOsa merge the
 translations. Then, Make sure your apache has locale support or, in case
 of debian, that the specific locale will be generated (via dpkg-reconfigure
 locales).
@@ -56,7 +56,7 @@ then just send the .po file to me or ask for SVN access.
 For gosa-plugins, every plugin has a locales directory. Translation works
 like described for gosa-core.
 
-Always run update-gosa after you've added translations in order to let GOsa
+Always run update-locale after you've added translations in order to let GOsa
 compile and re-sync the translations.
 
 

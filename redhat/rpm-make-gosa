@@ -113,12 +113,6 @@ fi
 mkdir -p %{buildroot}/usr/share/gosa/plugins/@@NAME@@
 mv ./* %{buildroot}/usr/share/gosa/plugins/@@NAME@@
 
-%post
-/usr/sbin/update-gosa
-
-%postun
-/usr/sbin/update-gosa
-
 %clean
 rm -rf %{buildroot}
 

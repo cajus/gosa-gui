@@ -20,10 +20,6 @@ Group: 			System/Administration
 Vendor:			GONICUS GmbH
 Packager:		Stefan Japes <japes@GONICUS.de>
 Buildarch: 		noarch
-Patch:			01_fix_template_location.patch
-Patch1:			02_fix_class_mapping.patch
-Patch2:			03_fix_locale_location.patch
-Patch3:			04_fix_online_help_location.patch
 %if %{suse}
 Requires:		apache2,apache2-mod_php5,php5,php5-gd,php5-ldap,php5-mcrypt,php5-mysql,php5-imap,php5-iconv,php5-hash,php5-posix,php5-mbstring,php5-gettext,ImageMagick,gettext-tools
 %else
@@ -196,7 +192,6 @@ mkdir -p %{buildroot}%{webconf}
 
 touch %{buildroot}/etc/gosa/gosa.secrets
 mv contrib/gosa.conf		%{buildroot}/usr/share/doc/gosa
-mv update-gosa 			%{buildroot}/usr/sbin
 mv bin/gosa-encrypt-passwords 	%{buildroot}/usr/sbin
 mv debian/gosa-apache.conf 	%{buildroot}%{webconf}
 mv contrib/shells 		%{buildroot}/etc/gosa
@@ -251,13 +246,12 @@ mv debian/gosa-16.xpm 		%{buildroot}/usr/share/pixmaps
 mv debian/gosa-desktop.desktop 	%{buildroot}/usr/share/applications
 
 # Gzip manpages from source
-for x in update-gosa.1 dh-make-gosa.1 update-locale.1 update-online-help.1 update-pdf-help.1
+for x in dh-make-gosa.1 update-locale.1 update-online-help.1 update-pdf-help.1
 do
 	gzip $x
 done
 
 %if %{suse}
-	sed -i 's#/usr/bin/php#/usr/bin/php5#' %{buildroot}/usr/sbin/update-gosa
 	sed -i 's#/usr/bin/php#/usr/bin/php5#' %{buildroot}/usr/sbin/gosa-encrypt-passwords
 	cat <<-EOF >> %{buildroot}%{webconf}/gosa-apache.conf
 	
@@ -285,11 +279,6 @@ rm -rf %{buildroot}
 
 ########################
 
-%post
-/usr/sbin/update-gosa
-
-########################
-
 %pre
 # Cleanup compile dir on updates, always exit cleanly even on errors
 [ -d /var/spool/gosa ] && rm -rf /var/spool/gosa/* ; exit 0
@@ -309,8 +298,6 @@ rm -rf %{buildroot}
 %config %attr(-,root,root) /usr/share/doc/gosa/gosa.conf
 #%attr(-,root,root) /contrib/openldap
 %config %attr(-,root,root) /usr/share/doc/gosa/slapd.conf-example
-%attr(755,root,root) /usr/sbin/update-gosa
-%attr(755,root,root) /usr/share/man/man1/update-gosa.1.gz
 %attr(644,root,root) /etc/gosa/shells
 %attr(644,root,root) /etc/gosa/encodings
 %attr(755,root,root) /usr/sbin/gosa-encrypt-passwords
