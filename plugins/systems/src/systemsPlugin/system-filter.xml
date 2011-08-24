@@ -6,7 +6,6 @@
     <category>server</category>
     <category>workstation</category>
     <category>terminal</category>
-    <category>opsi</category>
     <category>incoming</category>
     <category>phone</category>
     <category>printer</category>
@@ -71,25 +70,6 @@
                 (cn=$)
               )
       </filter>
-    </query>
-    <query>
-      <backend>OPSIHOSTS</backend>
-      <filter>cn=$</filter>
-    </query>
-    <autocomplete>
-      <attribute>cn</attribute>
-      <frequency>0.5</frequency>
-      <characters>3</characters>
-    </autocomplete>
-  </search>
-
-
-  <search>
-    <tag>onlyOpsi</tag>
-    <label>Opsi</label>
-    <query>
-      <backend>OPSIHOSTS</backend>
-      <filter>cn=$</filter>
     </query>
     <autocomplete>
       <attribute>cn</attribute>

@@ -68,7 +68,6 @@ class systemManagement extends management
     protected $aclPlugin   = "";
     protected $objectName   = "system";
     protected $objectInfo = array();
-    protected $opsi = NULL;
     protected $activationQueue  = array();
 
     function __construct($config,$ui)
@@ -103,15 +102,6 @@ class systemManagement extends management
         $headpage->setFilter($filter);
         $filter->setConverter('systemManagement::incomingFilterConverter');
 
-        // Register Daemon Events
-        if(class_available("DaemonEvent") && class_available("gosaSupportDaemon")){
-            $events = DaemonEvent::get_event_types(SYSTEM_EVENT | HIDDEN_EVENT);
-            foreach($events['TRIGGERED'] as $name => $data){
-                $this->registerAction("T_".$name,"handleEvent");
-                $this->registerAction("S_".$name,"handleEvent");
-            }
-            $this->registerAction("activateMultiple","activateMultiple");
-        }
         $this->registerAction("saveEvent","saveEventDialog");
         $this->registerAction("createISO","createISO");
         $this->registerAction("initiateISOcreation","initiateISOcreation");
@@ -126,7 +116,6 @@ class systemManagement extends management
         $this->registerAction("new_gotoPrinter",      "newEntry");
         $this->registerAction("new_goFonHardware",    "newEntry");
         $this->registerAction("new_ieee802Device",    "newEntry");
-        $this->registerAction("new_FAKE_OC_OpsiHost", "newEntry");
 
         $this->registerAction("setPassword", "setPassword");
         $this->registerAction("passwordChangeConfirmed", "passwordChangeConfirmed");
@@ -139,16 +128,6 @@ class systemManagement extends management
             $this->snapHandler = new SnapshotHandler($this->config);
         }
 
-        // Check if we are able to communicate with the GOsa supprot daemon
-        if(class_available("gosaSupportDaemon")){
-            $o = new gosaSupportDaemon();
-            $this->si_active = $o->connect() && class_available("DaemonEvent");
-        }
-
-        // Check if we are able to communicate with the GOsa supprot daemon
-        if(class_available("opsi")){
-            $this->opsi = new opsi($this->config);
-        }
         parent::__construct($config, $ui, "systems", $headpage);
     }
 
@@ -442,89 +421,7 @@ class systemManagement extends management
      */
     function handleEvent($action="",$target=array(),$all=array())
     {
-        // Detect whether this event is scheduled or triggered.
-        $triggered = TRUE;
-        if(preg_match("/^S_/",$action)){
-            $triggered = FALSE;
-        }
-
-        // Detect triggere or scheduled actions 
-        $headpage = $this->getHeadpage();
-        $event = preg_replace("/^[TS]_/","",$action); 
-        if(preg_match("/^[TS]_/", $action)){
-
-            // Send special reinstall action for opsi hosts
-            if($event == "DaemonEvent_reinstall" && $this->si_active && $this->opsi){
-                foreach($target as $key => $dn){
-                    $type = $headpage->getType($dn);
-
-                    // Send Reinstall event for opsi hosts
-                    if($type == "FAKE_OC_OpsiHost"){
-                        $obj = $headpage->getEntry($dn);
-                        $this->opsi->job_opsi_install_client($obj['cn'][0],$obj['macAddress'][0]);
-                        unset($target[$key]);
-                    }
-                }
-            }
-        } 
-
-        // Now send remaining FAI/GOsa-si events here.
-        if(count($target) && $this->si_active){
-            $mac= array();
-
-            // Collect target mac addresses
-            $ldap = $this->config->get_ldap_link();
-            $tD = $this->getObjectDefinitions();
-            $events = DaemonEvent::get_event_types(SYSTEM_EVENT);
-            $o_queue = new gosaSupportDaemon();
-            foreach($target as $dn){
-                $type = $headpage->getType($dn);
-                if($tD[$type]['sendEvents']){
-                    $obj = $headpage->getEntry($dn);
-                    if(isset($obj['macAddress'][0])){
-                        $mac[] = $obj['macAddress'][0];
-                    }
-                }
-            }
-
-            /* Skip installation or update trigerred events,
-             *  if this entry is currently processing.
-             */
-            if($triggered && in_array_strict($event,array("DaemonEvent_reinstall","DaemonEvent_update"))){
-                foreach($mac as $key => $mac_address){
-                    foreach($o_queue->get_entries_by_mac(array($mac_address)) as $entry){
-                        $entry['STATUS'] = strtoupper($entry['STATUS']);
-                        if($entry['STATUS'] == "PROCESSING" &&
-                                isset($events['QUEUED'][$entry['HEADERTAG']]) &&
-                                in_array_strict($events['QUEUED'][$entry['HEADERTAG']],array("DaemonEvent_reinstall","DaemonEvent_update"))){
-                            unset($mac[$key]);
-
-                            new log("security","systems/".get_class($this),"",array(),"Skip adding 'DaemonEvent::".$type."' for mac '".$mac_address."', there is already a job in progress.");
-                            break;
-                        }
-                    }
-                }
-            }
-
-            // Prepare event to be added
-            if(count($mac) && isset($events['BY_CLASS'][$event]) && $this->si_active){
-                $event = $events['BY_CLASS'][$event];
-                $this->dialogObject = new $event['CLASS_NAME']($this->config);
-                $this->dialogObject->add_targets($mac);
-
-                if($triggered){
-                    $this->dialogObject->set_type(TRIGGERED_EVENT);
-                    $o_queue->append($this->dialogObject);
-                    if($o_queue->is_error()){
-                        msg_dialog::display(tr("Service infrastructure"),msgPool::siError($o_queue->get_error()),ERROR_DIALOG);
-                    }else{
-                        $this->closeDialogs();
-                    }
-                }else{
-                    $this->dialogObject->set_type(SCHEDULED_EVENT);
-                }
-            }
-        }
+        echo "Migrate to rpc";
     }
 
 
@@ -534,21 +431,6 @@ class systemManagement extends management
     {
         management::cancelEdit();
         $this->activationQueue = array();
-    }
-
-
-    /*! \brief  Save event dialogs. 
-     *          And append the new GOsa-si event.
-     */ 
-    function saveEventDialog()
-    {
-        $o_queue = new gosaSupportDaemon();
-        $o_queue->append($this->dialogObject);
-        if($o_queue->is_error()){
-            msg_dialog::display(tr("Service infrastructure"),msgPool::siError($o_queue->get_error()),ERROR_DIALOG);
-        }else{
-            $this->closeDialogs();
-        }
     }
 
 
@@ -876,20 +758,6 @@ class systemManagement extends management
                         $this->tabObject->base = $headpage->getBase();
                     }
 
-                    // Assign some default values for opsi hosts
-                    if($this->tabObject instanceOf opsi_tabs){
-                        $ldap = $this->config->get_ldap_link();
-                        $ldap->cat($dn);
-                        $source_attrs = $ldap->fetch();
-                        foreach(array("macAddress" => "mac" ,"cn" => "hostId","description" => "description") as $src => $attr){
-                            if(isset($source_attrs[$src][0])){
-                                $this->tabObject->by_object['opsiGeneric']->$attr = $source_attrs[$src][0];
-                            }
-                        }
-                        @DEBUG (DEBUG_TRACE, __LINE__, __FUNCTION__, __FILE__,
-                                "", "<b>OPSI attributes adapted</b>");
-                    }
-
                     // Queue entry to be activated, when it is saved.
                     if($data['OG'] != "none"){
 
@@ -1008,23 +876,9 @@ class systemManagement extends management
         }
 
         /* Post handling for activated systems
-           target opsi -> Remove source.
            target gosa -> Activate system.
          */
-        if($this->last_tabObject instanceOf opsi_tabs){
-            $ldap = $this->config->get_ldap_link();
-            $ldap->cd($this->config->current['BASE']);
-            $ldap->rmdir ($this->last_tabObject->dn);
-            @DEBUG(DEBUG_LDAP,__LINE__, __FUNCTION__, __FILE__,
-                    "Source removed: ".$this->tabObject->dn,"<b>Opsi host activated</b>");
-
-            $hostId =  $this->last_tabObject->by_object['opsiGeneric']->hostId;
-            $mac    =  $this->last_tabObject->by_object['opsiGeneric']->mac;
-            $this->opsi->job_opsi_activate_client($hostId,$mac);
-
-        }elseif(isset($this->last_tabObject->was_activated) && $this->last_tabObject->was_activated){
-            $this->activate_new_device($this->last_tabObject->dn);
-        }
+        $this->activate_new_device($this->last_tabObject->dn);
 
         // Avoid using values from an older input dialog
         $_POST = array();
@@ -1041,24 +895,9 @@ class systemManagement extends management
         if($str) return($str);
 
         /* Post handling for activated systems
-           target opsi -> Remove source.
            target gosa -> Activate system.
          */
-        if($this->tabObject instanceOf opsi_tabs){
-            $ldap = $this->config->get_ldap_link();
-            $ldap->cd($this->config->current['BASE']);
-            $ldap->rmdir ($this->tabObject->dn);
-            @DEBUG(DEBUG_LDAP,__LINE__, __FUNCTION__, __FILE__,
-                    "Source removed: ".$this->tabObject->dn,"<b>Opsi host activated</b>");
-
-            $hostId =  $this->tabObject->by_object['opsiGeneric']->hostId;
-            $mac    =  $this->tabObject->by_object['opsiGeneric']->mac;
-            $this->opsi->job_opsi_activate_client($hostId,$mac);
-            $this->tabObject->set_acl_base($this->dn);
-
-        }elseif(isset($this->tabObject->was_activated) && $this->tabObject->was_activated){
-            $this->activate_new_device($this->tabObject->dn);
-        }
+        $this->activate_new_device($this->tabObject->dn);
     }
 
 
@@ -1232,7 +1071,6 @@ class systemManagement extends management
     {
         $action= management::detectPostActions();
         if(isset($_POST['abort_event_dialog']))  $action['action'] = "cancel";
-        if(isset($_POST['save_event_dialog']))  $action['action'] = "saveEvent";
         if(isset($_POST['cd_create']))  $action['action'] = "initiateISOcreation";
         if(isset($_GET['PerformIsoCreation']))  $action['action'] = "performIsoCreation";
         if(isset($_POST['SystemTypeAborted']))  $action['action'] = "cancel";
@@ -1245,7 +1083,6 @@ class systemManagement extends management
         if(isset($_POST['new_gotoPrinter']))  $action['action'] = "new_gotoPrinter";
         if(isset($_POST['new_goFonHardware']))  $action['action'] = "new_goFonHardware";
         if(isset($_POST['new_ieee802Device']))  $action['action'] = "new_ieee802Device";
-        if(isset($_POST['new_FAKE_OC_OpsiHost']))  $action['action'] = "new_FAKE_OC_OpsiHost";
 
         if(!is_object($this->tabObject) && !is_object($this->dialogObject)){
             if(count($this->activationQueue)) $action['action'] = "handleActivationQueue";
@@ -1285,17 +1122,7 @@ class systemManagement extends management
                     "tabClass"    => "DeviceTab",
                     "tabDesc"     => "NEWDEVICETABS",
                     "aclClass"    => "Device",
-                    "sendEvents"  => FALSE,
                     "aclCategory" => "Device"),
-
-                "FAKE_OC_OpsiHost" => array(
-                    "ou"          => "",
-                    "plugClass"   => "opsiGeneric",
-                    "tabClass"    => "opsi_tabs",
-                    "tabDesc"     => "OPSITABS",
-                    "aclClass"    => "opsiGeneric",
-                    "sendEvents"  => TRUE,
-                    "aclCategory" => "opsi"),
 
                 "goServer" => array(
                     "ou"          => get_ou("servgeneric", "serverRDN"),
@@ -1303,7 +1130,6 @@ class systemManagement extends management
                     "tabClass"    => "servtabs",
                     "tabDesc"     => "SERVTABS",
                     "aclClass"    => "servgeneric",
-                    "sendEvents"  => TRUE,
                     "aclCategory" => "server"),
 
                 "gotoWorkstation" => array(
@@ -1312,14 +1138,12 @@ class systemManagement extends management
                     "tabClass"    => "worktabs",
                     "tabDesc"     => "WORKTABS",
                     "aclClass"    => "workgeneric",
-                    "sendEvents"  => TRUE,
                     "aclCategory" => "workstation"),
 
                 "gotoTerminal" => array(
                         "ou"          => get_ou("termgeneric", "terminalRDN"),
                         "plugClass"   => "termgeneric",
                         "tabClass"    => "termtabs",
-                        "sendEvents"  => TRUE,
                         "tabDesc"     => "TERMTABS",
                         "aclClass"    => "termgeneric",
                         "aclCategory" => "terminal"),
@@ -1330,14 +1154,12 @@ class systemManagement extends management
                         "tabClass"    => "printtabs",
                         "tabDesc"     => "PRINTTABS",
                         "aclClass"    => "printgeneric",
-                        "sendEvents"  => FALSE,
                         "aclCategory" => "printer"),
 
                 "FAKE_OC_NewDevice" => array(
                         "ou"          => get_ou("ArpNewDevice", "systemIncomingRDN"),
                         "plugClass"   => "termgeneric",
                         "tabClass"    => "termtabs",
-                        "sendEvents"  => TRUE,
                         "tabDesc"     => "TERMTABS",
                         "aclClass"    => "termgeneric",
                         "aclCategory" => "terminal"),
@@ -1347,14 +1169,12 @@ class systemManagement extends management
                         "plugClass"   => "phoneGeneric",
                         "tabClass"    => "phonetabs",
                         "tabDesc"     => "PHONETABS",
-                        "sendEvents"  => FALSE,
                         "aclClass"    => "phoneGeneric",
                         "aclCategory" => "phone"),
 
                 "FAKE_OC_winstation" => array(
                         "ou"          => get_winstations_ou(),
                         "plugClass"   => "wingeneric",
-                        "sendEvents"  => TRUE,
                         "tabClass"    => "wintabs",
                         "tabDesc"     => "WINTABS",
                         "aclClass"    => "wingeneric",
@@ -1363,7 +1183,6 @@ class systemManagement extends management
                 "ieee802Device" => array(
                         "ou"          => get_ou("componentGeneric", "componentRDN"),
                         "plugClass"   => "componentGeneric",
-                        "sendEvents"  => FALSE,
                         "tabClass"    => "componenttabs",
                         "tabDesc"     => "COMPONENTTABS",
                         "aclClass"    => "componentGeneric",

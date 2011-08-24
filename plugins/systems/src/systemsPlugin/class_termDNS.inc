@@ -317,17 +317,6 @@ class termDNS extends plugin
                     if(isset($res['ip']) && tests::is_ip($res['ip'])) $this->ipHostNumber= $res['ip'];
                     if(isset($res['mac']) && tests::is_mac($res['mac'])) $this->macAddress= $res['mac'];
                 }
-            }elseif ($this->config->get_cfg_value("core","gosaSupportURI") != ""){
-
-                $d= new gosaSupportDaemon(TRUE, 0.5);
-                $res= $d->_send("<xml><header>gosa_network_completition</header>".
-                        "<source>GOSA</source><target>GOSA</target><hostname>".$this->cn."</hostname></xml>", TRUE);
-                if (isset($res['XML']['IP']) && $this->acl_is_writeable("ipHostNumber")){
-                    $this->ipHostNumber= $res['XML']['IP'];
-                }
-                if (isset($res['XML']['MAC']) && $this->acl_is_writeable("macAddress")){
-                    $this->macAddress= $res['XML']['MAC'];
-                }
             }
         }
 
@@ -1027,7 +1016,7 @@ class termDNS extends plugin
                     "plDepends"     => array(),
                     "plPriority"    => 5,
                     "plSection"     => array("administration"),
-                    "plCategory"    => array("workstation","terminal","phone","server","component","printer","winworkstation","opsi"),
+                    "plCategory"    => array("workstation","terminal","phone","server","component","printer","winworkstation"),
 
                     "plProvidedAcls"=> array(
                         "ipHostNumber"  => tr("IP address"),
