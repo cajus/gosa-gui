@@ -479,7 +479,7 @@ class ConfigManagement extends plugin
             foreach($items['items'] as $itemName => $item){
                 $types[$itemName]['objectClass'] = $itemName;
                 $types[$itemName]['label'] = $item['name'];
-                $types[$itemName]['image'] = 'plugins/fai/html/images/fai_script.png';
+                $types[$itemName]['image'] = 'plugins/goto-ng/html/images/item.png';
                 $types[$itemName]['category'] = 'Device';
                 $types[$itemName]['class'] = 'Device';
             }
