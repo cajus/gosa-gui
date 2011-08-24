@@ -119,25 +119,6 @@
 {/if}
 <hr>
 
-{if $fai_activated}
-  <h3>{tr}Action{/tr}</h3>
-  {render acl=$FAIstateACL}
-     <select size="1" name="saction" title="{tr}Select action to execute for this terminal{/tr}">
-      <option>&nbsp;</option>
-      {html_options options=$actions}
-     </select>
-  {/render}
-  {if $currently_installing}
-    {render acl=r}
-       <button type='submit' name='action'>{tr}Execute{/tr}</button>
-    {/render}
-    {else}
-    {render acl=$FAIstateACL}
-       <button type='submit' name='action'>{tr}Execute{/tr}</button>
-    {/render}
-  {/if}
-{/if}
-
 {if $member_of_ogroup}
    <button type='submit' name='inheritAll'>{tr}Inherit all values from group{/tr}</button>
 {/if}

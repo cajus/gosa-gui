@@ -22,7 +22,6 @@ class workgeneric extends plugin
     var $ghGfxAdapter= "-";
     var $ghSoundAdapter= "-";
     var $gotoLastUser= "-";
-    var $FAIscript= "";
     var $view_logged = FALSE;
     var $auto_activate= FALSE;
 
@@ -47,13 +46,11 @@ class workgeneric extends plugin
     var $attributes= array("gotoMode", "gotoSyslogServer", "gotoNtpServer",
             "gotoFloppyEnable", "gotoCdromEnable", "cn", "gotoSndModule",
             "ghCpuType", "ghMemSize", "ghUsbSupport", "description",
-            "ghGfxAdapter", "ghSoundAdapter", "gotoLastUser", "l","FAIscript");
+            "ghGfxAdapter", "ghSoundAdapter", "gotoLastUser", "l");
     var $objectclasses= array("top", "gotoWorkstation", "GOhard");
 
     var $validActions   = array("reboot" => "", "localboot" => "", "halt" => "", "update" => "", "reinstall" => "",
             "rescan" => "", "wakeup" => "", "memcheck" => "", "sysinfo" => "");
-
-    var $fai_activated = FALSE;
 
     var $member_of_ogroup = FALSE;
 
@@ -64,8 +61,6 @@ class workgeneric extends plugin
 
     function workgeneric (&$config, $dn= NULL, $parent= NULL)
     {
-        $this->fai_activated = $config->pluginEnabled("faiManagement");
-
         plugin::plugin ($config, $dn, $parent);
 
         if(class_available("krbHostKeys")){
@@ -204,30 +199,6 @@ class workgeneric extends plugin
             }
         }
 
-        if ((isset($_POST['action'])) && ($this->acl_is_writeable("FAIstate")) && isset($this->validActions[$_POST['saction']]) ){
-            $action= get_post('saction');
-
-            /* Check if we have an DaemonEvent for this action */ 
-            if(class_available("DaemonEvent")){
-                $events = DaemonEvent::get_event_types(SYSTEM_EVENT | HIDDEN_EVENT);
-                if(isset($events['TRIGGERED']["DaemonEvent_".$action])){
-                    $evt = $events['TRIGGERED']["DaemonEvent_".$action];
-                    $tmp = new $evt['CLASS_NAME']($this->config);
-                    $tmp->add_targets(array($this->netConfigDNS->macAddress));
-                    $tmp->set_type(TRIGGERED_EVENT);
-                    $o_queue = new gosaSupportDaemon();
-                    if(!$o_queue->append($tmp)){
-                        msg_dialog::display(tr("Service infrastructure"),msgPool::siError($o_queue->get_error()),ERROR_DIALOG);
-                    }
-                }
-            } else {
-                msg_dialog::display(tr("Event error"),
-                        sprintf(tr("Event '%s' is not available!"),$action),ERROR_DIALOG);
-            }
-
-
-        }
-
         /* Do we represent a valid terminal? */
         if (!$this->is_account && $this->parent === NULL){
             $display= "<img alt=\"\" src=\"images/small-error.png\" align=middle>&nbsp;<b>".
@@ -299,7 +270,6 @@ class workgeneric extends plugin
         $smarty->assign("modes",        set_post($this->modes));
         $smarty->assign("nfsservers",   set_post($this->config->data['SERVERS']['NFS']));
         $smarty->assign("syslogservers",set_post($this->gotoSyslogServers));
-        $smarty->assign("fai_activated",set_post($this->fai_activated));
 
         $ntpser = array();
         foreach($this->gotoNtpServers as $server){
@@ -689,8 +659,6 @@ class workgeneric extends plugin
     }
 
 
-    /* Return plugin informations for acl handling 
-#FIXME FAIscript seams to ununsed within this class... */ 
     static function plInfo()
     {
         return (array(  
@@ -738,9 +706,7 @@ class workgeneric extends plugin
                                 "gotoMode"            => tr("Goto mode"), 
                                 "gotoSyslogServer"    => tr("Syslog server"), 
                                 "gotoNtpServer"       => tr("NTP server"), 
-                                "userPassword"      => tr("Root password"),
-                                "createFAICD"         => tr("Create FAI CD"),
-                                "FAIstate"            => tr("Action flag"))
+                                "userPassword"      => tr("Root password"))
                             ));
     }
 
@@ -769,9 +735,6 @@ class workgeneric extends plugin
                 $this->parent->by_object['workstartup']->gotoLdapServer = "default-inherited";
                 $this->parent->by_object['workstartup']->gotoLdap_inherit = TRUE;
                 $this->parent->by_object['workstartup']->gotoLdapServers = array();
-            }
-            if($obj->acl_is_writeable("FAIdebianMirror")){
-                $this->parent->by_object['workstartup']->FAIdebianMirror= "inherited";
             }
         }
     }

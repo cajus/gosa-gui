@@ -50,7 +50,6 @@ class termgeneric extends plugin
 
     var $validActions   = array("reboot" => "", "rescan" => "", "wake" => "", "memcheck" => "", "sysinfo" => "");
 
-    var $fai_activated = FALSE;
     var $view_logged = FALSE;
 
     var $member_of_ogroup = FALSE;
@@ -60,9 +59,6 @@ class termgeneric extends plugin
 
     function termgeneric (&$config, $dn= NULL, $parent= NULL)
     {
-        /* Check if FAI is activated */
-        $this->fai_activated = $config->pluginEnabled("faiManagement");
-
         plugin::plugin ($config, $dn, $parent);
 
         if(class_available("krbHostKeys")){
@@ -180,29 +176,6 @@ class termgeneric extends plugin
             $this->is_account= !$this->is_account;
         }
 
-        if (isset($_POST['action']) && $this->acl_is_writeable("FAIstate") && isset($this->validActions[$_POST['saction']])){
-            $action = get_post('saction');
-
-            /* Check if we have an DaemonEvent for this action */
-            if(class_available("DaemonEvent_".$action)){
-                $events = DaemonEvent::get_event_types(SYSTEM_EVENT | HIDDEN_EVENT);
-                if(isset($events['TRIGGERED']["DaemonEvent_".$action])){
-                    $evt = $events['TRIGGERED']["DaemonEvent_".$action];
-                    $tmp = new $evt['CLASS_NAME']($this->config);
-                    $tmp->add_targets(array($this->netConfigDNS->macAddress));
-                    $tmp->set_type(TRIGGERED_EVENT);
-                    $o_queue = new gosaSupportDaemon();
-                    if(!$o_queue->append($tmp)){
-                        msg_dialog::display(tr("Service infrastructure"),msgPool::siError($o_queue->get_error()),ERROR_DIALOG);
-                    }
-                }
-            }else{
-                msg_dialog::display(tr("Event error"),
-                        sprintf(tr("Event '%s' is not available!"),$action),ERROR_DIALOG);
-            }
-
-        }
-
         /* Do we represent a valid terminal? */
         if (!$this->is_account && $this->parent === NULL){
             $display= "<img alt=\"\" src=\"images/small-error.png\" align=middle>&nbsp;<b>".
@@ -238,11 +211,7 @@ class termgeneric extends plugin
         $smarty->assign("inheritTimeServer",$this->inheritTimeServer);
 
         /* Check if terminal is online */
-        if (gosaSupportDaemon::ping($this->netConfigDNS->macAddress)){
-            $smarty->assign("actions", set_post(array("halt" => tr("Switch off"),"reboot" => tr("Reboot"))));
-        } else {
-            $smarty->assign("actions", set_post(array("wake" => tr("Wake up"))));
-        }
+        $smarty->assign("actions", set_post(array("wake" => tr("Wake up"), "halt" => tr("Switch off"),"reboot" => tr("Reboot"))));
 
         /* Arrays */
         $smarty->assign("modes", set_post($this->modes));
@@ -282,7 +251,6 @@ class termgeneric extends plugin
         }
 
         $smarty->assign("ntpservers",     set_post($tmp));
-        $smarty->assign("fai_activated",$this->fai_activated);
 
         /* Variables */
         foreach(array("gotoMode", "gotoTerminalPath", "gotoSwapServer","gotoSyslogServer", "gotoNtpServer") as $val){
@@ -343,13 +311,6 @@ class termgeneric extends plugin
 
                 /* Remove all accessTo/trust dependencies */
                 update_accessTo($this->cn,"");
-            }
-
-            /* Clean queue form entries with this mac 
-             */
-            if(class_available("gosaSupportDaemon") && tests::is_mac($this->netConfigDNS->orig_macAddress)){
-                $q = new gosaSupportDaemon();
-                $q->clean_queue_from_mac($this->netConfigDNS->orig_macAddress);
             }
         }
     }
@@ -596,22 +557,6 @@ another location! */
         if (!$ldap->success()){
             msg_dialog::display(tr("LDAP error"), msgPool::ldaperror($ldap->get_error(), $this->dn, 0, get_class()));
         }
-
-        /* Send installation activation
-         */
-        if ($activate && class_available("DaemonEvent")){
-            $events = DaemonEvent::get_event_types(SYSTEM_EVENT | HIDDEN_EVENT);
-            $o_queue = new gosaSupportDaemon();
-            if(isset($events['TRIGGERED']['DaemonEvent_installation_activation'])){
-                $evt = $events['TRIGGERED']['DaemonEvent_installation_activation'];
-                $tmp = new $evt['CLASS_NAME']($this->config);
-                $tmp->set_type(TRIGGERED_EVENT);
-                $tmp->add_targets(array($this->netConfigDNS->macAddress));
-                if(!$o_queue->append($tmp)){
-                    msg_dialog::display(tr("Service infrastructure"),msgPool::siError($o_queue->get_error()),ERROR_DIALOG);
-                }
-            }
-        }
     }
 
 
@@ -708,9 +653,7 @@ another location! */
                     "gotoSwapServer"      => tr("Swap server"),
 
                     "gotoNtpServer"       => tr("NTP server settings"),
-                    "userPassword"      => tr("Root password"),
-
-                    "FAIstate"            => tr("Action flag"))
+                    "userPassword"      => tr("Root password"))
                 ));
     }
 

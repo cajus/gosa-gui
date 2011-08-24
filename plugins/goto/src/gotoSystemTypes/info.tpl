@@ -24,10 +24,6 @@
 <b>{tr}USB support{/tr}</b></td><td>{$ghUsbSupport}<div style="height:20px;"></div></td>
     </tr>
     <tr>
-     <td><b>{tr}System status{/tr}</b></td>
-     <td>{$status}</td>
-    </tr>
-    <tr>
      <td><b>{tr}Inventory number{/tr}</b></td>
      <td>{$ghInventoryNumber}</td>
     </tr>
@@ -96,58 +92,4 @@
  </tr>
 </table>
 
-{if $active eq "true"}
-<br>
-<h3 style="border-top:1px solid #A0A0A0; padding-top:5px;">{image path="images/lists/on.png"} {tr}System status{/tr}
-</h3>
-<table summary="{tr}System information{/tr}" style="width:100%">
- <tr>
-  <td style='width:50%'>
-
-   <table summary="{tr}Status{/tr}">
-    <tr>
-     <td><b>{tr}Up since{/tr}</b></td><td>{$uptime}</td>
-    </tr>
-    <tr>
-     <td><b>{tr}CPU load{/tr}</b></td><td>{$load}</td>
-    </tr>
-    <tr>
-     <td><b>{tr}Memory usage{/tr}</b></td><td>{$mem}</td>
-    </tr>
-    <tr>
-     <td><b>{tr}Swap usage{/tr}</b></td><td>{$swap}</td>
-    </tr>
-    <tr>
-     <td colspan=2>&nbsp;</td>
-    </tr>
-    {$partitions}
-   </table>
-  </td>
-  <td class='left-border'>
-
-   &nbsp;
-  </td>
-  <td>
-
-   <table summary="{tr}Service information{/tr}">
-    <tr>
-     <td><b>{tr}SSH service{/tr}</b></td><td>{$sshd}</td>
-    </tr>
-    <tr>
-     <td><b>{tr}Print service{/tr}</b></td><td>{$cupsd}</td>
-    </tr>
-    <tr>
-     <td><b>{tr}Scan service{/tr}</b></td><td>{$saned}</td>
-    </tr>
-    <tr>
-     <td><b>{tr}Sound service{/tr}</b></td><td>{$artsd}</td>
-    </tr>
-    <tr>
-     <td><b>{tr}GUI{/tr}</b></td><td>{$X}</td>
-    </tr>
-   </table>
-  </td>
- </tr>
-</table>
-{/if}
 {/if}
