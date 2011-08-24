@@ -179,39 +179,6 @@ class termgroup extends plugin
 
 
         /*************** 
-          Handle requested action
-         ***************/
-
-        /* Watch for events */
-        if ((isset($_POST['action'])) && ($this->acl_is_writeable("FAIstate")) && isset($this->mapActions[$_POST['saction']]) ){
-
-            /* Check if we have an DaemonEvent for this action */
-            $action = $this->mapActions[get_post('saction')];
-            if(class_available("DaemonEvent")){
-                $events = DaemonEvent::get_event_types(SYSTEM_EVENT | HIDDEN_EVENT);
-                $macaddresses= array();
-                foreach ($this->members as $cn => $macAddress){
-                    $macaddresses[]= $macAddress;
-                }
-
-                if(isset($events['TRIGGERED']["DaemonEvent_".$action])){
-                    $evt = $events['TRIGGERED']["DaemonEvent_".$action];
-                    $tmp = new $evt['CLASS_NAME']($this->config);
-                    $tmp->add_targets($macaddresses);
-                    $tmp->set_type(TRIGGERED_EVENT);
-                    $o_queue = new gosaSupportDaemon();
-                    if(!$o_queue->append($tmp)){
-                        msg_dialog::display(tr("Service infrastructure"),msgPool::siError($o_queue->get_error()),ERROR_DIALOG);
-                    }
-                }
-            } else {
-                msg_dialog::display(tr("Event error"),
-                        sprintf(tr("Event '%s' is not available!"),$action),ERROR_DIALOG);
-            }
-        }
-
-
-        /*************** 
           Add remove NTP server
          ***************/
 
