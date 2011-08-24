@@ -84,8 +84,7 @@
 
     <tab class="DynamicLdapGroup" name="Dynamic group" />
 
-  Then, put the plugin in /usr/share/gosa/plugins/addons, and update GOsa cache
-  via the update-gosa command.
+  Then, put the plugin in /usr/share/gosa/plugins and re-login.
 
 
 4. Known restrictions in OpenLDAP

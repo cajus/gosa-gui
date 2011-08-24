@@ -177,8 +177,7 @@ if (!session::global_is_set('plist')){
         require_once("$BASE_DIR/$path");
       } else {
         msg_dialog::display(tr("Fatal error"),
-            sprintf(tr("Cannot locate file %s - please run %s to fix this"),
-              bold("$BASE_DIR/$path"), bold("update-gosa")), FATAL_ERROR_DIALOG);
+            sprintf(tr("Cannot locate file %s"), bold("$BASE_DIR/$path")), FATAL_ERROR_DIALOG);
         exit;
       }
     }
