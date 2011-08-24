@@ -580,13 +580,13 @@ class workstartup extends plugin
                     $desc = ""; 
 
                     $objects = array(
-                            "Pl"  => array("IMG"=> "plugins/fai/html/images/fai_partitionTable.png"),
-                            "Pt"     => array("IMG"=> "plugins/fai/html/images/fai_packages.png"),
-                            "S"          => array("IMG"=> "plugins/fai/html/images/fai_script.png"),
-                            "V"        => array("IMG"=> "plugins/fai/html/images/fai_variable.png"),
-                            "H"            => array("IMG"=> "plugins/fai/html/images/fai_hook.png"),
-                            "P"         => array("IMG"=> "plugins/fai/html/images/fai_profile.png"),
-                            "T"        => array("IMG"=> "plugins/fai/html/images/fai_template.png"));
+                            "Pl"  => array("IMG"=> "plugins/goto-ng/html/images/item_partitionTable.png"),
+                            "Pt"     => array("IMG"=> "plugins/goto-ng/html/images/item_packages.png"),
+                            "S"          => array("IMG"=> "plugins/goto-ng/html/images/item_script.png"),
+                            "V"        => array("IMG"=> "plugins/goto-ng/html/images/item_variable.png"),
+                            "H"            => array("IMG"=> "plugins/goto-ng/html/images/item_hook.png"),
+                            "P"         => array("IMG"=> "plugins/goto-ng/html/images/item_profile.png"),
+                            "T"        => array("IMG"=> "plugins/goto-ng/html/images/item_template.png"));
 
                     if(isset($this->cache['CLASSES'][$this->FAIrelease][$class])){
                         $desc ="";
