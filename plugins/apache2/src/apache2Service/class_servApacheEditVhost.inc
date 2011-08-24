@@ -3,7 +3,7 @@
  * This code is part of GOsa (http://www.gosa-project.org)
  * Copyright (C) 2003-2008 GONICUS GmbH
  *
- * ID: $$Id: class_gosaSupportDaemon.inc 10788 2008-05-06 11:15:57Z $$
+ * ID: $$Id: class_servApacheEditVhost.inc 10788 2008-05-06 11:15:57Z $$
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
