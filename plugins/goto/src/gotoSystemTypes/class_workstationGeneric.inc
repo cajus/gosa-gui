@@ -77,19 +77,6 @@ class workgeneric extends plugin
         $this->netConfigDNS = new termDNS($this->config,$this,$this->objectclasses);
         $this->netConfigDNS->MACisMust =TRUE;
 
-        /* Check if this host is currently in installation process*/
-        if(class_available("gosaSupportDaemon") && class_available("DaemonEvent")){
-            $o = new gosaSupportDaemon();
-            $e_types = DaemonEvent::get_event_types(USER_EVENT | SYSTEM_EVENT | HIDDEN_EVENT);
-            $evts = $o->get_entries_by_mac(array($this->netConfigDNS->macAddress));
-            foreach($evts as $evt){
-                if(isset($e_types['QUEUED'][$evt['HEADERTAG']]) && $evt['STATUS'] == "processing" &&
-                        $e_types['QUEUED'][$evt['HEADERTAG']] == "DaemonEvent_reinstall"){
-                    $this->currently_installing =TRUE;
-                }
-            }
-        }
-
         /* Read arrays */
         foreach (array("ghNetNic", "ghIdeDev", "ghScsiDev") as $val){
             if (!isset($this->attrs[$val])){
@@ -240,32 +227,6 @@ class workgeneric extends plugin
         }
         $smarty->assign("gotoNtpServers", set_post($tmp));
 
-        /* Check if workstation is online */
-        if (gosaSupportDaemon::ping($this->netConfigDNS->macAddress)){
-            $smarty->assign("actions", 
-                    set_post(
-                        array(
-                            "halt" => tr("Switch off"), 
-                            "reboot" => tr("Reboot"),
-                            "update" => tr("Software update"),
-                            "reinstall" => tr("Reinstall"),
-                            "rescan" => tr("Rescan hardware"),
-                            "localboot" => tr("Force local boot"),
-                            )
-                        )
-                    );
-        } else {
-            $smarty->assign("actions", 
-                    set_post(
-                        array(
-                            "wakeup" => tr("Wake up"),
-                            "reinstall" => tr("Reinstall"),
-                            "update" => tr("Software update"),
-                            "localboot" => tr("Force local boot"),
-                            )
-                        )
-                    );
-        }
         /* Arrays */
         $smarty->assign("modes",        set_post($this->modes));
         $smarty->assign("nfsservers",   set_post($this->config->data['SERVERS']['NFS']));
@@ -337,13 +298,6 @@ class workgeneric extends plugin
 
             /* Remove all accessTo/trust dependencies */
             update_accessTo($this->cn,"");
-        }
-
-        /* Clean queue form entries with this mac 
-         */
-        if(class_available("gosaSupportDaemon") && tests::is_mac($this->netConfigDNS->orig_macAddress)){
-            $q = new gosaSupportDaemon();
-            $q->clean_queue_from_mac($this->netConfigDNS->orig_macAddress);
         }
 
         if(isset($_POST["inheritAll"])){
@@ -587,23 +541,6 @@ class workgeneric extends plugin
             $this->netConfigDNS->save();
 
             $this->handle_post_events("modify",array("macAddress" => $this->netConfigDNS->macAddress,"ipHostNumber" => $this->netConfigDNS->ipHostNumber));
-        }
-
-        if ($activate && class_available("DaemonEvent")){
-
-            /* Send installation activation
-             */
-            $events = DaemonEvent::get_event_types(SYSTEM_EVENT | HIDDEN_EVENT);
-            $o_queue = new gosaSupportDaemon();
-            if(isset($events['TRIGGERED']['DaemonEvent_installation_activation'])){
-                $evt = $events['TRIGGERED']['DaemonEvent_installation_activation'];
-                $tmp = new $evt['CLASS_NAME']($this->config);
-                $tmp->set_type(TRIGGERED_EVENT);
-                $tmp->add_targets(array($this->netConfigDNS->macAddress));
-                if(!$o_queue->append($tmp)){
-                    msg_dialog::display(tr("Service infrastructure"),msgPool::siError($o_queue->get_error()),ERROR_DIALOG);
-                }
-            }
         }
     }
 
