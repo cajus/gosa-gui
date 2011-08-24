@@ -741,26 +741,6 @@ DEBUG_SI      = 256"),
                                 "mandatory"     => FALSE),
 
                         array(
-                                "name"          => "gosaSupportURI",
-                                "type"          => "string",
-                                "default"       => "",
-                                "description"   => tr("Connection URI for use with the gosa-si service (obsolete)."),
-                                "check"         => "",
-                                "migrate"       => "",
-                                "group"         => "gosa-si",
-                                "mandatory"     => FALSE),
-
-                        array(
-                                "name"          => "gosaSupportTimeout",
-                                "type"          => "integer",
-                                "default"       => 15,
-                                "description"   => tr("Number of seconds after a gosa-si connection is considered 'dead'."),
-                                "check"         => "gosaProperty::isInteger",
-                                "migrate"       => "",
-                                "group"         => "gosa-si",
-                                "mandatory"     => FALSE),
-
-                        array(
                                 "name"          => "loginAttribute",
                                 "type"          => "switch",
                                 "default"       => "uid",

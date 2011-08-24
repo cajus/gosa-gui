@@ -1297,10 +1297,6 @@ function recurseActions($actions)
             case 'exporter':
                 $result.= $this->renderExporterMenu($separator);
                 break;
-
-            case 'daemon':
-                $result.= $this->renderDaemonMenu($separator);
-                break;
         }
 
         $separator= "";
@@ -1630,25 +1626,6 @@ function renderSnapshotActions($row, $dn, $category, $class, $copy= true, $cut= 
     }
 
     return($result);
-}
-
-
-function renderDaemonMenu($separator)
-{
-    $result= "";
-
-    // If there is a daemon registered, draw the menu entries
-    if(class_available("DaemonEvent")){
-        $events= DaemonEvent::get_event_types_by_category($this->categories);
-        if(isset($events['BY_CLASS']) && count($events['BY_CLASS'])){
-            foreach($events['BY_CLASS'] as $name => $event){
-                $result.= "<li$separator><a href='#' onClick='\$(\"act\").value=\"$name\";\$(\"exec_act\").click();'>".$event['MenuImage']."&nbsp;".$event['s_Menu_Name']."</a></li>";
-                $separator= "";
-            }
-        }
-    }
-
-    return $result;
 }
 
 
