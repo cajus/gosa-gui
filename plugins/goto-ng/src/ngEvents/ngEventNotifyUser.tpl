@@ -1,4 +1,4 @@
-<h3>{tr}Send notify to recipients{/tr}</h3>
+<h3>{tr}Send notify{/tr}</h3>
 
 <table style="width:100%;">
     <tr>
