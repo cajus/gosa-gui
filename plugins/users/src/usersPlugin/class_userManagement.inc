@@ -115,6 +115,7 @@ class userManagement extends management
     function sendMessageNow()
     {
         if($this->dialogObject instanceOf ngEventNotifyUser){
+            $this->dialogObject->save_object();
             $msgs = $this->dialogObject->check();
             if(count($msgs)){
                 msg_dialog::displayChecks($msgs);
