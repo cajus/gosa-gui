@@ -47,7 +47,6 @@ class servgeneric extends plugin
     var $validActions   = array("reboot" => "", "update" => "", "localboot" => "", "reinstall" => "", "rescan" => "",
             "wakeup" => "", "memcheck" => "", "sysinfo" => "");
 
-    var $fai_activated  =FALSE;
     var $view_logged = FALSE;
 
     var $currently_installing = FALSE;
@@ -70,8 +69,6 @@ class servgeneric extends plugin
     function servgeneric (&$config, $dn= NULL, $parent= NULL)
     {
         /* Check if FAI is activated */
-        $this->fai_activated = $config->pluginEnabled("faiManagement");
-
         plugin::plugin ($config, $dn, $parent);
 
         /* Initialize */

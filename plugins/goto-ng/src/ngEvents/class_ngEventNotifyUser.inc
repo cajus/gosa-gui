@@ -21,23 +21,23 @@
  */
 
 /*!
-  \brief   This plugin allows to send notification messages to a set of users
-           using the gosa-ng service.
-  \author  Fabian Hickert <hickert@gonicus.de>
-  \date    25.08.2011
-
-  This is a GOsa plugin which renders a dialog to send notifations to users. 
-  These notifcation will be send to a gosa-ng service using rpc.
-
-    e.g.
-        $d = ngEventNotifyUser($config);
-        $d->setRecipients(['cajus', 'hickert']);
-        $d->save_object();
-        print $d->execute();
-        ...
-        $d->save_object();
-        $d->send();
-
+ * \brief   This plugin allows to send notification messages to a set of users
+ *          using the gosa-ng service.
+ * \author  Fabian Hickert <hickert@gonicus.de>
+ * \date    25.08.2011
+ *
+ * This is a GOsa plugin which renders a dialog to send notifations to users. 
+ * These notifcation will be send to a gosa-ng service using rpc.
+ *
+ *  e.g.
+ *      $d = ngEventNotifyUser($config);
+ *      $d->setRecipients(['cajus', 'hickert']);
+ *      $d->save_object();
+ *      print $d->execute();
+ *      ...
+ *      $d->save_object();
+ *      $d->send();
+ *
  */
 class ngEventNotifyUser extends plugin{
 

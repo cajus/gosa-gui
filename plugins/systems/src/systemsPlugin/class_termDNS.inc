@@ -306,16 +306,18 @@ class termDNS extends plugin
          **********/
 
         /* Check for autonet button */
-        if (isset($_POST['autonet']) && ($this->acl_is_writeable("ipHostNumber") || $this->acl_is_writeable("macAddress"))){
-
-            if ($this->config->get_cfg_value("core","gosaRpcServer") != ""){
-                $rpc = $this->config->getRpcHandle();
-                $res = $rpc->networkCompletion($this->cn);
+        if (isset($_POST['autonet']) && class_available('ngEventNetwork') && ){
+            if($this->acl_is_writeable("ipHostNumber") || $this->acl_is_writeable("macAddress"))){
+                list($res, $rpc) = ngEventNetwork::networkCompletion($this->config, $this->cn);
                 if(!$rpc->success()){
                     msg_dialog::display(tr("Error"), msgPool::rpcError($rpc->get_error()), ERROR_DIALOG);
-                }else{
-                    if(isset($res['ip']) && tests::is_ip($res['ip'])) $this->ipHostNumber= $res['ip'];
-                    if(isset($res['mac']) && tests::is_mac($res['mac'])) $this->macAddress= $res['mac'];
+                }elseif($res != NULL){
+                    if($this->acl_is_writeable("ipHostNumber") && isset($res['ip']) && tests::is_ip($res['ip'])){
+                        $this->ipHostNumber= $res['ip'];
+                    }
+                    if($this->acl_is_writeable("macAddress") || isset($res['mac']) && tests::is_mac($res['mac'])){
+                        $this->macAddress= $res['mac'];
+                    }
                 }
             }
         }
@@ -368,11 +370,9 @@ class termDNS extends plugin
         $smarty->assign("dhcpParentNodeCnt",count($this->dhcpParentNodes));
 
         // Assign network card manufacturer string
-        if ($this->config->get_cfg_value("core","gosaRpcServer") != ""   && 
-                $this->macAddress != $this->last_macAddress){
-            $rpc = $this->config->getRpcHandle();
-            $res = $rpc->getMacManufacturer($this->macAddress);
-            if($rpc->success()){
+        if(class_available("ngEventNetwork") && $this->macAddress != $this->last_macAddress){
+            list($res, $rpc) = ngEventNetwork::getMacManufacturer($this->config, $this->macAddress);
+            if($res && $rpc->success()){
                 $this->manufacturer = $rpc->getMacManufacturer($this->macAddress);
             }
         }

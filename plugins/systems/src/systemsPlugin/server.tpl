@@ -53,26 +53,6 @@
 
 {$netconfig}
 
-{if $fai_activated}
-  <hr>
-
-  <h3>{tr}Action{/tr}</h3>
-
-  {if $currently_installing}
-    <i>{tr}System installation in progress, the FAI state cannot be changed right now.{/tr}</i>
-  {else}
-    {render acl=$FAIstateACL}
-       <select size="1" name="saction" title="{tr}Select action to execute for this server{/tr}">
-        <option>&nbsp;</option>
-        {html_options options=$actions}
-       </select>
-    {/render}
-    {render acl=$FAIstateACL}
-       <button type='submit' name='action'>{tr}Execute{/tr}</button>
-
-    {/render}
-  {/if}
-{/if}
 
 <!-- Place cursor -->
 <script language="JavaScript" type="text/javascript">
