@@ -111,7 +111,9 @@ class userManagement extends management
         $this->registerAction("edit_phoneAccount","editEntry");
     }
 
-    
+
+    /*! \brief      Finally sends a notification initiated by sendMessage().
+     */    
     function sendMessageNow()
     {
         if($this->dialogObject instanceOf ngEventNotifyUser){
@@ -126,8 +128,14 @@ class userManagement extends management
             }
         }
     }
+
  
- 
+    /*! \brief      Opens the notification dialog to send a 
+     *              message to the selected users.
+     *              
+     *              This methos is called when the notification 
+     *              menu entry is clicked.
+     */
     function sendMessage($action="",$target=array(),$all=array())
     {
         $uids = array();
