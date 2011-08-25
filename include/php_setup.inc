@@ -44,12 +44,12 @@ function tr($str, $domain = NULL)
         if(preg_match("/^".preg_quote($BASE_DIR,'/')."\/plugins\//", $trace[0]['file'])){
             $domain = preg_replace("/^".preg_quote($BASE_DIR,'/')."\/plugins\/([^\/]*).*$/", "\\1", $trace[0]['file']);
             if($domain){
-                return("*".dgettext($domain, $str));
+                return(dgettext($domain, $str));
             }
         }
-        return("*".gettext($str));
+        return(gettext($str));
     }else{
-        return("*".dgettext($domain, $str));
+        return(dgettext($domain, $str));
     }
     
     return(tr($str));
