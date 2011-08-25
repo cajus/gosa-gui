@@ -1,5 +1,10 @@
 <?php
 
+/* \brief   This class establishes RPC connections to an gosa-ng service.
+ *          (It can handle remote-objects)
+ * \author  Fabian Hickert <hickert@gonicus.de>
+ * \date    25.08.2011
+ */
 
 class jsonRPC {
 
@@ -16,36 +21,6 @@ class jsonRPC {
     private $connectUrl = "";
     private $username = "";
     private $userPassword = "";
-
-
-    /*! \brief  This function is used by the property editor and checks the 
-     *           given rpc connection informations.
-     */
-    public static function testConnectionProperties($message,$class,$name,$value, $type)
-    {
-        global $config;
-
-        // Get currently used connection usernamem and password.
-        // We use the temporary values, due to the fact, that we do not want to test
-        //  the current values, we want to test the modified values.
-        $user = $config->configRegistry->getProperty('core','gosaRpcUser');
-        $username =  $user->getValue($temporaryValue = TRUE);
-        $passwd = $config->configRegistry->getProperty('core','gosaRpcPassword');
-        $passwdString =  $passwd->getValue($temporaryValue = TRUE);
-
-        $connection = new jsonRPC($config, $value, $username, $passwdString);
-        if(!$connection->isConnected() && $message){
-            msg_dialog::display(tr("Warning"),
-                    sprintf(tr("The RPC connection (%s) specified for %s:%s is invalid: %s"),
-                        bold($value),bold($class),bold($name), bold($connection->get_error())),
-                    WARNING_DIALOG);
-        }
-        
-        // Clear the rpc connection cache, TRUE means clear cache.
-        $config->getRpcHandle(TRUE);
-        
-        return(TRUE);
-    }
 
 
     /*! \brief      Constructs a new jsonRPC handle which is connected to a given URL.
@@ -208,7 +183,10 @@ class jsonRPC {
     }
 
 
-
+    /*! \brief  Check if there were special results send, like classes.
+     *          In case of a class send, we create a new instance of 
+     *          remoteObject.
+     */
     public function inspectJsonResult($result)
     {
         if(is_array($result) &&  isset($result['__jsonclass__']) && class_available('remoteObject')){
@@ -338,24 +316,68 @@ class jsonRPC {
         return((isset($codes[$code]))? $codes[$code] : sprintf(tr("Unknown HTTP status code %s!"), bold($code)));
     }
 
+
+    /*! \brief  Returns the status of the RPC connection.
+     */
     function isConnected()
     {
         return($this->is_connected);
     }
 
+
+    /*! \brief  Returns the configuration status of the RPC connection.
+     */
     function isConfigured()
     {
         return($this->is_configured);
     }
 
+
+    /*! \brief  Returns the 'URL' used for the current connection.
+     */
     function getConnectUrl()
     {
         return($this->connectUrl);
     }
 
+
+    /*! \brief  Returns the 'username' used for the current connection.
+     */
     function getUsername()
     {
         return($this->username);
+    }
+
+
+    /*! \brief  This function is used by the property editor and checks the 
+     *           given rpc connection informations.
+     *          It also clears the cached connections in config::getRpcHandle.
+     */
+    public static function testConnectionProperties($message,$class,$name,$value, $type)
+    {
+        global $config;
+
+        // Get currently used connection usernamem and password.
+        // We use the temporary values, due to the fact, that we do not want to test
+        //  the current values, we want to test the modified values.
+        $user = $config->configRegistry->getProperty('core','gosaRpcUser');
+        $username =  $user->getValue($temporaryValue = TRUE);
+        $passwd = $config->configRegistry->getProperty('core','gosaRpcPassword');
+        $passwdString =  $passwd->getValue($temporaryValue = TRUE);
+
+        // Try to establish a connection using the new given connection values.
+        $connection = new jsonRPC($config, $value, $username, $passwdString);
+        if(!$connection->isConnected() && $message){
+            msg_dialog::display(tr("Warning"),
+                    sprintf(tr("The RPC connection (%s) specified for %s:%s is invalid: %s"),
+                        bold($value),bold($class),bold($name), bold($connection->get_error())),
+                    WARNING_DIALOG);
+        }
+        
+        // Clear the rpc connection cache, TRUE means clear cache.
+        $config->getRpcHandle(TRUE);
+        
+        return(TRUE);
     }
 
 

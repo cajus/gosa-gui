@@ -84,7 +84,14 @@ class ngEventNotifyUser extends plugin{
      */
     function send()
     {
+        // Check if the service is configured and connected
         $rpc = $this->config->getRpcHandle();
+        if($rpc->isConfigured() || !$rpc->isConnected()){
+            msg_dialog::display(_("Error"), msgPool::rpcError($rpc->get_error()), ERROR_DIALOG);
+            return(FALSE);
+        }
+
+        // Initiate the request
         $res = $rpc->notifyUser($this->recipientsArray, $this->title, $this->message, intval($this->timeout));
         if(!$rpc->success()){
             msg_dialog::display(_("Error"), msgPool::rpcError($rpc->get_error()), ERROR_DIALOG);
