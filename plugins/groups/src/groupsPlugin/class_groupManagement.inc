@@ -69,6 +69,64 @@ class groupManagement extends management
         $this->registerAction("edit_environment","editEntry");
         $this->registerAction("edit_appgroup","editEntry");
         $this->registerAction("edit_mailgroup","editEntry");
+
+        $this->registerAction("sendMessage", "sendMessage");
+        $this->registerAction("cancel_notification", "closeDialogs");
+        $this->registerAction("send_notification", "sendMessageNow");
+    }
+
+
+    // Inject user actions 
+    function detectPostActions()
+    {
+        $action = management::detectPostActions();
+        if(isset($_POST['cancel_notification'])) $action['action'] = "cancel_notification";
+        if(isset($_POST['send_notification'])) $action['action'] = "send_notification";
+        return($action);
+    }
+
+
+    /*! \brief      Finally sends a notification initiated by sendMessage().
+     */   
+    function sendMessageNow()
+    {
+        if($this->dialogObject instanceOf ngEventNotifyUser){
+            $this->dialogObject->save_object();
+            $msgs = $this->dialogObject->check();
+            if(count($msgs)){
+                msg_dialog::displayChecks($msgs);
+            }else{
+                if($this->dialogObject->send()){
+                    $this->closeDialogs();
+                }
+            }
+        }
+    }
+
+
+    /*! \brief      Opens the notification dialog to send a 
+     *              message to the selected users.
+     *              
+     *              This methos is called when the notification 
+     *              menu entry is clicked.
+     */
+    function sendMessage($action="",$target=array(),$all=array())
+    {
+        $uids = array();
+        $ldap = $this->config->get_ldap_link();
+        $ldap->cd($this->config->current['BASE']);
+        foreach($target as $dn){
+            $ldap->cat($dn,array('memberUid'));
+            $attrs = $ldap->fetch();
+            if(isset($attrs['memberUid'])){
+                unset($attrs['memberUid']['count']);
+                $uids = array_merge($uids, $attrs['memberUid']);
+            }
+        }
+        if(count($uids)){
+            $this->dialogObject = new ngEventNotifyUser($this->config, NULL);
+            $this->dialogObject->setRecipients($uids, array());
+        }
     }
 
 

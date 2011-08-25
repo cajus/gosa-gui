@@ -99,6 +99,23 @@
     </action>
 
     <action>
+      <type>separator</type>
+    </action>
+
+    <action>
+      <name>sendMessage</name>
+      <type>entry</type>
+      <depends>ngEventNotifyUser</depends>
+      <image>plugins/goto-ng/html/images/notify.png</image>
+      <label>Send message</label>
+    </action>
+
+    <action>
+      <type>separator</type>
+    </action>
+
+
+    <action>
       <type>exporter</type>
     </action>
 
