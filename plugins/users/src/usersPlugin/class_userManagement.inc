@@ -96,6 +96,10 @@ class userManagement extends management
         $this->registerAction("passwordQueue", "handlePasswordQueue");
         $this->registerAction("passwordCancel", "closeDialogs");
 
+        $this->registerAction("sendMessage", "sendMessage");
+        $this->registerAction("cancel_notification", "closeDialogs");
+        $this->registerAction("send_notification", "sendMessageNow");
+
         // Register shortcut icon actions 
         $this->registerAction("edit_user","editEntry");
         $this->registerAction("edit_posixAccount","editEntry");
@@ -107,12 +111,47 @@ class userManagement extends management
         $this->registerAction("edit_phoneAccount","editEntry");
     }
 
+    
+    function sendMessageNow()
+    {
+        if($this->dialogObject instanceOf ngEventNotifyUser){
+            $msgs = $this->dialogObject->check();
+            if(count($msgs)){
+                msg_dialog::displayChecks($msgs);
+            }else{
+                if($this->dialogObject->send()){
+                    $this->closeDialogs();
+                }
+            }
+        }
+    }
+ 
+ 
+    function sendMessage($action="",$target=array(),$all=array())
+    {
+        $uids = array();
+        $ldap = $this->config->get_ldap_link();
+        $ldap->cd($this->config->current['BASE']);
+        foreach($target as $dn){
+            $ldap->cat($dn,array('uid'));
+            $attrs = $ldap->fetch();
+            if(isset($attrs['uid'][0])){
+                $uids[] = $attrs['uid'][0];
+            }
+        }
+        if(count($uids)){
+            $this->dialogObject = new ngEventNotifyUser($this->config, NULL);
+            $this->dialogObject->setRecipients($uids, array()); 
+        }
+    }
 
     // Inject user actions 
     function detectPostActions()
     {
         $action = management::detectPostActions();
         if(isset($_POST['template_continue'])) $action['action'] = "templateContinue";
+        if(isset($_POST['cancel_notification'])) $action['action'] = "cancel_notification";
+        if(isset($_POST['send_notification'])) $action['action'] = "send_notification";
         if(isset($_POST['templatize_continue'])) $action['action'] = "templatizeContinue";
         if(isset($_POST['password_cancel'])){
             $action['action'] = "passwordCancel";
