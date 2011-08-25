@@ -306,7 +306,7 @@ class termDNS extends plugin
          **********/
 
         /* Check for autonet button */
-        if (isset($_POST['autonet']) && class_available('ngEventNetwork') && ){
+        if (isset($_POST['autonet']) && class_available('ngEventNetwork')){
             if($this->acl_is_writeable("ipHostNumber") || $this->acl_is_writeable("macAddress"))){
                 list($res, $rpc) = ngEventNetwork::networkCompletion($this->config, $this->cn);
                 if(!$rpc->success()){
