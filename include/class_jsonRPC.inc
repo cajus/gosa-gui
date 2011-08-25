@@ -10,11 +10,12 @@ class jsonRPC {
     private $lastResult = array();
     private $lastAction = "none";
 
+    private $is_configured = FALSE;
+    private $is_connected = FALSE;
 
     private $connectUrl = "";
     private $username = "";
     private $userPassword = "";
-    private $authModeDigest = FALSE; 
 
 
     /*! \brief  This function is used by the property editor and checks the 
@@ -32,49 +33,56 @@ class jsonRPC {
         $passwd = $config->configRegistry->getProperty('core','gosaRpcPassword');
         $passwdString =  $passwd->getValue($temporaryValue = TRUE);
 
-        $connection = new jsonRPC($config, $value, $username, $passwdString);        
-        if(!$connection->success() && $message){
+        $connection = new jsonRPC($config, $value, $username, $passwdString);
+        if(!$connection->isConnected() && $message){
             msg_dialog::display(tr("Warning"),
                     sprintf(tr("The RPC connection (%s) specified for %s:%s is invalid: %s"),
                         bold($value),bold($class),bold($name), bold($connection->get_error())),
                     WARNING_DIALOG);
-
         }
         
-        return($connection->success());
+        // Clear the rpc connection cache, TRUE means clear cache.
+        $config->getRpcHandle(TRUE);
+        
+        return(TRUE);
     }
 
 
     /*! \brief      Constructs a new jsonRPC handle which is connected to a given URL.
-     *              It can either connect using a rpc method or via auth method digest.
      *  @param      object      The gosa configuration object (class_config)
      *  @param      string      The url to connect to. 
      *  @param      string      The username for authentication
      *  @param      string      The password to use for authentication
-     *  @param      boolean     Whether to use DIGEST authentication or not.
      *  @return     
      */
-    public function __construct($config, $connectUrl, $username, $userPassword, $authModeDigest=FALSE) 
+    public function __construct($config, $url = NULL, $user = NULL, $pwd = NULL)
     {
         $this->config = $config;
         $this->id = 0;
 
-        // Get connection data
-        $this->connectUrl     = $connectUrl; 
-        $this->username       = $username; 
-        $this->userPassword   = $userPassword; 
-        $this->authModeDigest = $authModeDigest;
+        // Get conenct information, if no info was given use the default values from gosa.conf
+        $this->connectUrl   = ($url != NULL) ? $url : $config->get_cfg_value('core','gosaRpcServer');
+        $this->username     = ($user != NULL) ? $user : $config->get_cfg_value('core','gosaRpcUser');
+        $this->userPassword = ($pwd != NULL) ? $pwd : $config->get_cfg_value('core','gosaRpcPassword');
 
-        // Put some usefull info in the logs 
-        DEBUG (DEBUG_RPC, __LINE__, __FUNCTION__, __FILE__,bold($this->connectUrl), "Initiated RPC "); 
-        DEBUG (DEBUG_RPC, __LINE__, __FUNCTION__, __FILE__,bold($this->username), "RPC user: "); 
-        DEBUG (DEBUG_RPC, __LINE__, __FUNCTION__, __FILE__,bold($this->userPassword),"RPC password: "); 
-        DEBUG (DEBUG_RPC, __LINE__, __FUNCTION__, __FILE__,bold($this->authModeDigest),"Digest Auth (0: No, 1: Yes): "); 
+        if(empty($this->connectUrl)){
+            DEBUG (DEBUG_RPC, __LINE__, __FUNCTION__, __FILE__,"RPC is NOT configured!"); 
+            $this->is_configured = FALSE;
+            $this->is_connected = FALSE;
+        }else{
+            $this->is_configured = TRUE;
 
-        $this->__login();
+            // Put some usefull info in the logs 
+            DEBUG (DEBUG_RPC, __LINE__, __FUNCTION__, __FILE__,bold($this->connectUrl), "Initiated RPC "); 
+            DEBUG (DEBUG_RPC, __LINE__, __FUNCTION__, __FILE__,bold($this->username), "RPC user: "); 
+            DEBUG (DEBUG_RPC, __LINE__, __FUNCTION__, __FILE__,bold($this->userPassword),"RPC password: "); 
+
+            $this->__login();
+            $this->is_connected = $this->success();
+        }
     }
 
-
+    
     /*! \brief          
      *  @param      
      *  @return     
@@ -90,20 +98,11 @@ class jsonRPC {
         curl_setopt($this->curlHandler, CURLOPT_RETURNTRANSFER ,TRUE);
         curl_setopt($this->curlHandler, CURLOPT_HTTPHEADER ,    array('Content-Type: application/json'));
         curl_setopt($this->curlHandler, CURLOPT_SSL_VERIFYPEER, FALSE);
+        curl_setopt($this->curlHandler, CURLOPT_COOKIESESSION , TRUE);
+        curl_setopt($this->curlHandler, CURLOPT_COOKIEFILE, 'cookiefile.txt'); 
 
-        // Try to login 
-        if($this->authModeDigest){
-            if(!empty($this->username)){
-                curl_setopt($this->curlHandler, CURLOPT_USERPWD , "{$this->username}:{$this->userPassword}");
-            }
-        
-            curl_setopt($this->curlHandler, CURLOPT_HTTPAUTH , CURLAUTH_ANYSAFE);
-        }else{
-            curl_setopt($this->curlHandler, CURLOPT_COOKIESESSION , TRUE);
-            curl_setopt($this->curlHandler, CURLOPT_COOKIEFILE, 'cookiefile.txt'); 
-            if(!empty($this->username)) 
-                $this->login($this->username, $this->userPassword);
-        }
+        // Now try to login
+        $this->login($this->username, $this->userPassword);
     }
 
 
@@ -121,6 +120,10 @@ class jsonRPC {
      */
     public function get_error()
     {
+        if(!$this->isConfigured()){
+            return(tr("There is no gosa-ng service rpc connection configured!"));
+        }
+
         $error = "";
         if($this->lastStats['http_code'] != 200){
             $error = $this->getHttpStatusCodeMessage($this->lastStats['http_code']);
@@ -145,7 +148,8 @@ class jsonRPC {
      */
     public function success()
     {
-        return(curl_errno($this->curlHandler) == 0 && 
+        return( $this->isConfigured() && 
+                @curl_errno($this->curlHandler) == 0 && 
                 !isset($this->lastResult['error']) && 
                 isset($this->lastStats['http_code']) && 
                 $this->lastStats['http_code'] == 200);
@@ -184,7 +188,8 @@ class jsonRPC {
             DEBUG (DEBUG_RPC, __LINE__, __FUNCTION__, __FILE__,
                     (is_array($response['result']))?$response['result']:bold($response['result']), "Result: "); 
         }else{
-            DEBUG (DEBUG_RPC, __LINE__, __FUNCTION__, __FILE__,bold($this->get_error())."<br>".$response, "Result (FAILED): "); 
+            DEBUG (DEBUG_RPC, __LINE__, __FUNCTION__, __FILE__,
+                    bold($this->get_error())."<br>".$response, "Result (FAILED): "); 
         }
 
         global $config;
@@ -332,5 +337,27 @@ class jsonRPC {
                 '510' =>  'Not Extended');
         return((isset($codes[$code]))? $codes[$code] : sprintf(tr("Unknown HTTP status code %s!"), bold($code)));
     }
+
+    function isConnected()
+    {
+        return($this->is_connected);
+    }
+
+    function isConfigured()
+    {
+        return($this->is_configured);
+    }
+
+    function getConnectUrl()
+    {
+        return($this->connectUrl);
+    }
+
+    function getUsername()
+    {
+        return($this->username);
+    }
+
+
 }
 ?>
