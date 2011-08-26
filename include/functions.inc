@@ -3065,10 +3065,8 @@ function generate_smb_nt_hash($password)
   global $config;
 
   // First try to retrieve values via RPC 
-  if ($config->get_cfg_value("core","gosaRpcServer") != ""){
-
-    $rpc = $config->getRpcHandle();
-    $hash = $rpc->mksmbhash($password);
+  if (class_available('ngEventPassword') && ngEventPassword::isConfigured($config)){
+    list($hash, $rpc) = ngEventPassword::mksmbhash($config, $password);
     if(!$rpc->success()){
         msg_dialog::display(tr("Error"),msgPool::rpcError($rpc->get_error()),ERROR_DIALOG);
         return("");
