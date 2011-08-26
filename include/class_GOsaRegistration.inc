@@ -25,6 +25,7 @@ class GOsaRegistration
 
     function getConnection($user = NULL, $password ="")
     {
+        echo "This does not work anymore, we do not support Digest based authentication in class jsonRpc!";
         if($user === NULL){
             return($this->config->getRpcHandle($this->server, $this->user,$this->password, TRUE, FALSE));
         }else{
