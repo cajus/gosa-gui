@@ -1,0 +1,10 @@
+Short information about the git repository:
+
+To run from a git checkout, you've to initialize the submodules (mainly
+smarty for the moment) in order to let it run properly:
+
+$ git submodule init
+$ git submodule update
+
+---
+Cajus Pollmeier
